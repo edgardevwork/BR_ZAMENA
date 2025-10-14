@@ -1,0 +1,28 @@
+package com.google.common.util.concurrent;
+
+import com.google.common.annotations.GwtIncompatible;
+import com.google.common.annotations.J2ktIncompatible;
+import javax.annotation.CheckForNull;
+
+@J2ktIncompatible
+@ElementTypesAreNonnullByDefault
+@GwtIncompatible
+/* loaded from: classes6.dex */
+public class UncheckedTimeoutException extends RuntimeException {
+    public static final long serialVersionUID = 0;
+
+    public UncheckedTimeoutException() {
+    }
+
+    public UncheckedTimeoutException(@CheckForNull String message) {
+        super(message);
+    }
+
+    public UncheckedTimeoutException(@CheckForNull Throwable cause) {
+        super(cause);
+    }
+
+    public UncheckedTimeoutException(@CheckForNull String message, @CheckForNull Throwable cause) {
+        super(message, cause);
+    }
+}

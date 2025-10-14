@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="20dp"
+    android:width="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z"/>
+        <path
+            android:fillColor="@drawable/_ic_treasure_chest__0_res_0x7f0804fa"
+            android:pathData="M1.875,14V15C1.875,16.264 2.902,17.291 4.167,17.291H5.166C4.971,15.56 3.606,14.195 1.875,14Z"/>
+        <path
+            android:fillColor="@drawable/_ic_treasure_chest__1_res_0x7f0804fb"
+            android:pathData="M14.834,17.291H15.833C17.097,17.291 18.125,16.264 18.125,15V14C16.393,14.196 15.028,15.561 14.834,17.291Z"/>
+        <path
+            android:fillColor="@drawable/_ic_treasure_chest__2_res_0x7f0804fc"
+            android:pathData="M1.875,7.5V8.541H7.708V8.333C7.708,7.529 8.363,6.875 9.167,6.875H10.833C11.637,6.875 12.292,7.529 12.292,8.333V8.541H18.125V7.5C18.125,4.858 15.976,2.708 13.333,2.708H6.667C4.024,2.708 1.875,4.858 1.875,7.5ZM10,12.291C11.264,12.291 12.292,11.264 12.292,10L12.292,9.791H18.126V12.729C15.701,12.931 13.765,14.866 13.563,17.291H6.438C6.236,14.866 4.3,12.931 1.875,12.729V9.791H7.708V10C7.708,11.264 8.736,12.291 10,12.291Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_ic_treasure_chest__3_res_0x7f0804fd"
+            android:pathData="M11.042,10V8.333C11.042,8.218 10.948,8.125 10.833,8.125H9.167C9.052,8.125 8.958,8.218 8.958,8.333V10C8.958,10.574 9.426,11.041 10,11.041C10.574,11.041 11.042,10.574 11.042,10Z"/>
+    </group>
+</vector>

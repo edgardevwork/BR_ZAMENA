@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/progress_0"
+        android:background="@drawable/bg_oval_red_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginStart="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_bar"
+        app:layout_constraintStart_toStartOf="@+id/seek_bar"
+        app:layout_constraintTop_toTopOf="@+id/seek_bar"/>
+    <View
+        android:id="@+id/progress_1"
+        android:background="@drawable/bg_oval_white_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_bar"
+        app:layout_constraintEnd_toStartOf="@+id/progress_2"
+        app:layout_constraintStart_toEndOf="@+id/progress_0"
+        app:layout_constraintTop_toTopOf="@+id/seek_bar"/>
+    <View
+        android:id="@+id/progress_2"
+        android:background="@drawable/bg_oval_white_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_bar"
+        app:layout_constraintEnd_toEndOf="@+id/seek_bar"
+        app:layout_constraintTop_toTopOf="@+id/seek_bar"/>
+    <com.google.android.material.slider.Slider
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stepSize="1"
+        android:valueTo="2"
+        app:labelBehavior="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tickVisible="false"
+        style="@style/mySlider"/>
+</merge>

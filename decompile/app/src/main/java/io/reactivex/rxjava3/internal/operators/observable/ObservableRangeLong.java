@@ -1,0 +1,96 @@
+package io.reactivex.rxjava3.internal.operators.observable;
+
+import io.reactivex.rxjava3.annotations.Nullable;
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.internal.observers.BasicIntQueueDisposable;
+
+/* loaded from: classes8.dex */
+public final class ObservableRangeLong extends Observable<Long> {
+    public final long count;
+    public final long start;
+
+    public ObservableRangeLong(long start, long count) {
+        this.start = start;
+        this.count = count;
+    }
+
+    @Override // io.reactivex.rxjava3.core.Observable
+    public void subscribeActual(Observer<? super Long> o) {
+        long j = this.start;
+        RangeDisposable rangeDisposable = new RangeDisposable(o, j, j + this.count);
+        o.onSubscribe(rangeDisposable);
+        rangeDisposable.run();
+    }
+
+    public static final class RangeDisposable extends BasicIntQueueDisposable<Long> {
+        public static final long serialVersionUID = 396518478098735504L;
+        public final Observer<? super Long> downstream;
+        public final long end;
+        public boolean fused;
+        public long index;
+
+        public RangeDisposable(Observer<? super Long> actual, long start, long end) {
+            this.downstream = actual;
+            this.index = start;
+            this.end = end;
+        }
+
+        public void run() {
+            if (this.fused) {
+                return;
+            }
+            Observer<? super Long> observer = this.downstream;
+            long j = this.end;
+            for (long j2 = this.index; j2 != j && get() == 0; j2++) {
+                observer.onNext(Long.valueOf(j2));
+            }
+            if (get() == 0) {
+                lazySet(1);
+                observer.onComplete();
+            }
+        }
+
+        @Override // io.reactivex.rxjava3.operators.SimpleQueue
+        @Nullable
+        public Long poll() {
+            long j = this.index;
+            if (j != this.end) {
+                this.index = 1 + j;
+                return Long.valueOf(j);
+            }
+            lazySet(1);
+            return null;
+        }
+
+        @Override // io.reactivex.rxjava3.operators.SimpleQueue
+        public boolean isEmpty() {
+            return this.index == this.end;
+        }
+
+        @Override // io.reactivex.rxjava3.operators.SimpleQueue
+        public void clear() {
+            this.index = this.end;
+            lazySet(1);
+        }
+
+        @Override // io.reactivex.rxjava3.disposables.Disposable
+        public void dispose() {
+            set(1);
+        }
+
+        @Override // io.reactivex.rxjava3.disposables.Disposable
+        public boolean isDisposed() {
+            return get() != 0;
+        }
+
+        @Override // io.reactivex.rxjava3.operators.QueueFuseable
+        public int requestFusion(int mode) {
+            if ((mode & 1) == 0) {
+                return 0;
+            }
+            this.fused = true;
+            return 1;
+        }
+    }
+}

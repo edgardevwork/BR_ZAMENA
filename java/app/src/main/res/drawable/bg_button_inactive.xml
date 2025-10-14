@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="99dp"
+    android:width="342dp"
+    android:viewportWidth="342"
+    android:viewportHeight="99">
+    <path
+        android:fillColor="@drawable/_bg_button_inactive__0_res_0x7f080011"
+        android:pathData="M13,0L329,0A13,13 0,0 1,342 13L342,86A13,13 0,0 1,329 99L13,99A13,13 0,0 1,0 86L0,13A13,13 0,0 1,13 0z"
+        android:fillAlpha="0.8"/>
+</vector>

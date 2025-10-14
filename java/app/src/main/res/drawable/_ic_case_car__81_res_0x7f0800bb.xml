@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:angle="0"
+    android:type="radial"
+    android:centerX="94.95"
+    android:centerY="116.97"
+    android:gradientRadius="9.51">
+    <item
+        android:color="#ffe7f4ff"
+        android:offset="0"/>
+    <item
+        android:color="#ffa9bccc"
+        android:offset="1"/>
+</gradient>

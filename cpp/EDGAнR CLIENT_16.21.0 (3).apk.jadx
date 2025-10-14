@@ -1,0 +1,97 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "EDGAнR CLIENT_16.21.0 (3).apk"
+  ],
+  "treeExpansionsV2": [
+    "t:JResources",
+    "t:JSources"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.blackhub.bronline.BuildConfig",
+      "subPath": "java",
+      "caret": 86,
+      "view": {
+        "x": 0,
+        "y": 2
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.blackhub.bronline.library.BuildConfig",
+      "subPath": "java",
+      "caret": 94,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.blackhub.bronline.library.R",
+      "subPath": "java",
+      "caret": 147,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.blackhub.bronline.launcher.App",
+      "subPath": "java",
+      "caret": 4031,
+      "view": {
+        "x": 0,
+        "y": 770
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 277,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "C:\\Users\\AORUS\\AppData\\Local\\skylot\\jadx\\cache\\projects\\EDGAнR CLIENT_16.21.0 (3)-3b1ea234138db9712a0aea6fa6b5de13",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "*",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

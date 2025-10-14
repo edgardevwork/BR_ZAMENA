@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/paylib_design_spacer_36x"
+        android:layout_height="@dimen/paylib_design_spacer_36x"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@anim/paylib_native_progress_bar"
+        android:indeterminateBehavior="repeat"
+        android:interpolator="@android:anim/linear_interpolator"/>
+</FrameLayout>

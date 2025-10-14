@@ -1,0 +1,73 @@
+package com.blackhub.bronline.game.gui.holidayevents;
+
+import android.app.Application;
+import android.graphics.Bitmap;
+import com.blackhub.bronline.game.core.enums.ImageTypePathInCDNEnum;
+import com.blackhub.bronline.game.core.utils.BitmapUtilsKt;
+import com.blackhub.bronline.game.model.remote.response.bprewards.BpRewardsAwardsDto;
+import java.util.List;
+import kotlin.Metadata;
+import kotlin.ResultKt;
+import kotlin.Unit;
+import kotlin.collections.CollectionsKt___CollectionsKt;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsKt;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.Ref;
+import kotlinx.coroutines.CoroutineScope;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* compiled from: HolidayEventsViewModel.kt */
+@Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
+@DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$initJson$1$deferredTasksForImages$6", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
+/* loaded from: classes2.dex */
+public final class HolidayEventsViewModel$initJson$1$deferredTasksForImages$6 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+    public final /* synthetic */ BpRewardsAwardsDto $holidayEventsAward;
+    public final /* synthetic */ Ref.ObjectRef<Bitmap> $seasonCurrencyBitmap;
+    public int label;
+    public final /* synthetic */ HolidayEventsViewModel this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public HolidayEventsViewModel$initJson$1$deferredTasksForImages$6(Ref.ObjectRef<Bitmap> objectRef, HolidayEventsViewModel holidayEventsViewModel, BpRewardsAwardsDto bpRewardsAwardsDto, Continuation<? super HolidayEventsViewModel$initJson$1$deferredTasksForImages$6> continuation) {
+        super(2, continuation);
+        this.$seasonCurrencyBitmap = objectRef;
+        this.this$0 = holidayEventsViewModel;
+        this.$holidayEventsAward = bpRewardsAwardsDto;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    @NotNull
+    public final Continuation<Unit> create(@Nullable Object obj, @NotNull Continuation<?> continuation) {
+        return new HolidayEventsViewModel$initJson$1$deferredTasksForImages$6(this.$seasonCurrencyBitmap, this.this$0, this.$holidayEventsAward, continuation);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    @Nullable
+    public final Object invoke(@NotNull CoroutineScope coroutineScope, @Nullable Continuation<? super Unit> continuation) {
+        return ((HolidayEventsViewModel$initJson$1$deferredTasksForImages$6) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    /* JADX WARN: Type inference failed for: r0v7, types: [T, android.graphics.Bitmap] */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    @Nullable
+    public final Object invokeSuspend(@NotNull Object obj) throws Throwable {
+        List<String> imageList;
+        IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED();
+        if (this.label != 0) {
+            throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+        }
+        ResultKt.throwOnFailure(obj);
+        Ref.ObjectRef<Bitmap> objectRef = this.$seasonCurrencyBitmap;
+        Application application = this.this$0.application;
+        BpRewardsAwardsDto bpRewardsAwardsDto = this.$holidayEventsAward;
+        String str = (bpRewardsAwardsDto == null || (imageList = bpRewardsAwardsDto.getImageList()) == null) ? null : (String) CollectionsKt___CollectionsKt.firstOrNull((List) imageList);
+        if (str == null) {
+            str = "";
+        }
+        objectRef.element = BitmapUtilsKt.getBitmapFromZip$default(application, str, ImageTypePathInCDNEnum.IMAGE, 0.0f, 0.0f, 24, null);
+        return Unit.INSTANCE;
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="true"
+        android:color="@color/paylib_design_type_color_brand_dark"/>
+    <item
+        android:state_checked="false"
+        android:color="@color/paylib_design_color_solid_gray"/>
+</selector>

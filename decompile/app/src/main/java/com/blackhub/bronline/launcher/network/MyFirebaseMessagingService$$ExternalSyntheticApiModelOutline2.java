@@ -1,0 +1,6 @@
+package com.blackhub.bronline.launcher.network;
+
+/* compiled from: R8$$SyntheticClass */
+/* loaded from: classes3.dex */
+public final /* synthetic */ class MyFirebaseMessagingService$$ExternalSyntheticApiModelOutline2 {
+}

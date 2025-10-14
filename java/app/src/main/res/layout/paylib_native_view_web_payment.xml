@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/web_payment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/web_payment_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/paylib_native_web_pay_app_bar_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageButton
+            android:id="@+id/web_payment_exit_button"
+            android:background="@color/paylib_design_color_solid_transparent"
+            android:padding="@dimen/paylib_design_spacer_2x"
+            android:layout_width="@dimen/paylib_design_icon_size_medium"
+            android:layout_height="@dimen/paylib_design_icon_size_medium"
+            android:layout_margin="@dimen/paylib_design_spacer_4x"
+            android:src="?attr/paylib_native_ic_close_webview"
+            android:contentDescription="@string/paylib_native_close_button_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"/>
+        <include
+            android:id="@+id/web_payment_additional_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            layout="@layout/paylib_native_additional_info_view"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <WebView
+        android:id="@+id/web_payment_web_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/web_payment_app_bar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

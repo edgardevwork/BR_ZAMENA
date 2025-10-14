@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="80dp"
+    android:width="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    <group>
+        <clip-path android:pathData="M0,0h80v80h-80z"/>
+        <path
+            android:fillColor="@drawable/_ic_menu_compass__0_res_0x7f080362"
+            android:pathData="M79.022,0.977C78.072,0.023 76.646,-0.257 75.402,0.247L2.069,30.247C0.699,30.81 -0.138,32.207 0.019,33.68C0.172,35.153 1.279,36.347 2.735,36.613L37.132,42.867L43.389,77.263C43.652,78.72 44.846,79.827 46.319,79.983C46.436,79.993 46.552,80 46.666,80C48.006,80 49.236,79.19 49.752,77.927L79.753,4.593C80.259,3.353 79.972,1.927 79.022,0.977Z"/>
+    </group>
+</vector>

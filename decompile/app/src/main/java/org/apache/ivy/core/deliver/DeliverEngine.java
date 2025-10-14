@@ -1,0 +1,149 @@
+package org.apache.ivy.core.deliver;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Properties;
+import org.apache.ivy.core.IvyPatternHelper;
+import org.apache.ivy.core.cache.ResolutionCacheManager;
+import org.apache.ivy.core.module.descriptor.DependencyDescriptor;
+import org.apache.ivy.core.module.descriptor.ModuleDescriptor;
+import org.apache.ivy.core.module.p062id.ModuleRevisionId;
+import org.apache.ivy.plugins.parser.xml.UpdateOptions;
+import org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater;
+import org.apache.ivy.plugins.report.XmlReportParser;
+import org.apache.ivy.plugins.repository.Resource;
+import org.apache.ivy.util.ConfigurationUtils;
+import org.apache.ivy.util.Message;
+import org.xml.sax.SAXException;
+
+/* loaded from: classes7.dex */
+public class DeliverEngine {
+    public DeliverEngineSettings settings;
+
+    public DeliverEngine(DeliverEngineSettings deliverEngineSettings) {
+        this.settings = deliverEngineSettings;
+    }
+
+    public void deliver(String str, String str2, DeliverOptions deliverOptions) throws IOException, ParseException {
+        String resolveId = deliverOptions.getResolveId();
+        if (resolveId == null) {
+            throw new IllegalArgumentException("A resolveId must be specified for delivering.");
+        }
+        File[] configurationResolveReportsInCache = getCache().getConfigurationResolveReportsInCache(resolveId);
+        if (configurationResolveReportsInCache.length == 0) {
+            throw new IllegalStateException("No previous resolve found for id '" + resolveId + "' Please resolve dependencies before delivering.");
+        }
+        XmlReportParser xmlReportParser = new XmlReportParser();
+        xmlReportParser.parse(configurationResolveReportsInCache[0]);
+        deliver(xmlReportParser.getResolvedModule(), str, str2, deliverOptions);
+    }
+
+    public final ResolutionCacheManager getCache() {
+        return this.settings.getResolutionCacheManager();
+    }
+
+    public void deliver(ModuleRevisionId moduleRevisionId, String str, String str2, DeliverOptions deliverOptions) throws IOException, ParseException {
+        HashMap map;
+        ModuleRevisionId moduleRevisionIdNewInstance;
+        Iterator it;
+        String str3;
+        Message.info(":: delivering :: " + moduleRevisionId + " :: " + str + " :: " + deliverOptions.getStatus() + " :: " + deliverOptions.getPubdate());
+        StringBuilder sb = new StringBuilder();
+        sb.append("\toptions = ");
+        sb.append(deliverOptions);
+        Message.verbose(sb.toString());
+        long jCurrentTimeMillis = System.currentTimeMillis();
+        String strSubstitute = this.settings.substitute(str2);
+        ModuleDescriptor resolvedModuleDescriptor = getCache().getResolvedModuleDescriptor(moduleRevisionId);
+        resolvedModuleDescriptor.setResolvedModuleRevisionId(ModuleRevisionId.newInstance(resolvedModuleDescriptor.getModuleRevisionId(), deliverOptions.getPubBranch() == null ? moduleRevisionId.getBranch() : deliverOptions.getPubBranch(), str));
+        resolvedModuleDescriptor.setResolvedPublicationDate(deliverOptions.getPubdate());
+        HashMap map2 = new HashMap();
+        HashMap map3 = new HashMap();
+        HashMap map4 = new HashMap();
+        File resolvedIvyPropertiesInCache = getCache().getResolvedIvyPropertiesInCache(moduleRevisionId);
+        if (!resolvedIvyPropertiesInCache.exists()) {
+            throw new IllegalStateException("ivy properties not found in cache for " + moduleRevisionId + "; please resolve dependencies before delivering!");
+        }
+        Properties properties = new Properties();
+        FileInputStream fileInputStream = new FileInputStream(resolvedIvyPropertiesInCache);
+        properties.load(fileInputStream);
+        fileInputStream.close();
+        Iterator it2 = properties.keySet().iterator();
+        while (it2.hasNext()) {
+            String str4 = (String) it2.next();
+            String[] strArrSplit = properties.getProperty(str4).split(" ");
+            ModuleRevisionId moduleRevisionIdDecode = ModuleRevisionId.decode(str4);
+            if (deliverOptions.isResolveDynamicRevisions()) {
+                map2.put(moduleRevisionIdDecode, strArrSplit[0]);
+                it = it2;
+                if (strArrSplit.length >= 4 && (str3 = strArrSplit[3]) != null && !"null".equals(str3)) {
+                    map3.put(moduleRevisionIdDecode, strArrSplit[3]);
+                }
+            } else {
+                it = it2;
+            }
+            map4.put(moduleRevisionIdDecode, strArrSplit[1]);
+            if (deliverOptions.isReplaceForcedRevisions()) {
+                if (strArrSplit.length <= 2) {
+                    throw new IllegalStateException("ivy properties file generated by an older version of Ivy which doesn't support replacing forced revisions!");
+                }
+                map2.put(moduleRevisionIdDecode, strArrSplit[2]);
+            }
+            it2 = it;
+        }
+        int i = 0;
+        HashMap map5 = new HashMap();
+        DependencyDescriptor[] dependencies = resolvedModuleDescriptor.getDependencies();
+        int length = dependencies.length;
+        while (i < length) {
+            DependencyDescriptor dependencyDescriptor = dependencies[i];
+            DependencyDescriptor[] dependencyDescriptorArr = dependencies;
+            String revision = (String) map2.get(dependencyDescriptor.getDependencyRevisionId());
+            if (revision == null) {
+                revision = dependencyDescriptor.getDependencyRevisionId().getRevision();
+            }
+            HashMap map6 = map2;
+            String branch = (String) map3.get(dependencyDescriptor.getDependencyRevisionId());
+            if (branch == null || "null".equals(branch)) {
+                branch = dependencyDescriptor.getDependencyRevisionId().getBranch();
+            }
+            int i2 = length;
+            String str5 = (String) map4.get(dependencyDescriptor.getDependencyRevisionId());
+            if (branch == null) {
+                moduleRevisionIdNewInstance = ModuleRevisionId.newInstance(dependencyDescriptor.getDependencyRevisionId(), revision);
+                map = map4;
+            } else {
+                map = map4;
+                moduleRevisionIdNewInstance = ModuleRevisionId.newInstance(dependencyDescriptor.getDependencyRevisionId(), branch, revision);
+            }
+            map5.put(dependencyDescriptor.getDependencyRevisionId(), deliverOptions.getPdrResolver().resolve(resolvedModuleDescriptor, deliverOptions.getStatus(), moduleRevisionIdNewInstance, str5));
+            i++;
+            dependencies = dependencyDescriptorArr;
+            map2 = map6;
+            length = i2;
+            map4 = map;
+        }
+        File fileResolveFile = this.settings.resolveFile(IvyPatternHelper.substitute(strSubstitute, resolvedModuleDescriptor.getResolvedModuleRevisionId()));
+        Message.info("\tdelivering ivy file to " + fileResolveFile);
+        String[] strArrReplaceWildcards = ConfigurationUtils.replaceWildcards(deliverOptions.getConfs(), resolvedModuleDescriptor);
+        HashSet hashSet = new HashSet(Arrays.asList(resolvedModuleDescriptor.getConfigurationsNames()));
+        hashSet.removeAll(Arrays.asList(strArrReplaceWildcards));
+        try {
+            UpdateOptions confsToExclude = new UpdateOptions().setSettings(this.settings).setResolvedRevisions(map5).setStatus(deliverOptions.getStatus()).setRevision(str).setBranch(deliverOptions.getPubBranch()).setPubdate(deliverOptions.getPubdate()).setGenerateRevConstraint(deliverOptions.isGenerateRevConstraint()).setMerge(deliverOptions.isMerge()).setMergedDescriptor(resolvedModuleDescriptor).setConfsToExclude((String[]) hashSet.toArray(new String[hashSet.size()]));
+            if (!map3.isEmpty()) {
+                confsToExclude = confsToExclude.setResolvedBranches(map3);
+            }
+            Resource resource = resolvedModuleDescriptor.getResource();
+            XmlModuleDescriptorUpdater.update(resource.openStream(), resource, fileResolveFile, confsToExclude);
+            Message.verbose("\tdeliver done (" + (System.currentTimeMillis() - jCurrentTimeMillis) + "ms)");
+        } catch (SAXException e) {
+            throw new RuntimeException("bad ivy file in cache for " + moduleRevisionId, e);
+        }
+    }
+}

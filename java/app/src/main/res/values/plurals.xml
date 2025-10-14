@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bp_rewards_days">
+        <item quantity="zero">%1$d Дней</item>
+        <item quantity="one">%1$d День</item>
+        <item quantity="two">%1$d Дня</item>
+        <item quantity="few">%1$d Дня</item>
+        <item quantity="many">%1$d Дней</item>
+        <item quantity="other">%1$d Дней</item>
+    </plurals>
+    <plurals name="common_days">
+        <item quantity="zero">%1$d дней</item>
+        <item quantity="one">%1$d день</item>
+        <item quantity="two">%1$d дня</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дней</item>
+    </plurals>
+    <plurals name="common_hours">
+        <item quantity="zero">%1$d часов</item>
+        <item quantity="one">%1$d час</item>
+        <item quantity="two">%1$d часа</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часов</item>
+    </plurals>
+    <plurals name="common_minutes">
+        <item quantity="zero">%1$d минут</item>
+        <item quantity="one">%1$d минута</item>
+        <item quantity="two">%1$d минуты</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+        <item quantity="other">%1$d минут</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="paylib_native_error_sms_code">
+        <item quantity="one">Неверный код. Попробуйте ввести снова.\nОсталось %1$d попытка из %2$d</item>
+        <item quantity="two">Неверный код. Попробуйте ввести снова.\nОсталось %1$d попытки из %2$d</item>
+        <item quantity="few">Неверный код. Попробуйте ввести снова.\nОсталось %1$d попытки из %2$d</item>
+        <item quantity="many">Неверный код. Попробуйте ввести снова.\nОсталось %1$d попыток из %2$d</item>
+        <item quantity="other">Неверный код. Попробуйте ввести снова.\nОсталось %1$d попытки из %2$d</item>
+    </plurals>
+</resources>

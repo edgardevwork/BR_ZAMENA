@@ -1,0 +1,73 @@
+package io.ktor.client.engine;
+
+import kotlin.Metadata;
+import kotlin.coroutines.CoroutineContext;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* compiled from: Utils.kt */
+@Metadata(m7104d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0004\b\u0000\u0018\u0000 \u000b2\u00020\u0001:\u0001\u000bB\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006R\u0018\u0010\u0007\u001a\u0006\u0012\u0002\b\u00030\b8VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b\t\u0010\n¨\u0006\f"}, m7105d2 = {"Lio/ktor/client/engine/KtorCallContextElement;", "Lkotlin/coroutines/CoroutineContext$Element;", "callContext", "Lkotlin/coroutines/CoroutineContext;", "(Lkotlin/coroutines/CoroutineContext;)V", "getCallContext", "()Lkotlin/coroutines/CoroutineContext;", "key", "Lkotlin/coroutines/CoroutineContext$Key;", "getKey", "()Lkotlin/coroutines/CoroutineContext$Key;", "Companion", "ktor-client-core"}, m7106k = 1, m7107mv = {1, 8, 0}, m7109xi = 48)
+/* loaded from: classes8.dex */
+public final class KtorCallContextElement implements CoroutineContext.Element {
+
+    /* renamed from: Companion, reason: from kotlin metadata */
+    @NotNull
+    public static final Companion INSTANCE = new Companion(null);
+
+    @NotNull
+    public final CoroutineContext callContext;
+
+    public KtorCallContextElement(@NotNull CoroutineContext callContext) {
+        Intrinsics.checkNotNullParameter(callContext, "callContext");
+        this.callContext = callContext;
+    }
+
+    @Override // kotlin.coroutines.CoroutineContext.Element, kotlin.coroutines.CoroutineContext
+    public <R> R fold(R r, @NotNull Function2<? super R, ? super CoroutineContext.Element, ? extends R> function2) {
+        return (R) CoroutineContext.Element.DefaultImpls.fold(this, r, function2);
+    }
+
+    @Override // kotlin.coroutines.CoroutineContext.Element, kotlin.coroutines.CoroutineContext
+    @Nullable
+    public <E extends CoroutineContext.Element> E get(@NotNull CoroutineContext.Key<E> key) {
+        return (E) CoroutineContext.Element.DefaultImpls.get(this, key);
+    }
+
+    @NotNull
+    public final CoroutineContext getCallContext() {
+        return this.callContext;
+    }
+
+    @Override // kotlin.coroutines.CoroutineContext.Element, kotlin.coroutines.CoroutineContext
+    @NotNull
+    public CoroutineContext minusKey(@NotNull CoroutineContext.Key<?> key) {
+        return CoroutineContext.Element.DefaultImpls.minusKey(this, key);
+    }
+
+    @Override // kotlin.coroutines.CoroutineContext
+    @NotNull
+    public CoroutineContext plus(@NotNull CoroutineContext coroutineContext) {
+        return CoroutineContext.Element.DefaultImpls.plus(this, coroutineContext);
+    }
+
+    @Override // kotlin.coroutines.CoroutineContext.Element
+    @NotNull
+    public CoroutineContext.Key<?> getKey() {
+        return INSTANCE;
+    }
+
+    /* compiled from: Utils.kt */
+    @Metadata(m7104d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0086\u0003\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0003¨\u0006\u0004"}, m7105d2 = {"Lio/ktor/client/engine/KtorCallContextElement$Companion;", "Lkotlin/coroutines/CoroutineContext$Key;", "Lio/ktor/client/engine/KtorCallContextElement;", "()V", "ktor-client-core"}, m7106k = 1, m7107mv = {1, 8, 0}, m7109xi = 48)
+    /* loaded from: classes7.dex */
+    public static final class Companion implements CoroutineContext.Key<KtorCallContextElement> {
+        public /* synthetic */ Companion(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public Companion() {
+        }
+    }
+}

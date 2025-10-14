@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="20dp"
+    android:width="20dp"
+    android:viewportWidth="652"
+    android:viewportHeight="303">
+    <path
+        android:fillColor="@drawable/_bg_game_instruction__0_res_0x7f080023"
+        android:pathData="M13,0L639,0A13,13 0,0 1,652 13L652,290A13,13 0,0 1,639 303L13,303A13,13 0,0 1,0 290L0,13A13,13 0,0 1,13 0z"
+        android:fillAlpha="0.5"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M13,0.25L639,0.25A12.75,12.75 0,0 1,651.75 13L651.75,290A12.75,12.75 0,0 1,639 302.75L13,302.75A12.75,12.75 0,0 1,0.25 290L0.25,13A12.75,12.75 0,0 1,13 0.25z"
+        android:strokeColor="#ffb6bfd9"
+        android:strokeWidth="0.5"/>
+</vector>

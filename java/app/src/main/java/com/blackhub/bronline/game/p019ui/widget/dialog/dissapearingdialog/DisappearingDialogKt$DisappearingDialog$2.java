@@ -1,0 +1,66 @@
+package com.blackhub.bronline.game.p019ui.widget.dialog.dissapearingdialog;
+
+import kotlin.Metadata;
+import kotlin.ResultKt;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsKt;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.DelayKt;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* compiled from: DisappearingDialog.kt */
+@DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.widget.dialog.dissapearingdialog.DisappearingDialogKt$DisappearingDialog$2", m7120f = "DisappearingDialog.kt", m7121i = {}, m7122l = {100}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
+/* loaded from: classes8.dex */
+public final class DisappearingDialogKt$DisappearingDialog$2 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+    public final /* synthetic */ DialogWrapper $dialog;
+    public final /* synthetic */ Function0<Unit> $onDismissRequest;
+    public int label;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public DisappearingDialogKt$DisappearingDialog$2(DialogWrapper dialogWrapper, Function0<Unit> function0, Continuation<? super DisappearingDialogKt$DisappearingDialog$2> continuation) {
+        super(2, continuation);
+        this.$dialog = dialogWrapper;
+        this.$onDismissRequest = function0;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    @NotNull
+    public final Continuation<Unit> create(@Nullable Object obj, @NotNull Continuation<?> continuation) {
+        return new DisappearingDialogKt$DisappearingDialog$2(this.$dialog, this.$onDismissRequest, continuation);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    @Nullable
+    public final Object invoke(@NotNull CoroutineScope coroutineScope, @Nullable Continuation<? super Unit> continuation) {
+        return ((DisappearingDialogKt$DisappearingDialog$2) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    @Nullable
+    public final Object invokeSuspend(@NotNull Object obj) throws Throwable {
+        Object coroutine_suspended = IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED();
+        int i = this.label;
+        if (i == 0) {
+            ResultKt.throwOnFailure(obj);
+            this.label = 1;
+            if (DelayKt.delay(5000L, this) == coroutine_suspended) {
+                return coroutine_suspended;
+            }
+        } else {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            ResultKt.throwOnFailure(obj);
+        }
+        this.$dialog.dismiss();
+        this.$onDismissRequest.invoke();
+        return Unit.INSTANCE;
+    }
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size
+                android:height="@dimen/paylib_design_spacer_2x"
+                android:width="@dimen/paylib_design_spacer_16x"/>
+            <solid android:color="?attr/paylib_design_color_liquid_40"/>
+            <corners android:radius="@dimen/paylib_design_spacer_5x"/>
+        </shape>
+    </item>
+</layer-list>

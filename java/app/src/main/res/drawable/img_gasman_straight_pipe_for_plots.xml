@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_img_gasman_straight_pipe_for_plots__0_res_0x7f080540">
+    <target
+        android:name="path"
+        android:animation="@drawable/_img_gasman_straight_pipe_for_plots__1_res_0x7f080541"/>
+</animated-vector>

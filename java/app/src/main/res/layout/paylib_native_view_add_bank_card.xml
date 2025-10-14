@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/paylib_design_spacer_6x"
+    android:paddingBottom="@dimen/paylib_design_spacer_6x"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/paylib_design_spacer_8x"
+    android:paddingEnd="@dimen/paylib_design_spacer_8x"
+    android:paddingVertical="@dimen/paylib_design_spacer_6x">
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:padding="@dimen/paylib_design_spacer_4x"
+        android:layout_width="@dimen/paylib_design_icon_size_medium"
+        android:layout_height="@dimen/paylib_design_icon_size_medium"
+        android:src="@drawable/paylib_native_ic_plus"
+        android:layout_marginEnd="@dimen/paylib_design_spacer_8x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paylib_native_payment_add_new_card"
+        android:layout_marginStart="@dimen/paylib_design_spacer_8x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/paylib_native_body_1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

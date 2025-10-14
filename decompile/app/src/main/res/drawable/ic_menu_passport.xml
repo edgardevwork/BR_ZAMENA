@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="80dp"
+    android:width="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__0_res_0x7f080385"
+        android:pathData="M40,46.391C41.798,46.391 44.431,40.696 44.734,32.011H35.266C35.569,40.696 38.202,46.391 40,46.391Z"/>
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__1_res_0x7f080386"
+        android:pathData="M45.117,15.352C46.832,18.7 47.795,23.687 47.96,28.815H55.817C55.179,22.517 50.919,17.331 45.117,15.352Z"/>
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__2_res_0x7f080387"
+        android:pathData="M24.184,28.815H32.04C32.205,23.687 33.168,18.7 34.883,15.352C29.081,17.331 24.821,22.517 24.184,28.815Z"/>
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__3_res_0x7f080388"
+        android:pathData="M40,14.435C38.202,14.435 35.569,20.13 35.266,28.815H44.734C44.431,20.13 41.798,14.435 40,14.435Z"/>
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__4_res_0x7f080389"
+        android:pathData="M62.369,1.653H17.631C14.106,1.653 11.24,4.519 11.24,8.044V71.956C11.24,75.481 14.106,78.347 17.631,78.347H62.369C65.894,78.347 68.76,75.481 68.76,71.956V8.044C68.76,4.519 65.894,1.653 62.369,1.653ZM51.185,68.76H28.815C27.932,68.76 27.218,68.046 27.218,67.162C27.218,66.279 27.932,65.565 28.815,65.565H51.185C52.068,65.565 52.782,66.279 52.782,67.162C52.782,68.046 52.068,68.76 51.185,68.76ZM57.576,59.174H22.424C21.541,59.174 20.826,58.459 20.826,57.576C20.826,56.693 21.541,55.978 22.424,55.978H57.576C58.459,55.978 59.174,56.693 59.174,57.576C59.174,58.459 58.459,59.174 57.576,59.174ZM40,49.587C29.427,49.587 20.826,40.986 20.826,30.413C20.826,19.84 29.427,11.24 40,11.24C50.573,11.24 59.174,19.84 59.174,30.413C59.174,40.986 50.573,49.587 40,49.587Z"/>
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__5_res_0x7f08038a"
+        android:pathData="M45.117,45.475C50.919,43.495 55.179,38.309 55.817,32.011H47.96C47.795,37.139 46.832,42.126 45.117,45.475Z"/>
+    <path
+        android:fillColor="@drawable/_ic_menu_passport__6_res_0x7f08038b"
+        android:pathData="M24.184,32.011C24.821,38.309 29.081,43.495 34.883,45.475C33.168,42.126 32.205,37.139 32.04,32.011H24.184Z"/>
+</vector>

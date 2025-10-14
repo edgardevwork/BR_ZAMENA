@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:height="5dp"
+        android:top="4dp"
+        android:start="1dp">
+        <shape>
+            <solid android:color="@color/black"/>
+            <corners
+                android:topLeftRadius="3dp"
+                android:topRightRadius="3dp"
+                android:bottomLeftRadius="3dp"
+                android:bottomRightRadius="3dp"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <layer-list>
+                <item
+                    android:height="9dp"
+                    android:top="2dp">
+                    <shape android:shape="rectangle">
+                        <gradient
+                            android:startColor="@color/transparent"
+                            android:endColor="@color/transparent"
+                            android:angle="90"
+                            android:centerColor="@color/rose_red"/>
+                        <corners
+                            android:topLeftRadius="4dp"
+                            android:topRightRadius="4dp"
+                            android:bottomLeftRadius="4dp"
+                            android:bottomRightRadius="4dp"/>
+                    </shape>
+                </item>
+                <item
+                    android:height="5dp"
+                    android:top="4dp"
+                    android:start="1dp">
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/rose_red"/>
+                        <corners
+                            android:topLeftRadius="3dp"
+                            android:topRightRadius="3dp"
+                            android:bottomLeftRadius="3dp"
+                            android:bottomRightRadius="3dp"/>
+                    </shape>
+                </item>
+            </layer-list>
+        </clip>
+    </item>
+</layer-list>

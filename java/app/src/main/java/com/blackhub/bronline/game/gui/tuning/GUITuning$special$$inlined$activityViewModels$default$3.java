@@ -1,0 +1,33 @@
+package com.blackhub.bronline.game.gui.tuning;
+
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.Lambda;
+import kotlin.jvm.internal.SourceDebugExtension;
+import org.jetbrains.annotations.NotNull;
+
+/* compiled from: FragmentViewModelLazy.kt */
+@SourceDebugExtension({"SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$6\n*L\n1#1,222:1\n*E\n"})
+/* loaded from: classes.dex */
+public final class GUITuning$special$$inlined$activityViewModels$default$3 extends Lambda implements Function0<ViewModelProvider.Factory> {
+    public final /* synthetic */ Fragment $this_activityViewModels;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public GUITuning$special$$inlined$activityViewModels$default$3(Fragment fragment) {
+        super(0);
+        this.$this_activityViewModels = fragment;
+    }
+
+    /* JADX WARN: Can't rename method to resolve collision */
+    @Override // kotlin.jvm.functions.Function0
+    @NotNull
+    public final ViewModelProvider.Factory invoke() {
+        ViewModelProvider.Factory defaultViewModelProviderFactory = this.$this_activityViewModels.requireActivity().getDefaultViewModelProviderFactory();
+        Intrinsics.checkNotNullExpressionValue(defaultViewModelProviderFactory, "requireActivity().defaultViewModelProviderFactory");
+        return defaultViewModelProviderFactory;
+    }
+}
+

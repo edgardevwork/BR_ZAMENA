@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="80dp"
+    android:width="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    <group>
+        <clip-path android:pathData="M0,0h80v80h-80z"/>
+        <path
+            android:fillColor="@drawable/_ic_menu_chat__0_res_0x7f080360"
+            android:pathData="M52.062,17.974C47.545,8.752 38.098,2.656 27.501,2.656C12.337,2.656 0.001,14.922 0.001,29.999C0.001,34.096 0.881,38.023 2.617,41.685L0.047,54.539C-0.28,56.175 1.163,57.621 2.8,57.297L15.812,54.725C17.564,55.556 19.376,56.188 21.238,56.623C17.064,36.852 32.05,18.293 52.062,17.974V17.974Z"/>
+        <path
+            android:fillColor="@drawable/_ic_menu_chat__1_res_0x7f080361"
+            android:pathData="M77.384,61.684C77.833,60.737 78.223,59.772 78.557,58.792H78.471C84.323,41.618 72.018,23.567 53.852,22.688C53.852,22.688 53.852,22.687 53.851,22.686C38.221,21.965 25.235,34.48 25.235,49.998C25.235,65.062 37.479,77.319 52.538,77.341C56.623,77.335 60.538,76.456 64.189,74.724C78.44,77.541 77.328,77.341 77.656,77.341C79.137,77.341 80.243,75.984 79.954,74.538L77.384,61.684Z"/>
+    </group>
+</vector>

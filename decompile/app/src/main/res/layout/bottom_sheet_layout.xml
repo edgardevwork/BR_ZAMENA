@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_hideable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <FrameLayout
+        android:background="@drawable/background_auth_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <WebView
+        android:id="@+id/auth_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"/>
+    <FrameLayout
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="360dp">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/ru_store_progress"
+            android:indeterminateTintMode="src_atop"/>
+    </FrameLayout>
+</LinearLayout>

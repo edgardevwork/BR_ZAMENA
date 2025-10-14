@@ -1,0 +1,37 @@
+package kotlinx.coroutines;
+
+import kotlin.Metadata;
+import kotlin.PublishedApi;
+import kotlin.Unit;
+import kotlin.jvm.JvmField;
+import org.apache.ivy.osgi.p063p2.P2CompositeParser;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* compiled from: JobSupport.kt */
+@Metadata(m7104d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u0003\n\u0000\b\u0001\u0018\u00002\u00020\u0001B\u0011\u0012\n\u0010\u0002\u001a\u0006\u0012\u0002\b\u00030\u0003¢\u0006\u0002\u0010\u0004J\u0013\u0010\u0005\u001a\u00020\u00062\b\u0010\u0007\u001a\u0004\u0018\u00010\bH\u0096\u0002R\u0014\u0010\u0002\u001a\u0006\u0012\u0002\b\u00030\u00038\u0006X\u0087\u0004¢\u0006\u0002\n\u0000¨\u0006\t"}, m7105d2 = {"Lkotlinx/coroutines/ChildContinuation;", "Lkotlinx/coroutines/JobCancellingNode;", P2CompositeParser.ChildHandler.CHILD, "Lkotlinx/coroutines/CancellableContinuationImpl;", "(Lkotlinx/coroutines/CancellableContinuationImpl;)V", "invoke", "", "cause", "", "kotlinx-coroutines-core"}, m7106k = 1, m7107mv = {1, 8, 0}, m7109xi = 48)
+@PublishedApi
+/* loaded from: classes7.dex */
+public final class ChildContinuation extends JobCancellingNode {
+
+    @JvmField
+    @NotNull
+    public final CancellableContinuationImpl<?> child;
+
+    @Override // kotlin.jvm.functions.Function1
+    public /* bridge */ /* synthetic */ Unit invoke(Throwable th) {
+        invoke2(th);
+        return Unit.INSTANCE;
+    }
+
+    public ChildContinuation(@NotNull CancellableContinuationImpl<?> cancellableContinuationImpl) {
+        this.child = cancellableContinuationImpl;
+    }
+
+    @Override // kotlinx.coroutines.CompletionHandlerBase
+    /* renamed from: invoke, reason: avoid collision after fix types in other method */
+    public void invoke2(@Nullable Throwable cause) {
+        CancellableContinuationImpl<?> cancellableContinuationImpl = this.child;
+        cancellableContinuationImpl.parentCancelled$kotlinx_coroutines_core(cancellableContinuationImpl.getContinuationCancellationCause(getJob()));
+    }
+}

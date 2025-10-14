@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_rectangle_wery_light_blue_cr5"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_26sdp"
+    android:layout_marginBottom="@dimen/_4sdp"
+    android:layout_marginEnd="@dimen/_6sdp">
+    <ImageView
+        android:id="@+id/bpi_rating_medal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_18sdp"
+        android:contentDescription="@string/black_pass_rating_medal_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bpi_rating_players_nick"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/_8ssp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:id="@+id/bpi_rating_players_nick"
+        android:background="@drawable/bg_rectangle_dark_blue_hgr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/muller_bold"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/bpi_rating_players_experience"
+        app:layout_constraintHorizontal_weight="5.5"
+        app:layout_constraintStart_toEndOf="@+id/bpi_rating_medal"/>
+    <TextView
+        android:textSize="@dimen/_8ssp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:id="@+id/bpi_rating_players_experience"
+        android:background="@drawable/bg_rectangle_dark_blue_hgr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/muller_bold"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="4.5"
+        app:layout_constraintStart_toEndOf="@+id/bpi_rating_players_nick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
