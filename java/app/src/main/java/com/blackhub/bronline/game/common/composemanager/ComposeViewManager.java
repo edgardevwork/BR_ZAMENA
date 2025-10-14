@@ -49,9 +49,6 @@ public final class ComposeViewManager {
                     }
                     final ComposableProvider composableProvider = content;
                     ThemeKt.BRTheme(false, false, ComposableLambdaKt.composableLambda(composer, 1821433863, true, new Function2<Composer, Integer, Unit>() { // from class: com.blackhub.bronline.game.common.composemanager.ComposeViewManager$setComposableContent$1$1.1
-                        {
-                            super(2);
-                        }
 
                         @Override // kotlin.jvm.functions.Function2
                         public /* bridge */ /* synthetic */ Unit invoke(Composer composer2, Integer num) {
