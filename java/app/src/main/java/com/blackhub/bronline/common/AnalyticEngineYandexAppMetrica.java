@@ -2,7 +2,6 @@ package com.blackhub.bronline.common;
 
 import android.app.Activity;
 import android.app.Application;
-import androidx.appcompat.widget.ActivityChooserModel;
 import androidx.compose.runtime.internal.StabilityInferred;
 import com.blackhub.bronline.BuildConfig;
 import io.appmetrica.analytics.AppMetrica;
@@ -13,9 +12,7 @@ import kotlin.Metadata;
 import kotlin.jvm.internal.Intrinsics;
 import org.jetbrains.annotations.NotNull;
 
-/* compiled from: AnalyticEngineYandexAppMetrica.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
 public final class AnalyticEngineYandexAppMetrica implements IAnalyticEngine {
     public static final int $stable = 8;
 

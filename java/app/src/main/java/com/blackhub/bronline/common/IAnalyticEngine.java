@@ -1,7 +1,6 @@
 package com.blackhub.bronline.common;
 
 import android.app.Activity;
-import androidx.appcompat.widget.ActivityChooserModel;
 import kotlin.Metadata;
 import org.jetbrains.annotations.NotNull;
 
