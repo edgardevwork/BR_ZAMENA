@@ -57,18 +57,6 @@ public final /* data */ class TaxiUiState implements UiState {
         this(null, null, null, null, null, null, null, null, null, null, false, false, false, 8191, null);
     }
 
-    @NotNull
-    /* renamed from: component1, reason: from getter */
-    public final SpannedString getBrTaxiStart() {
-        return this.brTaxiStart;
-    }
-
-    @NotNull
-    /* renamed from: component10, reason: from getter */
-    public final String getBrTaxiCash() {
-        return this.brTaxiCash;
-    }
-
     /* renamed from: component11, reason: from getter */
     public final boolean getIsHasComment() {
         return this.isHasComment;
@@ -82,54 +70,6 @@ public final /* data */ class TaxiUiState implements UiState {
     /* renamed from: component13, reason: from getter */
     public final boolean getIsNeedClose() {
         return this.isNeedClose;
-    }
-
-    @NotNull
-    /* renamed from: component2, reason: from getter */
-    public final SpannedString getBrTaxiEnd() {
-        return this.brTaxiEnd;
-    }
-
-    @NotNull
-    /* renamed from: component3, reason: from getter */
-    public final SpannedString getBrTaxiDist() {
-        return this.brTaxiDist;
-    }
-
-    @NotNull
-    /* renamed from: component4, reason: from getter */
-    public final SpannedString getBrTaxiTime() {
-        return this.brTaxiTime;
-    }
-
-    @NotNull
-    /* renamed from: component5, reason: from getter */
-    public final String getComment() {
-        return this.comment;
-    }
-
-    @NotNull
-    /* renamed from: component6, reason: from getter */
-    public final String getBrTaxiPrice() {
-        return this.brTaxiPrice;
-    }
-
-    @NotNull
-    /* renamed from: component7, reason: from getter */
-    public final String getBrTaxiTypeText() {
-        return this.brTaxiTypeText;
-    }
-
-    @NotNull
-    /* renamed from: component8, reason: from getter */
-    public final String getBrTaxiRating() {
-        return this.brTaxiRating;
-    }
-
-    @NotNull
-    /* renamed from: component9, reason: from getter */
-    public final String getBrTaxiCountOrders() {
-        return this.brTaxiCountOrders;
     }
 
     @NotNull

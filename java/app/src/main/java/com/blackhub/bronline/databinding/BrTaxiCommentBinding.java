@@ -1,5 +1,6 @@
 package com.blackhub.bronline.databinding;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+
 import com.blackhub.bronline.game.gui.taxi.TaxiViewModel;
 import com.bless.client.R;
 
@@ -47,6 +49,7 @@ public abstract class BrTaxiCommentBinding extends ViewDataBinding {
         return inflate(inflater, root, attachToRoot, DataBindingUtil.getDefaultComponent());
     }
 
+    @SuppressLint("RestrictedApi")
     @NonNull
     @Deprecated
     public static BrTaxiCommentBinding inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup root, boolean attachToRoot, @Nullable Object component) {
@@ -58,6 +61,7 @@ public abstract class BrTaxiCommentBinding extends ViewDataBinding {
         return inflate(inflater, DataBindingUtil.getDefaultComponent());
     }
 
+    @SuppressLint("RestrictedApi")
     @NonNull
     @Deprecated
     public static BrTaxiCommentBinding inflate(@NonNull LayoutInflater inflater, @Nullable Object component) {

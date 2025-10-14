@@ -1,5 +1,6 @@
 package com.blackhub.bronline.databinding;
 
+import android.annotation.SuppressLint;
 import android.util.SparseIntArray;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -18,10 +19,11 @@ import com.bless.client.R;
 import kotlinx.coroutines.flow.StateFlow;
 
 /* loaded from: classes.dex */
+@SuppressLint("RestrictedApi")
 public class BrTaxiCommentBindingImpl extends BrTaxiCommentBinding implements OnClickListener.Listener {
 
     @Nullable
-    public static final ViewDataBinding.IncludedLayouts sIncludes = null;
+    public static final IncludedLayouts sIncludes = null;
 
     @Nullable
     public static final SparseIntArray sViewsWithIds;
@@ -39,8 +41,8 @@ public class BrTaxiCommentBindingImpl extends BrTaxiCommentBinding implements On
         sparseIntArray.put(R.id.br_taxi_comment_title, 3);
     }
 
-    public BrTaxiCommentBindingImpl(@Nullable DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, ViewDataBinding.mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+    public BrTaxiCommentBindingImpl(DataBindingComponent bindingComponent, View root) {//TODO: FIIIX
+        this(bindingComponent, root, /*ViewDataBinding.mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds)*/ null);
     }
 
     public BrTaxiCommentBindingImpl(DataBindingComponent bindingComponent, View root, Object[] bindings) {
@@ -119,7 +121,7 @@ public class BrTaxiCommentBindingImpl extends BrTaxiCommentBinding implements On
     */
     public void executeBindings() {
         long j;
-        String comment;
+        String comment = "";
         synchronized (this) {
             j = this.mDirtyFlags;
             this.mDirtyFlags = 0L;

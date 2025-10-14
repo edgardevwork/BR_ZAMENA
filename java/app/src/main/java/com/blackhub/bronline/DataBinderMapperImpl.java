@@ -1,5 +1,6 @@
 package com.blackhub.bronline;
 
+import android.annotation.SuppressLint;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 import android.view.View;
@@ -36,7 +37,8 @@ import java.util.HashMap;
 import java.util.List;
 
 /* loaded from: classes2.dex */
-public class DataBinderMapperImpl extends DataBinderMapper {
+@SuppressLint("RestrictedApi")
+public abstract class DataBinderMapperImpl extends DataBinderMapper {
     public static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP;
     public static final int LAYOUT_BRTAXICOMMENT = 1;
     public static final int LAYOUT_FRAGMENTCHANGEBULB = 2;
@@ -90,7 +92,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         sparseIntArray.put(com.bless.client.R.layout.social_network_link_layout, 23);
     }
 
-    @Override // androidx.databinding.DataBinderMapper
     public ViewDataBinding getDataBinder(DataBindingComponent component, View view, int layoutId) {
         int i = INTERNAL_LAYOUT_ID_LOOKUP.get(layoutId);
         if (i <= 0) {
@@ -227,7 +228,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         }
     }
 
-    @Override // androidx.databinding.DataBinderMapper
     public ViewDataBinding getDataBinder(DataBindingComponent component, View[] views, int layoutId) {
         if (views == null || views.length == 0 || INTERNAL_LAYOUT_ID_LOOKUP.get(layoutId) <= 0 || views[0].getTag() != null) {
             return null;

@@ -1,0 +1,2 @@
+C:\CRMP\BR_ZAMENA\java\app\src\main\cpp\jni\Android.mk
+C:\CRMP\BR_ZAMENA\java\app\src\main\cpp\jni\Application.mk
