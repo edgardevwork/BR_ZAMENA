@@ -14,7 +14,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class MenuSettingMainUiFragment_MembersInjector implements MembersInjector<MenuSettingMainUiFragment> {
     public final Provider<MainViewModelFactory<MenuPauseViewModel>> menuPauseViewModelVMFactoryProvider;
     public final Provider<MainViewModelFactory<MenuSettingControlViewModel>> menuSettingControlVMFactoryProvider;

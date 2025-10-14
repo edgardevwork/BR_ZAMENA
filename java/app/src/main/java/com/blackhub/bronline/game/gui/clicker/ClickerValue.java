@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: ClickerDictionary.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class ClickerValue {
     public static final int $stable = 0;
     public static final int INIT_PROGRESS = 50;

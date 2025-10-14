@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiRatingGui.kt */
 @SourceDebugExtension({"SMAP\nTaxiRatingGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiRatingGui.kt\ncom/blackhub/bronline/game/ui/taxirating/TaxiRatingGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,35:1\n81#2,11:36\n*S KotlinDebug\n*F\n+ 1 TaxiRatingGui.kt\ncom/blackhub/bronline/game/ui/taxirating/TaxiRatingGuiKt\n*L\n10#1:36,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiRatingGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

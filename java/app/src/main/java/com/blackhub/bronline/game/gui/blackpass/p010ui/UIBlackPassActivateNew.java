@@ -65,7 +65,7 @@ import org.jetbrains.annotations.Nullable;
 @StabilityInferred(parameters = 0)
 @Deprecated(message = "удалить после тестов")
 @SourceDebugExtension({"SMAP\nUIBlackPassActivateNew.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIBlackPassActivateNew.kt\ncom/blackhub/bronline/game/gui/blackpass/ui/UIBlackPassActivateNew\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 SpannableStringBuilder.kt\nandroidx/core/text/SpannableStringBuilderKt\n*L\n1#1,288:1\n106#2,15:289\n106#2,15:304\n106#2,15:319\n106#2,15:334\n41#3,2:349\n115#3:351\n74#3,2:352\n87#3:354\n74#3,4:355\n76#3,2:359\n43#3:361\n41#3,2:362\n115#3:364\n74#3,2:365\n87#3:367\n74#3,4:368\n76#3,2:372\n43#3:374\n41#3,2:375\n115#3:377\n74#3,2:378\n87#3:380\n74#3,4:381\n76#3,2:385\n43#3:387\n*S KotlinDebug\n*F\n+ 1 UIBlackPassActivateNew.kt\ncom/blackhub/bronline/game/gui/blackpass/ui/UIBlackPassActivateNew\n*L\n33#1:289,15\n34#1:304,15\n35#1:319,15\n36#1:334,15\n100#1:349,2\n102#1:351\n102#1:352,2\n103#1:354\n103#1:355,4\n102#1:359,2\n100#1:361\n109#1:362,2\n111#1:364\n111#1:365,2\n112#1:367\n112#1:368,4\n111#1:372,2\n109#1:374\n121#1:375,2\n125#1:377\n125#1:378,2\n126#1:380\n126#1:381,4\n125#1:385,2\n121#1:387\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIBlackPassActivateNew extends BaseFragment<LayoutBlackPassPremiumActivateBinding> {
     public static final int $stable = 8;
 

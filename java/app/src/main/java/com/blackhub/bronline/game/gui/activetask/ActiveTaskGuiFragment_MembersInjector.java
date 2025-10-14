@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class ActiveTaskGuiFragment_MembersInjector implements MembersInjector<ActiveTaskGuiFragment> {
     public final Provider<MainViewModelFactory<ActiveTaskViewModel>> factoryProvider;
 

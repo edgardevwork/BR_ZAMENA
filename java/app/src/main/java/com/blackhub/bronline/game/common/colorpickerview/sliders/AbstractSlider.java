@@ -9,6 +9,7 @@ import android.graphics.Point;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -60,7 +61,7 @@ public abstract class AbstractSlider extends FrameLayout {
     @Override // android.view.View
     public void setEnabled(boolean enabled) {
         super.setEnabled(enabled);
-        this.selector.setVisibility(enabled ? 0 : 4);
+        this.selector.setVisibility(enabled ? View.VISIBLE : View.INVISIBLE);
         setClickable(enabled);
     }
 
@@ -197,14 +198,14 @@ public abstract class AbstractSlider extends FrameLayout {
         this.colorPickerView.fireColorListener(assembleColor(), false);
     }
 
-    public void setSelectorPosition(@FloatRange(from = 0.0d, m9to = 1.0d) float selectorPosition) {
+    public void setSelectorPosition(@FloatRange(from = 0.0d, to = 1.0d) float selectorPosition) {
         this.selectorPosition = Math.min(selectorPosition, 1.0f);
         int boundaryX = (int) getBoundaryX(((getWidth() * selectorPosition) - getSelectorSize()) - getBorderHalfSize());
         this.selectedX = boundaryX;
         this.selector.setX(boundaryX);
     }
 
-    public void setSelectorByHalfSelectorPosition(@FloatRange(from = 0.0d, m9to = 1.0d) float selectorPosition) {
+    public void setSelectorByHalfSelectorPosition(@FloatRange(from = 0.0d, to = 1.0d) float selectorPosition) {
         this.selectorPosition = Math.min(selectorPosition, 1.0f);
         int boundaryX = (int) getBoundaryX(((getWidth() * selectorPosition) - (getSelectorSize() * 0.5f)) - getBorderHalfSize());
         this.selectedX = boundaryX;
@@ -297,3 +298,4 @@ public abstract class AbstractSlider extends FrameLayout {
         this.preferenceName = preferenceName;
     }
 }
+

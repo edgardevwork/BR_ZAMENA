@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: InventoryPlayersStatesAdapter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class InventoryPlayersStatesAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
     public InventoryPlayersStateItemBinding binding;

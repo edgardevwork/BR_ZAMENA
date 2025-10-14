@@ -142,7 +142,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$initJson$1", m7120f = "GiftsViewModel.kt", m7121i = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1}, m7122l = {91, 97}, m7123m = "invokeSuspend", m7124n = {"bgImage", "eventId", "valueOfBc", "valueOfStandardGifts", "valueOfLegendaryGifts", "priceOfLegendaryGift", "bgImage", "standardGifts", "eventId", "valueOfBc", "valueOfStandardGifts", "valueOfLegendaryGifts", "priceOfLegendaryGift"}, m7125s = {"L$0", "I$0", "I$1", "I$2", "I$3", "I$4", "L$0", "L$1", "I$0", "I$1", "I$2", "I$3", "I$4"})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$initJson$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n1549#2:464\n1620#2,3:465\n1549#2:468\n1620#2,3:469\n230#3,5:472\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$initJson$1\n*L\n91#1:464\n91#1:465,3\n97#1:468\n97#1:469,3\n104#1:472,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$initJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41161 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int I$0;
@@ -346,7 +346,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$updateJson$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$updateJson$1\n+ 2 JsonExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonExtensionKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n8#2,9:464\n230#3,5:473\n230#3,5:478\n230#3,5:483\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$updateJson$1\n*L\n122#1:464,9\n137#1:473,5\n161#1:478,5\n176#1:483,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$updateJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41251 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -453,7 +453,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendPurchaseBc$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendPurchaseBc$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41221 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -495,7 +495,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendOpenStandardGift$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {207}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendOpenStandardGift$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n230#2,5:464\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendOpenStandardGift$1\n*L\n196#1:464,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendOpenStandardGift$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41211 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -639,7 +639,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendOpenLegendaryGift$2", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {245}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendOpenLegendaryGift$2\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n230#2,5:464\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendOpenLegendaryGift$2\n*L\n234#1:464,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendOpenLegendaryGift$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C41202 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -753,7 +753,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendCloseScreen$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendCloseScreen$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n230#2,5:464\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendCloseScreen$1\n*L\n264#1:464,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendCloseScreen$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41181 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -802,7 +802,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$setButtonGetVisible$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$setButtonGetVisible$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n230#2,5:464\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$setButtonGetVisible$1\n*L\n274#1:464,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$setButtonGetVisible$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41231 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -856,7 +856,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendButtonGet$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendButtonGet$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n230#2,5:464\n230#2,5:469\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$sendButtonGet$1\n*L\n287#1:464,5\n303#1:469,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$sendButtonGet$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41171 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -914,7 +914,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$clickButtonBack$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGiftsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$clickButtonBack$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,463:1\n230#2,5:464\n*S KotlinDebug\n*F\n+ 1 GiftsViewModel.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsViewModel$clickButtonBack$1\n*L\n323#1:464,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$clickButtonBack$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41141 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -1049,7 +1049,7 @@ public final class GiftsViewModel extends BaseViewModel<GiftsUiState> {
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gifts.GiftsViewModel$updateGifts$1", m7120f = "GiftsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.gifts.GiftsViewModel$updateGifts$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41241 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ GiftsOpenPrizeGiftModel $gift;
         public final /* synthetic */ int $giftPos;

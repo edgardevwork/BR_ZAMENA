@@ -12,7 +12,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public final class BlackPassRatingItemBinding implements ViewBinding {
 
     @NonNull

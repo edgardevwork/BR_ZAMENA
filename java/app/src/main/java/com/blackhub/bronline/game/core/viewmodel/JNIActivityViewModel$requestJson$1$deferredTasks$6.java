@@ -25,7 +25,7 @@ import retrofit2.Response;
 
 /* compiled from: JNIActivityViewModel.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.core.viewmodel.JNIActivityViewModel$requestJson$1$deferredTasks$6", m7120f = "JNIActivityViewModel.kt", m7121i = {}, m7122l = {265}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class JNIActivityViewModel$requestJson$1$deferredTasks$6 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ int $countOfErrors;
     public int label;

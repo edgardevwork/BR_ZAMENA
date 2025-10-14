@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\CRMP\\BR_ZAMENA\\java\\app\\src\\main\\res\\values-ldrtl\\drawables.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,186",
+                        "endColumns": "127,132",
+                        "endOffsets": "180,314"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,183",
+                        "endColumns": "127,132",
+                        "endOffsets": "178,311"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -22,6 +22,7 @@ import androidx.appcompat.content.res.AppCompatResources;
 import com.blackhub.bronline.C3489R;
 import com.blackhub.bronline.game.common.colorpickerview.ColorPickerView;
 import com.blackhub.bronline.game.common.colorpickerview.preference.ColorPickerPreferenceManager;
+import com.bless.client.R;
 
 /* loaded from: classes3.dex */
 public class AlphaSlideBar extends AbstractSlider {
@@ -90,7 +91,7 @@ public class AlphaSlideBar extends AbstractSlider {
     }
 
     @Override // com.blackhub.bronline.game.common.colorpickerview.sliders.AbstractSlider
-    public /* bridge */ /* synthetic */ void setSelectorByHalfSelectorPosition(@FloatRange(from = 0.0d, m9to = 1.0d) float selectorPosition) {
+    public /* bridge */ /* synthetic */ void setSelectorByHalfSelectorPosition(@FloatRange(from = 0.0d, to = 1.0d) float selectorPosition) {
         super.setSelectorByHalfSelectorPosition(selectorPosition);
     }
 
@@ -105,7 +106,7 @@ public class AlphaSlideBar extends AbstractSlider {
     }
 
     @Override // com.blackhub.bronline.game.common.colorpickerview.sliders.AbstractSlider
-    public /* bridge */ /* synthetic */ void setSelectorPosition(@FloatRange(from = 0.0d, m9to = 1.0d) float selectorPosition) {
+    public /* bridge */ /* synthetic */ void setSelectorPosition(@FloatRange(from = 0.0d, to = 1.0d) float selectorPosition) {
         super.setSelectorPosition(selectorPosition);
     }
 
@@ -134,10 +135,11 @@ public class AlphaSlideBar extends AbstractSlider {
         this.drawable = new AlphaTileDrawable();
     }
 
+    @SuppressLint("ResourceType")
     @Override // com.blackhub.bronline.game.common.colorpickerview.sliders.AbstractSlider
     public void getAttrs(AttributeSet attrs) {
         int resourceId;
-        TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attrs, C3489R.styleable.AlphaSlideBar);
+        TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attrs, R.styleable.AlphaSlideBar);
         try {
             if (typedArrayObtainStyledAttributes.hasValue(2) && (resourceId = typedArrayObtainStyledAttributes.getResourceId(2, -1)) != -1) {
                 this.selectorDrawable = AppCompatResources.getDrawable(getContext(), resourceId);
@@ -198,3 +200,4 @@ public class AlphaSlideBar extends AbstractSlider {
         return Color.HSVToColor((int) (this.selectorPosition * 255.0f), fArr);
     }
 }
+

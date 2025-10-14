@@ -30,7 +30,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: BrChooseServerErrorAlertDialog.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nBrChooseServerErrorAlertDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrChooseServerErrorAlertDialog.kt\ncom/blackhub/bronline/game/gui/legacy/BrChooseServerErrorAlertDialog\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,47:1\n1#2:48\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BrChooseServerErrorAlertDialog extends Dialog {
     public static final int $stable = 8;
 

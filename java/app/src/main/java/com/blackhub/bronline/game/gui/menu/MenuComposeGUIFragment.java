@@ -33,7 +33,7 @@ import org.json.JSONObject;
 /* compiled from: MenuComposeGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nMenuComposeGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MenuComposeGUIFragment.kt\ncom/blackhub/bronline/game/gui/menu/MenuComposeGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,59:1\n106#2,15:60\n172#2,9:75\n*S KotlinDebug\n*F\n+ 1 MenuComposeGUIFragment.kt\ncom/blackhub/bronline/game/gui/menu/MenuComposeGUIFragment\n*L\n22#1:60,15\n24#1:75,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class MenuComposeGUIFragment extends BaseISAMPGUIFragmentCompose<MenuUiState, MenuViewModel> {
     public static final int $stable = 8;
 

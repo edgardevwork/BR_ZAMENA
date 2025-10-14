@@ -1,5 +1,6 @@
 package com.blackhub.bronline.databinding;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +16,7 @@ import androidx.databinding.ViewDataBinding;
 import com.blackhub.bronline.game.gui.gasmangame.viewmodel.GasmanParentViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentGasmanGame3Binding extends ViewDataBinding {
 
     @NonNull
@@ -165,6 +166,7 @@ public abstract class FragmentGasmanGame3Binding extends ViewDataBinding {
         return inflate(inflater, root, attachToRoot, DataBindingUtil.getDefaultComponent());
     }
 
+    @SuppressLint("RestrictedApi")
     @NonNull
     @Deprecated
     public static FragmentGasmanGame3Binding inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup root, boolean attachToRoot, @Nullable Object component) {
@@ -176,6 +178,7 @@ public abstract class FragmentGasmanGame3Binding extends ViewDataBinding {
         return inflate(inflater, DataBindingUtil.getDefaultComponent());
     }
 
+    @SuppressLint("RestrictedApi")
     @NonNull
     @Deprecated
     public static FragmentGasmanGame3Binding inflate(@NonNull LayoutInflater inflater, @Nullable Object component) {

@@ -26,7 +26,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: FullScreenLoaderDialog.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nFullScreenLoaderDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullScreenLoaderDialog.kt\ncom/blackhub/bronline/game/gui/dialog/FullScreenLoaderDialog\n+ 2 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,113:1\n256#2,2:114\n256#2,2:116\n256#2,2:118\n256#2,2:120\n*S KotlinDebug\n*F\n+ 1 FullScreenLoaderDialog.kt\ncom/blackhub/bronline/game/gui/dialog/FullScreenLoaderDialog\n*L\n45#1:114,2\n50#1:116,2\n56#1:118,2\n57#1:120,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class FullScreenLoaderDialog extends Dialog {
     public static final int $stable = 8;
 

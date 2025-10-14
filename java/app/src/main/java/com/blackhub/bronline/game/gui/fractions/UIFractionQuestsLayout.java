@@ -45,7 +45,7 @@ import org.json.JSONException;
 /* compiled from: UIFractionQuestsLayout.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIFractionQuestsLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIFractionQuestsLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionQuestsLayout\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,135:1\n106#2,15:136\n*S KotlinDebug\n*F\n+ 1 UIFractionQuestsLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionQuestsLayout\n*L\n28#1:136,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIFractionQuestsLayout extends BaseFragment<FractionsQuestsLayoutBinding> {
     public static final int $stable = 8;
 

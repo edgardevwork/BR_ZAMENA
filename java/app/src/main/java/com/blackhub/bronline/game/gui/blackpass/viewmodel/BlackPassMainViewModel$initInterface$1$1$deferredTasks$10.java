@@ -24,7 +24,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: BlackPassMainViewModel.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$initInterface$1$1$deferredTasks$10", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
 @SourceDebugExtension({"SMAP\nBlackPassMainViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$initInterface$1$1$deferredTasks$10\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1001:1\n1#2:1002\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BlackPassMainViewModel$initInterface$1$1$deferredTasks$10 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ Ref.ObjectRef<Bitmap> $imgRubBitmap;
     public final /* synthetic */ List<BpRewardsAwardsDto> $listOfAwardsTypes;

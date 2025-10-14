@@ -47,7 +47,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesUiContainer.kt */
 @SourceDebugExtension({"SMAP\nCasesUiContainer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesUiContainer.kt\ncom/blackhub/bronline/game/ui/cases/CasesUiContainerKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Dp.kt\nandroidx/compose/ui/unit/Dp\n*L\n1#1,75:1\n69#2,5:76\n74#2:109\n78#2:116\n79#3,11:81\n92#3:115\n456#4,8:92\n464#4,3:106\n467#4,3:112\n3737#5,6:100\n64#6:110\n64#6:111\n*S KotlinDebug\n*F\n+ 1 CasesUiContainer.kt\ncom/blackhub/bronline/game/ui/cases/CasesUiContainerKt\n*L\n29#1:76,5\n29#1:109\n29#1:116\n29#1:81,11\n29#1:115\n29#1:92,8\n29#1:106,3\n29#1:112,3\n29#1:100,6\n35#1:110\n36#1:111\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesUiContainerKt {
     public static final float RADIUS = 1000.0f;
 

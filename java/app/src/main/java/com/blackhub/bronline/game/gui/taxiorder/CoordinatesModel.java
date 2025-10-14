@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CoordinatesModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CoordinatesModel {
     public static final int $stable = 8;
     public double x;

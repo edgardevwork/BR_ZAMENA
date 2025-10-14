@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class RustoreBillingClientWrapper_Factory implements Factory<RustoreBillingClientWrapper> {
     public final Provider<Application> appContextProvider;
 

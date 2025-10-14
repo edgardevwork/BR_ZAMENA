@@ -14,7 +14,7 @@ import org.json.JSONException;
 
 /* compiled from: MigrateItemsFromAny.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class MigrateItemsFromAny {
     public static final int $stable = 0;
 

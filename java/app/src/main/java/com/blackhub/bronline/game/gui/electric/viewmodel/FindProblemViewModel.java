@@ -58,7 +58,7 @@ import org.json.JSONException;
 /* compiled from: FindProblemViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nFindProblemViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FindProblemViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/FindProblemViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,526:1\n230#2,5:527\n230#2,5:532\n230#2,5:537\n230#2,5:542\n230#2,5:547\n230#2,5:552\n230#2,5:557\n230#2,5:562\n230#2,5:567\n*S KotlinDebug\n*F\n+ 1 FindProblemViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/FindProblemViewModel\n*L\n336#1:527,5\n345#1:532,5\n354#1:537,5\n374#1:542,5\n383#1:547,5\n431#1:552,5\n440#1:557,5\n448#1:562,5\n488#1:567,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class FindProblemViewModel extends BaseViewModel<FindProblemUiState> implements ViewModelProvider.Factory {
     public static final int COUNT_RANDOM_MAX = 3;
     public static final long LOADER_MILLIS = 1000;

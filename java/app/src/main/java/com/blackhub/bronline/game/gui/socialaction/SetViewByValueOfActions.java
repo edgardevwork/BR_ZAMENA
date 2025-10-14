@@ -22,7 +22,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: SetViewByValueOfActions.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class SetViewByValueOfActions {
     public static final int $stable = 8;
 

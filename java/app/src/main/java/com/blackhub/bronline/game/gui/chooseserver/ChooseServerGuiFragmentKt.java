@@ -4,7 +4,7 @@ import kotlin.Metadata;
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: ChooseServerGuiFragment.kt */
-/* loaded from: classes2.dex */
+
 public final class ChooseServerGuiFragmentKt {
     public static final long DELAY_500_MS = 500;
 

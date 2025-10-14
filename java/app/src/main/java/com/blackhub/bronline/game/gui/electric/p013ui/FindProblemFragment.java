@@ -961,7 +961,7 @@ public final class FindProblemFragment extends BaseFragmentWithState<FindProblem
     /* compiled from: FindProblemFragment.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.electric.ui.FindProblemFragment$createGameInstructionsDialog$1 */
-    /* loaded from: classes2.dex */
+    
     public /* synthetic */ class C39571 extends FunctionReferenceImpl implements Function0<Unit> {
         public C39571(Object obj) {
             super(0, obj, FindProblemViewModel.class, "closeInstruction", "closeInstruction()V", 0);

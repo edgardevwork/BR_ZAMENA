@@ -55,7 +55,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftPreviewBlock.kt */
 @SourceDebugExtension({"SMAP\nCraftPreviewBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftPreviewBlock.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftPreviewBlockKt\n+ 2 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n*L\n1#1,109:1\n87#2,6:110\n93#2:144\n97#2:229\n79#3,11:116\n79#3,11:151\n79#3,11:186\n92#3:218\n92#3:223\n92#3:228\n456#4,8:127\n464#4,3:141\n456#4,8:162\n464#4,3:176\n456#4,8:197\n464#4,3:211\n467#4,3:215\n467#4,3:220\n467#4,3:225\n3737#5,6:135\n3737#5,6:170\n3737#5,6:205\n74#6,6:145\n80#6:179\n74#6,6:180\n80#6:214\n84#6:219\n84#6:224\n*S KotlinDebug\n*F\n+ 1 CraftPreviewBlock.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftPreviewBlockKt\n*L\n36#1:110,6\n36#1:144\n36#1:229\n36#1:116,11\n46#1:151,11\n56#1:186,11\n56#1:218\n46#1:223\n36#1:228\n36#1:127,8\n36#1:141,3\n46#1:162,8\n46#1:176,3\n56#1:197,8\n56#1:211,3\n56#1:215,3\n46#1:220,3\n36#1:225,3\n36#1:135,6\n46#1:170,6\n56#1:205,6\n46#1:145,6\n46#1:179\n56#1:180,6\n56#1:214\n56#1:219\n46#1:224\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftPreviewBlockKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

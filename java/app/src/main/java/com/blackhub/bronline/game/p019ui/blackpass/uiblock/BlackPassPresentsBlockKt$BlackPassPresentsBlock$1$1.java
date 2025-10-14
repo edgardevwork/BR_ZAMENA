@@ -16,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BlackPassPresentsBlock.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.blackpass.uiblock.BlackPassPresentsBlockKt$BlackPassPresentsBlock$1$1", m7120f = "BlackPassPresentsBlock.kt", m7121i = {}, m7122l = {59}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class BlackPassPresentsBlockKt$BlackPassPresentsBlock$1$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ LazyListState $rewardsListState;
     public final /* synthetic */ State<Integer> $scrollLevel$delegate;

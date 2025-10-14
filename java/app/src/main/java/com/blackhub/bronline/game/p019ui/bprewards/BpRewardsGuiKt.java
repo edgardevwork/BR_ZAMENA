@@ -84,7 +84,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BpRewardsGui.kt */
 @SourceDebugExtension({"SMAP\nBpRewardsGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsGui.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n+ 3 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 4 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 5 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,249:1\n81#2,11:250\n74#3:261\n1116#4,6:262\n1116#4,6:268\n1116#4,6:274\n1116#4,6:280\n1116#4,6:286\n1116#4,6:292\n1116#4,6:298\n1116#4,6:304\n81#5:310\n*S KotlinDebug\n*F\n+ 1 BpRewardsGui.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsGuiKt\n*L\n41#1:250,11\n116#1:261\n117#1:262,6\n137#1:268,6\n138#1:274,6\n141#1:280,6\n143#1:286,6\n142#1:292,6\n145#1:298,6\n146#1:304,6\n42#1:310\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BpRewardsGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

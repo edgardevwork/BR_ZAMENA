@@ -22,7 +22,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BlackPassPrizeDialogNew.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.blackpass.BlackPassPrizeDialogNewKt$BlackPassPrizeDialogContent$2$1", m7120f = "BlackPassPrizeDialogNew.kt", m7121i = {}, m7122l = {TarConstants.CHKSUM_OFFSET, Cea708Decoder.COMMAND_DF1, Cea708Decoder.COMMAND_DF6, 164, 170}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class BlackPassPrizeDialogNewKt$BlackPassPrizeDialogContent$2$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ Animatable<Float, AnimationVector1D> $animatedFloat;
     public final /* synthetic */ Pair<Float, Integer> $valueForAnimateFive;

@@ -36,7 +36,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: HolidayEventsUiState.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nHolidayEventsUiState.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsUiState.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsUiState\n+ 2 AnnotatedString.kt\nandroidx/compose/ui/text/AnnotatedStringKt\n*L\n1#1,118:1\n1099#2:119\n*S KotlinDebug\n*F\n+ 1 HolidayEventsUiState.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsUiState\n*L\n110#1:119\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final /* data */ class HolidayEventsUiState implements UiState {
     public static final int $stable = 8;
 

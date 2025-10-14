@@ -33,7 +33,7 @@ import org.json.JSONObject;
 /* compiled from: TaxiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nTaxiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiFragment.kt\ncom/blackhub/bronline/game/gui/taxi/TaxiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,56:1\n106#2,15:57\n*S KotlinDebug\n*F\n+ 1 TaxiFragment.kt\ncom/blackhub/bronline/game/gui/taxi/TaxiFragment\n*L\n23#1:57,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiFragment extends BaseISAMPGUIFragmentWithState<TaxiUiState, TaxiViewModel, FragmentTaxiBinding> {
     public static final int $stable = 8;
 

@@ -1,0 +1,1576 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bless.client"
+4    android:versionCode="36"
+5    android:versionName="16.21.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+11-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:4:5-82
+11-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:4:22-80
+12    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+12-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <uses-feature
+14-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:6:5-8:34
+15        android:glEsVersion="0x30000"
+15-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:7:9-38
+16        android:required="true" />
+16-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:8:9-32
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:9:5-80
+18-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:10:5-79
+19-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:10:22-77
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:11:5-70
+20-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:11:22-68
+21    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+21-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:12:5-71
+21-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:12:22-69
+22    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+22-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:13:5-116
+22-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:13:22-114
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:14:5-67
+23-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:14:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:15:5-78
+24-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:15:22-76
+25    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+25-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:16:5-78
+25-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:16:22-76
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:17:5-75
+26-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:17:22-73
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+27-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:18:5-76
+27-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:18:22-74
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:19:5-66
+28-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:19:22-64
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:20:5-65
+29-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:20:22-63
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:21:5-76
+30-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:21:22-74
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+31-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:22:5-86
+31-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:22:22-84
+32    <uses-permission android:name="com.android.vending.BILLING" />
+32-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:23:5-66
+32-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:23:22-64
+33
+34    <queries>
+34-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:24:5-224:15
+35        <package android:name="org.telegram.messenger" />
+35-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:25:9-57
+35-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:25:18-55
+36
+37        <intent>
+37-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:26:9-28:18
+38            <action android:name="ru.vk.store.provider.RemotePayTokenProvider" />
+38-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:27:13-81
+38-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:27:21-79
+39        </intent>
+40
+41        <package android:name="ru.sberbankmobile" />
+41-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:29:9-52
+41-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:29:18-50
+42        <package android:name="ru.sberbankmobile_alpha" />
+42-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:30:9-58
+42-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:30:18-56
+43        <package android:name="cb.ibank" />
+43-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:31:9-43
+43-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:31:18-41
+44        <package android:name="cb.ibank.vuz" />
+44-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:32:9-47
+44-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:32:18-45
+45        <package android:name="com.banksoyuz.artsofte" />
+45-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:33:9-57
+45-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:33:18-55
+46        <package android:name="com.bifit.atbbank" />
+46-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:34:9-52
+46-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:34:18-50
+47        <package android:name="com.bifit.dvbank" />
+47-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:35:9-51
+47-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:35:18-49
+48        <package android:name="com.bifit.mobile.citizen.MCBank" />
+48-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:36:9-66
+48-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:36:18-64
+49        <package android:name="com.bifit.mobile.citizen.belsocbank" />
+49-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:37:9-70
+49-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:37:18-68
+50        <package android:name="com.bifit.mobile.citizen.cfb" />
+50-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:38:9-63
+50-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:38:18-61
+51        <package android:name="com.bifit.mobile.citizen.efbank" />
+51-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:39:9-66
+51-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:39:18-64
+52        <package android:name="com.bifit.mobile.citizen.icbru" />
+52-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:40:9-65
+52-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:40:18-63
+53        <package android:name="com.bifit.mobile.citizen.invb" />
+53-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:41:9-64
+53-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:41:18-62
+54        <package android:name="com.bifit.mobile.citizen.kbnk" />
+54-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:42:9-64
+54-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:42:18-62
+55        <package android:name="com.bifit.mobile.citizen.mbb" />
+55-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:43:9-63
+55-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:43:18-61
+56        <package android:name="com.bifit.mobile.citizen.moskb" />
+56-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:44:9-65
+56-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:44:18-63
+57        <package android:name="com.bifit.mobile.citizen.nkbank" />
+57-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:45:9-66
+57-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:45:18-64
+58        <package android:name="com.bifit.mobile.citizen.okbank" />
+58-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:46:9-66
+58-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:46:18-64
+59        <package android:name="com.bifit.mobile.citizen.tenderbank" />
+59-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:47:9-70
+59-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:47:18-68
+60        <package android:name="com.bifit.mobile.citizen.thbank" />
+60-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:48:9-66
+60-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:48:18-64
+61        <package android:name="com.bifit.mobile.citizen.zarech" />
+61-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:49:9-66
+61-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:49:18-64
+62        <package android:name="com.bifit.mobile.private.bbr" />
+62-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:50:9-63
+62-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:50:18-61
+63        <package android:name="com.bifit.nrb" />
+63-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:51:9-48
+63-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:51:18-46
+64        <package android:name="com.bifit.pmobile.isbank" />
+64-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:52:9-59
+64-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:52:18-57
+65        <package android:name="com.bifit.rncbbeta" />
+65-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:53:9-53
+65-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:53:18-51
+66        <package android:name="com.bifit.vfbank" />
+66-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:54:9-51
+66-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:54:18-49
+67        <package android:name="com.bpc.crossplatform_trading.bpc_trading" />
+67-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:55:9-76
+67-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:55:18-74
+68        <package android:name="com.bssys.aversretail" />
+68-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:56:9-56
+68-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:56:18-54
+69        <package android:name="com.bssys.gutaretail" />
+69-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:57:9-55
+69-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:57:18-53
+70        <package android:name="com.bssys.novikomretail" />
+70-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:58:9-58
+70-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:58:18-56
+71        <package android:name="com.bssys.roscapretail" />
+71-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:59:9-57
+71-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:59:18-55
+72        <package android:name="com.bssys.stroylesretail" />
+72-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:60:9-59
+72-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:60:18-57
+73        <package android:name="com.bssys.uralfdretail" />
+73-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:61:9-57
+73-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:61:18-55
+74        <package android:name="com.bssys.vbrrretail" />
+74-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:62:9-55
+74-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:62:18-53
+75        <package android:name="com.cetelem.cetelem_android" />
+75-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:63:9-62
+75-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:63:18-60
+76        <package android:name="com.citibank.mobile.ru" />
+76-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:64:9-57
+76-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:64:18-55
+77        <package android:name="com.compassplus.mobicash.customer" />
+77-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:65:9-68
+77-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:65:18-66
+78        <package android:name="com.credituralbank.CUBmobilenew" />
+78-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:66:9-66
+78-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:66:18-64
+79        <package android:name="com.energobank.digital" />
+79-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:67:9-57
+79-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:67:18-55
+80        <package android:name="com.finservice.mobile" />
+80-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:68:9-56
+80-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:68:18-54
+81        <package android:name="com.hicebank.android" />
+81-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:69:9-55
+81-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:69:18-53
+82        <package android:name="com.idamob.tinkoff.android" />
+82-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:70:9-61
+82-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:70:18-59
+83        <package android:name="com.idamobile.android.LockoBank" />
+83-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:71:9-66
+83-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:71:18-64
+84        <package android:name="com.inbank.mobilebank" />
+84-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:72:9-56
+84-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:72:18-54
+85        <package android:name="com.intervale.sbp.atlas" />
+85-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:73:9-58
+85-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:73:18-56
+86        <package android:name="com.isimplelab.ibank.chelind" />
+86-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:74:9-63
+86-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:74:18-61
+87        <package android:name="com.isimplelab.ibank.kubankredit" />
+87-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:75:9-67
+87-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:75:18-65
+88        <package android:name="com.isimplelab.ibank.solidarnost" />
+88-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:76:9-67
+88-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:76:18-65
+89        <package android:name="com.isimplelab.ibank.toyota" />
+89-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:77:9-62
+89-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:77:18-60
+90        <package android:name="com.isimplelab.ionic.gorbank.prod" />
+90-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:78:9-68
+90-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:78:18-66
+91        <package android:name="com.isimplelab.ionic.kazan.fl" />
+91-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:79:9-64
+91-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:79:18-62
+92        <package android:name="com.isimplelab.ionic.round.prod" />
+92-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:80:9-66
+92-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:80:18-64
+93        <package android:name="com.isimplelab.ionic.slavia.prod" />
+93-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:81:9-67
+93-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:81:18-65
+94        <package android:name="com.isimplelab.ionic.standart" />
+94-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:82:9-64
+94-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:82:18-62
+95        <package android:name="com.isimplelab.isimpleceo.uglemet" />
+95-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:83:9-68
+95-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:83:18-66
+96        <package android:name="com.isimplelab.isimplemobile.payjet" />
+96-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:84:9-70
+96-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:84:18-68
+97        <package android:name="com.ltech.unistream" />
+97-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:85:9-54
+97-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:85:18-52
+98        <package android:name="com.metkombank.mobile" />
+98-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:86:9-56
+98-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:86:18-54
+99        <package android:name="com.mifors.izhcombank" />
+99-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:87:9-56
+99-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:87:18-54
+100        <package android:name="com.mmonline.mobile" />
+100-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:88:9-54
+100-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:88:18-52
+101        <package android:name="com.mob.android" />
+101-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:89:9-50
+101-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:89:18-48
+102        <package android:name="com.openbank" />
+102-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:90:9-47
+102-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:90:18-45
+103        <package android:name="com.openwaygroup.ic.panda.poidem" />
+103-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:91:9-67
+103-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:91:18-65
+104        <package android:name="com.priobank.prio" />
+104-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:92:9-52
+104-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:92:18-50
+105        <package android:name="com.smp.android" />
+105-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:93:9-50
+105-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:93:18-48
+106        <package android:name="com.snb.online" />
+106-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:94:9-49
+106-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:94:18-47
+107        <package android:name="com.tatsotsbank.dbomobile" />
+107-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:95:9-60
+107-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:95:18-58
+108        <package android:name="com.timerbank.retail" />
+108-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:96:9-55
+108-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:96:18-53
+109        <package android:name="com.tochka.bank" />
+109-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:97:9-50
+109-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:97:18-48
+110        <package android:name="com.yandex.bank" />
+110-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:98:9-50
+110-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:98:18-48
+111        <package android:name="cz.bsc.rc" />
+111-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:99:9-44
+111-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:99:18-42
+112        <package android:name="logo.com.mbanking" />
+112-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:100:9-52
+112-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:100:18-50
+113        <package android:name="ru.akbars.mobile" />
+113-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:101:9-51
+113-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:101:18-49
+114        <package android:name="ru.albank.online.aebit" />
+114-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:102:9-57
+114-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:102:18-55
+115        <package android:name="ru.alfabank.mobile.android" />
+115-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:103:9-61
+115-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:103:18-59
+116        <package android:name="ru.artsofte.russiafl" />
+116-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:104:9-55
+116-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:104:18-53
+117        <package android:name="ru.avangard.sbp_client" />
+117-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:105:9-57
+117-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:105:18-55
+118        <package android:name="ru.bank_hlynov.xbank" />
+118-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:106:9-55
+118-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:106:18-53
+119        <package android:name="ru.bankuralsib.mb.android" />
+119-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:107:9-60
+119-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:107:18-58
+120        <package android:name="ru.bcs.bcsbank" />
+120-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:108:9-49
+120-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:108:18-47
+121        <package android:name="ru.briginvest.sense" />
+121-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:109:9-54
+121-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:109:18-52
+122        <package android:name="ru.bspb" />
+122-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:110:9-42
+122-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:110:18-40
+123        <package android:name="ru.centrinvest.mobilebanking2018" />
+123-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:111:9-67
+123-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:111:18-65
+124        <package android:name="ru.chelyabinvestbank.investpay" />
+124-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:112:9-65
+124-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:112:18-63
+125        <package android:name="ru.elplat.elplat2" />
+125-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:113:9-52
+125-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:113:18-50
+126        <package android:name="ru.emb.android" />
+126-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:114:9-49
+126-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:114:18-47
+127        <package android:name="ru.faktura.avtograd.person" />
+127-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:115:9-61
+127-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:115:18-59
+128        <package android:name="ru.finambank.app" />
+128-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:116:9-51
+128-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:116:18-49
+129        <package android:name="ru.ftc.faktura.absolutbank" />
+129-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:117:9-61
+129-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:117:18-59
+130        <package android:name="ru.ftc.faktura.agropromkredit" />
+130-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:118:9-64
+130-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:118:18-62
+131        <package android:name="ru.ftc.faktura.agroros" />
+131-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:119:9-57
+131-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:119:18-55
+132        <package android:name="ru.ftc.faktura.akcept" />
+132-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:120:9-56
+132-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:120:18-54
+133        <package android:name="ru.ftc.faktura.akibank" />
+133-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:121:9-57
+133-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:121:18-55
+134        <package android:name="ru.ftc.faktura.alefbank" />
+134-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:122:9-58
+134-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:122:18-56
+135        <package android:name="ru.ftc.faktura.alexbank" />
+135-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:123:9-58
+135-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:123:18-56
+136        <package android:name="ru.ftc.faktura.baikalinvestbank" />
+136-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:124:9-66
+136-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:124:18-64
+137        <package android:name="ru.ftc.faktura.banksaratov" />
+137-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:125:9-61
+137-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:125:18-59
+138        <package android:name="ru.ftc.faktura.bgfbank" />
+138-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:126:9-57
+138-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:126:18-55
+139        <package android:name="ru.ftc.faktura.derzhava" />
+139-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:127:9-58
+139-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:127:18-56
+140        <package android:name="ru.ftc.faktura.dolinsk" />
+140-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:128:9-57
+140-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:128:18-55
+141        <package android:name="ru.ftc.faktura.etbank" />
+141-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:129:9-56
+141-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:129:18-54
+142        <package android:name="ru.ftc.faktura.expobank" />
+142-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:130:9-58
+142-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:130:18-56
+143        <package android:name="ru.ftc.faktura.finbank" />
+143-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:131:9-57
+143-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:131:18-55
+144        <package android:name="ru.ftc.faktura.forshtadt" />
+144-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:132:9-59
+144-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:132:18-57
+145        <package android:name="ru.ftc.faktura.gaztransbank" />
+145-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:133:9-62
+145-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:133:18-60
+146        <package android:name="ru.ftc.faktura.intesabank" />
+146-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:134:9-60
+146-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:134:18-58
+147        <package android:name="ru.ftc.faktura.iturup" />
+147-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:135:9-56
+147-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:135:18-54
+148        <package android:name="ru.ftc.faktura.jtbank" />
+148-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:136:9-56
+148-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:136:18-54
+149        <package android:name="ru.ftc.faktura.kbb" />
+149-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:137:9-53
+149-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:137:18-51
+150        <package android:name="ru.ftc.faktura.kbhmb" />
+150-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:138:9-55
+150-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:138:18-53
+151        <package android:name="ru.ftc.faktura.kremlevskiy" />
+151-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:139:9-61
+151-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:139:18-59
+152        <package android:name="ru.ftc.faktura.lanta" />
+152-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:140:9-55
+152-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:140:18-53
+153        <package android:name="ru.ftc.faktura.maritimebank" />
+153-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:141:9-62
+153-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:141:18-60
+154        <package android:name="ru.ftc.faktura.mfkbank" />
+154-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:142:9-57
+154-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:142:18-55
+155        <package android:name="ru.ftc.faktura.moscombank" />
+155-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:143:9-60
+155-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:143:18-58
+156        <package android:name="ru.ftc.faktura.multibank" />
+156-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:144:9-59
+156-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:144:18-57
+157        <package android:name="ru.ftc.faktura.nipbank" />
+157-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:145:9-57
+157-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:145:18-55
+158        <package android:name="ru.ftc.faktura.nokss" />
+158-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:146:9-55
+158-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:146:18-53
+159        <package android:name="ru.ftc.faktura.novobank" />
+159-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:147:9-58
+159-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:147:18-56
+160        <package android:name="ru.ftc.faktura.ns" />
+160-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:148:9-52
+160-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:148:18-50
+161        <package android:name="ru.ftc.faktura.nsbank" />
+161-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:149:9-56
+161-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:149:18-54
+162        <package android:name="ru.ftc.faktura.nskbl" />
+162-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:150:9-55
+162-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:150:18-53
+163        <package android:name="ru.ftc.faktura.orbank" />
+163-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:151:9-56
+163-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:151:18-54
+164        <package android:name="ru.ftc.faktura.primsoc" />
+164-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:152:9-57
+164-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:152:18-55
+165        <package android:name="ru.ftc.faktura.pskb" />
+165-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:153:9-54
+165-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:153:18-52
+166        <package android:name="ru.ftc.faktura.razvitiestolica" />
+166-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:154:9-65
+166-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:154:18-63
+167        <package android:name="ru.ftc.faktura.resokreditbank" />
+167-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:155:9-64
+167-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:155:18-62
+168        <package android:name="ru.ftc.faktura.rostfinance" />
+168-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:156:9-61
+168-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:156:18-59
+169        <package android:name="ru.ftc.faktura.sdm" />
+169-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:157:9-53
+169-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:157:18-51
+170        <package android:name="ru.ftc.faktura.siab" />
+170-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:158:9-54
+170-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:158:18-52
+171        <package android:name="ru.ftc.faktura.solidbank" />
+171-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:159:9-59
+171-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:159:18-57
+172        <package android:name="ru.ftc.faktura.tavrich" />
+172-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:160:9-57
+172-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:160:18-55
+173        <package android:name="ru.ftc.faktura.tkbbank" />
+173-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:161:9-57
+173-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:161:18-55
+174        <package android:name="ru.ftc.faktura.united" />
+174-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:162:9-56
+174-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:162:18-54
+175        <package android:name="ru.ftc.faktura.venetsbank" />
+175-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:163:9-60
+175-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:163:18-58
+176        <package android:name="ru.ftc.faktura.vesta" />
+176-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:164:9-55
+176-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:164:18-53
+177        <package android:name="ru.ftc.faktura.vlbb" />
+177-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:165:9-54
+177-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:165:18-52
+178        <package android:name="ru.ftc.faktura.zemskybank" />
+178-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:166:9-60
+178-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:166:18-58
+179        <package android:name="ru.gazprombank.android.mobilebank.app" />
+179-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:167:9-72
+179-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:167:18-70
+180        <package android:name="ru.gebank.ib" />
+180-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:168:9-47
+180-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:168:18-45
+181        <package android:name="ru.homecredit.mycredit" />
+181-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:169:9-57
+181-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:169:18-55
+182        <package android:name="ru.ibam.retailmobile" />
+182-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:170:9-55
+182-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:170:18-53
+183        <package android:name="ru.ilb.bbmobile" />
+183-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:171:9-50
+183-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:171:18-48
+184        <package android:name="ru.ipb.ubsmobile" />
+184-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:172:9-51
+184-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:172:18-49
+185        <package android:name="ru.isfront.android.kt" />
+185-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:173:9-56
+185-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:173:18-54
+186        <package android:name="ru.krk.ubsmobile" />
+186-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:174:9-51
+186-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:174:18-49
+187        <package android:name="ru.letobank.Prometheus" />
+187-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:175:9-57
+187-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:175:18-55
+188        <package android:name="ru.mcbankrus.MCBankRus" />
+188-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:176:9-57
+188-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:176:18-55
+189        <package android:name="ru.mkb.mobile" />
+189-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:177:9-48
+189-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:177:18-46
+190        <package android:name="ru.mts.money" />
+190-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:178:9-47
+190-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:178:18-45
+191        <package android:name="ru.mw" />
+191-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:179:9-40
+191-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:179:18-38
+192        <package android:name="ru.nbd.android" />
+192-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:180:9-49
+192-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:180:18-47
+193        <package android:name="ru.otpbank.mobile" />
+193-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:181:9-52
+193-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:181:18-50
+194        <package android:name="ru.raiffeisennews" />
+194-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:182:9-52
+194-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:182:18-50
+195        <package android:name="ru.rosbank.android" />
+195-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:183:9-53
+195-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:183:18-51
+196        <package android:name="ru.rosdorbank.physical" />
+196-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:184:9-57
+196-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:184:18-55
+197        <package android:name="ru.rshb.dbo" />
+197-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:185:9-46
+197-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:185:18-44
+198        <package android:name="ru.rubank.ubsmobile" />
+198-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:186:9-54
+198-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:186:18-52
+199        <package android:name="ru.rusnarbank.correqts.retail" />
+199-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:187:9-64
+199-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:187:18-62
+200        <package android:name="ru.sbi.android" />
+200-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:188:9-49
+200-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:188:18-47
+201        <package android:name="ru.simpls.brs2.mobbank" />
+201-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:189:9-57
+201-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:189:18-55
+202        <package android:name="ru.skbbank.ib" />
+202-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:190:9-48
+202-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:190:18-46
+203        <package android:name="ru.sngb.dbo.client.android" />
+203-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:191:9-61
+203-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:191:18-59
+204        <package android:name="ru.sovcomcard.halva.v1" />
+204-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:192:9-57
+204-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:192:18-55
+205        <package android:name="ru.unicredit.android" />
+205-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:193:9-55
+205-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:193:18-53
+206        <package android:name="ru.uralprombank.mobilebanknew.googleplay" />
+206-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:194:9-75
+206-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:194:18-73
+207        <package android:name="ru.vtb24.mobilebanking.android" />
+207-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:195:9-65
+207-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:195:18-63
+208        <package android:name="ru.vtkbank.android" />
+208-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:196:9-53
+208-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:196:18-51
+209        <package android:name="ru.yoo.money" />
+209-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:197:9-47
+209-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:197:18-45
+210        <package android:name="ru.zenit.android" />
+210-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:198:9-51
+210-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:198:18-49
+211
+212        <intent>
+212-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:199:9-201:18
+213            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+213-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:200:13-90
+213-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:200:21-88
+214        </intent>
+215        <intent>
+215-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:202:9-204:18
+216            <action android:name="ru.vk.store.provider.appupdate.RemoteAppUpdateFlowProvider" />
+216-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:203:13-96
+216-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:203:21-94
+217        </intent>
+218        <intent>
+218-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:205:9-207:18
+219            <action android:name="ru.vk.store.provider.review.RemoteReviewFlowProvider" />
+219-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:206:13-90
+219-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:206:21-88
+220        </intent>
+221        <intent>
+221-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:208:9-210:18
+222            <action android:name="ru.p068vk.store.provider.analytics.AnalyticsProvider" />
+222-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:209:13-90
+222-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:209:21-88
+223        </intent>
+224        <intent>
+224-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:211:9-213:18
+225            <action android:name="ru.vk.store.provider.StoreVersionProvider" />
+225-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:212:13-79
+225-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:212:21-77
+226        </intent>
+227
+228        <package android:name="ru.vk.store" />
+228-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:214:9-46
+228-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:214:18-44
+229        <package android:name="ru.vk.store.qa" />
+229-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:215:9-49
+229-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:215:18-47
+230
+231        <intent>
+231-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:216:9-220:18
+232            <action android:name="android.intent.action.VIEW" />
+232-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:13-64
+232-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:21-62
+233
+234            <category android:name="android.intent.category.BROWSABLE" />
+234-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:13-73
+234-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:23-71
+235
+236            <data android:scheme="https" />
+236-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:13-43
+236-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:19-41
+237        </intent>
+238        <intent>
+238-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:221:9-223:18
+239            <action android:name="ru.vk.store.RequestIgnoreBatteryOptimizations" />
+239-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:222:13-83
+239-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:222:21-81
+240        </intent>
+241        <intent>
+241-->[ru.rustore.sdk:analytics:0.1.5] C:\Users\AORUS\.gradle\caches\8.13\transforms\44186f06c7d294d9d9d4d36e37d42d28\transformed\jetified-analytics-0.1.5\AndroidManifest.xml:10:9-12:18
+242            <action android:name="ru.vk.store.provider.analytics.AnalyticsProvider" />
+242-->[ru.rustore.sdk:analytics:0.1.5] C:\Users\AORUS\.gradle\caches\8.13\transforms\44186f06c7d294d9d9d4d36e37d42d28\transformed\jetified-analytics-0.1.5\AndroidManifest.xml:11:13-87
+242-->[ru.rustore.sdk:analytics:0.1.5] C:\Users\AORUS\.gradle\caches\8.13\transforms\44186f06c7d294d9d9d4d36e37d42d28\transformed\jetified-analytics-0.1.5\AndroidManifest.xml:11:21-84
+243        </intent>
+244        <intent>
+244-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:12:9-14:18
+245            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER" />
+245-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:13:13-78
+245-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:13:21-75
+246        </intent>
+247
+248        <package android:name="com.facebook.katana" />
+248-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:17:9-55
+248-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:17:18-52
+249        <package android:name="com.instagram.android" />
+249-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:20:9-57
+249-->[com.appsflyer:af-android-sdk:6.12.6] C:\Users\AORUS\.gradle\caches\8.13\transforms\ea119007c12cf07163efdb9894337c1c\transformed\jetified-af-android-sdk-6.12.6\AndroidManifest.xml:20:18-54
+250    </queries>
+251
+252    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+252-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:225:5-73
+252-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:225:22-71
+253    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+253-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:226:5-81
+253-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:226:22-79
+254    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+254-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:227:5-87
+254-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:227:22-85
+255    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+255-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:228:5-81
+255-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:228:22-79
+256    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+256-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:229:5-109
+256-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:229:22-107
+257    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+257-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:230:5-80
+257-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:230:22-78
+258
+259    <permission
+259-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:231:5-233:46
+260        android:name="com.bless.client.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+260-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:232:9-81
+261        android:protectionLevel="signature" />
+261-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:233:9-44
+262
+263    <uses-permission android:name="com.bless.client.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+263-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:234:5-96
+263-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:234:22-94
+264    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+264-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\17db65cf6a6919a2ec7efaeadf043a42\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+264-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\17db65cf6a6919a2ec7efaeadf043a42\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+265
+266    <application
+266-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:235:5-455:19
+267        android:name="com.blackhub.bronline.launcher.App"
+267-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:239:9-58
+268        android:allowBackup="false"
+268-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:240:9-36
+269        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+269-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:244:9-77
+270        android:debuggable="true"
+271        android:extractNativeLibs="false"
+272        android:fullBackupContent="false"
+272-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:242:9-42
+273        android:gwpAsanMode="always"
+273-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:246:9-37
+274        android:icon="@mipmap/ic_launcher"
+274-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:238:9-43
+275        android:isGame="true"
+275-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:241:9-30
+276        android:label="@string/app_name"
+276-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:237:9-41
+277        android:requestLegacyExternalStorage="true"
+277-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:245:9-52
+278        android:supportsRtl="true"
+278-->[com.daasuu:CountAnimationTextView:0.1.2] C:\Users\AORUS\.gradle\caches\8.13\transforms\a5264bc19d0b8a43be56f847cb17b447\transformed\jetified-CountAnimationTextView-0.1.2\AndroidManifest.xml:14:9-35
+279        android:theme="@style/AppTheme.NoActionBar"
+279-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:236:9-52
+280        android:usesCleartextTraffic="true" >
+280-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:243:9-44
+281        <provider
+281-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:249:9-257:20
+282            android:name="androidx.core.content.FileProvider"
+282-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:250:13-62
+283            android:authorities="com.bless.client.provider"
+283-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:252:13-60
+284            android:exported="false"
+284-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:251:13-37
+285            android:grantUriPermissions="true" >
+285-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:253:13-47
+286            <meta-data
+286-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:254:13-256:57
+287                android:name="android.support.FILE_PROVIDER_PATHS"
+287-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:255:17-67
+288                android:resource="@xml/provider_paths" />
+288-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:256:17-55
+289        </provider>
+290
+291        <service
+291-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:258:9-264:19
+292            android:name="com.blackhub.bronline.launcher.network.MyFirebaseMessagingService"
+292-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:259:13-93
+293            android:exported="true" >
+293-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:260:13-36
+294            <intent-filter>
+294-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:261:13-263:29
+295                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+295-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:262:17-77
+295-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:262:25-75
+296            </intent-filter>
+297        </service>
+298
+299        <meta-data
+299-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:265:9-267:61
+300            android:name="com.google.firebase.messaging.default_notification_icon"
+300-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:266:13-83
+301            android:resource="@drawable/img_logo_br_small" />
+301-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:267:13-59
+302
+303        <receiver
+303-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:268:9-270:39
+304            android:name="com.blackhub.bronline.launcher.network.NotificationDismissedReceiver"
+304-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:269:13-96
+305            android:exported="false" />
+305-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:270:13-37
+306
+307        <activity
+307-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:271:9-280:20
+308            android:name="com.blackhub.bronline.launcher.activities.MainActivity"
+308-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:273:13-82
+309            android:exported="true"
+309-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:274:13-36
+310            android:screenOrientation="sensorLandscape"
+310-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:275:13-56
+311            android:theme="@style/AppTheme.WithSplash" >
+311-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:272:13-55
+312            <intent-filter>
+312-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:276:13-279:29
+313                <action android:name="android.intent.action.MAIN" />
+313-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:277:17-68
+313-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:277:25-66
+314
+315                <category android:name="android.intent.category.LAUNCHER" />
+315-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:278:17-76
+315-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:278:27-74
+316            </intent-filter>
+317        </activity>
+318        <activity
+318-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:281:9-295:20
+319            android:name="com.blackhub.bronline.game.core.JNIActivity"
+319-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:283:13-71
+320            android:configChanges="screenSize|uiMode|orientation|keyboardHidden|keyboard"
+320-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:287:13-90
+321            android:exported="true"
+321-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:284:13-36
+322            android:launchMode="singleTask"
+322-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:285:13-44
+323            android:screenOrientation="sensorLandscape"
+323-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:286:13-56
+324            android:theme="@style/Theme.Material3.Light.NoActionBar.FullScreen"
+324-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:282:13-80
+325            android:windowSoftInputMode="adjustPan" >
+325-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:288:13-52
+326            <intent-filter>
+326-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:289:13-294:29
+327                <category android:name="android.intent.category.LAUNCHER" />
+327-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:278:17-76
+327-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:278:27-74
+328                <category android:name="android.intent.category.BROWSABLE" />
+328-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:13-73
+328-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:23-71
+329
+330                <action android:name="android.intent.action.VIEW" />
+330-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:13-64
+330-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:21-62
+331
+332                <data android:scheme="com.launcher.brgame-rustore-billing" />
+332-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:13-43
+332-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:19-41
+333            </intent-filter>
+334        </activity>
+335
+336        <service
+336-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:296:9-351:19
+337            android:name="com.google.firebase.components.ComponentDiscoveryService"
+337-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:297:13-84
+338            android:directBootAware="true"
+338-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:299:13-43
+339            android:exported="false" >
+339-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:298:13-37
+340            <meta-data
+340-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:300:13-302:84
+341                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+341-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:301:17-112
+342                android:value="com.google.firebase.components.ComponentRegistrar" />
+342-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:302:17-82
+343            <meta-data
+343-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:303:13-305:84
+344                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+344-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:304:17-109
+345                android:value="com.google.firebase.components.ComponentRegistrar" />
+345-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:305:17-82
+346            <meta-data
+346-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:306:13-308:84
+347                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+347-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:307:17-122
+348                android:value="com.google.firebase.components.ComponentRegistrar" />
+348-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:308:17-82
+349            <meta-data
+349-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:309:13-311:84
+350                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+350-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:310:17-122
+351                android:value="com.google.firebase.components.ComponentRegistrar" />
+351-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:311:17-82
+352            <meta-data
+352-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:312:13-314:84
+353                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+353-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:313:17-119
+354                android:value="com.google.firebase.components.ComponentRegistrar" />
+354-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:314:17-82
+355            <meta-data
+355-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:315:13-317:84
+356                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+356-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:316:17-126
+357                android:value="com.google.firebase.components.ComponentRegistrar" />
+357-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:317:17-82
+358            <meta-data
+358-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:318:13-320:84
+359                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+359-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:319:17-115
+360                android:value="com.google.firebase.components.ComponentRegistrar" />
+360-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:320:17-82
+361            <meta-data
+361-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:321:13-323:84
+362                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+362-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:322:17-117
+363                android:value="com.google.firebase.components.ComponentRegistrar" />
+363-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:323:17-82
+364            <meta-data
+364-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:324:13-326:84
+365                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+365-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:325:17-128
+366                android:value="com.google.firebase.components.ComponentRegistrar" />
+366-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:326:17-82
+367            <meta-data
+367-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:327:13-329:84
+368                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+368-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:328:17-117
+369                android:value="com.google.firebase.components.ComponentRegistrar" />
+369-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:329:17-82
+370            <meta-data
+370-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:330:13-332:84
+371                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+371-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:331:17-139
+372                android:value="com.google.firebase.components.ComponentRegistrar" />
+372-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:332:17-82
+373            <meta-data
+373-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:333:13-335:84
+374                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+374-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:334:17-130
+375                android:value="com.google.firebase.components.ComponentRegistrar" />
+375-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:335:17-82
+376            <meta-data
+376-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:336:13-338:84
+377                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+377-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:337:17-127
+378                android:value="com.google.firebase.components.ComponentRegistrar" />
+378-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:338:17-82
+379            <meta-data
+379-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:339:13-341:84
+380                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+380-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:340:17-116
+381                android:value="com.google.firebase.components.ComponentRegistrar" />
+381-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:341:17-82
+382            <meta-data
+382-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:342:13-344:84
+383                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+383-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:343:17-109
+384                android:value="com.google.firebase.components.ComponentRegistrar" />
+384-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:344:17-82
+385            <meta-data
+385-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:345:13-347:84
+386                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+386-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:346:17-109
+387                android:value="com.google.firebase.components.ComponentRegistrar" />
+387-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:347:17-82
+388            <meta-data
+388-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:348:13-350:84
+389                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+389-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:349:17-115
+390                android:value="com.google.firebase.components.ComponentRegistrar" />
+390-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:350:17-82
+391            <meta-data
+391-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+392                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+392-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+393                android:value="com.google.firebase.components.ComponentRegistrar" />
+393-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+394            <meta-data
+394-->[com.google.firebase:firebase-database:20.2.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\801a090a2212dec5ca4e40ef91004c0a\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:31:13-33:85
+395                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+395-->[com.google.firebase:firebase-database:20.2.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\801a090a2212dec5ca4e40ef91004c0a\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:32:17-109
+396                android:value="com.google.firebase.components.ComponentRegistrar" />
+396-->[com.google.firebase:firebase-database:20.2.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\801a090a2212dec5ca4e40ef91004c0a\transformed\jetified-firebase-database-20.2.1\AndroidManifest.xml:33:17-82
+397        </service>
+398
+399        <meta-data
+399-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:352:9-354:36
+400            android:name="com.google.android.play.billingclient.version"
+400-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:353:13-73
+401            android:value="7.0.0" />
+401-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:354:13-34
+402
+403        <activity
+403-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:355:9-360:52
+404            android:name="com.android.billingclient.api.ProxyBillingActivity"
+404-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:357:13-78
+405            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+405-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:359:13-96
+406            android:exported="false"
+406-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:358:13-37
+407            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+407-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:356:13-72
+408        <activity
+408-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:361:9-366:52
+409            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+409-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:363:13-80
+410            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+410-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:365:13-96
+411            android:exported="false"
+411-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:364:13-37
+412            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+412-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:362:13-72
+413
+414        <receiver
+414-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:367:9-377:20
+415            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+415-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:368:13-78
+416            android:exported="true"
+416-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:370:13-36
+417            android:permission="com.google.android.c2dm.permission.SEND" >
+417-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:369:13-73
+418            <intent-filter>
+418-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:371:13-373:29
+419                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+419-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:372:17-80
+419-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:372:25-78
+420            </intent-filter>
+421
+422            <meta-data
+422-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:374:13-376:39
+423                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+423-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:375:17-92
+424                android:value="true" />
+424-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:376:17-37
+425        </receiver>
+426
+427        <service
+427-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:378:9-385:19
+428            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+428-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:379:13-82
+429            android:directBootAware="true"
+429-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:381:13-43
+430            android:exported="false" >
+430-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:380:13-37
+431            <intent-filter android:priority="-500" >
+431-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:261:13-263:29
+431-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:382:28-51
+432                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+432-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:262:17-77
+432-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:262:25-75
+433            </intent-filter>
+434        </service>
+435        <service
+435-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:386:9-389:39
+436            android:name="com.google.firebase.sessions.SessionLifecycleService"
+436-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:387:13-80
+437            android:enabled="true"
+437-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:388:13-35
+438            android:exported="false" />
+438-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:389:13-37
+439
+440        <property
+440-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:390:9-392:60
+441            android:name="android.adservices.AD_SERVICES_CONFIG"
+441-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:391:13-65
+442            android:resource="@xml/ga_ad_services_config" />
+442-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:392:13-58
+443
+444        <provider
+444-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:393:9-398:45
+445            android:name="com.google.firebase.provider.FirebaseInitProvider"
+445-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:394:13-77
+446            android:authorities="com.bless.client.firebaseinitprovider"
+446-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:396:13-72
+447            android:directBootAware="true"
+447-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:398:13-43
+448            android:exported="false"
+448-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:395:13-37
+449            android:initOrder="100" />
+449-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:397:13-36
+450
+451        <receiver
+451-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:399:9-402:39
+452            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+452-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:400:13-85
+453            android:enabled="true"
+453-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:401:13-35
+454            android:exported="false" />
+454-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:402:13-37
+455
+456        <service
+456-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:403:9-406:39
+457            android:name="com.google.android.gms.measurement.AppMeasurementService"
+457-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:404:13-84
+458            android:enabled="true"
+458-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:405:13-35
+459            android:exported="false" />
+459-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:406:13-37
+460        <service
+460-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:407:9-411:39
+461            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+461-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:408:13-87
+462            android:enabled="true"
+462-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:410:13-35
+463            android:exported="false"
+463-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:411:13-37
+464            android:permission="android.permission.BIND_JOB_SERVICE" />
+464-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:409:13-69
+465
+466        <activity
+466-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:412:9-415:39
+467            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+467-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:414:13-79
+468            android:exported="false"
+468-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:415:13-37
+469            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+469-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:413:13-72
+470
+471        <uses-library
+471-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:416:9-418:39
+472            android:name="android.ext.adservices"
+472-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:417:13-50
+473            android:required="false" />
+473-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:418:13-37
+474        <uses-library
+474-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:419:9-421:39
+475            android:name="androidx.window.extensions"
+475-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:420:13-54
+476            android:required="false" />
+476-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:421:13-37
+477        <uses-library
+477-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:422:9-424:39
+478            android:name="androidx.window.sidecar"
+478-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:423:13-51
+479            android:required="false" />
+479-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:424:13-37
+480
+481        <service
+481-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:425:9-428:71
+482            android:name="ru.rustore.sdk.remoteconfig.internal.controller.PersistableConfigSyncJobService"
+482-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:427:13-107
+483            android:label="PersistableConfigSyncJobService"
+483-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:426:13-60
+484            android:permission="android.permission.BIND_JOB_SERVICE" />
+484-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:428:13-69
+485
+486        <activity
+486-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:429:9-432:39
+487            android:name="ru.rustore.sdk.activitylauncher.RuStoreActivityLauncher"
+487-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:431:13-83
+488            android:exported="false"
+488-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:432:13-37
+489            android:theme="@style/Theme.ActivityLauncher.Transparent" />
+489-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:430:13-70
+490
+491        <service
+491-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:433:9-437:39
+492            android:name="ru.rustore.sdk.metrics.internal.presentation.SendMetricsEventJobService"
+492-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:435:13-99
+493            android:exported="false"
+493-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:437:13-37
+494            android:label="SendMetricsEventJobService"
+494-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:434:13-55
+495            android:permission="android.permission.BIND_JOB_SERVICE" />
+495-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:436:13-69
+496
+497        <meta-data
+497-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:438:9-440:68
+498            android:name="com.google.android.gms.version"
+498-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:439:13-58
+499            android:value="@integer/google_play_services_version" />
+499-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:440:13-66
+500
+501        <service
+501-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:441:9-447:19
+502            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+502-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:442:13-103
+503            android:exported="false" >
+503-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:443:13-37
+504            <meta-data
+504-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:444:13-446:38
+505                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+505-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:445:17-94
+506                android:value="cct" />
+506-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:446:17-36
+507        </service>
+508        <service
+508-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:448:9-451:39
+509            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+509-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:449:13-117
+510            android:exported="false"
+510-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:451:13-37
+511            android:permission="android.permission.BIND_JOB_SERVICE" />
+511-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:450:13-69
+512
+513        <receiver
+513-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:452:9-454:39
+514            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+514-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:453:13-132
+515            android:exported="false" />
+515-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:454:13-37
+516
+517        <activity
+517-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:190:9-195:58
+518            android:name="ru.rustore.sdk.billingclient.presentation.RuStoreBillingClientActivity"
+518-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:191:13-98
+519            android:configChanges="screenSize|keyboardHidden|keyboard"
+519-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:192:13-71
+520            android:launchMode="singleTask"
+520-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:193:13-44
+521            android:theme="@style/Theme.RuStoreBillingClient"
+521-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:194:13-62
+522            android:windowSoftInputMode="adjustResize" />
+522-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:195:13-55
+523        <activity
+523-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:196:9-201:58
+524            android:name="com.sdkit.paylib.paylibnative.ui.activity.PaylibNativeActivity"
+524-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:197:13-90
+525            android:configChanges="screenSize|keyboardHidden|keyboard"
+525-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:198:13-71
+526            android:launchMode="singleTask"
+526-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:199:13-44
+527            android:theme="@style/paylib_native_light_theme"
+527-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:200:13-61
+528            android:windowSoftInputMode="adjustResize" />
+528-->[ru.rustore.sdk:billingclient:2.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\29ae388340f2bc6b443727b52c8b86c3\transformed\jetified-billingclient-2.2.0\AndroidManifest.xml:201:13-55
+529        <activity
+529-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+530            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+530-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+531            android:excludeFromRecents="true"
+531-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+532            android:exported="true"
+532-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+533            android:launchMode="singleTask"
+533-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+534            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+534-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+535            <intent-filter>
+535-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+536                <action android:name="android.intent.action.VIEW" />
+536-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:13-64
+536-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:21-62
+537
+538                <category android:name="android.intent.category.DEFAULT" />
+538-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+538-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+539                <category android:name="android.intent.category.BROWSABLE" />
+539-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:13-73
+539-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:23-71
+540
+541                <data
+541-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:13-43
+542                    android:host="firebase.auth"
+543                    android:path="/"
+544                    android:scheme="genericidp" />
+544-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:19-41
+545            </intent-filter>
+546        </activity>
+547        <activity
+547-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+548            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+548-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+549            android:excludeFromRecents="true"
+549-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+550            android:exported="true"
+550-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+551            android:launchMode="singleTask"
+551-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+552            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+552-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+553            <intent-filter>
+553-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+554                <action android:name="android.intent.action.VIEW" />
+554-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:13-64
+554-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:217:21-62
+555
+556                <category android:name="android.intent.category.DEFAULT" />
+556-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+556-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+557                <category android:name="android.intent.category.BROWSABLE" />
+557-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:13-73
+557-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:218:23-71
+558
+559                <data
+559-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:13-43
+560                    android:host="firebase.auth"
+561                    android:path="/"
+562                    android:scheme="recaptcha" />
+562-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:19-41
+563            </intent-filter>
+564        </activity> <!-- AppMetrica Analytics: common service -->
+565        <service
+565-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:17:9-29:19
+566            android:name="io.appmetrica.analytics.internal.AppMetricaService"
+566-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:18:13-78
+567            android:enabled="true"
+567-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:19:13-35
+568            android:exported="false"
+568-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:20:13-37
+569            android:process=":AppMetrica" >
+569-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:21:13-42
+570            <intent-filter>
+570-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:22:13-28:29
+571                <category android:name="android.intent.category.DEFAULT" />
+571-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+571-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\8c10234cf096579e5c0489b5e8c4447d\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+572
+573                <action android:name="io.appmetrica.analytics.IAppMetricaService" />
+573-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:25:17-85
+573-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:25:25-82
+574
+575                <data android:scheme="appmetrica" />
+575-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:13-43
+575-->C:\CRMP\BR_ZAMENA\java\app\src\main\AndroidManifest.xml:219:19-41
+576            </intent-filter>
+577        </service> <!-- To track preinstallations -->
+578        <provider
+578-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:32:9-38:54
+579            android:name="io.appmetrica.analytics.internal.PreloadInfoContentProvider"
+579-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:33:13-87
+580            android:authorities="com.bless.client.appmetrica.preloadinfo.retail"
+580-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:34:13-81
+581            android:enabled="true"
+581-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:35:13-35
+582            android:exported="true"
+582-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:36:13-36
+583            android:process=":AppMetrica" />
+583-->[io.appmetrica.analytics:analytics:6.0.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\7656ae102d22592b4f144778c46499c4\transformed\jetified-analytics-6.0.0\AndroidManifest.xml:37:13-42
+584        <provider
+584-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+585            android:name="androidx.startup.InitializationProvider"
+585-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+586            android:authorities="com.bless.client.androidx-startup"
+586-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+587            android:exported="false" >
+587-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+588            <meta-data
+588-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+589                android:name="androidx.work.WorkManagerInitializer"
+589-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+590                android:value="androidx.startup" />
+590-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+591            <meta-data
+591-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\3fe72fe4b57cad22fa30c9e72d288be7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+592                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+592-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\3fe72fe4b57cad22fa30c9e72d288be7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+593                android:value="androidx.startup" />
+593-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\3fe72fe4b57cad22fa30c9e72d288be7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+594            <meta-data
+594-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\502e6789f059449fea17f68232a7e6a1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+595                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+595-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\502e6789f059449fea17f68232a7e6a1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+596                android:value="androidx.startup" />
+596-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\502e6789f059449fea17f68232a7e6a1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+597            <meta-data
+597-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+598                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+598-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+599                android:value="androidx.startup" />
+599-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+600        </provider>
+601
+602        <service
+602-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+603            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+603-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+604            android:directBootAware="false"
+604-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+605            android:enabled="@bool/enable_system_alarm_service_default"
+605-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+606            android:exported="false" />
+606-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+607        <service
+607-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+608            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+608-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+609            android:directBootAware="false"
+609-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+610            android:enabled="@bool/enable_system_job_service_default"
+610-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+611            android:exported="true"
+611-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+612            android:permission="android.permission.BIND_JOB_SERVICE" />
+612-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+613        <service
+613-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+614            android:name="androidx.work.impl.foreground.SystemForegroundService"
+614-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+615            android:directBootAware="false"
+615-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+616            android:enabled="@bool/enable_system_foreground_service_default"
+616-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+617            android:exported="false" />
+617-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+618
+619        <receiver
+619-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+620            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+620-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+621            android:directBootAware="false"
+621-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+622            android:enabled="true"
+622-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+623            android:exported="false" />
+623-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+624        <receiver
+624-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+625            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+625-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+626            android:directBootAware="false"
+626-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+627            android:enabled="false"
+627-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+628            android:exported="false" >
+628-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+629            <intent-filter>
+629-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+630                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+630-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+630-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+631                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+631-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+631-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+632            </intent-filter>
+633        </receiver>
+634        <receiver
+634-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+635            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+635-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+636            android:directBootAware="false"
+636-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+637            android:enabled="false"
+637-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+638            android:exported="false" >
+638-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+639            <intent-filter>
+639-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+640                <action android:name="android.intent.action.BATTERY_OKAY" />
+640-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+640-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+641                <action android:name="android.intent.action.BATTERY_LOW" />
+641-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+641-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+642            </intent-filter>
+643        </receiver>
+644        <receiver
+644-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+645            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+645-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+646            android:directBootAware="false"
+646-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+647            android:enabled="false"
+647-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+648            android:exported="false" >
+648-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+649            <intent-filter>
+649-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+650                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+650-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+650-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+651                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+651-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+651-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+652            </intent-filter>
+653        </receiver>
+654        <receiver
+654-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+655            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+655-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+656            android:directBootAware="false"
+656-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+657            android:enabled="false"
+657-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+658            android:exported="false" >
+658-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+659            <intent-filter>
+659-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+660                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+660-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+660-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+661            </intent-filter>
+662        </receiver>
+663        <receiver
+663-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+664            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+664-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+665            android:directBootAware="false"
+665-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+666            android:enabled="false"
+666-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+667            android:exported="false" >
+667-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+668            <intent-filter>
+668-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+669                <action android:name="android.intent.action.BOOT_COMPLETED" />
+669-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+669-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+670                <action android:name="android.intent.action.TIME_SET" />
+670-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+670-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+671                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+671-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+671-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+672            </intent-filter>
+673        </receiver>
+674        <receiver
+674-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+675            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+675-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+676            android:directBootAware="false"
+676-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+677            android:enabled="@bool/enable_system_alarm_service_default"
+677-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+678            android:exported="false" >
+678-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+679            <intent-filter>
+679-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+680                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+680-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+680-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+681            </intent-filter>
+682        </receiver>
+683        <receiver
+683-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+684            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+684-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+685            android:directBootAware="false"
+685-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+686            android:enabled="true"
+686-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+687            android:exported="true"
+687-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+688            android:permission="android.permission.DUMP" >
+688-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+689            <intent-filter>
+689-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+690                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+690-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+690-->[androidx.work:work-runtime:2.8.1] C:\Users\AORUS\.gradle\caches\8.13\transforms\3e534ba7afcf823fe184b2a3a316c448\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+691            </intent-filter>
+692        </receiver>
+693
+694        <service
+694-->[androidx.room:room-runtime-android:2.8.2] C:\Users\AORUS\.gradle\caches\8.13\transforms\6ec3d40de37ed2c443f9d6efbc2bfb20\transformed\jetified-room-runtime\AndroidManifest.xml:24:9-28:63
+695            android:name="androidx.room.MultiInstanceInvalidationService"
+695-->[androidx.room:room-runtime-android:2.8.2] C:\Users\AORUS\.gradle\caches\8.13\transforms\6ec3d40de37ed2c443f9d6efbc2bfb20\transformed\jetified-room-runtime\AndroidManifest.xml:25:13-74
+696            android:directBootAware="true"
+696-->[androidx.room:room-runtime-android:2.8.2] C:\Users\AORUS\.gradle\caches\8.13\transforms\6ec3d40de37ed2c443f9d6efbc2bfb20\transformed\jetified-room-runtime\AndroidManifest.xml:26:13-43
+697            android:exported="false" />
+697-->[androidx.room:room-runtime-android:2.8.2] C:\Users\AORUS\.gradle\caches\8.13\transforms\6ec3d40de37ed2c443f9d6efbc2bfb20\transformed\jetified-room-runtime\AndroidManifest.xml:27:13-37
+698        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+698-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\AORUS\.gradle\caches\8.13\transforms\6e2ef5970ea1155af77c95f64a68d5d8\transformed\jetified-library-1.7.7\AndroidManifest.xml:12:9-118
+698-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\AORUS\.gradle\caches\8.13\transforms\6e2ef5970ea1155af77c95f64a68d5d8\transformed\jetified-library-1.7.7\AndroidManifest.xml:12:18-115
+699        <service
+699-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\AORUS\.gradle\caches\8.13\transforms\6e2ef5970ea1155af77c95f64a68d5d8\transformed\jetified-library-1.7.7\AndroidManifest.xml:13:9-15:49
+700            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+700-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\AORUS\.gradle\caches\8.13\transforms\6e2ef5970ea1155af77c95f64a68d5d8\transformed\jetified-library-1.7.7\AndroidManifest.xml:14:13-108
+701            android:process=":filedownloader" />
+701-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\AORUS\.gradle\caches\8.13\transforms\6e2ef5970ea1155af77c95f64a68d5d8\transformed\jetified-library-1.7.7\AndroidManifest.xml:15:13-46
+702
+703        <receiver
+703-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+704            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+704-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+705            android:directBootAware="false"
+705-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+706            android:enabled="true"
+706-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+707            android:exported="true"
+707-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+708            android:permission="android.permission.DUMP" >
+708-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+709            <intent-filter>
+709-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+710                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+710-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+710-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+711            </intent-filter>
+712            <intent-filter>
+712-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+713                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+713-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+713-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+714            </intent-filter>
+715            <intent-filter>
+715-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+716                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+716-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+716-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+717            </intent-filter>
+718            <intent-filter>
+718-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+719                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+719-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+719-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AORUS\.gradle\caches\8.13\transforms\6f10d3ca70b9d4c0a1bc163e6a155798\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+720            </intent-filter>
+721        </receiver>
+722    </application>
+723
+724</manifest>

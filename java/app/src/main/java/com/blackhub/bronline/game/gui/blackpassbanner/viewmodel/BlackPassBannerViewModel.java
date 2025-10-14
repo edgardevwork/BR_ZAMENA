@@ -84,7 +84,7 @@ public final class BlackPassBannerViewModel extends BaseViewModel<BlackPassBanne
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpassbanner.viewmodel.BlackPassBannerViewModel$initRewardsAndProperties$1", m7120f = "BlackPassBannerViewModel.kt", m7121i = {1, 2, 2}, m7122l = {50, 58, 66}, m7123m = "invokeSuspend", m7124n = {"bgImage", "bgImage", "leftImage"}, m7125s = {"L$0", "L$0", "L$1"})
     @SourceDebugExtension({"SMAP\nBlackPassBannerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassBannerViewModel.kt\ncom/blackhub/bronline/game/gui/blackpassbanner/viewmodel/BlackPassBannerViewModel$initRewardsAndProperties$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,125:1\n230#2,5:126\n*S KotlinDebug\n*F\n+ 1 BlackPassBannerViewModel.kt\ncom/blackhub/bronline/game/gui/blackpassbanner/viewmodel/BlackPassBannerViewModel$initRewardsAndProperties$1\n*L\n76#1:126,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpassbanner.viewmodel.BlackPassBannerViewModel$initRewardsAndProperties$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37501 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ List<LevelsInfo> $deluxeRewards;
         public final /* synthetic */ List<BpRewardsAwardsDto> $listOfAwardsTypes;
@@ -262,7 +262,7 @@ public final class BlackPassBannerViewModel extends BaseViewModel<BlackPassBanne
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpassbanner.viewmodel.BlackPassBannerViewModel$sendButtonClicked$1", m7120f = "BlackPassBannerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBlackPassBannerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassBannerViewModel.kt\ncom/blackhub/bronline/game/gui/blackpassbanner/viewmodel/BlackPassBannerViewModel$sendButtonClicked$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,125:1\n230#2,5:126\n*S KotlinDebug\n*F\n+ 1 BlackPassBannerViewModel.kt\ncom/blackhub/bronline/game/gui/blackpassbanner/viewmodel/BlackPassBannerViewModel$sendButtonClicked$1\n*L\n93#1:126,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpassbanner.viewmodel.BlackPassBannerViewModel$sendButtonClicked$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37511 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $action;
         public int label;

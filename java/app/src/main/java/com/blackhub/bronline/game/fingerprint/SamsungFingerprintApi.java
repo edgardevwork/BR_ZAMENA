@@ -8,7 +8,7 @@ import androidx.core.content.ContextCompat;
 import com.blackhub.bronline.game.fingerprint.FingerprintApi;
 
 @SuppressLint({"StaticFieldLeak"})
-/* loaded from: classes2.dex */
+
 public final class SamsungFingerprintApi extends FingerprintApi {
     public static final String PERMISSION = "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY";
     public static SamsungFingerprintApi instance;

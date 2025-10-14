@@ -72,7 +72,7 @@ public final class DragAndDropListener {
     /* compiled from: DragAndDropListener.kt */
     @Metadata(m7104d1 = {"\u0000\u000e\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u0003H\n¢\u0006\u0002\b\u0004"}, m7105d2 = {"<anonymous>", "", "it", "Lcom/blackhub/bronline/game/core/utils/draganddrop/model/DragAndDropCallback;", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.core.utils.draganddrop.DragAndDropListener$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C35501 extends Lambda implements Function1<DragAndDropCallback, Unit> {
         public static final C35501 INSTANCE = ;
 

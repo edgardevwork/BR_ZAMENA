@@ -39,7 +39,7 @@ import org.json.JSONObject;
 /* compiled from: GUIRadialMenuForCar.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIRadialMenuForCar.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIRadialMenuForCar.kt\ncom/blackhub/bronline/game/gui/radialmenuforcar/GUIRadialMenuForCar\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,565:1\n106#2,15:566\n1#3:581\n*S KotlinDebug\n*F\n+ 1 GUIRadialMenuForCar.kt\ncom/blackhub/bronline/game/gui/radialmenuforcar/GUIRadialMenuForCar\n*L\n74#1:566,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIRadialMenuForCar extends BaseISAMPGUIFragment<RadialMenuDialogBinding> {
     public static final int COMFORT_PLUS = 9;
     public static final int DISMISS_WINDOW = 0;

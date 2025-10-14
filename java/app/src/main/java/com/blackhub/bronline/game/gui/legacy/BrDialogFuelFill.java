@@ -23,7 +23,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 @Deprecated
-/* loaded from: classes2.dex */
+
 public class BrDialogFuelFill implements ISAMPGUI {
     public int mMaxFuel = 0;
     public int[] mPrices = null;

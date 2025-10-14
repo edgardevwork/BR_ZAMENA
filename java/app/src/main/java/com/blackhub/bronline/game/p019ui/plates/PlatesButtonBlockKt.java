@@ -64,7 +64,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: PlatesButtonBlock.kt */
 @SourceDebugExtension({"SMAP\nPlatesButtonBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PlatesButtonBlock.kt\ncom/blackhub/bronline/game/ui/plates/PlatesButtonBlockKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n*L\n1#1,148:1\n1116#2,6:149\n75#3:155\n108#3,2:156\n*S KotlinDebug\n*F\n+ 1 PlatesButtonBlock.kt\ncom/blackhub/bronline/game/ui/plates/PlatesButtonBlockKt\n*L\n44#1:149,6\n44#1:155\n44#1:156,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class PlatesButtonBlockKt {
     public static final int VALUE_OF_COLUMNS = 2;
 

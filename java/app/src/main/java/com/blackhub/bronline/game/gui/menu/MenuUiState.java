@@ -22,7 +22,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: MenuUiState.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nMenuUiState.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MenuUiState.kt\ncom/blackhub/bronline/game/gui/menu/MenuUiState\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,31:1\n1045#2:32\n*S KotlinDebug\n*F\n+ 1 MenuUiState.kt\ncom/blackhub/bronline/game/gui/menu/MenuUiState\n*L\n23#1:32\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final /* data */ class MenuUiState implements UiState {
     public static final int $stable = 8;
     public boolean isButtonsEnabled;

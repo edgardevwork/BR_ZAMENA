@@ -100,7 +100,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesGui.kt */
 @SourceDebugExtension({"SMAP\nCasesGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesGui.kt\ncom/blackhub/bronline/game/ui/cases/CasesGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,420:1\n81#2,11:421\n1116#3,6:432\n1116#3,6:438\n81#4:444\n*S KotlinDebug\n*F\n+ 1 CasesGui.kt\ncom/blackhub/bronline/game/ui/cases/CasesGuiKt\n*L\n62#1:421,11\n65#1:432,6\n66#1:438,6\n66#1:444\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesGuiKt {
     public static final float TEXT_ALPHA_IS_NEED_SPRAY = 0.7f;
 

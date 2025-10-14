@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class SpawnLocationViewModel_Factory implements Factory<SpawnLocationViewModel> {
     public final Provider<SpawnLocationActionsWithJson> spawnLocationActionsWithJsonProvider;
     public final Provider<SpawnLocationRepository> spawnLocationRepositoryProvider;

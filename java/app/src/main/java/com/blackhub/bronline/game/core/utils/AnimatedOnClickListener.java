@@ -17,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: AnimatedOnClickListener.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public abstract class AnimatedOnClickListener implements View.OnClickListener {
     public static final int $stable = 0;
 

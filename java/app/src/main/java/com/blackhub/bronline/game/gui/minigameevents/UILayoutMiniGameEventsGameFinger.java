@@ -24,7 +24,7 @@ import java.util.Random;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class UILayoutMiniGameEventsGameFinger extends UILayout {
     public final GUIMiniGameEventsGame mRoot;
     public View mViewRoot = null;

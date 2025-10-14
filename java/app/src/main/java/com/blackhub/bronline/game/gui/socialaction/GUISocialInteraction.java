@@ -57,7 +57,7 @@ import org.json.JSONObject;
 /* compiled from: GUISocialInteraction.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUISocialInteraction.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUISocialInteraction.kt\ncom/blackhub/bronline/game/gui/socialaction/GUISocialInteraction\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,429:1\n172#2,9:430\n*S KotlinDebug\n*F\n+ 1 GUISocialInteraction.kt\ncom/blackhub/bronline/game/gui/socialaction/GUISocialInteraction\n*L\n50#1:430,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUISocialInteraction extends BaseISAMPGUIFragment<SocialInteractionBinding> {
     public static final int $stable = 8;
 

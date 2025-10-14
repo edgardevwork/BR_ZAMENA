@@ -129,7 +129,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BrSimBannerGui.kt */
 @SourceDebugExtension({"SMAP\nBrSimBannerGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrSimBannerGui.kt\ncom/blackhub/bronline/game/ui/brsimbanner/BrSimBannerGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 Effects.kt\nandroidx/compose/runtime/EffectsKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Effects.kt\nandroidx/compose/runtime/EffectsKt$rememberCoroutineScope$1\n+ 7 ConstraintLayout.kt\nandroidx/constraintlayout/compose/ConstraintLayoutKt\n+ 8 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 9 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n+ 10 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,619:1\n81#2,11:620\n1116#3,6:631\n1116#3,6:637\n1116#3,6:643\n1116#3,3:654\n1119#3,3:660\n1116#3,6:664\n1116#3,6:670\n1116#3,6:676\n1116#3,6:682\n1116#3,6:688\n1116#3,6:694\n1116#3,6:700\n1116#3,6:706\n1116#3,6:712\n1116#3,6:718\n955#3,6:729\n1116#3,3:760\n1119#3,3:766\n487#4,4:649\n491#4,2:657\n495#4:663\n487#4,4:755\n491#4,2:763\n495#4:769\n25#5:653\n25#5:728\n25#5:759\n487#6:659\n487#6:765\n73#7,4:724\n77#7,20:735\n74#8:770\n74#8:771\n75#9:772\n108#9,2:773\n75#9:775\n108#9,2:776\n75#9:781\n108#9,2:782\n81#10:778\n107#10,2:779\n81#10:784\n107#10,2:785\n81#10:787\n81#10:788\n81#10:789\n107#10,2:790\n81#10:792\n107#10,2:793\n*S KotlinDebug\n*F\n+ 1 BrSimBannerGui.kt\ncom/blackhub/bronline/game/ui/brsimbanner/BrSimBannerGuiKt\n*L\n99#1:620,11\n103#1:631,6\n104#1:637,6\n105#1:643,6\n107#1:654,3\n107#1:660,3\n109#1:664,6\n110#1:670,6\n111#1:676,6\n112#1:682,6\n113#1:688,6\n115#1:694,6\n116#1:700,6\n118#1:706,6\n132#1:712,6\n206#1:718,6\n266#1:729,6\n608#1:760,3\n608#1:766,3\n107#1:649,4\n107#1:657,2\n107#1:663\n608#1:755,4\n608#1:763,2\n608#1:769\n107#1:653\n266#1:728\n608#1:759\n107#1:659\n608#1:765\n266#1:724,4\n266#1:735,20\n611#1:770\n613#1:771\n103#1:772\n103#1:773,2\n104#1:775\n104#1:776,2\n109#1:781\n109#1:782,2\n105#1:778\n105#1:779,2\n110#1:784\n110#1:785,2\n112#1:787\n113#1:788\n115#1:789\n115#1:790,2\n116#1:792\n116#1:793,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BrSimBannerGuiKt {
     public static final float ANGLE_FOR_LEFT_ARROW = 270.0f;
     public static final float ANGLE_FOR_RIGHT_ARROW = 90.0f;
@@ -1103,7 +1103,7 @@ public final class BrSimBannerGuiKt {
                         @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
                         @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.brsimbanner.BrSimBannerGuiKt$BrSimBannerContent$1$9$1", m7120f = "BrSimBannerGui.kt", m7121i = {}, m7122l = {392}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
                         /* renamed from: com.blackhub.bronline.game.ui.brsimbanner.BrSimBannerGuiKt$BrSimBannerContent$1$9$1 */
-                        /* loaded from: classes2.dex */
+
                         public static final class C50341 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
                             public final /* synthetic */ PagerState $pagerState;
                             public int label;
@@ -1236,7 +1236,7 @@ public final class BrSimBannerGuiKt {
                         @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
                         @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.brsimbanner.BrSimBannerGuiKt$BrSimBannerContent$1$12$1", m7120f = "BrSimBannerGui.kt", m7121i = {}, m7122l = {424}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
                         /* renamed from: com.blackhub.bronline.game.ui.brsimbanner.BrSimBannerGuiKt$BrSimBannerContent$1$12$1 */
-                        /* loaded from: classes2.dex */
+
                         public static final class C50331 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
                             public final /* synthetic */ PagerState $pagerState;
                             public int label;

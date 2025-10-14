@@ -26,7 +26,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CatchStreamerGui.kt */
 @SourceDebugExtension({"SMAP\nCatchStreamerGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CatchStreamerGui.kt\ncom/blackhub/bronline/game/ui/catchstreamer/CatchStreamerGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,27:1\n81#2,11:28\n*S KotlinDebug\n*F\n+ 1 CatchStreamerGui.kt\ncom/blackhub/bronline/game/ui/catchstreamer/CatchStreamerGuiKt\n*L\n13#1:28,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CatchStreamerGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

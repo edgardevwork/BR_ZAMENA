@@ -38,7 +38,7 @@ import org.json.JSONException;
 /* compiled from: UIFractionsTestingLayout.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIFractionsTestingLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIFractionsTestingLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionsTestingLayout\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,102:1\n106#2,15:103\n*S KotlinDebug\n*F\n+ 1 UIFractionsTestingLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionsTestingLayout\n*L\n22#1:103,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIFractionsTestingLayout extends BaseFragment<FractionsTestingLayoutBinding> {
     public static final int $stable = 8;
     public int count;

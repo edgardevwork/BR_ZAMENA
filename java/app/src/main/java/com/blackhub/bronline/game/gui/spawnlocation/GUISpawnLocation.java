@@ -56,7 +56,7 @@ import org.json.JSONObject;
 /* compiled from: GUISpawnLocation.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUISpawnLocation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUISpawnLocation.kt\ncom/blackhub/bronline/game/gui/spawnlocation/GUISpawnLocation\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,242:1\n106#2,15:243\n184#3,2:258\n*S KotlinDebug\n*F\n+ 1 GUISpawnLocation.kt\ncom/blackhub/bronline/game/gui/spawnlocation/GUISpawnLocation\n*L\n33#1:243,15\n194#1:258,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUISpawnLocation extends BaseISAMPGUIFragment<SpawnLocationLayoutBinding> {
     public static final int $stable = 8;
 

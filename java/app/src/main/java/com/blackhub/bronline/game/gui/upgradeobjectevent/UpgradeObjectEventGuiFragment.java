@@ -40,7 +40,7 @@ import org.json.JSONObject;
 /* compiled from: UpgradeObjectEventGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUpgradeObjectEventGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UpgradeObjectEventGuiFragment.kt\ncom/blackhub/bronline/game/gui/upgradeobjectevent/UpgradeObjectEventGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,66:1\n106#2,15:67\n106#2,15:82\n*S KotlinDebug\n*F\n+ 1 UpgradeObjectEventGuiFragment.kt\ncom/blackhub/bronline/game/gui/upgradeobjectevent/UpgradeObjectEventGuiFragment\n*L\n22#1:67,15\n24#1:82,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UpgradeObjectEventGuiFragment extends BaseISAMPGUIFragmentCompose<UpgradeObjectEventUiState, UpgradeObjectEventViewModel> {
     public static final int $stable = 8;
 

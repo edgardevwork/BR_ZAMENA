@@ -36,7 +36,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/* loaded from: classes2.dex */
+
 @SuppressLint("RestrictedApi")
 public abstract class DataBinderMapperImpl extends DataBinderMapper {
     public static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP;

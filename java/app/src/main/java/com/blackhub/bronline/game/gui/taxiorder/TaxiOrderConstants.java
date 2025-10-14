@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: TaxiOrderKeys.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class TaxiOrderConstants {
     public static final int $stable = 0;
     public static final int BUSINESS_INDEX = 2;

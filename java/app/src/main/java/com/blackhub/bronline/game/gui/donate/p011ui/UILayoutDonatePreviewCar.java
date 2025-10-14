@@ -759,7 +759,7 @@ public final class UILayoutDonatePreviewCar extends BaseFragment<DonateCarPrevie
     /* compiled from: UILayoutDonatePreviewCar.kt */
     @Metadata(m7104d1 = {"\u0000\b\n\u0000\n\u0002\u0010\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n¢\u0006\u0002\b\u0002"}, m7105d2 = {"<anonymous>", "", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonatePreviewCar$initOnClickListeners$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C38981 extends Lambda implements Function0<Unit> {
         public C38981() {
             super(0);
@@ -833,7 +833,7 @@ public final class UILayoutDonatePreviewCar extends BaseFragment<DonateCarPrevie
     /* compiled from: UILayoutDonatePreviewCar.kt */
     @Metadata(m7104d1 = {"\u0000\b\n\u0000\n\u0002\u0010\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n¢\u0006\u0002\b\u0002"}, m7105d2 = {"<anonymous>", "", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonatePreviewCar$initOnClickListeners$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C38992 extends Lambda implements Function0<Unit> {
         public C38992() {
             super(0);
@@ -875,7 +875,7 @@ public final class UILayoutDonatePreviewCar extends BaseFragment<DonateCarPrevie
     /* compiled from: UILayoutDonatePreviewCar.kt */
     @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0003H\n¢\u0006\u0002\b\u0005"}, m7105d2 = {"<anonymous>", "", "selected", "", "gameColor", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonatePreviewCar$initOnColorClickListenerFromAdapter$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C39001 extends Lambda implements Function2<Integer, Integer, Unit> {
         public C39001() {
             super(2);

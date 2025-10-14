@@ -19,7 +19,7 @@ import com.blackhub.bronline.game.gui.electric.view.CircleView;
 import com.blackhub.bronline.game.gui.electric.viewmodel.ChangeBulbViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentChangeBulbBinding extends ViewDataBinding {
 
     @NonNull

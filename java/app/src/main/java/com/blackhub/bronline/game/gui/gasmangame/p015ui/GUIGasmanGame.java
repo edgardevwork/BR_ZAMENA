@@ -62,7 +62,7 @@ import org.json.JSONObject;
 /* compiled from: GUIGasmanGame.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIGasmanGame.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIGasmanGame.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/GUIGasmanGame\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 FragmentManager.kt\nandroidx/fragment/app/FragmentManagerKt\n*L\n1#1,174:1\n106#2,15:175\n106#2,15:190\n28#3,12:205\n*S KotlinDebug\n*F\n+ 1 GUIGasmanGame.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/GUIGasmanGame\n*L\n35#1:175,15\n40#1:190,15\n156#1:205,12\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIGasmanGame extends BaseISAMPGUIFragment<FragmentGasmanMainContainerBinding> {
     public static final int $stable = 8;
 

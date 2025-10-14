@@ -33,7 +33,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class BrDialogWindow implements ISAMPGUI {
     public GUIManager mManager = null;
     public PopupWindow mWindow = null;

@@ -38,7 +38,7 @@ import org.json.JSONObject;
 /* compiled from: BlackPassBannerComposeGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nBlackPassBannerComposeGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassBannerComposeGUIFragment.kt\ncom/blackhub/bronline/game/gui/blackpassbanner/BlackPassBannerComposeGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,60:1\n106#2,15:61\n106#2,15:76\n*S KotlinDebug\n*F\n+ 1 BlackPassBannerComposeGUIFragment.kt\ncom/blackhub/bronline/game/gui/blackpassbanner/BlackPassBannerComposeGUIFragment\n*L\n21#1:61,15\n25#1:76,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BlackPassBannerComposeGUIFragment extends BaseISAMPGUIFragmentCompose<BlackPassBannerUiState, BlackPassBannerViewModel> {
     public static final int $stable = 8;
 

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-sw600dp-v13/item_gasman_view_pager_hint.xml",
+        "source": "com.bless.client.app-main-8:/layout-sw600dp/item_gasman_view_pager_hint.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-sw600dp-v13/fragment_gasman_game_3.xml",
+        "source": "com.bless.client.app-main-8:/layout-sw600dp/fragment_gasman_game_3.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.bless.client.app-main-8:/layout-sw600dp/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.bless.client.app-main-8:/layout-sw600dp/mtrl_layout_snackbar.xml"
+    }
+]

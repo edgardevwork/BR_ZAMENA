@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: UIGasmanExitDialog.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIGasmanExitDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIGasmanExitDialog.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanExitDialog\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,48:1\n1#2:49\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIGasmanExitDialog extends DialogNoNavBarFullScreen {
     public static final int $stable = 8;
 

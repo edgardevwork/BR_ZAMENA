@@ -24,7 +24,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RentViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class RentViewModel extends BaseViewModel<RentUiState> {
     public static final int $stable = 8;
 

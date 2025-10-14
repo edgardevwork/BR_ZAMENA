@@ -18,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftIngredient.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftIngredient {
     public static final int $stable = 8;
     public int count;

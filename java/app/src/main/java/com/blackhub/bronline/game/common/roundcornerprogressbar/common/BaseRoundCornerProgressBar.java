@@ -38,7 +38,7 @@ import org.jetbrains.annotations.Nullable;
 @StabilityInferred(parameters = 0)
 @Keep
 @SourceDebugExtension({"SMAP\nBaseRoundCornerProgressBar.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseRoundCornerProgressBar.kt\ncom/blackhub/bronline/game/common/roundcornerprogressbar/common/BaseRoundCornerProgressBar\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,629:1\n1#2:630\n*E\n"})
-/* loaded from: classes2.dex */
+
 public abstract class BaseRoundCornerProgressBar extends LinearLayout {
     protected static final int DEFAULT_BACKGROUND_PADDING = 0;
     protected static final int DEFAULT_MAX_PROGRESS = 100;

@@ -34,7 +34,7 @@ import org.json.JSONObject;
 /* compiled from: GiftsGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGiftsGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GiftsGuiFragment.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,59:1\n106#2,15:60\n*S KotlinDebug\n*F\n+ 1 GiftsGuiFragment.kt\ncom/blackhub/bronline/game/gui/gifts/GiftsGuiFragment\n*L\n20#1:60,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GiftsGuiFragment extends BaseISAMPGUIFragmentCompose<GiftsUiState, GiftsViewModel> {
     public static final int $stable = 8;
 

@@ -30,7 +30,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ViewModelExtension.kt */
-/* loaded from: classes2.dex */
+
 public final class ViewModelExtensionKt {
     public static /* synthetic */ Job launchOnIO$default(ViewModel viewModel, CoroutineStart coroutineStart, Function2 function2, int i, Object obj) {
         if ((i & 1) != 0) {

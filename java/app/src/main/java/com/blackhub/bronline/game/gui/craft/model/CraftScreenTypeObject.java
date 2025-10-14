@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftScreenTypeObject.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftScreenTypeObject {
     public static final int $stable = 8;
 

@@ -10,7 +10,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class MenuGuiFragment_MembersInjector implements MembersInjector<MenuGuiFragment> {
     public final Provider<MainViewModelFactory<MenuPauseViewModel>> newMenuPauseVMFactoryProvider;
 

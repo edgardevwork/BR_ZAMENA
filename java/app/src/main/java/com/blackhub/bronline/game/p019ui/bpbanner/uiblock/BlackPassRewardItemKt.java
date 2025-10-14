@@ -73,7 +73,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BlackPassRewardItem.kt */
 @SourceDebugExtension({"SMAP\nBlackPassRewardItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassRewardItem.kt\ncom/blackhub/bronline/game/ui/bpbanner/uiblock/BlackPassRewardItemKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 4 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 5 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 6 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 7 Composer.kt\nandroidx/compose/runtime/Updater\n+ 8 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 9 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,127:1\n1116#2,6:128\n74#3:134\n78#4,2:135\n80#4:165\n84#4:209\n79#5,11:137\n79#5,11:171\n92#5:203\n92#5:208\n456#6,8:148\n464#6,3:162\n456#6,8:182\n464#6,3:196\n467#6,3:200\n467#6,3:205\n3737#7,6:156\n3737#7,6:190\n69#8,5:166\n74#8:199\n78#8:204\n81#9:210\n107#9,2:211\n*S KotlinDebug\n*F\n+ 1 BlackPassRewardItem.kt\ncom/blackhub/bronline/game/ui/bpbanner/uiblock/BlackPassRewardItemKt\n*L\n48#1:128,6\n50#1:134\n82#1:135,2\n82#1:165\n82#1:209\n82#1:137,11\n88#1:171,11\n88#1:203\n82#1:208\n82#1:148,8\n82#1:162,3\n88#1:182,8\n88#1:196,3\n88#1:200,3\n82#1:205,3\n82#1:156,6\n88#1:190,6\n88#1:166,5\n88#1:199\n88#1:204\n48#1:210\n48#1:211,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BlackPassRewardItemKt {
     public static final float BRUSH_ALPHA = 0.7f;
 

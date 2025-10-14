@@ -47,7 +47,7 @@ import org.json.JSONObject;
 /* compiled from: GUIDrivingSchool.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIDrivingSchool.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIDrivingSchool.kt\ncom/blackhub/bronline/game/gui/drivingschool/GUIDrivingSchool\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,181:1\n106#2,15:182\n106#2,15:197\n106#2,15:212\n106#2,15:227\n*S KotlinDebug\n*F\n+ 1 GUIDrivingSchool.kt\ncom/blackhub/bronline/game/gui/drivingschool/GUIDrivingSchool\n*L\n32#1:182,15\n39#1:197,15\n46#1:212,15\n53#1:227,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIDrivingSchool extends BaseISAMPGUIFragment<DrivingSchoolMainDialogBinding> {
     public static final int $stable = 8;
     public int allQuestions;

@@ -22,7 +22,7 @@ import com.blackhub.bronline.game.gui.electric.viewmodel.CollectSchemeViewModel;
 import com.bless.client.R;
 import com.google.android.material.divider.MaterialDivider;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentCollectSchemeBinding extends ViewDataBinding {
 
     @NonNull

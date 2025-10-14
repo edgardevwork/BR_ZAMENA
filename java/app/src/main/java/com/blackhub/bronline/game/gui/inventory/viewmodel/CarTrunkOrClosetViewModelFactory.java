@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: CarTrunkOrClosetViewModelFactory.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class CarTrunkOrClosetViewModelFactory implements ViewModelProvider.Factory {
     public static final int $stable = 0;
 

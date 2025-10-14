@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: StringResource.kt */
-/* loaded from: classes2.dex */
+
 public interface StringResource extends BaseResource {
     @NotNull
     String adminToolsTableTitle(int typeScreen, @Nullable String str, @NotNull String playerName, int playerId);

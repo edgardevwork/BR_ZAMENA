@@ -17,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: DonateItem.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class DonateItem {
     public static final int $stable = 8;
     public int assignedId;

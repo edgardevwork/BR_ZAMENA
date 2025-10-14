@@ -24,7 +24,7 @@ import org.json.JSONException;
 
 /* compiled from: UIChat.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class UIChat {
     public static final int $stable = 8;
 

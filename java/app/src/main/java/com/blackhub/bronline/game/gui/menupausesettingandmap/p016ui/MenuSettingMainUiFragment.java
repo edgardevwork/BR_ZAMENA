@@ -56,7 +56,7 @@ import org.json.JSONObject;
 /* compiled from: MenuSettingMainUiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nMenuSettingMainUiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MenuSettingMainUiFragment.kt\ncom/blackhub/bronline/game/gui/menupausesettingandmap/ui/MenuSettingMainUiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,220:1\n106#2,15:221\n106#2,15:236\n106#2,15:251\n106#2,15:266\n106#2,15:281\n13309#3,2:296\n*S KotlinDebug\n*F\n+ 1 MenuSettingMainUiFragment.kt\ncom/blackhub/bronline/game/gui/menupausesettingandmap/ui/MenuSettingMainUiFragment\n*L\n40#1:221,15\n45#1:236,15\n50#1:251,15\n55#1:266,15\n60#1:281,15\n148#1:296,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class MenuSettingMainUiFragment extends BaseISAMPGUIFragment<FragmentMenuSettingMainBinding> {
     public static final int $stable = 8;
     public int currentFragment;

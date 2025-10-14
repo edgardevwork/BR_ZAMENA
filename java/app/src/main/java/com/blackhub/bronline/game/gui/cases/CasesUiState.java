@@ -36,7 +36,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CasesUiState implements UiState {
     public static final int $stable = 8;
     public final boolean allRewardsOpened;

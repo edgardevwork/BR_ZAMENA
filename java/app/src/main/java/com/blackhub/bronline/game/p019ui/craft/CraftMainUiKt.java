@@ -124,7 +124,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftMainUi.kt */
 @SourceDebugExtension({"SMAP\nCraftMainUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftMainUi.kt\ncom/blackhub/bronline/game/ui/craft/CraftMainUiKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,1280:1\n1116#2,6:1281\n1116#2,6:1287\n81#3:1293\n*S KotlinDebug\n*F\n+ 1 CraftMainUi.kt\ncom/blackhub/bronline/game/ui/craft/CraftMainUiKt\n*L\n177#1:1281,6\n181#1:1287,6\n177#1:1293\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftMainUiKt {
     public static final float CONST_ONE_POINT_ONE = 1.1f;
     public static final float CONST_ZERO_POINT_EIGHT = 0.8f;

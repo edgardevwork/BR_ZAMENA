@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TanpinBannerGui.kt */
 @SourceDebugExtension({"SMAP\nTanpinBannerGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TanpinBannerGui.kt\ncom/blackhub/bronline/game/ui/tanpinbanner/TanpinBannerGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,26:1\n81#2,11:27\n*S KotlinDebug\n*F\n+ 1 TanpinBannerGui.kt\ncom/blackhub/bronline/game/ui/tanpinbanner/TanpinBannerGuiKt\n*L\n12#1:27,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TanpinBannerGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

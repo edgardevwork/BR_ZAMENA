@@ -18,7 +18,7 @@ import org.json.JSONObject;
 
 /* compiled from: CustomEditText.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class CustomEditText extends AppCompatEditText {
     public static final int $stable = 8;
 

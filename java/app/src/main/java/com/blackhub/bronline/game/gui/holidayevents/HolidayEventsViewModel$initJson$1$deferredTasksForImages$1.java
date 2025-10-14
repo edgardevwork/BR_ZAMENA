@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: HolidayEventsViewModel.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$initJson$1$deferredTasksForImages$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class HolidayEventsViewModel$initJson$1$deferredTasksForImages$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ Ref.ObjectRef<Bitmap> $lastChanceImage;
     public final /* synthetic */ HolidayEventsProperties $properties;

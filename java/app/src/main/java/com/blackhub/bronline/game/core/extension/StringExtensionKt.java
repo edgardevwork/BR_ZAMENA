@@ -34,7 +34,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: StringExtension.kt */
 @SourceDebugExtension({"SMAP\nStringExtension.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StringExtension.kt\ncom/blackhub/bronline/game/core/extension/StringExtensionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 Color.kt\nandroidx/core/graphics/ColorKt\n*L\n1#1,246:1\n1#2:247\n470#3:248\n*S KotlinDebug\n*F\n+ 1 StringExtension.kt\ncom/blackhub/bronline/game/core/extension/StringExtensionKt\n*L\n222#1:248\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class StringExtensionKt {
     @NotNull
     public static final CharSequence getOrEmpty(@Nullable CharSequence charSequence) {

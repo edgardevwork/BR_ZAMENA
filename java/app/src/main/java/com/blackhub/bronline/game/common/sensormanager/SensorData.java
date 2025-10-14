@@ -7,7 +7,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: SensorData.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final /* data */ class SensorData {
     public static final int $stable = 0;
     public final float horizontal;

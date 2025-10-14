@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: GUICarsTrunkOrCloset.kt */
-/* loaded from: classes2.dex */
+
 public final class GUICarsTrunkOrCloset$sam$androidx_lifecycle_Observer$0 implements Observer, FunctionAdapter {
     public final /* synthetic */ Function1 function;
 

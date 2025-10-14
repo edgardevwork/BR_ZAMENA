@@ -54,7 +54,7 @@ import org.json.JSONObject;
 /* compiled from: GUIWoundSystem.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIWoundSystem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIWoundSystem.kt\ncom/blackhub/bronline/game/gui/woundsystem/GUIWoundSystem\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,212:1\n106#2,15:213\n*S KotlinDebug\n*F\n+ 1 GUIWoundSystem.kt\ncom/blackhub/bronline/game/gui/woundsystem/GUIWoundSystem\n*L\n41#1:213,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIWoundSystem extends BaseISAMPGUIFragment<WoundSystemMainLayoutBinding> {
     public static final int $stable = 8;
     public boolean ifHideDialog;

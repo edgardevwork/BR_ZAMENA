@@ -67,7 +67,7 @@ import org.json.JSONObject;
 /* compiled from: GUIFamilySystem.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIFamilySystem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIFamilySystem.kt\ncom/blackhub/bronline/game/gui/familysystem/GUIFamilySystem\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,869:1\n172#2,9:870\n*S KotlinDebug\n*F\n+ 1 GUIFamilySystem.kt\ncom/blackhub/bronline/game/gui/familysystem/GUIFamilySystem\n*L\n94#1:870,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIFamilySystem extends BaseISAMPGUIFragment<FamiliesMainContainerBinding> {
     public static final int $stable = 8;
 

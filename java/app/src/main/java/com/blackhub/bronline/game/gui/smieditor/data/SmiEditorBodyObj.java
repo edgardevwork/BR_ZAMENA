@@ -10,7 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: SmiEditorBodyObj.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class SmiEditorBodyObj {
     public static final int $stable = 8;
 

@@ -30,7 +30,7 @@ import org.json.JSONObject;
 /* compiled from: PlatesGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nPlatesGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PlatesGuiFragment.kt\ncom/blackhub/bronline/game/gui/plates/PlatesGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,45:1\n106#2,15:46\n*S KotlinDebug\n*F\n+ 1 PlatesGuiFragment.kt\ncom/blackhub/bronline/game/gui/plates/PlatesGuiFragment\n*L\n19#1:46,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class PlatesGuiFragment extends BaseISAMPGUIFragmentCompose<PlatesUiState, PlatesViewModel> {
     public static final int $stable = 8;
 

@@ -34,7 +34,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: MarketplaceUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class MarketplaceUiState implements UiState {
     public static final int $stable = 8;
 

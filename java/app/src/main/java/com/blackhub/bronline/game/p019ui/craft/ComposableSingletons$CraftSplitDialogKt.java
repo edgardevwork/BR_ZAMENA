@@ -18,7 +18,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftSplitDialog.kt */
-/* loaded from: classes2.dex */
+
 public final class ComposableSingletons$CraftSplitDialogKt {
 
     @NotNull

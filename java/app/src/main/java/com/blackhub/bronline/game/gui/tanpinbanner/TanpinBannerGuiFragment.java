@@ -50,7 +50,7 @@ import org.json.JSONObject;
 /* compiled from: TanpinBannerGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nTanpinBannerGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TanpinBannerGuiFragment.kt\ncom/blackhub/bronline/game/gui/tanpinbanner/TanpinBannerGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,67:1\n106#2,15:68\n172#2,9:83\n*S KotlinDebug\n*F\n+ 1 TanpinBannerGuiFragment.kt\ncom/blackhub/bronline/game/gui/tanpinbanner/TanpinBannerGuiFragment\n*L\n26#1:68,15\n28#1:83,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TanpinBannerGuiFragment extends BaseISAMPGUIFragmentCompose<TanpinBannerUiState, TanpinBannerViewModel> {
     public static final int $stable = 8;
 

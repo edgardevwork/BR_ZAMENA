@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: AnyExtension.kt */
-/* loaded from: classes2.dex */
+
 public final class AnyExtensionKt {
     public static final boolean isNotNull(@Nullable Object obj) {
         return obj != null;

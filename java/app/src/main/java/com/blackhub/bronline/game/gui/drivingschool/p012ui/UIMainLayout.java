@@ -375,7 +375,7 @@ public final class UIMainLayout extends BaseFragment<DrivingSchoolMainLayoutBind
     /* compiled from: UIMainLayout.kt */
     @Metadata(m7104d1 = {"\u0000\u001a\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u0007H\n¢\u0006\u0002\b\b"}, m7105d2 = {"<anonymous>", "", "item", "Lcom/blackhub/bronline/game/gui/drivingschool/data/DrivingMainType;", "position", "", SVG.View.NODE_NAME, "Landroid/view/View;", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.drivingschool.ui.UIMainLayout$setLogicForItemsClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C39431 extends Lambda implements Function3<DrivingMainType, Integer, View, Unit> {
         public C39431() {
             super(3);
@@ -814,7 +814,7 @@ public final class UIMainLayout extends BaseFragment<DrivingSchoolMainLayoutBind
     /* compiled from: UIMainLayout.kt */
     @Metadata(m7104d1 = {"\u0000\b\n\u0000\n\u0002\u0010\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n¢\u0006\u0002\b\u0002"}, m7105d2 = {"<anonymous>", "", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.drivingschool.ui.UIMainLayout$initClickListeners$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C39421 extends Lambda implements Function0<Unit> {
         public C39421() {
             super(0);

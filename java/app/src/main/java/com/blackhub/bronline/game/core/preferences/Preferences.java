@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import com.google.gson.Gson;
 
-/* loaded from: classes2.dex */
+
 public class Preferences {
     public static final String EMAIL = "EMAIL";
     public static final String NAME = "preferences";

@@ -42,7 +42,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftControlTimer.kt */
 @SourceDebugExtension({"SMAP\nCraftControlTimer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftControlTimer.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftControlTimerKt\n+ 2 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,53:1\n91#2,2:54\n93#2:84\n97#2:89\n79#3,11:56\n92#3:88\n456#4,8:67\n464#4,3:81\n467#4,3:85\n3737#5,6:75\n*S KotlinDebug\n*F\n+ 1 CraftControlTimer.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftControlTimerKt\n*L\n24#1:54,2\n24#1:84\n24#1:89\n24#1:56,11\n24#1:88\n24#1:67,8\n24#1:81,3\n24#1:85,3\n24#1:75,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftControlTimerKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

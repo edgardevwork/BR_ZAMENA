@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class TaxiViewModel_Factory implements Factory<TaxiViewModel> {
     public final Provider<TaxiActionWithJSON> actionWithJSONProvider;
     public final Provider<LocalNotification> localNotificationProvider;

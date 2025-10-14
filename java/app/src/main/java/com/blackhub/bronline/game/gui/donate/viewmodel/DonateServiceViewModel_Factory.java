@@ -8,7 +8,7 @@ import dagger.internal.ScopeMetadata;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class DonateServiceViewModel_Factory implements Factory<DonateServiceViewModel> {
 
     /* loaded from: classes3.dex */

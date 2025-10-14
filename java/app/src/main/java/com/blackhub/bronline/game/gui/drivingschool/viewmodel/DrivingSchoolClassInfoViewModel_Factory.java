@@ -8,7 +8,7 @@ import dagger.internal.ScopeMetadata;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class DrivingSchoolClassInfoViewModel_Factory implements Factory<DrivingSchoolClassInfoViewModel> {
 
     /* loaded from: classes3.dex */

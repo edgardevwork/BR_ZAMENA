@@ -75,7 +75,7 @@ public final class VideoPlayerViewModel extends BaseViewModel<VideoPlayerUiState
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$init$1", m7120f = "VideoPlayerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nVideoPlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$init$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,118:1\n230#2,5:119\n*S KotlinDebug\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$init$1\n*L\n45#1:119,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$init$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C47211 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public final /* synthetic */ PlayerResponse $playerResponse;
@@ -142,7 +142,7 @@ public final class VideoPlayerViewModel extends BaseViewModel<VideoPlayerUiState
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onClickConfirmInModalWindow$1", m7120f = "VideoPlayerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nVideoPlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onClickConfirmInModalWindow$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,118:1\n230#2,5:119\n*S KotlinDebug\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onClickConfirmInModalWindow$1\n*L\n59#1:119,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onClickConfirmInModalWindow$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C47221 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -189,7 +189,7 @@ public final class VideoPlayerViewModel extends BaseViewModel<VideoPlayerUiState
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onClickDismissInModalWindow$1", m7120f = "VideoPlayerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nVideoPlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onClickDismissInModalWindow$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,118:1\n230#2,5:119\n*S KotlinDebug\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onClickDismissInModalWindow$1\n*L\n72#1:119,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onClickDismissInModalWindow$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C47231 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -246,7 +246,7 @@ public final class VideoPlayerViewModel extends BaseViewModel<VideoPlayerUiState
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onScreenClick$2", m7120f = "VideoPlayerViewModel.kt", m7121i = {}, m7122l = {87}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nVideoPlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onScreenClick$2\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,118:1\n230#2,5:119\n*S KotlinDebug\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onScreenClick$2\n*L\n89#1:119,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onScreenClick$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C47252 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -308,7 +308,7 @@ public final class VideoPlayerViewModel extends BaseViewModel<VideoPlayerUiState
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onCloseScreen$1", m7120f = "VideoPlayerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nVideoPlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onCloseScreen$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,118:1\n230#2,5:119\n*S KotlinDebug\n*F\n+ 1 VideoPlayerViewModel.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerViewModel$onCloseScreen$1\n*L\n111#1:119,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.videoplayer.VideoPlayerViewModel$onCloseScreen$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C47241 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 

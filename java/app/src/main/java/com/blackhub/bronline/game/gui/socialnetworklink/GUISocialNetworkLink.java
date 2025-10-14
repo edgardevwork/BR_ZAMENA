@@ -41,7 +41,7 @@ import org.json.JSONObject;
 /* compiled from: GUISocialNetworkLink.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUISocialNetworkLink.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUISocialNetworkLink.kt\ncom/blackhub/bronline/game/gui/socialnetworklink/GUISocialNetworkLink\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,107:1\n106#2,15:108\n*S KotlinDebug\n*F\n+ 1 GUISocialNetworkLink.kt\ncom/blackhub/bronline/game/gui/socialnetworklink/GUISocialNetworkLink\n*L\n32#1:108,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUISocialNetworkLink extends BaseISAMPGUIFragmentWithState<SocialNetworkLinkUiState, SocialNetworkLinkViewModel, SocialNetworkLinkLayoutBinding> {
     public static final int $stable = 8;
 

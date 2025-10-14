@@ -100,7 +100,7 @@ public final class DonateTileViewModel extends ViewModel implements ViewModelPro
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.donate.viewmodel.DonateTileViewModel", m7120f = "DonateTileViewModel.kt", m7121i = {0, 0}, m7122l = {507, 511}, m7123m = "checkAndUpdateCurrentItems", m7124n = {"this", "saleItems"}, m7125s = {"L$0", "L$1"})
     /* renamed from: com.blackhub.bronline.game.gui.donate.viewmodel.DonateTileViewModel$checkAndUpdateCurrentItems$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C39241 extends ContinuationImpl {
         public Object L$0;
         public Object L$1;
@@ -124,7 +124,7 @@ public final class DonateTileViewModel extends ViewModel implements ViewModelPro
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.donate.viewmodel.DonateTileViewModel", m7120f = "DonateTileViewModel.kt", m7121i = {0, 0, 1, 1}, m7122l = {HttpStatus.SC_LENGTH_REQUIRED, 418}, m7123m = "lRemoveSaleItemInfo", m7124n = {"this", "itemId", "this", "itemId"}, m7125s = {"L$0", "I$0", "L$0", "I$0"})
     /* renamed from: com.blackhub.bronline.game.gui.donate.viewmodel.DonateTileViewModel$lRemoveSaleItemInfo$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C39281 extends ContinuationImpl {
         public int I$0;
         public Object L$0;
@@ -148,7 +148,7 @@ public final class DonateTileViewModel extends ViewModel implements ViewModelPro
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.donate.viewmodel.DonateTileViewModel", m7120f = "DonateTileViewModel.kt", m7121i = {0, 0, 0}, m7122l = {UserDataReader.USER_DATA_START_CODE}, m7123m = "updateValueOfLimitForCurrentItem", m7124n = {"this", "valueOfLimits", "itemId"}, m7125s = {"L$0", "L$1", "I$0"})
     /* renamed from: com.blackhub.bronline.game.gui.donate.viewmodel.DonateTileViewModel$updateValueOfLimitForCurrentItem$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C39341 extends ContinuationImpl {
         public int I$0;
         public Object L$0;

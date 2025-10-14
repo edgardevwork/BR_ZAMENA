@@ -22,7 +22,7 @@ import org.apache.commons.compress.archivers.cpio.CpioConstants;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftProgressBarStashBlock.kt */
-/* loaded from: classes2.dex */
+
 public final class CraftProgressBarStashBlockKt {
     /* JADX WARN: Removed duplicated region for block: B:26:0x0048  */
     /* JADX WARN: Removed duplicated region for block: B:28:0x004d  */

@@ -15,7 +15,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class JNIJSONTransport {
     public static final String NO_ERROR_MESSAGE = "Не получено сообщение об ошибке";
     public static CountDownLatch latch;

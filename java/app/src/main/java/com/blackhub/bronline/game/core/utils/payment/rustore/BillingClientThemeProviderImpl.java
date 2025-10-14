@@ -8,7 +8,7 @@ import ru.rustore.sdk.billingclient.provider.BillingClientThemeProvider;
 
 /* compiled from: BillingClientThemeProviderImpl.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class BillingClientThemeProviderImpl implements BillingClientThemeProvider {
     public static final int $stable = 0;
 

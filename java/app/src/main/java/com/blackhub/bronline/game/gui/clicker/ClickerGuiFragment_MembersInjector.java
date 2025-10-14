@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class ClickerGuiFragment_MembersInjector implements MembersInjector<ClickerGuiFragment> {
     public final Provider<MainViewModelFactory<ClickerViewModel>> factoryProvider;
 

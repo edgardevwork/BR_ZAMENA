@@ -19,6 +19,7 @@ import androidx.appcompat.content.res.AppCompatResources;
 import com.blackhub.bronline.C3489R;
 import com.blackhub.bronline.game.common.colorpickerview.ColorPickerView;
 import com.blackhub.bronline.game.common.colorpickerview.preference.ColorPickerPreferenceManager;
+import com.bless.client.R;
 
 /* loaded from: classes3.dex */
 public class BrightnessSlideBar extends AbstractSlider {
@@ -84,7 +85,7 @@ public class BrightnessSlideBar extends AbstractSlider {
     }
 
     @Override // com.blackhub.bronline.game.common.colorpickerview.sliders.AbstractSlider
-    public /* bridge */ /* synthetic */ void setSelectorByHalfSelectorPosition(@FloatRange(from = 0.0d, m9to = 1.0d) float selectorPosition) {
+    public /* bridge */ /* synthetic */ void setSelectorByHalfSelectorPosition(@FloatRange(from = 0.0d, to = 1.0d) float selectorPosition) {
         super.setSelectorByHalfSelectorPosition(selectorPosition);
     }
 
@@ -99,7 +100,7 @@ public class BrightnessSlideBar extends AbstractSlider {
     }
 
     @Override // com.blackhub.bronline.game.common.colorpickerview.sliders.AbstractSlider
-    public /* bridge */ /* synthetic */ void setSelectorPosition(@FloatRange(from = 0.0d, m9to = 1.0d) float selectorPosition) {
+    public /* bridge */ /* synthetic */ void setSelectorPosition(@FloatRange(from = 0.0d, to = 1.0d) float selectorPosition) {
         super.setSelectorPosition(selectorPosition);
     }
 
@@ -124,10 +125,11 @@ public class BrightnessSlideBar extends AbstractSlider {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
+    @SuppressLint("ResourceType")
     @Override // com.blackhub.bronline.game.common.colorpickerview.sliders.AbstractSlider
     public void getAttrs(AttributeSet attrs) {
         int resourceId;
-        TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attrs, C3489R.styleable.BrightnessSlideBar);
+        TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attrs, R.styleable.BrightnessSlideBar);
         try {
             if (typedArrayObtainStyledAttributes.hasValue(2) && (resourceId = typedArrayObtainStyledAttributes.getResourceId(2, -1)) != -1) {
                 this.selectorDrawable = AppCompatResources.getDrawable(getContext(), resourceId);
@@ -159,7 +161,7 @@ public class BrightnessSlideBar extends AbstractSlider {
         this.selector.post(new Runnable() { // from class: com.blackhub.bronline.game.common.colorpickerview.sliders.BrightnessSlideBar$$ExternalSyntheticLambda0
             @Override // java.lang.Runnable
             public final void run() {
-                this.f$0.lambda$onInflateFinished$0();
+                lambda$onInflateFinished$0();
             }
         });
     }
@@ -185,3 +187,4 @@ public class BrightnessSlideBar extends AbstractSlider {
         return Color.HSVToColor(fArr);
     }
 }
+

@@ -184,7 +184,7 @@ public final class InteractionWithNpcGuiKt {
     /* compiled from: InteractionWithNpcGui.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.interactionwithnpc.InteractionWithNpcGuiKt$InteractionWithNpcGui$1 */
-    /* loaded from: classes2.dex */
+
     public /* synthetic */ class C57591 extends FunctionReferenceImpl implements Function1<Integer, Unit> {
         public C57591(Object obj) {
             super(1, obj, InteractionWithNpcViewModel.class, "sendButtonClick", "sendButtonClick(I)V", 0);

@@ -13,7 +13,7 @@ import org.json.JSONObject;
 
 /* compiled from: InvActionWithJSON.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class InvActionWithJSON {
     public static final int $stable = 0;
 

@@ -49,7 +49,7 @@ import org.json.JSONObject;
 
 /* compiled from: RatingViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class RatingViewModel extends BaseViewModel<RatingUiState> {
     public static final int $stable = 8;
 

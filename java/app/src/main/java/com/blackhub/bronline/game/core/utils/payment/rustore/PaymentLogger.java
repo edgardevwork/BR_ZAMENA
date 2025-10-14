@@ -12,7 +12,7 @@ import ru.rustore.sdk.billingclient.provider.logger.ExternalPaymentLogger;
 
 /* compiled from: RustoreBillingClientWrapper.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class PaymentLogger implements ExternalPaymentLogger {
     public static final int $stable = 0;
 

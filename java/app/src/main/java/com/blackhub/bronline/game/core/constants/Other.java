@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Constants.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class Other {
     public static final int $stable = 0;
 

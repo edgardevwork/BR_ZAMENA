@@ -63,7 +63,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: HintRightTasksBlock.kt */
 @SourceDebugExtension({"SMAP\nHintRightTasksBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HintRightTasksBlock.kt\ncom/blackhub/bronline/game/ui/tutorial/HintRightTasksBlockKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,133:1\n1116#2,6:134\n*S KotlinDebug\n*F\n+ 1 HintRightTasksBlock.kt\ncom/blackhub/bronline/game/ui/tutorial/HintRightTasksBlockKt\n*L\n36#1:134,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class HintRightTasksBlockKt {
     public static final int ON_CLICK_ANIMATION_DURATION = 500;
 

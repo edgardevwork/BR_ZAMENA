@@ -22,7 +22,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesSprayScaleBlock.kt */
-/* loaded from: classes2.dex */
+
 public final class ComposableSingletons$CasesSprayScaleBlockKt {
 
     @NotNull

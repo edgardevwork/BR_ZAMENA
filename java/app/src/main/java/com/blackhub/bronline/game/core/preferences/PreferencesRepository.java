@@ -4,7 +4,7 @@ import kotlin.Metadata;
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: PreferencesRepository.kt */
-/* loaded from: classes2.dex */
+
 public interface PreferencesRepository {
     float getFloat(@NotNull String key);
 

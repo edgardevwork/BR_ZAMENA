@@ -31,7 +31,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: BlackPassTaskInfoDialog.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class BlackPassTaskInfoDialog extends DialogNoNavBar {
     public static final int $stable = 8;
 

@@ -38,7 +38,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BonusProgressBar.kt */
 @SourceDebugExtension({"SMAP\nBonusProgressBar.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BonusProgressBar.kt\ncom/blackhub/bronline/game/ui/cases/BonusProgressBarKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Dp.kt\nandroidx/compose/ui/unit/DpKt\n*L\n1#1,54:1\n69#2,5:55\n74#2:88\n78#2:93\n79#3,11:60\n92#3:92\n456#4,8:71\n464#4,3:85\n467#4,3:89\n3737#5,6:79\n154#6:94\n*S KotlinDebug\n*F\n+ 1 BonusProgressBar.kt\ncom/blackhub/bronline/game/ui/cases/BonusProgressBarKt\n*L\n28#1:55,5\n28#1:88\n28#1:93\n28#1:60,11\n28#1:92\n28#1:71,8\n28#1:85,3\n28#1:89,3\n28#1:79,6\n51#1:94\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BonusProgressBarKt {
     /* JADX WARN: Removed duplicated region for block: B:26:0x004c  */
     /* JADX WARN: Removed duplicated region for block: B:28:0x0051  */

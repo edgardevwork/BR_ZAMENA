@@ -12,7 +12,7 @@ import kotlin.jvm.internal.Intrinsics;
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: InventoryUtils.kt */
-/* loaded from: classes2.dex */
+
 public final class InventoryUtilsKt {
 
     @NotNull

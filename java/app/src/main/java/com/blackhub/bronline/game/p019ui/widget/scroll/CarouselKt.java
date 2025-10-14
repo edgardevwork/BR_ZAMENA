@@ -86,7 +86,7 @@ public final class CarouselKt {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public static final void Carousel(@NotNull final CarouselScrollState state, @Nullable Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @Nullable Composer composer, final int i, final int i2) {
+    public static final void Carousel(@NotNull final CarouselScrollState state, @Nullable Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @Nullable Composer composer, final int i, final int i2) {
         int i3;
         Modifier modifier2;
         int i4;
@@ -306,7 +306,7 @@ public final class CarouselKt {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public static final void Carousel(@NotNull final LazyListState state, @Nullable Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @Nullable Composer composer, final int i, final int i2) {
+    public static final void Carousel(@NotNull final LazyListState state, @Nullable Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @Nullable Composer composer, final int i, final int i2) {
         int i3;
         Modifier modifier2;
         int i4;
@@ -584,7 +584,7 @@ public final class CarouselKt {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public static final void Carousel(@NotNull final LazyListState state, final int i, @Nullable Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @NotNull final Function0<Integer> scrolled, @Nullable Composer composer, final int i2, final int i3) {
+    public static final void Carousel(@NotNull final LazyListState state, final int i, @Nullable Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @NotNull final Function0<Integer> scrolled, @Nullable Composer composer, final int i2, final int i3) {
         int i4;
         Modifier modifier2;
         int i5;
@@ -847,7 +847,7 @@ public final class CarouselKt {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public static final void Carousel(@NotNull final LazyGridState state, @Nullable Modifier modifier, final int i, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, m9to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @Nullable Composer composer, final int i2, final int i3) {
+    public static final void Carousel(@NotNull final LazyGridState state, @Nullable Modifier modifier, final int i, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f, @FloatRange(from = 0.0d, fromInclusive = false, to = 1.0d, toInclusive = false) float f2, @Nullable CarouselColors carouselColors, @Nullable Composer composer, final int i2, final int i3) {
         int i4;
         Modifier modifier2;
         int i5;
@@ -1464,4 +1464,5 @@ public final class CarouselKt {
         return DefaultCarouselHeight;
     }
 }
+
 

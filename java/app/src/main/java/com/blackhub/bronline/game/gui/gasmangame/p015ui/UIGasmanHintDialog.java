@@ -30,7 +30,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: UIGasmanHintDialog.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIGasmanHintDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIGasmanHintDialog.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanHintDialog\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 SpannableStringBuilder.kt\nandroidx/core/text/SpannableStringBuilderKt\n*L\n1#1,104:1\n1#2:105\n41#3,3:106\n41#3,3:109\n41#3,3:112\n*S KotlinDebug\n*F\n+ 1 UIGasmanHintDialog.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanHintDialog\n*L\n73#1:106,3\n83#1:109,3\n93#1:112,3\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIGasmanHintDialog extends DialogNoNavBarFullScreen {
     public static final int $stable = 8;
 

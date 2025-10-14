@@ -50,7 +50,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: SumContactsViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nSumContactsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SumContactsViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/SumContactsViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,321:1\n230#2,5:322\n230#2,5:327\n230#2,5:332\n230#2,5:337\n230#2,5:342\n230#2,5:347\n*S KotlinDebug\n*F\n+ 1 SumContactsViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/SumContactsViewModel\n*L\n208#1:322,5\n216#1:327,5\n224#1:332,5\n233#1:337,5\n241#1:342,5\n271#1:347,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class SumContactsViewModel extends BaseViewModel<SumContactsUiState> implements ViewModelProvider.Factory {
     public static final int MAX_INT_IN_GAME = 9;
     public static final int MINUS_TEN = -10;

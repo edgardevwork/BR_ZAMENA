@@ -28,7 +28,7 @@ import org.json.JSONObject;
 /* compiled from: RentGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nRentGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RentGuiFragment.kt\ncom/blackhub/bronline/game/gui/rent/RentGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,34:1\n106#2,15:35\n*S KotlinDebug\n*F\n+ 1 RentGuiFragment.kt\ncom/blackhub/bronline/game/gui/rent/RentGuiFragment\n*L\n18#1:35,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RentGuiFragment extends BaseISAMPGUIFragmentCompose<RentUiState, RentViewModel> {
     public static final int $stable = 8;
 

@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.blackhub.bronline.game.gui.notification.viewmodel.NotificationViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentNotificationBinding extends ViewDataBinding {
 
     @Bindable

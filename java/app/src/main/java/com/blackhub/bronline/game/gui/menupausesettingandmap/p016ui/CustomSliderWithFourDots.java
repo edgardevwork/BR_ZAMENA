@@ -20,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CustomSliderWithFourDots.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class CustomSliderWithFourDots extends ConstraintLayout {
     public static final int $stable = 8;
     public Function1<? super Integer, Unit> addOnChangeListener;

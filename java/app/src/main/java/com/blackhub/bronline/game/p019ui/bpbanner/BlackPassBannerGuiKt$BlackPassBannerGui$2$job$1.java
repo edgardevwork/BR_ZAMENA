@@ -21,7 +21,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BlackPassBannerGui.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.bpbanner.BlackPassBannerGuiKt$BlackPassBannerGui$2$job$1", m7120f = "BlackPassBannerGui.kt", m7121i = {}, m7122l = {131}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class BlackPassBannerGuiKt$BlackPassBannerGui$2$job$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ SensorDataManager $dataManager;
     public final /* synthetic */ float $multiplier;

@@ -175,7 +175,7 @@ public final class BpRewardsViewModel extends BaseViewModel<BpRewardsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$initJson$1", m7120f = "BpRewardsViewModel.kt", m7121i = {}, m7122l = {214}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBpRewardsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsViewModel.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsViewModel$initJson$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,736:1\n1559#2:737\n1590#2,4:738\n230#3,5:742\n*S KotlinDebug\n*F\n+ 1 BpRewardsViewModel.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsViewModel$initJson$1\n*L\n158#1:737\n158#1:738,4\n203#1:742,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$initJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37531 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ List<InvItems> $invItemsFromJson;
         public final /* synthetic */ JSONObject $json;
@@ -471,7 +471,7 @@ public final class BpRewardsViewModel extends BaseViewModel<BpRewardsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$onItemClick$1", m7120f = "BpRewardsViewModel.kt", m7121i = {0, 0}, m7122l = {327}, m7123m = "invokeSuspend", m7124n = {"rewardNameForDialog", "newListWithItems"}, m7125s = {"L$0", "L$1"})
     @SourceDebugExtension({"SMAP\nBpRewardsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsViewModel.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsViewModel$onItemClick$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,736:1\n230#2,5:737\n230#2,5:742\n*S KotlinDebug\n*F\n+ 1 BpRewardsViewModel.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsViewModel$onItemClick$1\n*L\n335#1:737,5\n348#1:742,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$onItemClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37551 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $id;
         public final /* synthetic */ String $itemNameForDialog;
@@ -620,7 +620,7 @@ public final class BpRewardsViewModel extends BaseViewModel<BpRewardsUiState> {
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$onItemsRequested$1", m7120f = "BpRewardsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$onItemsRequested$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37561 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -719,7 +719,7 @@ public final class BpRewardsViewModel extends BaseViewModel<BpRewardsUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$onDialogButtonYesClick$1", m7120f = "BpRewardsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBpRewardsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsViewModel.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsViewModel$onDialogButtonYesClick$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,736:1\n230#2,5:737\n*S KotlinDebug\n*F\n+ 1 BpRewardsViewModel.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsViewModel$onDialogButtonYesClick$1\n*L\n393#1:737,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.bprewards.BpRewardsViewModel$onDialogButtonYesClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37541 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 

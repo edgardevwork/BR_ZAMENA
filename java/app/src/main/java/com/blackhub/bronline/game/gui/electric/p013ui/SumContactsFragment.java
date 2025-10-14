@@ -720,7 +720,7 @@ public final class SumContactsFragment extends BaseFragmentWithState<SumContacts
     /* compiled from: SumContactsFragment.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.electric.ui.SumContactsFragment$createGameInstructionsDialog$1 */
-    /* loaded from: classes2.dex */
+
     public /* synthetic */ class C39631 extends FunctionReferenceImpl implements Function0<Unit> {
         public C39631(Object obj) {
             super(0, obj, SumContactsViewModel.class, "closeInstruction", "closeInstruction()V", 0);

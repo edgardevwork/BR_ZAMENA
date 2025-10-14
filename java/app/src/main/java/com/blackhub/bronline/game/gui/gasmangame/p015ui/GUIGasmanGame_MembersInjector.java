@@ -11,7 +11,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class GUIGasmanGame_MembersInjector implements MembersInjector<GUIGasmanGame> {
     public final Provider<MainViewModelFactory<GasmanChildViewModel>> vmChildFactoryProvider;
     public final Provider<MainViewModelFactory<GasmanParentViewModel>> vmParentFactoryProvider;

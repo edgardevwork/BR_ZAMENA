@@ -82,7 +82,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RateAppGui.kt */
 @SourceDebugExtension({"SMAP\nRateAppGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RateAppGui.kt\ncom/blackhub/bronline/game/ui/rateapp/RateAppGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,307:1\n81#2,11:308\n*S KotlinDebug\n*F\n+ 1 RateAppGui.kt\ncom/blackhub/bronline/game/ui/rateapp/RateAppGuiKt\n*L\n57#1:308,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RateAppGuiKt {
     public static final float HEIGHT_FOR_CLOSE_IC = 0.3f;
     public static final float HEIGHT_FOR_TITLE = 0.2f;

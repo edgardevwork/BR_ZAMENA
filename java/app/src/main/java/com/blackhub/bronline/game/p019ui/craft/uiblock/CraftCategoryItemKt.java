@@ -44,7 +44,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftCategoryItem.kt */
 @SourceDebugExtension({"SMAP\nCraftCategoryItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftCategoryItem.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftCategoryItemKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,80:1\n69#2,5:81\n74#2:114\n69#2,5:115\n74#2:148\n78#2:153\n78#2:158\n79#3,11:86\n79#3,11:120\n92#3:152\n92#3:157\n456#4,8:97\n464#4,3:111\n456#4,8:131\n464#4,3:145\n467#4,3:149\n467#4,3:154\n3737#5,6:105\n3737#5,6:139\n*S KotlinDebug\n*F\n+ 1 CraftCategoryItem.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftCategoryItemKt\n*L\n31#1:81,5\n31#1:114\n35#1:115,5\n35#1:148\n35#1:153\n31#1:158\n31#1:86,11\n35#1:120,11\n35#1:152\n31#1:157\n31#1:97,8\n31#1:111,3\n35#1:131,8\n35#1:145,3\n35#1:149,3\n31#1:154,3\n31#1:105,6\n35#1:139,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftCategoryItemKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

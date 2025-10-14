@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarAllGiftsUi.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.calendar.CalendarAllGiftsUiKt$CalendarAllGiftsUi$1", m7120f = "CalendarAllGiftsUi.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class CalendarAllGiftsUiKt$CalendarAllGiftsUi$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ Context $context;
     public final /* synthetic */ MutableState<Bitmap> $icSeasonCalendarBitmap$delegate;

@@ -81,7 +81,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarLastRewardItem.kt */
 @SourceDebugExtension({"SMAP\nCalendarLastRewardItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CalendarLastRewardItem.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarLastRewardItemKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 4 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 5 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 6 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 7 Composer.kt\nandroidx/compose/runtime/Updater\n+ 8 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 9 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,185:1\n1116#2,6:186\n74#3:192\n78#4,2:193\n80#4:223\n84#4:268\n79#5,11:195\n79#5,11:230\n92#5:262\n92#5:267\n456#6,8:206\n464#6,3:220\n456#6,8:241\n464#6,3:255\n467#6,3:259\n467#6,3:264\n3737#7,6:214\n3737#7,6:249\n68#8,6:224\n74#8:258\n78#8:263\n81#9:269\n107#9,2:270\n*S KotlinDebug\n*F\n+ 1 CalendarLastRewardItem.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarLastRewardItemKt\n*L\n65#1:186,6\n66#1:192\n121#1:193,2\n121#1:223\n121#1:268\n121#1:195,11\n142#1:230,11\n142#1:262\n121#1:267\n121#1:206,8\n121#1:220,3\n142#1:241,8\n142#1:255,3\n142#1:259,3\n121#1:264,3\n121#1:214,6\n142#1:249,6\n142#1:224,6\n142#1:258\n142#1:263\n65#1:269\n65#1:270,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CalendarLastRewardItemKt {
     public static final long DELAY_BEFORE_RENDER = 150;
     public static final float WEIGHT_FOR_IMAGE = 0.8f;

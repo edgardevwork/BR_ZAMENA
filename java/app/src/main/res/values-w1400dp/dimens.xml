@@ -522,7 +522,7 @@
     <dimen name="_61wsp">106.75sp</dimen>
     <dimen name="_62wdp">108.5dp</dimen>
     <dimen name="_62wsp">108.5sp</dimen>
-    <dimen name="_630wdp">1,102.5dp</dimen>
+    <dimen name="_630wdp">1102.5dp</dimen>
     <dimen name="_63wdp">110.25dp</dimen>
     <dimen name="_63wsp">110.25sp</dimen>
     <dimen name="_64wdp">112dp</dimen>
@@ -612,3 +612,5 @@
     <dimen name="_9wdp">15.75dp</dimen>
     <dimen name="_9wsp">15.75sp</dimen>
 </resources>
+
+

@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class FishingViewModel_Factory implements Factory<FishingViewModel> {
     public final Provider<FishingActionWithJSON> actionWithJSONProvider;
     public final Provider<LocalNotification> localNotificationProvider;

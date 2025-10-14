@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: SpawnLocationDataSource.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class SpawnLocationDataSource {
     public static final int $stable = 8;
 

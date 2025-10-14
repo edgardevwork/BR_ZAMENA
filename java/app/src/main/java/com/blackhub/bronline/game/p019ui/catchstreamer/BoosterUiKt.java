@@ -58,7 +58,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BoosterUi.kt */
 @SourceDebugExtension({"SMAP\nBoosterUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BoosterUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/BoosterUiKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Row.kt\nandroidx/compose/foundation/layout/RowKt\n*L\n1#1,85:1\n68#2,6:86\n74#2:120\n78#2:164\n79#3,11:92\n79#3,11:126\n92#3:158\n92#3:163\n456#4,8:103\n464#4,3:117\n456#4,8:137\n464#4,3:151\n467#4,3:155\n467#4,3:160\n3737#5,6:111\n3737#5,6:145\n88#6,5:121\n93#6:154\n97#6:159\n*S KotlinDebug\n*F\n+ 1 BoosterUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/BoosterUiKt\n*L\n44#1:86,6\n44#1:120\n44#1:164\n44#1:92,11\n54#1:126,11\n54#1:158\n44#1:163\n44#1:103,8\n44#1:117,3\n54#1:137,8\n54#1:151,3\n54#1:155,3\n44#1:160,3\n44#1:111,6\n54#1:145,6\n54#1:121,5\n54#1:154\n54#1:159\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BoosterUiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

@@ -35,7 +35,7 @@ import org.json.JSONObject;
 /* compiled from: TaxiMapFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nTaxiMapFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiMapFragment.kt\ncom/blackhub/bronline/game/gui/taximap/TaxiMapFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 ViewExtension.kt\ncom/blackhub/bronline/game/core/extension/ViewExtensionKt\n*L\n1#1,108:1\n106#2,15:109\n41#3,2:124\n*S KotlinDebug\n*F\n+ 1 TaxiMapFragment.kt\ncom/blackhub/bronline/game/gui/taximap/TaxiMapFragment\n*L\n34#1:109,15\n63#1:124,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiMapFragment extends BaseISAMPGUIFragmentWithState<TaxiMapUiState, TaxiMapViewModel, FragmentTaxiMapBinding> {
     public static final float MARGIN = 8.0f;
     public static final float PARAMS_SIZE = 16.0f;

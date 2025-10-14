@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class RentActionWithJSON_Factory implements Factory<RentActionWithJSON> {
     public final Provider<GUIManager> guiManagerProvider;
 

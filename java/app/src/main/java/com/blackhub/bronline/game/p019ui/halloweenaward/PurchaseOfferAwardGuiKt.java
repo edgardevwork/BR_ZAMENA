@@ -109,7 +109,7 @@ public final class PurchaseOfferAwardGuiKt {
     /* compiled from: PurchaseOfferAwardGui.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.halloweenaward.PurchaseOfferAwardGuiKt$PurchaseOfferAwardGui$1 */
-    /* loaded from: classes2.dex */
+    
     public /* synthetic */ class C56431 extends FunctionReferenceImpl implements Function1<Integer, Unit> {
         public C56431(Object obj) {
             super(1, obj, HalloweenAwardViewModel.class, "sendType", "sendType(I)V", 0);

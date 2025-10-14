@@ -27,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarMainUi.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.calendar.CalendarMainUiKt$CalendarMainUi$1", m7120f = "CalendarMainUi.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class CalendarMainUiKt$CalendarMainUi$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ MutableState<Bitmap> $bgComeBackEventBitmap$delegate;
     public final /* synthetic */ String $bgComeBackSeasonCalendarBitmapName;

@@ -110,7 +110,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ChatContent.kt */
 @SourceDebugExtension({"SMAP\nChatContent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ChatContent.kt\ncom/blackhub/bronline/game/ui/chat/ChatContentKt\n+ 2 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n+ 5 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n*L\n1#1,285:1\n74#2:286\n74#2:287\n1116#3,6:288\n1116#3,6:294\n1116#3,6:300\n1116#3,6:306\n81#4:312\n107#4,2:313\n81#4:315\n107#4,2:316\n75#5:318\n108#5,2:319\n*S KotlinDebug\n*F\n+ 1 ChatContent.kt\ncom/blackhub/bronline/game/ui/chat/ChatContentKt\n*L\n71#1:286\n72#1:287\n84#1:288,6\n87#1:294,6\n88#1:300,6\n89#1:306,6\n84#1:312\n84#1:313,2\n87#1:315\n87#1:316,2\n88#1:318\n88#1:319,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ChatContentKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

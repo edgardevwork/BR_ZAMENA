@@ -51,7 +51,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: BaseFragmentWithState.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nBaseFragmentWithState.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseFragmentWithState.kt\ncom/blackhub/bronline/game/common/BaseFragmentWithState\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,205:1\n215#2,2:206\n*S KotlinDebug\n*F\n+ 1 BaseFragmentWithState.kt\ncom/blackhub/bronline/game/common/BaseFragmentWithState\n*L\n201#1:206,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public abstract class BaseFragmentWithState<UiState extends UiState, ViewModel extends BaseViewModel<UiState>, ViewBinding extends ViewDataBinding> extends Fragment {
     public static final int LOADER_ELECTRIC_COLLECT_SCHEME_ID = 3;
     public static final int LOADER_ELECTRIC_FIND_PROBLEM_ID = 4;

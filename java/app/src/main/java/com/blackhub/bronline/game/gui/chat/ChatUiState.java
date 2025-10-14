@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ChatUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class ChatUiState implements UiState {
     public static final int $stable = 8;
     public final boolean isNeedToClose;

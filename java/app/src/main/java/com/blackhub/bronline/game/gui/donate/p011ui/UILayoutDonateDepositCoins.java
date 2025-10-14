@@ -313,7 +313,7 @@ public final class UILayoutDonateDepositCoins extends BaseFragment<DonateCoinsDe
     /* compiled from: UILayoutDonateDepositCoins.kt */
     @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0003\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u0003H\n¢\u0006\u0004\b\u0005\u0010\u0006"}, m7105d2 = {"<anonymous>", "", "value", "", "kotlin.jvm.PlatformType", "invoke", "(Ljava/lang/Boolean;)V"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonateDepositCoins$setupObservers$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C38851 extends Lambda implements Function1<Boolean, Unit> {
         public C38851() {
             super(1);
@@ -426,7 +426,7 @@ public final class UILayoutDonateDepositCoins extends BaseFragment<DonateCoinsDe
     /* compiled from: UILayoutDonateDepositCoins.kt */
     @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u0003H\n¢\u0006\u0002\b\u0005"}, m7105d2 = {"<anonymous>", "", "emailString", "", "kotlin.jvm.PlatformType", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonateDepositCoins$setupObservers$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C38862 extends Lambda implements Function1<String, Unit> {
         public C38862() {
             super(1);
@@ -449,7 +449,7 @@ public final class UILayoutDonateDepositCoins extends BaseFragment<DonateCoinsDe
     /* compiled from: UILayoutDonateDepositCoins.kt */
     @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0003\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u0003H\n¢\u0006\u0004\b\u0005\u0010\u0006"}, m7105d2 = {"<anonymous>", "", "coins", "", "kotlin.jvm.PlatformType", "invoke", "(Ljava/lang/Integer;)V"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonateDepositCoins$setupObservers$3 */
-    /* loaded from: classes2.dex */
+
     public static final class C38873 extends Lambda implements Function1<Integer, Unit> {
         public C38873() {
             super(1);
@@ -476,7 +476,7 @@ public final class UILayoutDonateDepositCoins extends BaseFragment<DonateCoinsDe
     /* compiled from: UILayoutDonateDepositCoins.kt */
     @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0003\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u0003H\n¢\u0006\u0004\b\u0005\u0010\u0006"}, m7105d2 = {"<anonymous>", "", "inputCoins", "", "kotlin.jvm.PlatformType", "invoke", "(Ljava/lang/Integer;)V"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.donate.ui.UILayoutDonateDepositCoins$setupObservers$4 */
-    /* loaded from: classes2.dex */
+
     public static final class C38884 extends Lambda implements Function1<Integer, Unit> {
         public C38884() {
             super(1);

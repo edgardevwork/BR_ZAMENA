@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: InventoryChatAdapter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class InventoryChatAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
     public InventoryChatItemBinding binding;

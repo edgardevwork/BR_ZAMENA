@@ -66,7 +66,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CatchStreamerPromptUi.kt */
 @SourceDebugExtension({"SMAP\nCatchStreamerPromptUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CatchStreamerPromptUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/CatchStreamerPromptUiKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,153:1\n67#2,7:154\n74#2:189\n78#2:194\n79#3,11:161\n92#3:193\n456#4,8:172\n464#4,3:186\n467#4,3:190\n3737#5,6:180\n*S KotlinDebug\n*F\n+ 1 CatchStreamerPromptUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/CatchStreamerPromptUiKt\n*L\n54#1:154,7\n54#1:189\n54#1:194\n54#1:161,11\n54#1:193\n54#1:172,8\n54#1:186,3\n54#1:190,3\n54#1:180,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CatchStreamerPromptUiKt {
 
     /* compiled from: CatchStreamerPromptUi.kt */

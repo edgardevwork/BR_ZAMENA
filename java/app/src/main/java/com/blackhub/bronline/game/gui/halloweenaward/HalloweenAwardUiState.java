@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: HalloweenAwardUiState.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final /* data */ class HalloweenAwardUiState implements UiState {
     public static final int $stable = 0;
     public final boolean isBlockingLoading;

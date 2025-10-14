@@ -286,7 +286,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$1 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42121 implements View.OnClickListener {
         public ViewOnClickListenerC42121() {
         }
@@ -298,7 +298,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$2 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42132 implements View.OnClickListener {
         public ViewOnClickListenerC42132() {
         }
@@ -315,7 +315,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$3 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42143 implements View.OnClickListener {
         public ViewOnClickListenerC42143() {
         }
@@ -332,7 +332,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$4 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42154 implements View.OnClickListener {
         public ViewOnClickListenerC42154() {
         }
@@ -347,7 +347,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$5 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42165 implements View.OnClickListener {
         public ViewOnClickListenerC42165() {
         }
@@ -362,7 +362,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$6 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42176 implements View.OnClickListener {
         public ViewOnClickListenerC42176() {
         }
@@ -377,7 +377,7 @@ public class BrAudioFragment extends Fragment {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.legacy.BrAudioFragment$7 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnClickListenerC42187 implements View.OnClickListener {
         public ViewOnClickListenerC42187() {
         }

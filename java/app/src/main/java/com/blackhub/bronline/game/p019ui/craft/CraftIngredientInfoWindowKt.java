@@ -53,7 +53,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftIngredientInfoWindow.kt */
 @SourceDebugExtension({"SMAP\nCraftIngredientInfoWindow.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftIngredientInfoWindow.kt\ncom/blackhub/bronline/game/ui/craft/CraftIngredientInfoWindowKt\n+ 2 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,77:1\n75#2,5:78\n80#2:111\n84#2:116\n79#3,11:83\n92#3:115\n456#4,8:94\n464#4,3:108\n467#4,3:112\n3737#5,6:102\n*S KotlinDebug\n*F\n+ 1 CraftIngredientInfoWindow.kt\ncom/blackhub/bronline/game/ui/craft/CraftIngredientInfoWindowKt\n*L\n29#1:78,5\n29#1:111\n29#1:116\n29#1:83,11\n29#1:115\n29#1:94,8\n29#1:108,3\n29#1:112,3\n29#1:102,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftIngredientInfoWindowKt {
 
     /* compiled from: CraftIngredientInfoWindow.kt */

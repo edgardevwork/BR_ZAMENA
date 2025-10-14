@@ -31,7 +31,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ChatGui.kt */
 @SourceDebugExtension({"SMAP\nChatGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ChatGui.kt\ncom/blackhub/bronline/game/ui/chat/ChatGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,25:1\n81#2,11:26\n*S KotlinDebug\n*F\n+ 1 ChatGui.kt\ncom/blackhub/bronline/game/ui/chat/ChatGuiKt\n*L\n12#1:26,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ChatGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

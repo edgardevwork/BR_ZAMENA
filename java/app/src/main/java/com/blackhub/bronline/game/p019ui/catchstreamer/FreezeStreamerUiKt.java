@@ -72,7 +72,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: FreezeStreamerUi.kt */
 @SourceDebugExtension({"SMAP\nFreezeStreamerUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FreezeStreamerUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/FreezeStreamerUiKt\n+ 2 AnnotatedString.kt\nandroidx/compose/ui/text/AnnotatedStringKt\n*L\n1#1,106:1\n1099#2:107\n928#2,6:108\n*S KotlinDebug\n*F\n+ 1 FreezeStreamerUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/FreezeStreamerUiKt\n*L\n41#1:107\n43#1:108,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class FreezeStreamerUiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: DonateCustomDialog.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class DonateCustomDialog {
     public static final int $stable = 8;
     public Function1<? super Integer, Unit> clickListenerInBuyCarDialog;

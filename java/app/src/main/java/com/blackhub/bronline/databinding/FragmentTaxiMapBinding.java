@@ -14,7 +14,7 @@ import androidx.databinding.ViewDataBinding;
 import com.blackhub.bronline.game.gui.taximap.TaxiMapViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentTaxiMapBinding extends ViewDataBinding {
 
     @NonNull

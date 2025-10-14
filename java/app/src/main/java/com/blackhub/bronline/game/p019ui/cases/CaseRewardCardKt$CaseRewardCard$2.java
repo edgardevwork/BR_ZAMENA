@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CaseRewardCard.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.cases.CaseRewardCardKt$CaseRewardCard$2", m7120f = "CaseRewardCard.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class CaseRewardCardKt$CaseRewardCard$2 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ Context $context;
     public final /* synthetic */ boolean $isGreetingBanner;

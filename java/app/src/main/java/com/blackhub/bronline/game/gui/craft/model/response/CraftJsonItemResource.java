@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftJsonItemResource.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftJsonItemResource {
     public static final int $stable = 0;
 

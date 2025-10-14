@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CongratulationsDialogUI.kt */
-/* loaded from: classes2.dex */
+
 public final class ComposableSingletons$CongratulationsDialogUIKt {
 
     @NotNull

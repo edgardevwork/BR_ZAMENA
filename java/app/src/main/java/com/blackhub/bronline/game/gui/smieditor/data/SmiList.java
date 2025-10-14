@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: SmiList.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class SmiList {
     public static final int $stable = 8;
 

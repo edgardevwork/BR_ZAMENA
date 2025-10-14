@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class SumContactsViewModel_Factory implements Factory<SumContactsViewModel> {
     public final Provider<PreferencesRepository> preferencesRepositoryProvider;
 

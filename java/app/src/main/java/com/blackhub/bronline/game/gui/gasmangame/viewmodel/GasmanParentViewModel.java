@@ -126,7 +126,7 @@ public final class GasmanParentViewModel extends BaseViewModel<GasmanParentUISta
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gasmangame.viewmodel.GasmanParentViewModel$gasAnimated$1", m7120f = "GasmanParentViewModel.kt", m7121i = {}, m7122l = {85}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nGasmanParentViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GasmanParentViewModel.kt\ncom/blackhub/bronline/game/gui/gasmangame/viewmodel/GasmanParentViewModel$gasAnimated$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,107:1\n230#2,5:108\n*S KotlinDebug\n*F\n+ 1 GasmanParentViewModel.kt\ncom/blackhub/bronline/game/gui/gasmangame/viewmodel/GasmanParentViewModel$gasAnimated$1\n*L\n89#1:108,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.gasmangame.viewmodel.GasmanParentViewModel$gasAnimated$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41111 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -180,7 +180,7 @@ public final class GasmanParentViewModel extends BaseViewModel<GasmanParentUISta
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.gasmangame.viewmodel.GasmanParentViewModel$sendGameEnded$1", m7120f = "GasmanParentViewModel.kt", m7121i = {}, m7122l = {99}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.gasmangame.viewmodel.GasmanParentViewModel$sendGameEnded$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41121 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 

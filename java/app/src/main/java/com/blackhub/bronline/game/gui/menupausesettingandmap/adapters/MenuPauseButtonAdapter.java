@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: MenuPauseButtonAdapter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class MenuPauseButtonAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
     public Function1<? super Integer, Unit> buttonClickListener;

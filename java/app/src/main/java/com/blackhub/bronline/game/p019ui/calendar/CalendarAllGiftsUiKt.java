@@ -80,7 +80,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarAllGiftsUi.kt */
 @SourceDebugExtension({"SMAP\nCalendarAllGiftsUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CalendarAllGiftsUi.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarAllGiftsUiKt\n+ 2 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,405:1\n74#2:406\n74#2:413\n74#2:414\n74#2:415\n74#2:416\n74#2:417\n74#2:418\n74#2:419\n74#2:420\n74#2:421\n74#2:422\n74#2:423\n74#2:424\n74#2:425\n74#2:426\n74#2:427\n74#2:428\n74#2:429\n74#2:430\n74#2:431\n74#2:432\n74#2:433\n74#2:434\n74#2:435\n74#2:436\n74#2:437\n74#2:438\n74#2:439\n74#2:440\n74#2:441\n74#2:442\n74#2:443\n74#2:444\n74#2:445\n1116#3,6:407\n81#4:446\n107#4,2:447\n*S KotlinDebug\n*F\n+ 1 CalendarAllGiftsUi.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarAllGiftsUiKt\n*L\n81#1:406\n199#1:413\n207#1:414\n213#1:415\n219#1:416\n225#1:417\n231#1:418\n241#1:419\n246#1:420\n252#1:421\n258#1:422\n264#1:423\n270#1:424\n276#1:425\n283#1:426\n289#1:427\n295#1:428\n301#1:429\n307#1:430\n313#1:431\n319#1:432\n326#1:433\n332#1:434\n338#1:435\n344#1:436\n350#1:437\n356#1:438\n362#1:439\n369#1:440\n375#1:441\n381#1:442\n387#1:443\n393#1:444\n399#1:445\n82#1:407,6\n82#1:446\n82#1:447,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CalendarAllGiftsUiKt {
     public static final float ALPHA_OF_BG_BEAR_IC = 0.05f;
     public static final float SIZE_OF_BG_BEAR_IC = 0.7f;

@@ -68,7 +68,7 @@ import org.json.JSONObject;
 /* compiled from: GUIUsersInventory.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIUsersInventory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIUsersInventory.kt\ncom/blackhub/bronline/game/gui/inventory/GUIUsersInventory\n+ 2 ArrayMap.kt\nandroidx/collection/ArrayMapKt\n+ 3 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,660:1\n26#2:661\n172#3,9:662\n*S KotlinDebug\n*F\n+ 1 GUIUsersInventory.kt\ncom/blackhub/bronline/game/gui/inventory/GUIUsersInventory\n*L\n127#1:661\n129#1:662,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIUsersInventory extends BaseISAMPGUIFragment<InventoryDialogBinding> {
     public static final int $stable = 8;
 
@@ -584,7 +584,7 @@ public final class GUIUsersInventory extends BaseISAMPGUIFragment<InventoryDialo
         /* compiled from: GUIUsersInventory.kt */
         @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u0003H\u008a@¢\u0006\u0004\b\u0004\u0010\u0005"}, m7105d2 = {"<anonymous>", "", "configurationJsons", "Lcom/blackhub/bronline/game/core/model/ConfigurationJsonModel;", "emit", "(Lcom/blackhub/bronline/game/core/model/ConfigurationJsonModel;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         /* renamed from: com.blackhub.bronline.game.gui.inventory.GUIUsersInventory$initInvItemsFromJson$1$1 */
-        /* loaded from: classes2.dex */
+        
         public static final class AnonymousClass1<T> implements FlowCollector {
             public final /* synthetic */ JSONObject $json;
 

@@ -76,7 +76,7 @@ import org.json.JSONObject;
 /* compiled from: GUIFractionSystem.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIFractionSystem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIFractionSystem.kt\ncom/blackhub/bronline/game/gui/fractions/GUIFractionSystem\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,638:1\n172#2,9:639\n106#2,15:648\n106#2,15:663\n106#2,15:678\n106#2,15:693\n106#2,15:708\n*S KotlinDebug\n*F\n+ 1 GUIFractionSystem.kt\ncom/blackhub/bronline/game/gui/fractions/GUIFractionSystem\n*L\n115#1:639,9\n121#1:648,15\n127#1:663,15\n132#1:678,15\n137#1:693,15\n143#1:708,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIFractionSystem extends BaseISAMPGUIFragment<FractionMainContainerBinding> {
     public static final int $stable = 8;
 

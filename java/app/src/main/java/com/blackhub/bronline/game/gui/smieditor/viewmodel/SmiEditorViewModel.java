@@ -121,7 +121,7 @@ public final class SmiEditorViewModel extends ViewModel implements ViewModelProv
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.smieditor.viewmodel.SmiEditorViewModel", m7120f = "SmiEditorViewModel.kt", m7121i = {0, 0, 0}, m7122l = {236, SnappyCompressorOutputStream.TWO_SIZE_BYTE_MARKER}, m7123m = "lUpdateFinalText", m7124n = {"this", "newValueOfText", "currentPos"}, m7125s = {"L$0", "L$1", "I$0"})
     /* renamed from: com.blackhub.bronline.game.gui.smieditor.viewmodel.SmiEditorViewModel$lUpdateFinalText$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C44961 extends ContinuationImpl {
         public int I$0;
         public Object L$0;

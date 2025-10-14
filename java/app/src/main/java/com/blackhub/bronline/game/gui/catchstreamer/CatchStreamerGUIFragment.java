@@ -32,7 +32,7 @@ import org.json.JSONObject;
 /* compiled from: CatchStreamerGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nCatchStreamerGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CatchStreamerGUIFragment.kt\ncom/blackhub/bronline/game/gui/catchstreamer/CatchStreamerGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,55:1\n106#2,15:56\n*S KotlinDebug\n*F\n+ 1 CatchStreamerGUIFragment.kt\ncom/blackhub/bronline/game/gui/catchstreamer/CatchStreamerGUIFragment\n*L\n19#1:56,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CatchStreamerGUIFragment extends BaseISAMPGUIFragmentCompose<CatchStreamerUiState, CatchStreamerViewModel> {
     public static final int $stable = 8;
 

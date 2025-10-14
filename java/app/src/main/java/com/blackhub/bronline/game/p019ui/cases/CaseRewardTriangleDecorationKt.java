@@ -52,7 +52,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CaseRewardTriangleDecoration.kt */
 @SourceDebugExtension({"SMAP\nCaseRewardTriangleDecoration.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CaseRewardTriangleDecoration.kt\ncom/blackhub/bronline/game/ui/cases/CaseRewardTriangleDecorationKt\n+ 2 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 3 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 4 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 5 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 6 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 7 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,75:1\n154#2:76\n154#2:117\n74#3:77\n69#4,5:78\n74#4:111\n78#4:116\n79#5,11:83\n92#5:115\n456#6,8:94\n464#6,3:108\n467#6,3:112\n3737#7,6:102\n*S KotlinDebug\n*F\n+ 1 CaseRewardTriangleDecoration.kt\ncom/blackhub/bronline/game/ui/cases/CaseRewardTriangleDecorationKt\n*L\n32#1:76\n74#1:117\n36#1:77\n42#1:78,5\n42#1:111\n42#1:116\n42#1:83,11\n42#1:115\n42#1:94,8\n42#1:108,3\n42#1:112,3\n42#1:102,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CaseRewardTriangleDecorationKt {
     public static final float ANGLE = 45.0f;
     public static final float SCALE = 1.5f;

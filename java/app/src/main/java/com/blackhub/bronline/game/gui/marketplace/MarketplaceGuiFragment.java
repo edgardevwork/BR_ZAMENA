@@ -38,7 +38,7 @@ import org.json.JSONObject;
 /* compiled from: MarketplaceGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nMarketplaceGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MarketplaceGuiFragment.kt\ncom/blackhub/bronline/game/gui/marketplace/MarketplaceGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,68:1\n106#2,15:69\n172#2,9:84\n*S KotlinDebug\n*F\n+ 1 MarketplaceGuiFragment.kt\ncom/blackhub/bronline/game/gui/marketplace/MarketplaceGuiFragment\n*L\n24#1:69,15\n25#1:84,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class MarketplaceGuiFragment extends BaseISAMPGUIFragmentCompose<MarketplaceUiState, MarketplaceViewModel> {
     public static final int $stable = 8;
 

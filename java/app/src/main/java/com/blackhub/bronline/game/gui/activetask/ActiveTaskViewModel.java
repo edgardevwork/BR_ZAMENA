@@ -67,7 +67,7 @@ public final class ActiveTaskViewModel extends BaseViewModel<ActiveTaskUiState> 
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$initJson$1", m7120f = "ActiveTaskViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nActiveTaskViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActiveTaskViewModel.kt\ncom/blackhub/bronline/game/gui/activetask/ActiveTaskViewModel$initJson$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,136:1\n230#2,5:137\n*S KotlinDebug\n*F\n+ 1 ActiveTaskViewModel.kt\ncom/blackhub/bronline/game/gui/activetask/ActiveTaskViewModel$initJson$1\n*L\n48#1:137,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$initJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C36911 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -140,7 +140,7 @@ public final class ActiveTaskViewModel extends BaseViewModel<ActiveTaskUiState> 
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$updateJson$1", m7120f = "ActiveTaskViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nActiveTaskViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActiveTaskViewModel.kt\ncom/blackhub/bronline/game/gui/activetask/ActiveTaskViewModel$updateJson$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,136:1\n230#2,5:137\n230#2,5:142\n230#2,5:147\n*S KotlinDebug\n*F\n+ 1 ActiveTaskViewModel.kt\ncom/blackhub/bronline/game/gui/activetask/ActiveTaskViewModel$updateJson$1\n*L\n70#1:137,5\n78#1:142,5\n92#1:147,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$updateJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C36951 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -227,7 +227,7 @@ public final class ActiveTaskViewModel extends BaseViewModel<ActiveTaskUiState> 
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$sendClickId$1", m7120f = "ActiveTaskViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$sendClickId$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C36931 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $id;
         public int label;
@@ -272,7 +272,7 @@ public final class ActiveTaskViewModel extends BaseViewModel<ActiveTaskUiState> 
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$onEndOfTime$1", m7120f = "ActiveTaskViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$onEndOfTime$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C36921 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -334,7 +334,7 @@ public final class ActiveTaskViewModel extends BaseViewModel<ActiveTaskUiState> 
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$sendCloseScreen$1", m7120f = "ActiveTaskViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nActiveTaskViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActiveTaskViewModel.kt\ncom/blackhub/bronline/game/gui/activetask/ActiveTaskViewModel$sendCloseScreen$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,136:1\n230#2,5:137\n*S KotlinDebug\n*F\n+ 1 ActiveTaskViewModel.kt\ncom/blackhub/bronline/game/gui/activetask/ActiveTaskViewModel$sendCloseScreen$1\n*L\n131#1:137,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.activetask.ActiveTaskViewModel$sendCloseScreen$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C36941 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 

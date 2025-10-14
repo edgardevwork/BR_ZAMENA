@@ -47,7 +47,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BpRewardsHintItem.kt */
 @SourceDebugExtension({"SMAP\nBpRewardsHintItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsHintItem.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsHintItemKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,49:1\n67#2,7:50\n74#2:85\n78#2:90\n79#3,11:57\n92#3:89\n456#4,8:68\n464#4,3:82\n467#4,3:86\n3737#5,6:76\n*S KotlinDebug\n*F\n+ 1 BpRewardsHintItem.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsHintItemKt\n*L\n22#1:50,7\n22#1:85\n22#1:90\n22#1:57,11\n22#1:89\n22#1:68,8\n22#1:82,3\n22#1:86,3\n22#1:76,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BpRewardsHintItemKt {
     /* JADX WARN: Removed duplicated region for block: B:46:0x008e  */
     /* JADX WARN: Removed duplicated region for block: B:49:0x00c6  */

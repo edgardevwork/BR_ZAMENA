@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftItemsWithNotificationServerItem.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftItemsWithNotificationServerItem {
     public static final int $stable = 0;
 

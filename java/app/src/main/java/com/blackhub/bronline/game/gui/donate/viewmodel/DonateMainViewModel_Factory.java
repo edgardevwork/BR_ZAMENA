@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class DonateMainViewModel_Factory implements Factory<DonateMainViewModel> {
     public final Provider<DonateActionWithJSON> actionWithJsonProvider;
     public final Provider<LocalNotification> localNotificationProvider;

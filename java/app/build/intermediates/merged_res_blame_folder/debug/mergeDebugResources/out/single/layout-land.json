@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout-land/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-land/material_timepicker.xml",
+        "source": "com.bless.client.app-main-8:/layout-land/material_timepicker.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-land/material_clock_period_toggle_land.xml",
+        "source": "com.bless.client.app-main-8:/layout-land/material_clock_period_toggle_land.xml"
+    }
+]

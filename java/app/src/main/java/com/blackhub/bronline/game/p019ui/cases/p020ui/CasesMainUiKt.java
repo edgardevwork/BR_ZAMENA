@@ -100,7 +100,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesMainUi.kt */
 @SourceDebugExtension({"SMAP\nCasesMainUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesMainUi.kt\ncom/blackhub/bronline/game/ui/cases/ui/CasesMainUiKt\n+ 2 Dp.kt\nandroidx/compose/ui/unit/Dp\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n+ 5 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n*L\n1#1,855:1\n64#2:856\n64#2:857\n1116#3,6:858\n1116#3,6:864\n1116#3,6:870\n1116#3,6:876\n81#4:882\n107#4,2:883\n81#4:885\n107#4,2:886\n75#5:888\n108#5,2:889\n*S KotlinDebug\n*F\n+ 1 CasesMainUi.kt\ncom/blackhub/bronline/game/ui/cases/ui/CasesMainUiKt\n*L\n144#1:856\n145#1:857\n169#1:858,6\n170#1:864,6\n171#1:870,6\n176#1:876,6\n169#1:882\n169#1:883,2\n170#1:885\n170#1:886,2\n171#1:888\n171#1:889,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesMainUiKt {
     public static final float BLUR_FOR_SHADOW_TEXT = 2.0f;
     public static final float CORNER_COEFF_FIRST = 0.05f;

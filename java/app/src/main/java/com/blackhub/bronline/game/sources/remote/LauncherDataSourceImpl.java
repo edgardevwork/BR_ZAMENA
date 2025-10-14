@@ -135,7 +135,7 @@ public final class LauncherDataSourceImpl implements LauncherDataSource {
     @Metadata(m7104d1 = {"\u0000\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\b\u0012\u0004\u0012\u00020\u00020\u0001*\u00020\u0003H\u008a@"}, m7105d2 = {"<anonymous>", "Lretrofit2/Response;", "Lcom/blackhub/bronline/game/model/remote/response/app/AppVersionResponse;", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.sources.remote.LauncherDataSourceImpl$getRemoteAppVersion$2", m7120f = "LauncherDataSourceImpl.kt", m7121i = {}, m7122l = {24}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.sources.remote.LauncherDataSourceImpl$getRemoteAppVersion$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C47422 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Response<AppVersionResponse>>, Object> {
         public int label;
 
@@ -226,7 +226,7 @@ public final class LauncherDataSourceImpl implements LauncherDataSource {
     @Metadata(m7104d1 = {"\u0000\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\b\u0012\u0004\u0012\u00020\u00020\u0001*\u00020\u0003H\u008a@"}, m7105d2 = {"<anonymous>", "Lretrofit2/Response;", "Lcom/blackhub/bronline/game/model/remote/response/app/AppConfigResponse;", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.sources.remote.LauncherDataSourceImpl$getAppConfigResponse$2", m7120f = "LauncherDataSourceImpl.kt", m7121i = {}, m7122l = {37}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.sources.remote.LauncherDataSourceImpl$getAppConfigResponse$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C47402 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Response<AppConfigResponse>>, Object> {
         public int label;
 

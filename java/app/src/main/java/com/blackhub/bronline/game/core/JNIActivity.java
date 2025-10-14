@@ -144,7 +144,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$2 */
-    /* loaded from: classes2.dex */
+
     public class DialogInterfaceOnClickListenerC35112 implements DialogInterface.OnClickListener {
         public DialogInterfaceOnClickListenerC35112() {
         }
@@ -163,7 +163,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$1 */
-    /* loaded from: classes2.dex */
+
     public class DialogInterfaceOnClickListenerC35101 implements DialogInterface.OnClickListener {
         public DialogInterfaceOnClickListenerC35101() {
         }
@@ -192,7 +192,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$3 */
-    /* loaded from: classes2.dex */
+
     public class RunnableC35123 implements Runnable {
         public RunnableC35123() {
         }
@@ -344,7 +344,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$4 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnSystemUiVisibilityChangeListenerC35134 implements View.OnSystemUiVisibilityChangeListener {
         public ViewOnSystemUiVisibilityChangeListenerC35134() {
         }
@@ -358,7 +358,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$5 */
-    /* loaded from: classes2.dex */
+
     public class C35145 extends OnBackPressedCallback {
         public C35145(boolean enabled) {
             super(enabled);
@@ -453,7 +453,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$6 */
-    /* loaded from: classes2.dex */
+
     public class RunnableC35156 implements Runnable {
         public RunnableC35156() {
         }
@@ -465,7 +465,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$7 */
-    /* loaded from: classes2.dex */
+
     public class RunnableC35167 implements Runnable {
         public RunnableC35167() {
         }
@@ -557,7 +557,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$8 */
-    /* loaded from: classes2.dex */
+
     public class C35178 implements Observer<Integer> {
         public C35178() {
         }
@@ -709,7 +709,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     /* renamed from: com.blackhub.bronline.game.core.JNIActivity$9 */
-    /* loaded from: classes2.dex */
+
     public class C35189 implements MediaPlayer.OnCompletionListener {
         public C35189() {
         }

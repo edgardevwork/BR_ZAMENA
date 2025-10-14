@@ -43,7 +43,7 @@ import org.json.JSONException;
 /* compiled from: UIFractionsDocumentsLayout.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIFractionsDocumentsLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIFractionsDocumentsLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionsDocumentsLayout\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,120:1\n106#2,15:121\n*S KotlinDebug\n*F\n+ 1 UIFractionsDocumentsLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionsDocumentsLayout\n*L\n22#1:121,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIFractionsDocumentsLayout extends BaseFragment<FractionsDocumentsLayoutBinding> {
     public static final int $stable = 8;
     public int documentId = -1;

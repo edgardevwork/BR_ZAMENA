@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 /* compiled from: CraftActionWithJSON.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class CraftActionWithJSON {
     public static final int $stable = 8;
 

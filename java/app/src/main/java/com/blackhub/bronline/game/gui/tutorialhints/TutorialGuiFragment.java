@@ -57,7 +57,7 @@ import org.json.JSONObject;
 /* compiled from: TutorialGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nTutorialGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TutorialGuiFragment.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,320:1\n106#2,15:321\n256#3,2:336\n256#3,2:338\n*S KotlinDebug\n*F\n+ 1 TutorialGuiFragment.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialGuiFragment\n*L\n57#1:321,15\n102#1:336,2\n166#1:338,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TutorialGuiFragment extends BaseISAMPGUIFragmentWithState<TutorialUiState, TutorialViewModel, FragmentTutorialGuiBinding> {
     public static final long ON_CLICK_ANIMATE_DURATION = 500;
 

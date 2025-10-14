@@ -89,7 +89,7 @@ public final class HalloweenAwardViewModel extends BaseViewModel<HalloweenAwardU
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.halloweenaward.HalloweenAwardViewModel$sendType$1", m7120f = "HalloweenAwardViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHalloweenAwardViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HalloweenAwardViewModel.kt\ncom/blackhub/bronline/game/gui/halloweenaward/HalloweenAwardViewModel$sendType$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,55:1\n230#2,5:56\n*S KotlinDebug\n*F\n+ 1 HalloweenAwardViewModel.kt\ncom/blackhub/bronline/game/gui/halloweenaward/HalloweenAwardViewModel$sendType$1\n*L\n50#1:56,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.halloweenaward.HalloweenAwardViewModel$sendType$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41261 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $type;
         public int label;

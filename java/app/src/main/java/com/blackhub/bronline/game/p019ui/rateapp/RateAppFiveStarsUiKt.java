@@ -55,7 +55,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RateAppFiveStarsUi.kt */
 @SourceDebugExtension({"SMAP\nRateAppFiveStarsUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RateAppFiveStarsUi.kt\ncom/blackhub/bronline/game/ui/rateapp/RateAppFiveStarsUiKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 7 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,98:1\n68#2,6:99\n74#2:133\n78#2:208\n79#3,11:105\n79#3,11:140\n92#3:202\n92#3:207\n456#4,8:116\n464#4,3:130\n456#4,8:151\n464#4,3:165\n467#4,3:199\n467#4,3:204\n3737#5,6:124\n3737#5,6:159\n87#6,6:134\n93#6:168\n97#6:203\n1116#7,6:169\n1116#7,6:175\n1116#7,6:181\n1116#7,6:187\n1116#7,6:193\n*S KotlinDebug\n*F\n+ 1 RateAppFiveStarsUi.kt\ncom/blackhub/bronline/game/ui/rateapp/RateAppFiveStarsUiKt\n*L\n32#1:99,6\n32#1:133\n32#1:208\n32#1:105,11\n41#1:140,11\n41#1:202\n32#1:207\n32#1:116,8\n32#1:130,3\n41#1:151,8\n41#1:165,3\n41#1:199,3\n32#1:204,3\n32#1:124,6\n41#1:159,6\n41#1:134,6\n41#1:168\n41#1:203\n48#1:169,6\n57#1:175,6\n65#1:181,6\n73#1:187,6\n81#1:193,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RateAppFiveStarsUiKt {
     public static final int FIFTH_STAR = 4;
     public static final int FIRST_STAR = 0;

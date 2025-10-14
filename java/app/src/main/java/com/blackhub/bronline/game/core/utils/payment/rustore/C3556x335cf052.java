@@ -12,7 +12,7 @@ import ru.rustore.sdk.billingclient.provider.logger.ExternalPaymentLoggerFactory
 
 /* compiled from: RustoreBillingClientWrapper.kt */
 /* renamed from: com.blackhub.bronline.game.core.utils.payment.rustore.RustoreBillingClientWrapperKt$sam$ru_rustore_sdk_billingclient_provider_logger_ExternalPaymentLoggerFactory$0 */
-/* loaded from: classes2.dex */
+
 public final class C3556x335cf052 implements ExternalPaymentLoggerFactory, FunctionAdapter {
     public final /* synthetic */ Function1 function;
 

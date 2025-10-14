@@ -9,7 +9,7 @@ import org.json.JSONObject;
 
 /* compiled from: JNIActivityActionWithJSON.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class JNIActivityActionWithJSON {
     public static final int $stable = 8;
 

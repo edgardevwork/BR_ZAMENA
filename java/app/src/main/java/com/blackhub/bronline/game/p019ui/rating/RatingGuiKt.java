@@ -30,7 +30,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RatingGui.kt */
 @SourceDebugExtension({"SMAP\nRatingGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RatingGui.kt\ncom/blackhub/bronline/game/ui/rating/RatingGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,32:1\n81#2,11:33\n*S KotlinDebug\n*F\n+ 1 RatingGui.kt\ncom/blackhub/bronline/game/ui/rating/RatingGuiKt\n*L\n13#1:33,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RatingGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

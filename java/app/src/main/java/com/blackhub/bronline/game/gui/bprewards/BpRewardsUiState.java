@@ -20,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BpRewardsUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class BpRewardsUiState implements UiState {
     public static final int $stable = 8;
 

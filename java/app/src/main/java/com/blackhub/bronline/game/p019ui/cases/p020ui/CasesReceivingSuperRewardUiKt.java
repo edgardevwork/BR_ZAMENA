@@ -89,7 +89,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesReceivingSuperRewardUi.kt */
 @SourceDebugExtension({"SMAP\nCasesReceivingSuperRewardUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesReceivingSuperRewardUi.kt\ncom/blackhub/bronline/game/ui/cases/ui/CasesReceivingSuperRewardUiKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,321:1\n1116#2,6:322\n1116#2,6:328\n1116#2,6:334\n1116#2,6:340\n1116#2,6:346\n1116#2,6:352\n1116#2,6:358\n1116#2,6:364\n1116#2,6:370\n1116#2,6:376\n1116#2,6:382\n1116#2,6:388\n1116#2,6:394\n1116#2,6:400\n1116#2,6:406\n1116#2,6:412\n1116#2,6:418\n1116#2,6:424\n81#3:430\n81#3:431\n81#3:432\n81#3:433\n81#3:434\n81#3:435\n81#3:436\n81#3:437\n81#3:438\n81#3:439\n81#3:440\n107#3,2:441\n*S KotlinDebug\n*F\n+ 1 CasesReceivingSuperRewardUi.kt\ncom/blackhub/bronline/game/ui/cases/ui/CasesReceivingSuperRewardUiKt\n*L\n68#1:322,6\n69#1:328,6\n70#1:334,6\n71#1:340,6\n73#1:346,6\n74#1:352,6\n75#1:358,6\n77#1:364,6\n78#1:370,6\n79#1:376,6\n80#1:382,6\n81#1:388,6\n82#1:394,6\n83#1:400,6\n84#1:406,6\n85#1:412,6\n86#1:418,6\n88#1:424,6\n69#1:430\n70#1:431\n71#1:432\n74#1:433\n75#1:434\n82#1:435\n83#1:436\n84#1:437\n85#1:438\n86#1:439\n88#1:440\n88#1:441,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesReceivingSuperRewardUiKt {
     public static final float ALPHA_MIN_BOTTOM_TEXT = 0.5f;
     public static final int DEFAULT_DELAY_300 = 300;
@@ -618,7 +618,7 @@ public final class CasesReceivingSuperRewardUiKt {
         @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.cases.ui.CasesReceivingSuperRewardUiKt$CasesReceivingSuperRewardUi$1$1", m7120f = "CasesReceivingSuperRewardUi.kt", m7121i = {}, m7122l = {93}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
         /* renamed from: com.blackhub.bronline.game.ui.cases.ui.CasesReceivingSuperRewardUiKt$CasesReceivingSuperRewardUi$1$1, reason: invalid class name */
-        /* loaded from: classes2.dex */
+
         public static final class AnonymousClass1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
             public final /* synthetic */ Animatable<Float, AnimationVector1D> $bgAlphaAnimatedFloat;
             public final /* synthetic */ MutableState<Pair<Float, Integer>> $valueForBg$delegate;
@@ -671,7 +671,7 @@ public final class CasesReceivingSuperRewardUiKt {
         @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.cases.ui.CasesReceivingSuperRewardUiKt$CasesReceivingSuperRewardUi$1$2", m7120f = "CasesReceivingSuperRewardUi.kt", m7121i = {0, 1, 2}, m7122l = {104, 111, 120, MatroskaExtractor.ID_BLOCK}, m7123m = "invokeSuspend", m7124n = {"$this$launch", "$this$launch", "$this$launch"}, m7125s = {"L$0", "L$0", "L$0"})
         /* renamed from: com.blackhub.bronline.game.ui.cases.ui.CasesReceivingSuperRewardUiKt$CasesReceivingSuperRewardUi$1$2, reason: invalid class name */
-        /* loaded from: classes2.dex */
+
         public static final class AnonymousClass2 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
             public final /* synthetic */ Animatable<Float, AnimationVector1D> $bgTextAlphaAnimatedFloat;
             public final /* synthetic */ MutableState<Boolean> $isGetRewardSuccess$delegate;
@@ -948,7 +948,7 @@ public final class CasesReceivingSuperRewardUiKt {
         @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.cases.ui.CasesReceivingSuperRewardUiKt$CasesReceivingSuperRewardUi$1$3", m7120f = "CasesReceivingSuperRewardUi.kt", m7121i = {}, m7122l = {TsExtractor.TS_STREAM_TYPE_AC4, 179, MatroskaExtractor.ID_PIXEL_HEIGHT}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
         /* renamed from: com.blackhub.bronline.game.ui.cases.ui.CasesReceivingSuperRewardUiKt$CasesReceivingSuperRewardUi$1$3, reason: invalid class name */
-        /* loaded from: classes2.dex */
+
         public static final class AnonymousClass3 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
             public final /* synthetic */ Animatable<Float, AnimationVector1D> $gradientAlphaAnimatedFloat;
             public final /* synthetic */ Animatable<Float, AnimationVector1D> $starsAnimatedFloat;

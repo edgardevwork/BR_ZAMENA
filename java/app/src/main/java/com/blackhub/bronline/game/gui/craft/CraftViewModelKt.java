@@ -4,7 +4,7 @@ import kotlin.Metadata;
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: CraftViewModel.kt */
-/* loaded from: classes2.dex */
+
 public final class CraftViewModelKt {
 
     @NotNull

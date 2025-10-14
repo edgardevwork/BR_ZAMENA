@@ -90,7 +90,7 @@ public final class TutorialViewModel extends BaseViewModel<TutorialUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$initJson$1", m7120f = "TutorialViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nTutorialViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$initJson$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,260:1\n230#2,5:261\n*S KotlinDebug\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$initJson$1\n*L\n115#1:261,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$initJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46871 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public /* synthetic */ Object L$0;
@@ -216,7 +216,7 @@ public final class TutorialViewModel extends BaseViewModel<TutorialUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$updateJson$1", m7120f = "TutorialViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nTutorialViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$updateJson$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,260:1\n230#2,5:261\n230#2,5:266\n230#2,5:271\n230#2,5:279\n230#2,5:284\n230#2,5:289\n1864#3,3:276\n*S KotlinDebug\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$updateJson$1\n*L\n147#1:261,5\n155#1:266,5\n166#1:271,5\n192#1:279,5\n205#1:284,5\n215#1:289,5\n183#1:276,3\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$updateJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46911 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -350,7 +350,7 @@ public final class TutorialViewModel extends BaseViewModel<TutorialUiState> {
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$onClickTask$1", m7120f = "TutorialViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$onClickTask$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46881 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -392,7 +392,7 @@ public final class TutorialViewModel extends BaseViewModel<TutorialUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$setNewVersionVisible$1", m7120f = "TutorialViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nTutorialViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$setNewVersionVisible$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,260:1\n230#2,5:261\n*S KotlinDebug\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$setNewVersionVisible$1\n*L\n234#1:261,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$setNewVersionVisible$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46901 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ boolean $isVisible;
         public int label;
@@ -454,7 +454,7 @@ public final class TutorialViewModel extends BaseViewModel<TutorialUiState> {
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$sendCloseScreen$1", m7120f = "TutorialViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nTutorialViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$sendCloseScreen$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,260:1\n230#2,5:261\n*S KotlinDebug\n*F\n+ 1 TutorialViewModel.kt\ncom/blackhub/bronline/game/gui/tutorialhints/TutorialViewModel$sendCloseScreen$1\n*L\n251#1:261,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.tutorialhints.TutorialViewModel$sendCloseScreen$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46891 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 

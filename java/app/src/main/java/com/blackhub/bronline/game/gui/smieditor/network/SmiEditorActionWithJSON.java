@@ -12,7 +12,7 @@ import org.json.JSONObject;
 
 /* compiled from: SmiEditorActionWithJSON.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class SmiEditorActionWithJSON {
     public static final int $stable = 8;
 

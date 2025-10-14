@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: LazyDsl.kt */
 @SourceDebugExtension({"SMAP\nLazyDsl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LazyDsl.kt\nandroidx/compose/foundation/lazy/LazyDslKt$items$2\n*L\n1#1,426:1\n*E\n"})
 /* renamed from: com.blackhub.bronline.game.ui.admintools.adminpanel.ATRowButtonBlockKt$ATRowButtonBlock$1$1$invoke$$inlined$items$default$2 */
-/* loaded from: classes2.dex */
+
 public final class C4791x16502feb extends Lambda implements Function1<Integer, Object> {
     public final /* synthetic */ List $items;
     public final /* synthetic */ Function1 $key;

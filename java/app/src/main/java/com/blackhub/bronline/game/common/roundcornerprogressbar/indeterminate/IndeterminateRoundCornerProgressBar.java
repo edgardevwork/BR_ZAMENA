@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: IndeterminateRoundCornerProgressBar.kt */
 @StabilityInferred(parameters = 1)
 @Keep
-/* loaded from: classes2.dex */
+
 public class IndeterminateRoundCornerProgressBar extends RoundCornerProgressBar {
     public static final int $stable = 0;
 

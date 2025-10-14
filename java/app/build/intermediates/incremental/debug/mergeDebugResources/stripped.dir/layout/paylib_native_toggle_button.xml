@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/paylib_design_toggle_button_width"
+    android:layout_height="@dimen/paylib_design_toggle_button_height">
+    <View
+        android:id="@+id/track_unchecked"
+        android:background="@drawable/paylib_design_toggle_button_track_unchecked"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:id="@+id/track_checked"
+        android:background="@drawable/paylib_design_toggle_button_track_checked"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"/>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@+id/thumb"
+        android:background="@drawable/paylib_design_toggle_button_thumb"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/paylib_design_toggle_button_thumb_width"
+        android:layout_height="@dimen/paylib_design_toggle_button_thumb_height"
+        android:layout_marginStart="@dimen/paylib_design_spacer_1x"
+        android:layout_marginEnd="@dimen/paylib_design_spacer_1x"/>
+</FrameLayout>

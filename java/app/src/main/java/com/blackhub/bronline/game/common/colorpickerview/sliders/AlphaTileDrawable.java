@@ -5,6 +5,7 @@ import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.graphics.Paint;
+import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.Shader;
 import android.graphics.drawable.Drawable;
@@ -20,7 +21,7 @@ public class AlphaTileDrawable extends Drawable {
 
     @Override // android.graphics.drawable.Drawable
     public int getOpacity() {
-        return -1;
+        return PixelFormat.UNKNOWN;
     }
 
     public AlphaTileDrawable() {

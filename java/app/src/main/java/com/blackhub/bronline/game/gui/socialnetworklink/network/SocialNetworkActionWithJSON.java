@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 /* compiled from: SocialNetworkActionWithJSON.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class SocialNetworkActionWithJSON {
     public static final int $stable = 8;
     public final int guiId = 52;

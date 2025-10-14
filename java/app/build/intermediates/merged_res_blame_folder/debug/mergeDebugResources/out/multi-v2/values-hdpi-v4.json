@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\CRMP\\BR_ZAMENA\\java\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "64",
+                        "endOffsets": "117"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                },
+                {
+                    "source": "C:\\CRMP\\BR_ZAMENA\\java\\app\\src\\main\\res\\values-hdpi\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "120",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "392"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -54,7 +54,7 @@ import org.json.JSONObject;
 /* compiled from: GUINotificationNewStyle.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUINotificationNewStyle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUINotificationNewStyle.kt\ncom/blackhub/bronline/game/gui/notification/GUINotificationNewStyle\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,254:1\n106#2,15:255\n*S KotlinDebug\n*F\n+ 1 GUINotificationNewStyle.kt\ncom/blackhub/bronline/game/gui/notification/GUINotificationNewStyle\n*L\n53#1:255,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUINotificationNewStyle extends BaseISAMPGUIFragmentWithState<NotificationUiState, NotificationViewModel, FragmentNotificationBinding> {
     public static final int $stable = 8;
 

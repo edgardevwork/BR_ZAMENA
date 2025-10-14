@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BooleanExtension.kt */
-/* loaded from: classes2.dex */
+
 public final class BooleanExtensionKt {
     public static final boolean getOrFalse(@Nullable Boolean bool) {
         if (bool != null) {

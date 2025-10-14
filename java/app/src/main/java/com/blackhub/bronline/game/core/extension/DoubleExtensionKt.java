@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: DoubleExtension.kt */
 @SourceDebugExtension({"SMAP\nDoubleExtension.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoubleExtension.kt\ncom/blackhub/bronline/game/core/extension/DoubleExtensionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,54:1\n1#2:55\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class DoubleExtensionKt {
     public static final double getOrZero(@Nullable Double d) {
         if (d != null) {

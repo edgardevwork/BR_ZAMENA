@@ -66,7 +66,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaskHintRightItem.kt */
 @SourceDebugExtension({"SMAP\nTaskHintRightItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaskHintRightItem.kt\ncom/blackhub/bronline/game/ui/tutorial/TaskHintRightItemKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 8 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 9 Color.kt\nandroidx/core/graphics/ColorKt\n+ 10 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,110:1\n1116#2,6:111\n88#3,5:117\n93#3:150\n97#3:191\n79#4,11:122\n79#4,11:153\n92#4:185\n92#4:190\n456#5,8:133\n464#5,3:147\n456#5,8:164\n464#5,3:178\n467#5,3:182\n467#5,3:187\n3737#6,6:141\n3737#6,6:172\n78#7,2:151\n80#7:181\n84#7:186\n154#8:192\n470#9:193\n81#10:194\n81#10:195\n*S KotlinDebug\n*F\n+ 1 TaskHintRightItem.kt\ncom/blackhub/bronline/game/ui/tutorial/TaskHintRightItemKt\n*L\n44#1:111,6\n60#1:117,5\n60#1:150\n60#1:191\n60#1:122,11\n69#1:153,11\n69#1:185\n60#1:190\n60#1:133,8\n60#1:147,3\n69#1:164,8\n69#1:178,3\n69#1:182,3\n60#1:187,3\n60#1:141,6\n69#1:172,6\n69#1:151,2\n69#1:181\n69#1:186\n101#1:192\n106#1:193\n44#1:194\n54#1:195\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaskHintRightItemKt {
     public static final float COLUMN_BLOCK_WEIGHT = 0.25f;
     public static final float TEXT_BLOCK_WEIGHT = 0.75f;

@@ -14,7 +14,7 @@ import com.blackhub.bronline.game.common.UIContainer;
 import com.blackhub.bronline.game.gui.electric.viewmodel.ElectricViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentElectricGuiBinding extends ViewDataBinding {
 
     @NonNull

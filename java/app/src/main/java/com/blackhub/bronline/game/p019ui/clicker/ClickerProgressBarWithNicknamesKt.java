@@ -63,7 +63,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ClickerProgressBarWithNicknames.kt */
 @SourceDebugExtension({"SMAP\nClickerProgressBarWithNicknames.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ClickerProgressBarWithNicknames.kt\ncom/blackhub/bronline/game/ui/clicker/ClickerProgressBarWithNicknamesKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 7 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,145:1\n68#2,6:146\n74#2:180\n68#2,6:181\n74#2:215\n78#2:220\n78#2:231\n79#3,11:152\n79#3,11:187\n92#3:219\n92#3:230\n456#4,8:163\n464#4,3:177\n456#4,8:198\n464#4,3:212\n467#4,3:216\n467#4,3:227\n3737#5,6:171\n3737#5,6:206\n1116#6,6:221\n81#7:232\n*S KotlinDebug\n*F\n+ 1 ClickerProgressBarWithNicknames.kt\ncom/blackhub/bronline/game/ui/clicker/ClickerProgressBarWithNicknamesKt\n*L\n55#1:146,6\n55#1:180\n58#1:181,6\n58#1:215\n58#1:220\n55#1:231\n55#1:152,11\n58#1:187,11\n58#1:219\n55#1:230\n55#1:163,8\n55#1:177,3\n58#1:198,8\n58#1:212,3\n58#1:216,3\n55#1:227,3\n55#1:171,6\n58#1:206,6\n120#1:221,6\n49#1:232\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ClickerProgressBarWithNicknamesKt {
 
     /* compiled from: ClickerProgressBarWithNicknames.kt */

@@ -31,7 +31,7 @@ import org.json.JSONObject;
 /* compiled from: HalloweenAwardGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nHalloweenAwardGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HalloweenAwardGuiFragment.kt\ncom/blackhub/bronline/game/gui/halloweenaward/HalloweenAwardGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,49:1\n106#2,15:50\n*S KotlinDebug\n*F\n+ 1 HalloweenAwardGuiFragment.kt\ncom/blackhub/bronline/game/gui/halloweenaward/HalloweenAwardGuiFragment\n*L\n20#1:50,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class HalloweenAwardGuiFragment extends BaseISAMPGUIFragmentCompose<HalloweenAwardUiState, HalloweenAwardViewModel> {
     public static final int $stable = 8;
 

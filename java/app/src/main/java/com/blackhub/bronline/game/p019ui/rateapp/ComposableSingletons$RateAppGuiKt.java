@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RateAppGui.kt */
-/* loaded from: classes2.dex */
+
 public final class ComposableSingletons$RateAppGuiKt {
 
     @NotNull

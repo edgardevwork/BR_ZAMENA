@@ -9,7 +9,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: MenuWinterUiState.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final /* data */ class MenuWinterUiState implements UiState {
     public static final int $stable = 0;
     public final boolean isBlockingLoading;

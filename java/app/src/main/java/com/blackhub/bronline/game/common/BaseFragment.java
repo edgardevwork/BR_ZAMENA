@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BaseFragment.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public abstract class BaseFragment<VB extends ViewBinding> extends Fragment {
     public static final int $stable = 8;
 

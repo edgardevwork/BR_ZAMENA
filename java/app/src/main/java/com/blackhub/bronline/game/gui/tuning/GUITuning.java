@@ -84,7 +84,7 @@ import org.json.JSONObject;
 /* compiled from: GUITuning.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUITuning.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUITuning.kt\ncom/blackhub/bronline/game/gui/tuning/GUITuning\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,647:1\n172#2,9:648\n106#2,15:657\n106#2,15:672\n106#2,15:687\n106#2,15:702\n106#2,15:717\n106#2,15:732\n*S KotlinDebug\n*F\n+ 1 GUITuning.kt\ncom/blackhub/bronline/game/gui/tuning/GUITuning\n*L\n111#1:648,9\n116#1:657,15\n121#1:672,15\n126#1:687,15\n131#1:702,15\n136#1:717,15\n141#1:732,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUITuning extends BaseISAMPGUIFragment<TuningDialogBinding> {
     public static final int COLLAPSE = 4;
     public static final int COLORS_LIST = 1;

@@ -37,7 +37,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: UpgradeObjectEventButton.kt */
-/* loaded from: classes2.dex */
+
 public final class ComposableSingletons$UpgradeObjectEventButtonKt {
 
     @NotNull

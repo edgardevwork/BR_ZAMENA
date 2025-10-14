@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class ChatGuiFragment_MembersInjector implements MembersInjector<ChatGuiFragment> {
     public final Provider<MainViewModelFactory<ChatViewModel>> factoryProvider;
 

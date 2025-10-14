@@ -88,7 +88,7 @@ public final class InteractionWithNpcViewModel extends BaseViewModel<Interaction
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.interactionwithnpc.InteractionWithNpcViewModel$initJson$2", m7120f = "InteractionWithNpcViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nInteractionWithNpcViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 InteractionWithNpcViewModel.kt\ncom/blackhub/bronline/game/gui/interactionwithnpc/InteractionWithNpcViewModel$initJson$2\n+ 2 JsonArrayExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonArrayExtensionKt\n+ 3 JsonExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonExtensionKt\n+ 4 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,143:1\n51#2,5:144\n56#2,11:158\n8#3,9:149\n230#4,5:169\n*S KotlinDebug\n*F\n+ 1 InteractionWithNpcViewModel.kt\ncom/blackhub/bronline/game/gui/interactionwithnpc/InteractionWithNpcViewModel$initJson$2\n*L\n50#1:144,5\n50#1:158,11\n50#1:149,9\n55#1:169,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.interactionwithnpc.InteractionWithNpcViewModel$initJson$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C41552 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public /* synthetic */ Object L$0;

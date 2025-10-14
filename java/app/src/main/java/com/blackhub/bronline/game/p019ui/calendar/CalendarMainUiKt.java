@@ -81,7 +81,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarMainUi.kt */
 @SourceDebugExtension({"SMAP\nCalendarMainUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CalendarMainUi.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarMainUiKt\n+ 2 Dp.kt\nandroidx/compose/ui/unit/Dp\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 5 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n+ 6 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n*L\n1#1,1406:1\n64#2:1407\n64#2:1408\n64#2:1409\n1116#3,6:1410\n1116#3,6:1416\n1116#3,6:1422\n1116#3,6:1428\n1116#3,6:1435\n1116#3,6:1441\n1116#3,6:1447\n1116#3,6:1453\n1116#3,6:1459\n74#4:1434\n81#5:1465\n107#5,2:1466\n81#5:1474\n81#5:1475\n107#5,2:1476\n81#5:1478\n107#5,2:1479\n81#5:1481\n107#5,2:1482\n81#5:1484\n107#5,2:1485\n81#5:1487\n75#6:1468\n108#6,2:1469\n75#6:1471\n108#6,2:1472\n*S KotlinDebug\n*F\n+ 1 CalendarMainUi.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarMainUiKt\n*L\n206#1:1407\n207#1:1408\n208#1:1409\n216#1:1410,6\n217#1:1416,6\n218#1:1422,6\n220#1:1428,6\n229#1:1435,6\n230#1:1441,6\n232#1:1447,6\n233#1:1453,6\n235#1:1459,6\n226#1:1434\n216#1:1465\n216#1:1466,2\n220#1:1474\n229#1:1475\n229#1:1476,2\n230#1:1478\n230#1:1479,2\n232#1:1481\n232#1:1482,2\n233#1:1484\n233#1:1485,2\n235#1:1487\n217#1:1468\n217#1:1469,2\n218#1:1471\n218#1:1472,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CalendarMainUiKt {
     public static final float ALPHA_BONUS_ITEMS_IS_MAIN_HINT = 0.1f;
     public static final float END_ARROW = 0.2f;

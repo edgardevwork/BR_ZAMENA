@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class ElectricViewModel_Factory implements Factory<ElectricViewModel> {
     public final Provider<ElectricActionWithJSON> actionWithJSONProvider;
     public final Provider<LocalNotification> localNotificationProvider;

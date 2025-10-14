@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: FragmentViewModelLazy.kt */
 @SourceDebugExtension({"SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$viewModels$8\n*L\n1#1,222:1\n*E\n"})
 /* renamed from: com.blackhub.bronline.game.gui.entertainmentsystem.ui.GUIEntertainmentSystemFinalWindow$special$$inlined$viewModels$default$4 */
-/* loaded from: classes2.dex */
+
 public final class C3999x45777eb4 extends Lambda implements Function0<ViewModelProvider.Factory> {
     public final /* synthetic */ Lazy $owner$delegate;
     public final /* synthetic */ Fragment $this_viewModels;

@@ -34,7 +34,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftUiState implements UiState {
     public static final int $stable = 8;
 

@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.OrientationHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.Locale;
 
-/* loaded from: classes2.dex */
+
 public class GravitySnapHelper extends LinearSnapHelper {
     public static final int FLING_DISTANCE_DISABLE = -1;
     public static final float FLING_SIZE_FRACTION_DISABLE = -1.0f;

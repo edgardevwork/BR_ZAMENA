@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 /* compiled from: TaxiMapActionWithJSON.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class TaxiMapActionWithJSON {
     public static final int $stable = 8;
 

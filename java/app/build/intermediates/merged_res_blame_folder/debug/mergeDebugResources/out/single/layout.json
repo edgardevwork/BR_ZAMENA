@@ -1,0 +1,1650 @@
+[
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_button_action_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_button_action_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_alert_select_dialog_singlechoice.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_alert_select_dialog_singlechoice.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_8.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_8.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_select_dialog_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_fullscreen.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_fullscreen.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_players_state_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_players_state_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_screen_simple.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/slider_with_three_dost_for_new_menu_settings_graphic.xml",
+        "source": "com.bless.client.app-main-8:/layout/slider_with_three_dost_for_new_menu_settings_graphic.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_player_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_player_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_layout_tab_text.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_upgrade_parent_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_upgrade_parent_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_payment_error.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_payment_error.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_player_control_ffwd_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_player_control_ffwd_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_lines_media.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_alert_dialog_actions.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_alert_dialog_actions.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/ime_base_split_test_activity.xml",
+        "source": "com.bless.client.app-main-8:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_items_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_items_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_styled_settings_list_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_styled_settings_list_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_header_fullscreen.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_header_fullscreen.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_collect_scheme.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_collect_scheme.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/dialog_game_instructions.xml",
+        "source": "com.bless.client.app-main-8:/layout/dialog_game_instructions.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_pack_preview_item_new.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_pack_preview_item_new.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/new_menu_pause_action_button_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/new_menu_pause_action_button_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_setting_control.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_setting_control.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/server_select_with_load_progress.xml",
+        "source": "com.bless.client.app-main-8:/layout/server_select_with_load_progress.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_shop_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_shop_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_find_problem.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_find_problem.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_alert_select_dialog_multichoice.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_alert_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_lobby_player_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_lobby_player_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_additional_info_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_additional_info_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_the_store_or_the_safe_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_the_store_or_the_safe_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_text_input_start_icon.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_text_input_start_icon.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_radial_view_group.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_radial_view_group.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_services_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_services_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_text_input_date_range.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_text_input_date_range.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_setting_graphic.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_setting_graphic.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_dance.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_dance.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_diner.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_diner.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_card_saving.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_card_saving.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_add_bank_card.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_add_bank_card.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_list_menu_item_icon.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_taxi_rating.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_taxi_rating.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_layout_exchange_with_user.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_layout_exchange_with_user.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_layout_snackbar.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_games_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_games_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_layout_snackbar_include.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_services_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_services_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/ime_secondary_split_test_activity.xml",
+        "source": "com.bless.client.app-main-8:/layout/ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_search_bar.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_search_bar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/reg_person.xml",
+        "source": "com.bless.client.app-main-8:/layout/reg_person.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_vertical.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_vertical.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_dialog_apply_delet_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_dialog_apply_delet_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/wound_system_dialog_info.xml",
+        "source": "com.bless.client.app-main-8:/layout/wound_system_dialog_info.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_bottom_sheet_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_clock_display.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_clock_display.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/select_dialog_item_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_alert_dialog_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_styled_settings_list.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_styled_settings_list.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fuel_fill_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fuel_fill_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_new_rank_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_new_rank_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_list_menu_item_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_widget_card.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_widget_card.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_months.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_months.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction_3.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction_3.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_header_toggle.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_header_toggle.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_family_setting_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_family_setting_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_web_payment.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_web_payment.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/reg_scanner.xml",
+        "source": "com.bless.client.app-main-8:/layout/reg_scanner.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_documents_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_documents_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/gasman_loading_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/gasman_loading_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_fingerprint.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_fingerprint.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_collapse.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_collapse.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_game.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_game.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_navigation_item_separator.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_clock_display_divider.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_clock_display_divider.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction_2.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction_2.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_widget_mobile.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_widget_mobile.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/m3_side_sheet_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/m3_side_sheet_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_1.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_1.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_players_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_players_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_payment_view_bank_card.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_payment_view_bank_card.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/spawn_location_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/spawn_location_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_clockface_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_clockface_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_action_menu_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_taxi_comment.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_taxi_comment.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_dialog_input.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_dialog_input.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_alert_select_dialog_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_alert_select_dialog_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_timepicker_textinput_display.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_timepicker_textinput_display.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_invoice_details.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_invoice_details.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_bottom_navigation_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_action_bar_title_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_taxi_order.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_taxi_order.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_shop_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_shop_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_quests_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_quests_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_color_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_color_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_search_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_search_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/m3_alert_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/m3_alert_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/window_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/window_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_card_item_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_card_item_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_dialog_info.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_dialog_info.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_search_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_notification_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_notification_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_navigation_item_header.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/layout_colorpicker_colorpickerview_skydoves.xml",
+        "source": "com.bless.client.app-main-8:/layout/layout_colorpicker_colorpickerview_skydoves.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/browser_actions_context_menu_page.xml",
+        "source": "com.bless.client.app-main-8:/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_upgrades_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_upgrades_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_taxi_map.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_taxi_map.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/slider_for_new_menu_settings_graphic.xml",
+        "source": "com.bless.client.app-main-8:/layout/slider_for_new_menu_settings_graphic.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_players_action_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_players_action_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_main_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_main_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_main_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_main_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_car_preview_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_car_preview_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_day_of_week.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_day_of_week.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_progress_bar.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_progress_bar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_game_image.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_game_image.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/reg_invite.xml",
+        "source": "com.bless.client.app-main-8:/layout/reg_invite.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_banks.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_banks.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_view_car.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_view_car.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_rating_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_rating_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_control_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_control_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_loader.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_loader.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_loading.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_loading.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_buy_token_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_buy_token_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_robbery.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_robbery.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fraction_main_container.xml",
+        "source": "com.bless.client.app-main-8:/layout/fraction_main_container.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/dialog_full_screen_loader.xml",
+        "source": "com.bless.client.app-main-8:/layout/dialog_full_screen_loader.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_loading.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_loading.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_setting_winter.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_setting_winter.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_network_link_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_network_link_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_day.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_day.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_shop_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_shop_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_header_selection_text.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_header_selection_text.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_payment_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_payment_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_submenu_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_submenu_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_chat_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_chat_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/smi_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/smi_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_type_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_type_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_7.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_7.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_apply_window.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_apply_window.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_track_selection_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_track_selection_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/registration_sex.xml",
+        "source": "com.bless.client.app-main-8:/layout/registration_sex.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_loading_with_user_message.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_loading_with_user_message.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_pack_preview_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_pack_preview_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_type_list.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_type_list.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_game_finger.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_game_finger.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mini_game_events_choose_tile.xml",
+        "source": "com.bless.client.app-main-8:/layout/mini_game_events_choose_tile.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_reset_apply.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_reset_apply.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_screen_toolbar.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_initialization.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_initialization.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/launcher_dialog_not_enough_space.xml",
+        "source": "com.bless.client.app-main-8:/layout/launcher_dialog_not_enough_space.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/item_view_pager_game_instructions.xml",
+        "source": "com.bless.client.app-main-8:/layout/item_view_pager_game_instructions.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/black_pass_prize_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/black_pass_prize_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_quests_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_quests_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_end_test.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_end_test.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_wires.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_wires.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/black_pass_dialog_task_info.xml",
+        "source": "com.bless.client.app-main-8:/layout/black_pass_dialog_task_info.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_payment_center_guide.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_payment_center_guide.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_year.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_year.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_notification.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/wound_system_main_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/wound_system_main_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_widget_tbank.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_widget_tbank.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_header_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_mobile_confirmation.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_mobile_confirmation.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_back_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_back_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_3.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_3.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/layout_sticky_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/layout_sticky_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/vip_account_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/vip_account_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_action_mode_close_item_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_media_cancel_action.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_loading_skeleton.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_loading_skeleton.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_media_action.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/widget_round_corner_progress_bar.xml",
+        "source": "com.bless.client.app-main-8:/layout/widget_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_clockface_textview.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_clockface_textview.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_taxi.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_taxi.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_month_navigation.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_month_navigation.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/spawn_location_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/spawn_location_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_fuel_fill.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_fuel_fill.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_top_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_top_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/registration_enter.xml",
+        "source": "com.bless.client.app-main-8:/layout/registration_enter.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/item_old_notification.xml",
+        "source": "com.bless.client.app-main-8:/layout/item_old_notification.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/registration_mainframe.xml",
+        "source": "com.bless.client.app-main-8:/layout/registration_mainframe.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_main_container.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_main_container.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_navigation_item_subheader.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_tile_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_tile_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction_1.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction_1.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/m3_alert_dialog_title.xml",
+        "source": "com.bless.client.app-main-8:/layout/m3_alert_dialog_title.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_alert_dialog_title_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_captcha.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_captcha.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/black_pass_main_new.xml",
+        "source": "com.bless.client.app-main-8:/layout/black_pass_main_new.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_timepicker_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_timepicker_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_big_media_narrow.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_main_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_main_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_main_container.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_main_container.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_payment.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_payment.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/item_new_menu_setting_main_title.xml",
+        "source": "com.bless.client.app-main-8:/layout/item_new_menu_setting_main_title.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_submenu_apply.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_submenu_apply.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_diagnostic_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_diagnostic_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_5.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_5.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_detail_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_detail_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_styled_sub_settings_list_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_styled_sub_settings_list_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/select_dialog_singlechoice_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_big_media.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_coins_deposit_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_coins_deposit_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_expanded_menu_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_shop_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_shop_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_loyalty.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_loyalty.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_part_time.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_part_chronometer.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_lobby_playerlist.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_lobby_playerlist.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_top_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_top_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/hint_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/hint_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_testing_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_testing_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_auto_complete_simple_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_auto_complete_simple_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/launcher_dialog_privacy.xml",
+        "source": "com.bless.client.app-main-8:/layout/launcher_dialog_privacy.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_list_menu_item_checkbox.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_games_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_games_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_color_list.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_color_list.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_screen_content_include.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/widget_icon_round_corner_progress_bar.xml",
+        "source": "com.bless.client.app-main-8:/layout/widget_icon_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_upgrade_child_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_upgrade_child_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_navigation_menu.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_custom_big.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mini_game_events_popup_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/mini_game_events_popup_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_action_menu_item_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/reg_fingerprint.xml",
+        "source": "com.bless.client.app-main-8:/layout/reg_fingerprint.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_pause.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_pause.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_layout_snackbar.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_testing_result_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_testing_result_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_chip_input_combo.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_chip_input_combo.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/m3_alert_dialog_actions.xml",
+        "source": "com.bless.client.app-main-8:/layout/m3_alert_dialog_actions.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_player_control_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_player_control_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_setting_main.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_setting_main.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fraction_main_menu_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fraction_main_menu_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_webview.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_webview.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_action_tombstone.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/black_pass_rating_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/black_pass_rating_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_new_captcha.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_new_captcha.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_clock_period_toggle.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_clock_period_toggle.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_top_or_bottom_button_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_top_or_bottom_button_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_rank_or_color_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_rank_or_color_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/dialog_gasman_hint.xml",
+        "source": "com.bless.client.app-main-8:/layout/dialog_gasman_hint.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_main_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_main_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_legacy_player_control_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_legacy_player_control_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_menu_item_action_area.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_control_staff_list_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_control_staff_list_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/launcher_dialog_with_two_buttons_title_description.xml",
+        "source": "com.bless.client.app-main-8:/layout/launcher_dialog_with_two_buttons_title_description.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_month.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_dialog_result.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_dialog_result.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_hack.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_hack.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_questions_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_questions_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_6.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_6.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_setting_sound.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_setting_sound.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_days_of_week.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_days_of_week.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_dialog_value_apply.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_dialog_value_apply.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_dialog_progress.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_dialog_progress.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_documents_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_documents_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_buy_tokens_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_buy_tokens_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_mobileb.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_mobileb.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_deeplink_result.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_deeplink_result.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_2.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_2.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_widget_sbolpay.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_widget_sbolpay.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_popup_menu_item_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_lobby.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_lobby.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_dialog_title_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/player_list_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/player_list_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_activity_chooser_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fingerprint_dialog_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fingerprint_dialog_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/item_gasman_view_pager_hint.xml",
+        "source": "com.bless.client.app-main-8:/layout/item_gasman_view_pager_hint.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_coins_hot_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_coins_hot_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_month_labeled.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_month_labeled.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/smi_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/smi_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_main_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_main_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_navigation_rail_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_navigation_rail_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_diagnostics.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_diagnostics.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_layout_users_inventory.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_layout_users_inventory.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction_4.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction_4.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_raise_charge.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_raise_charge.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_taxi_wait.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_taxi_wait.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_timepicker.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_timepicker.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_car_park_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_car_park_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_electric_gui.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_electric_gui.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_audio_fragment.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_audio_fragment.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_notification_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_notification_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_sum_contacts.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_sum_contacts.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_sawmill.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_sawmill.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_invoice_details.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_invoice_details.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/select_dialog_multichoice_material.xml",
+        "source": "com.bless.client.app-main-8:/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_network_link_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_network_link_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/layout_black_pass_premium_activate.xml",
+        "source": "com.bless.client.app-main-8:/layout/layout_black_pass_premium_activate.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_questions_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_questions_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_manual_update.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_manual_update.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_action_bar_up_container.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_navigation_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_list_divider.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_list_divider.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_quests_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_quests_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_tooltip.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_radial_menu_info_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_radial_menu_info_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_actions.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_actions.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/main_render_screen.xml",
+        "source": "com.bless.client.app-main-8:/layout/main_render_screen.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_media_custom.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fuel_fill_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/fuel_fill_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_time_chip.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_time_chip.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_details_list.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_details_list.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/item_new_menu_setting_control.xml",
+        "source": "com.bless.client.app-main-8:/layout/item_new_menu_setting_control.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_menu_upgrade_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_menu_upgrade_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_cascading_menu_item_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_layout_chat.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_layout_chat.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_pipes.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_pipes.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/item_new_notification.xml",
+        "source": "com.bless.client.app-main-8:/layout/item_new_notification.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/reg_login.xml",
+        "source": "com.bless.client.app-main-8:/layout/reg_login.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/bottom_sheet_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/bottom_sheet_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/uncle_call.xml",
+        "source": "com.bless.client.app-main-8:/layout/uncle_call.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_main_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_main_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_close_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_close_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_textinput_timepicker.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_textinput_timepicker.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_control_sort_by_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_control_sort_by_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_text_input_date.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_text_input_date.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mini_game_events_choosegamerole.xml",
+        "source": "com.bless.client.app-main-8:/layout/mini_game_events_choosegamerole.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_toggle_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_toggle_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_wait_for_start.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_wait_for_start.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_testing_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_testing_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_bank_item_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_bank_item_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_web_payment.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_web_payment.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_dialog_confirmation.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_dialog_confirmation.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_car_preview_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_car_preview_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_main.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_main.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_audio.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_audio.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_layout_tab_icon.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_info.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_info.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_change_bulb.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_change_bulb.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction_5.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction_5.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_games_filter_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_games_filter_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/material_time_input.xml",
+        "source": "com.bless.client.app-main-8:/layout/material_time_input.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/entertainment_system_final_window.xml",
+        "source": "com.bless.client.app-main-8:/layout/entertainment_system_final_window.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_game_untie.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_game_untie.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mini_game_events_container.xml",
+        "source": "com.bless.client.app-main-8:/layout/mini_game_events_container.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_submenu_box.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_submenu_box.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_list_menu_item_radio.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_car_trunk.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_car_trunk.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_calendar_horizontal.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_calendar_horizontal.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/br_platebuy.xml",
+        "source": "com.bless.client.app-main-8:/layout/br_platebuy.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/players_list_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/players_list_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_alert_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_alert_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/registration_view.xml",
+        "source": "com.bless.client.app-main-8:/layout/registration_view.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_tutorial_gui.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_tutorial_gui.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_media.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_paylib_native.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_paylib_native.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_9.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_9.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/browser_actions_context_menu_row.xml",
+        "source": "com.bless.client.app-main-8:/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_map.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_map.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/hint_driving_school.xml",
+        "source": "com.bless.client.app-main-8:/layout/hint_driving_school.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/abc_action_mode_bar.xml",
+        "source": "com.bless.client.app-main-8:/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_exchange_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_exchange_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_sign_info_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_sign_info_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_cards.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_cards.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/registration_create_password.xml",
+        "source": "com.bless.client.app-main-8:/layout/registration_create_password.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_navigation_menu_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_menu_main.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_menu_main.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_item_in_slot.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_item_in_slot.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_layout_snackbar_include.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/menu_action_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/menu_action_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fraction_progress_in_organization_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fraction_progress_in_organization_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/driving_school_class_info_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/driving_school_class_info_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_icon_group.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_10.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_10.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_picker_header_title_text.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_picker_header_title_text.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_top_presents_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_top_presents_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_submenu_box_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_submenu_box_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_tile_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_tile_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_gasman_game_4.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_gasman_game_4.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/block_toggle_switch_electric.xml",
+        "source": "com.bless.client.app-main-8:/layout/block_toggle_switch_electric.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/exo_player_control_rewind_button.xml",
+        "source": "com.bless.client.app-main-8:/layout/exo_player_control_rewind_button.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_template_big_media_custom.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fractions_control_management_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/fractions_control_management_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/activity_main.xml",
+        "source": "com.bless.client.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_title.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_title.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_rating_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_rating_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/custom_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_submenu_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_submenu_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/donate_main_layout.xml",
+        "source": "com.bless.client.app-main-8:/layout/donate_main_layout.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/design_text_input_end_icon.xml",
+        "source": "com.bless.client.app-main-8:/layout/design_text_input_end_icon.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/m3_auto_complete_simple_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/m3_auto_complete_simple_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/social_interaction_0.xml",
+        "source": "com.bless.client.app-main-8:/layout/social_interaction_0.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/inventory_button_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/inventory_button_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_family_control.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_family_control.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/mtrl_alert_dialog_title.xml",
+        "source": "com.bless.client.app-main-8:/layout/mtrl_alert_dialog_title.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_top_present_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_top_present_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_widget_bistro.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_widget_bistro.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/spawn_location_main_container.xml",
+        "source": "com.bless.client.app-main-8:/layout/spawn_location_main_container.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/radial_menu_dialog.xml",
+        "source": "com.bless.client.app-main-8:/layout/radial_menu_dialog.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/tuning_fragment_rgb_color.xml",
+        "source": "com.bless.client.app-main-8:/layout/tuning_fragment_rgb_color.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/notification_action.xml",
+        "source": "com.bless.client.app-main-8:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/fragment_main.xml",
+        "source": "com.bless.client.app-main-8:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/widget_bubble_colorpickerview_skydoves.xml",
+        "source": "com.bless.client.app-main-8:/layout/widget_bubble_colorpickerview_skydoves.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/hint_bottom.xml",
+        "source": "com.bless.client.app-main-8:/layout/hint_bottom.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/halloween_game_prize.xml",
+        "source": "com.bless.client.app-main-8:/layout/halloween_game_prize.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_fragment_payment_success.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_fragment_payment_success.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/families_quest_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/families_quest_item.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/paylib_native_view_widget_web_payment.xml",
+        "source": "com.bless.client.app-main-8:/layout/paylib_native_view_widget_web_payment.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/widget_text_round_corner_progress_bar.xml",
+        "source": "com.bless.client.app-main-8:/layout/widget_text_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout/server_select_item.xml",
+        "source": "com.bless.client.app-main-8:/layout/server_select_item.xml"
+    }
+]

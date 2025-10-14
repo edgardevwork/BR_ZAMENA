@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-/* loaded from: classes2.dex */
+
 public class BrAudioDialogAdapter extends FragmentPagerAdapter {
     public List<Fragment> mFragmentCollection;
     public List<String> mTitleCollection;

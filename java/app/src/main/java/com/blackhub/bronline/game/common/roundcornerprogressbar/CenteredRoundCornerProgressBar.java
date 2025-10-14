@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: CenteredRoundCornerProgressBar.kt */
 @StabilityInferred(parameters = 1)
 @Keep
-/* loaded from: classes2.dex */
+
 public class CenteredRoundCornerProgressBar extends RoundCornerProgressBar {
     public static final int $stable = 0;
 

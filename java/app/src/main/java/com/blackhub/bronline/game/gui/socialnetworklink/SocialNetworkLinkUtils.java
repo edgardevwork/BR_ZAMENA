@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: SocialNetworkLinkUtils.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class SocialNetworkLinkUtils {
     public static final int $stable = 0;
     public static final int ACTION_CHECKBOX = 2;

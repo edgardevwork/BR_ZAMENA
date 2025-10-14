@@ -81,7 +81,7 @@ public final class BlackPassPrizeListViewModel extends BaseViewModel<PrizeState>
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassPrizeListViewModel$initPrizeList$1", m7120f = "BlackPassPrizeListViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBlackPassPrizeListViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassPrizeListViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassPrizeListViewModel$initPrizeList$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,158:1\n230#2,5:159\n*S KotlinDebug\n*F\n+ 1 BlackPassPrizeListViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassPrizeListViewModel$initPrizeList$1\n*L\n130#1:159,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassPrizeListViewModel$initPrizeList$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37411 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ List<LevelsInfo> $premiumPrizes;
         public final /* synthetic */ List<LevelsInfo> $standardPrizes;

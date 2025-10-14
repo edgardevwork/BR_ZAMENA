@@ -82,7 +82,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesOpenTenCasesUi.kt */
 @SourceDebugExtension({"SMAP\nCasesOpenTenCasesUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesOpenTenCasesUi.kt\ncom/blackhub/bronline/game/ui/cases/ui/CasesOpenTenCasesUiKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,410:1\n1116#2,6:411\n81#3:417\n*S KotlinDebug\n*F\n+ 1 CasesOpenTenCasesUi.kt\ncom/blackhub/bronline/game/ui/cases/ui/CasesOpenTenCasesUiKt\n*L\n96#1:411,6\n96#1:417\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesOpenTenCasesUiKt {
     public static final float SCALE_BEAR = 1.1f;
     public static final float START_TRANSPARENT_GRADIENT = 0.7f;

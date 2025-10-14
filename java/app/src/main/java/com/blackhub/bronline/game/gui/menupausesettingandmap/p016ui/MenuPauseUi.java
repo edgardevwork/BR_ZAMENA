@@ -302,7 +302,7 @@ public final class MenuPauseUi extends BaseFragment<FragmentMenuPauseBinding> {
     /* compiled from: MenuPauseUi.kt */
     @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u0003H\n¢\u0006\u0002\b\u0005"}, m7105d2 = {"<anonymous>", "", "playersNick", "", "kotlin.jvm.PlatformType", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.menupausesettingandmap.ui.MenuPauseUi$setObservers$1 */
-    /* loaded from: classes2.dex */
+    
     public static final class C43161 extends Lambda implements Function1<String, Unit> {
         public C43161() {
             super(1);
@@ -366,7 +366,7 @@ public final class MenuPauseUi extends BaseFragment<FragmentMenuPauseBinding> {
     /* compiled from: MenuPauseUi.kt */
     @Metadata(m7104d1 = {"\u0000\u0014\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\u001a\u0010\u0002\u001a\u0016\u0012\u0004\u0012\u00020\u0004 \u0005*\n\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u00030\u0003H\n¢\u0006\u0002\b\u0006"}, m7105d2 = {"<anonymous>", "", "servers", "", "Lcom/blackhub/bronline/launcher/network/Server;", "kotlin.jvm.PlatformType", "invoke"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.menupausesettingandmap.ui.MenuPauseUi$setObservers$2 */
-    /* loaded from: classes2.dex */
+    
     public static final class C43172 extends Lambda implements Function1<List<? extends Server>, Unit> {
         public C43172() {
             super(1);

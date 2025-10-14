@@ -1143,7 +1143,7 @@ public final class RaiseChargeFragment extends BaseFragmentWithState<RaiseCharge
     /* compiled from: RaiseChargeFragment.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.electric.ui.RaiseChargeFragment$createGameInstructionsDialog$1 */
-    /* loaded from: classes2.dex */
+
     public /* synthetic */ class C39581 extends FunctionReferenceImpl implements Function0<Unit> {
         public C39581(Object obj) {
             super(0, obj, RaiseChargeViewModel.class, "closeInstruction", "closeInstruction()V", 0);

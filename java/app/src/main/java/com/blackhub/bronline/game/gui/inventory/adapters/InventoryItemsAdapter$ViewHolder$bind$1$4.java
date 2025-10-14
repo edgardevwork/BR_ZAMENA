@@ -19,7 +19,7 @@ import kotlin.jvm.internal.Ref;
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: InventoryItemsAdapter.kt */
-/* loaded from: classes2.dex */
+
 public final class InventoryItemsAdapter$ViewHolder$bind$1$4 implements View.OnTouchListener {
     public final /* synthetic */ InventoryItemsItemBinding $_binding;
     public final /* synthetic */ Ref.BooleanRef $isEnd;

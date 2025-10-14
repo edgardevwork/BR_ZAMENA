@@ -13,7 +13,7 @@ import com.bless.client.R;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class GUIMiniGameEventsGame implements ISAMPGUI {
     public static final int HALLOWEEN_GAME_FINGER = 2;
     public static final int HALLOWEEN_GAME_IMAGE = 3;

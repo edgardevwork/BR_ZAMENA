@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: AdapterGasmanHint.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class AdapterGasmanHint extends RecyclerView.Adapter<ViewHolderGasmanHint> {
     public static final int $stable = 8;
 

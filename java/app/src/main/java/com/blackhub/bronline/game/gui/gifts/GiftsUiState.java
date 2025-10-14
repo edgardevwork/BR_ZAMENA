@@ -16,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: GiftsUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class GiftsUiState implements UiState {
     public static final int $stable = 8;
 

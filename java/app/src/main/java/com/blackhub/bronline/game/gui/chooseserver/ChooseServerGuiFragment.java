@@ -75,7 +75,7 @@ import org.json.JSONObject;
 /* compiled from: ChooseServerGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nChooseServerGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ChooseServerGuiFragment.kt\ncom/blackhub/bronline/game/gui/chooseserver/ChooseServerGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,564:1\n106#2,15:565\n1#3:580\n350#4,7:581\n350#4,7:588\n*S KotlinDebug\n*F\n+ 1 ChooseServerGuiFragment.kt\ncom/blackhub/bronline/game/gui/chooseserver/ChooseServerGuiFragment\n*L\n74#1:565,15\n213#1:581,7\n252#1:588,7\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ChooseServerGuiFragment extends BaseISAMPGUIFragment<ServerSelectWithLoadProgressBinding> {
     public static final int $stable = 8;
 
@@ -535,7 +535,7 @@ public final class ChooseServerGuiFragment extends BaseISAMPGUIFragment<ServerSe
         /* compiled from: ChooseServerGuiFragment.kt */
         @Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u0003H\u008a@¢\u0006\u0004\b\u0004\u0010\u0005"}, m7105d2 = {"<anonymous>", "", "counterOfRequests", "", "emit", "(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         /* renamed from: com.blackhub.bronline.game.gui.chooseserver.ChooseServerGuiFragment$setObservers$4$1, reason: invalid class name */
-        /* loaded from: classes2.dex */
+
         public static final class AnonymousClass1<T> implements FlowCollector {
             public final /* synthetic */ ChooseServerGuiFragment this$0;
 

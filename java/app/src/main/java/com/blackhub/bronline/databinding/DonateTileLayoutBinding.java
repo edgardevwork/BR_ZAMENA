@@ -14,7 +14,7 @@ import androidx.viewbinding.ViewBindings;
 import com.blackhub.bronline.game.common.dotrvindicator.DotViewIndicator;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public final class DonateTileLayoutBinding implements ViewBinding {
 
     @NonNull

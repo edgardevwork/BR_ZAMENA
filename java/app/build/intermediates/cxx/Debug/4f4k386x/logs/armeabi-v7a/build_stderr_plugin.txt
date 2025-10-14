@@ -1,0 +1,531 @@
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/entry.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/entry.h:10:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/entry.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/entry.h:21:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/game/hooks.h:12:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.h:11:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.h:8:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../remoteplayer.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+13 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/gui/gui.cpp:103:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.h:4:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakClient.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/gui/gui.cpp:103:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.h:11:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.h:8:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../remoteplayer.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/gui/gui.cpp:237:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+14 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/game/hooks.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/game/hooks.h:6:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakClient.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/game/hooks.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/game/hooks.h:12:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.h:11:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.h:8:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../remoteplayer.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+13 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.cpp:1:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.cpp:137:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+14 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.h:4:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakClient.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.h:11:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.h:8:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../remoteplayer.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.cpp:35:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        while(pkt = pRakClient->Receive())
+              ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.cpp:35:12: note: place parentheses around the assignment to silence this warning
+        while(pkt = pRakClient->Receive())
+                  ^
+              (                          )
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netgame.cpp:35:12: note: use '==' to turn this assignment into an equality comparison
+        while(pkt = pRakClient->Receive())
+                  ^
+                  ==
+14 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netrpc.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/netrpc.h:4:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakClient.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/remoteplayer.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/remoteplayer.h:6:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/remoteplayer.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/remoteplayer.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+13 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.h:8:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../remoteplayer.h:6:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/playerpool.h:8:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../remoteplayer.h:6:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/pools/../common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+13 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.cpp:21:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.cpp:287:68: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+        return ( bool ) ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ & 7 ) ) );
+                                ~~~~~~~~~~                                ^
+2 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DS_HuffmanEncodingTree.cpp:17:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DS_HuffmanEncodingTree.h:22:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DS_Table.cpp:511:13: warning: enumeration value 'BINARY' not handled in switch [-Wswitch]
+                                        switch(columns[inclusionFilterColumnIndices[j]].columnType)
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DS_Table.cpp:522:13: warning: enumeration value 'BINARY' not handled in switch [-Wswitch]
+                                        switch(columns[inclusionFilterColumnIndices[j]].columnType)
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DataCompressor.cpp:1:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DataCompressor.h:22:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DS_HuffmanEncodingTree.h:22:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/LogCommandParser.cpp:87:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        return "Logger";
+               ^
+1 warning generated.
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RPCMap.cpp:117:45: warning: cast to 'int *' from smaller integer type 'RPCIndex' (aka 'unsigned char') [-Wint-to-pointer-cast]
+        existingNodeIndex=GetIndexFromFunctionName((int *)insertionIndex);
+                                                   ^~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakClient.cpp:17:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakClient.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakNetCommandParser.cpp:4:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakNetCommandParser.cpp:276:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        return "RakNet";
+               ^
+2 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakNetStatistics.cpp:19:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakNetworkFactory.cpp:19:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakServerInterface.h:24:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.cpp:18:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.cpp:20:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:223:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:243:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:245:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:268:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:270:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:284:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:286:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:306:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:308:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:330:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:332:22: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(push, 1);
+                     ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/plugin/common.h:346:18: warning: extra tokens at end of '#pragma pack' - ignored [-Wignored-pragmas]
+#pragma pack(pop);
+                 ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.cpp:1302:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else
+                        ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.cpp:4932:10: warning: -- RakNet: _RAKNET_THREADSAFE not defined.  Do NOT use multiple threads on the same instance of RakPeer (Fast!). -- [-W#pragma-messages]
+        #pragma message("-- RakNet: _RAKNET_THREADSAFE not defined.  Do NOT use multiple threads on the same instance of RakPeer (Fast!). --")
+                ^
+15 warnings generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.cpp:17:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/StringCompressor.cpp:18:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/DS_HuffmanEncodingTree.h:22:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/StringTable.cpp:5:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/SystemAddressList.cpp:4:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/TCPInterface.cpp:208:23: warning: while loop has empty body [-Wempty-body]
+        while (waitForClient);
+                             ^
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/TCPInterface.cpp:208:23: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/TableSerializer.cpp:3:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/rakserver.cpp:17:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakServer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/RakPeer.h:23:
+In file included from C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/ReliabilityLayer.h:27:
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/BitStream.h:1019:56: warning: unsequenced modification and access to 'readOffset' [-Wunsequenced]
+                if ( data[ readOffset >> 3 ] & ( 0x80 >> ( readOffset++ % 8 ) ) )   // Is it faster to just write it out here?
+                           ~~~~~~~~~~                                ^
+1 warning generated.
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/SAMP/samp_auth.cpp:121:39: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        sprintf(buf, "%.8X%.8X%.8X%.8X%.8X", out[0], out[1], out[2], out[3], out[4]);
+                      ~~~~                   ^~~~~~
+                      %.8lX
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/SAMP/samp_auth.cpp:121:47: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        sprintf(buf, "%.8X%.8X%.8X%.8X%.8X", out[0], out[1], out[2], out[3], out[4]);
+                          ~~~~                       ^~~~~~
+                          %.8lX
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/SAMP/samp_auth.cpp:121:55: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        sprintf(buf, "%.8X%.8X%.8X%.8X%.8X", out[0], out[1], out[2], out[3], out[4]);
+                              ~~~~                           ^~~~~~
+                              %.8lX
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/SAMP/samp_auth.cpp:121:63: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        sprintf(buf, "%.8X%.8X%.8X%.8X%.8X", out[0], out[1], out[2], out[3], out[4]);
+                                  ~~~~                               ^~~~~~
+                                  %.8lX
+C:/CRMP/BR_ZAMENA/java/app/src/main/cpp/jni/vendor/RakNet/SAMP/samp_auth.cpp:121:71: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        sprintf(buf, "%.8X%.8X%.8X%.8X%.8X", out[0], out[1], out[2], out[3], out[4]);
+                                      ~~~~                                   ^~~~~~
+                                      %.8lX
+5 warnings generated.

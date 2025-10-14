@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class CraftGuiFragment_MembersInjector implements MembersInjector<CraftGuiFragment> {
     public final Provider<MainViewModelFactory<CraftViewModel>> factoryProvider;
 

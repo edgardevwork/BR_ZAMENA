@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: TanpinBannerDictionary.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class TanpinBannerDictionary {
     public static final int $stable = 0;
     public static final int CLOSE_VALUE = 2;

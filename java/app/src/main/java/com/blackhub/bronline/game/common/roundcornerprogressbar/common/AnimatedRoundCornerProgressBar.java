@@ -322,7 +322,7 @@ public abstract class AnimatedRoundCornerProgressBar extends BaseRoundCornerProg
         }
     }
 
-    @FloatRange(from = Utils.STANDARD_MEMORY_MULTIPLIER, m9to = Score.CUTOFF_CHROMA)
+    @FloatRange(from = Utils.STANDARD_MEMORY_MULTIPLIER, to = Score.CUTOFF_CHROMA)
     /* renamed from: getAnimationSpeedScale, reason: from getter */
     public float get_animationSpeedScale() {
         return this._animationSpeedScale;
@@ -336,7 +336,7 @@ public abstract class AnimatedRoundCornerProgressBar extends BaseRoundCornerProg
         this._isAnimationEnabled = false;
     }
 
-    public final void setAnimationSpeedScale(@FloatRange(from = Utils.STANDARD_MEMORY_MULTIPLIER, m9to = Score.CUTOFF_CHROMA) float scale) {
+    public final void setAnimationSpeedScale(@FloatRange(from = Utils.STANDARD_MEMORY_MULTIPLIER, to = Score.CUTOFF_CHROMA) float scale) {
         this._animationSpeedScale = RangesKt___RangesKt.coerceIn(scale, 0.2f, 5.0f);
     }
 
@@ -624,4 +624,5 @@ public abstract class AnimatedRoundCornerProgressBar extends BaseRoundCornerProg
         }
     }
 }
+
 

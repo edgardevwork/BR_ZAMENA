@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: LongExtension.kt */
-/* loaded from: classes2.dex */
+
 public final class LongExtensionKt {
     public static final long getOrZero(@Nullable Long l) {
         if (l != null) {

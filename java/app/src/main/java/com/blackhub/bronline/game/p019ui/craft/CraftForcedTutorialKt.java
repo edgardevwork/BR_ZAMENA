@@ -55,7 +55,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftForcedTutorial.kt */
 @SourceDebugExtension({"SMAP\nCraftForcedTutorial.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftForcedTutorial.kt\ncom/blackhub/bronline/game/ui/craft/CraftForcedTutorialKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n+ 4 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,136:1\n1116#2,6:137\n1116#2,6:143\n1116#2,6:149\n1116#2,6:155\n1116#2,6:161\n1116#2,6:167\n1116#2,6:173\n75#3:179\n108#3,2:180\n81#4:182\n81#4:183\n81#4:184\n81#4:185\n81#4:186\n*S KotlinDebug\n*F\n+ 1 CraftForcedTutorial.kt\ncom/blackhub/bronline/game/ui/craft/CraftForcedTutorialKt\n*L\n35#1:137,6\n39#1:143,6\n47#1:149,6\n56#1:155,6\n64#1:161,6\n73#1:167,6\n93#1:173,6\n35#1:179\n35#1:180,2\n39#1:182\n47#1:183\n56#1:184\n64#1:185\n73#1:186\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftForcedTutorialKt {
     public static final float FILL_HEIGHT_PERCENT = 0.9f;
 

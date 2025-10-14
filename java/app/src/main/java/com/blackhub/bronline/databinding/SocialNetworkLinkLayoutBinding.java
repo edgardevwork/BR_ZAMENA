@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.blackhub.bronline.game.gui.socialnetworklink.viewmodel.SocialNetworkLinkViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class SocialNetworkLinkLayoutBinding extends ViewDataBinding {
 
     @Bindable

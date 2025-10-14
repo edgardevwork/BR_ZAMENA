@@ -37,7 +37,7 @@ import java.util.Random;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class BrDialogDance implements ISAMPGUI {
     public ImageView mActiveLimb;
     public FrameLayout mActiveView;

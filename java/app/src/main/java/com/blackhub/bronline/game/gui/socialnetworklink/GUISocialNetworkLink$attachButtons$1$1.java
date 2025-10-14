@@ -12,7 +12,7 @@ import kotlin.jvm.internal.Lambda;
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: GUISocialNetworkLink.kt */
-/* loaded from: classes2.dex */
+
 public final class GUISocialNetworkLink$attachButtons$1$1 extends Lambda implements Function2<Integer, View, Unit> {
     public final /* synthetic */ GUISocialNetworkLink this$0;
 

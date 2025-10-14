@@ -11,7 +11,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public final class DonateServicesLayoutBinding implements ViewBinding {
 
     @NonNull

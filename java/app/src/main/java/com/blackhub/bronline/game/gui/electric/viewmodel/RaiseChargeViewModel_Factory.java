@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class RaiseChargeViewModel_Factory implements Factory<RaiseChargeViewModel> {
     public final Provider<PreferencesRepository> preferencesRepositoryProvider;
 

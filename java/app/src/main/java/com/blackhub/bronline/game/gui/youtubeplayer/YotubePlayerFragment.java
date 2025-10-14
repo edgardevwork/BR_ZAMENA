@@ -30,7 +30,7 @@ import org.json.JSONObject;
 /* compiled from: YotubePlayerFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nYotubePlayerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 YotubePlayerFragment.kt\ncom/blackhub/bronline/game/gui/youtubeplayer/YotubePlayerFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,54:1\n106#2,15:55\n*S KotlinDebug\n*F\n+ 1 YotubePlayerFragment.kt\ncom/blackhub/bronline/game/gui/youtubeplayer/YotubePlayerFragment\n*L\n21#1:55,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class YotubePlayerFragment extends BaseISAMPGUIFragmentCompose<YoutubePlayerUiState, YoutubePlayerViewModel> {
     public static final int $stable = 8;
 

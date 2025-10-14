@@ -32,7 +32,7 @@ import org.json.JSONObject;
 /* compiled from: ModuleDialogGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nModuleDialogGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ModuleDialogGuiFragment.kt\ncom/blackhub/bronline/game/gui/moduledialog/ModuleDialogGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,46:1\n106#2,15:47\n1#3:62\n*S KotlinDebug\n*F\n+ 1 ModuleDialogGuiFragment.kt\ncom/blackhub/bronline/game/gui/moduledialog/ModuleDialogGuiFragment\n*L\n19#1:47,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ModuleDialogGuiFragment extends BaseISAMPGUIFragmentCompose<ModuleDialogUiState, ModuleDialogViewModel> {
     public static final int $stable = 8;
 

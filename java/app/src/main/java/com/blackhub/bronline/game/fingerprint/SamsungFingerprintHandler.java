@@ -5,7 +5,7 @@ import android.os.Handler;
 import com.blackhub.bronline.game.fingerprint.FingerprintApi;
 import com.samsung.android.sdk.pass.SpassFingerprint;
 
-/* loaded from: classes2.dex */
+
 public class SamsungFingerprintHandler extends SpassFingerprint implements SpassFingerprint.IdentifyListener {
     public FingerprintApi.Callback callback;
     public boolean isIdentifing;

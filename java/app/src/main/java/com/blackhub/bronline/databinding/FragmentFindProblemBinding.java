@@ -21,7 +21,7 @@ import com.blackhub.bronline.game.gui.electric.view.FindProblemView;
 import com.blackhub.bronline.game.gui.electric.viewmodel.FindProblemViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentFindProblemBinding extends ViewDataBinding {
 
     @NonNull

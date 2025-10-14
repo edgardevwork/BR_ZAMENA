@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class EntertainmentGamesViewModel_Factory implements Factory<EntertainmentGamesViewModel> {
     public final Provider<EntertainmentSystemActionsWithJSON> actionWithJsonProvider;
 

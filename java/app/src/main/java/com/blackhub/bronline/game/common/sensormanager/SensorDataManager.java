@@ -16,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: SensorDataManager.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class SensorDataManager implements SensorEventListener {
     public static final int $stable = 8;
 

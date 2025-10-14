@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class InteractionWithNpcGUIFragment_MembersInjector implements MembersInjector<InteractionWithNpcGUIFragment> {
     public final Provider<MainViewModelFactory<InteractionWithNpcViewModel>> factoryProvider;
 

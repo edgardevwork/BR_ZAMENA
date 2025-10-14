@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class CollectSchemeViewModel_Factory implements Factory<CollectSchemeViewModel> {
     public final Provider<LocalNotification> localNotificationProvider;
     public final Provider<PreferencesRepository> preferencesRepositoryProvider;

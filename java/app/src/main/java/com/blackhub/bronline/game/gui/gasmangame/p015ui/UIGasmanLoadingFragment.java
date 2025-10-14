@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: UIGasmanLoadingFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIGasmanLoadingFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIGasmanLoadingFragment.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanLoadingFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,38:1\n106#2,15:39\n*S KotlinDebug\n*F\n+ 1 UIGasmanLoadingFragment.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanLoadingFragment\n*L\n14#1:39,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIGasmanLoadingFragment extends BaseFragment<GasmanLoadingLayoutBinding> {
     public static final int $stable = 8;
 

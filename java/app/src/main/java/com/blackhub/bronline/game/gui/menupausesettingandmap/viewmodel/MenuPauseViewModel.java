@@ -21,7 +21,7 @@ import org.json.JSONObject;
 /* compiled from: MenuPauseViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nMenuPauseViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MenuPauseViewModel.kt\ncom/blackhub/bronline/game/gui/menupausesettingandmap/viewmodel/MenuPauseViewModel\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,194:1\n1#2:195\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class MenuPauseViewModel extends ViewModel {
     public static final int $stable = 8;
 

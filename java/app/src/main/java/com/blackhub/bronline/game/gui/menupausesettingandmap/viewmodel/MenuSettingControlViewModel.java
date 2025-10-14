@@ -27,7 +27,7 @@ import org.json.JSONException;
 
 /* compiled from: MenuSettingControlViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class MenuSettingControlViewModel extends ViewModel {
     public static final int $stable = 8;
 

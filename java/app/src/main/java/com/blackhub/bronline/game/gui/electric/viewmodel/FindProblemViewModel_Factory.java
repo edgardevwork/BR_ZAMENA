@@ -12,7 +12,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class FindProblemViewModel_Factory implements Factory<FindProblemViewModel> {
     public final Provider<LocalNotification> localNotificationProvider;
     public final Provider<PreferencesRepository> preferencesRepositoryProvider;

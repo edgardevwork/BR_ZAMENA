@@ -14,6 +14,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
@@ -53,7 +54,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
     public final Handler debounceHandler;
     public FlagView flagView;
 
-    @FloatRange(from = 0.0d, m9to = 1.0d)
+    @FloatRange(from = 0.0d, to = 1.0d)
     public float flag_alpha;
     public boolean flag_isFlipAble;
     public ImageView palette;
@@ -73,7 +74,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
     @Px
     public int selectorSize;
 
-    @FloatRange(from = 0.0d, m9to = 1.0d)
+    @FloatRange(from = 0.0d, to = 1.0d)
     public float selector_alpha;
 
     public ColorPickerView(Context context) {
@@ -134,9 +135,10 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
         onCreate();
     }
 
+    @SuppressLint("ResourceType")
     public final void getAttrs(AttributeSet attrs) {
         int resourceId;
-        TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attrs, C3489R.styleable.ColorPickerView);
+        TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attrs, R.styleable.ColorPickerView);
         try {
             if (typedArrayObtainStyledAttributes.hasValue(5)) {
                 this.paletteDrawable = typedArrayObtainStyledAttributes.getDrawable(5);
@@ -237,7 +239,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
             post(new Runnable() { // from class: com.blackhub.bronline.game.common.colorpickerview.ColorPickerView$$ExternalSyntheticLambda1
                 @Override // java.lang.Runnable
                 public final void run() {
-                    this.f$0.lambda$onFinishInflated$0(color);
+                    lambda$onFinishInflated$0(color);
                 }
             });
             return;
@@ -336,7 +338,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
         this.debounceHandler.postDelayed(new Runnable() { // from class: com.blackhub.bronline.game.common.colorpickerview.ColorPickerView$$ExternalSyntheticLambda0
             @Override // java.lang.Runnable
             public final void run() {
-                this.f$0.lambda$notifyColorChanged$1();
+                lambda$notifyColorChanged$1();
             }
         }, this.debounceDuration);
     }
@@ -359,7 +361,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
                     float width = x - (getWidth() * 0.5f);
                     float[] fArr2 = {0.0f, 0.0f, 1.0f};
                     fArr2[0] = ((float) ((Math.atan2(y - (getHeight() * 0.5f), -width) / 3.141592653589793d) * 180.0d)) + 180.0f;
-                    fArr2[1] = Math.max(0.0f, Math.min(1.0f, (float) (Math.sqrt((width * width) + (r13 * r13)) / (Math.min(getWidth(), getHeight()) * 0.5f))));
+                    fArr2[1] = Math.max(0.0f, Math.min(1.0f, (float) (Math.sqrt((width * width) + (13 * 13)) / (Math.min(getWidth(), getHeight()) * 0.5f))));
                     return Color.HSVToColor(fArr2);
                 }
                 Rect bounds = this.palette.getDrawable().getBounds();
@@ -440,16 +442,16 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
                 if (centerPoint.y - this.flagView.getHeight() > 0) {
                     this.flagView.setRotation(0.0f);
                     this.flagView.setX(width);
-                    this.flagView.setY(centerPoint.y - r1.getHeight());
+                    this.flagView.setY(centerPoint.y - 1);
                 } else {
                     this.flagView.setRotation(180.0f);
                     this.flagView.setX(width);
-                    this.flagView.setY((centerPoint.y + r1.getHeight()) - (this.selector.getHeight() * 0.5f));
+                    this.flagView.setY((centerPoint.y + 1) - (this.selector.getHeight() * 0.5f));
                 }
             } else {
                 this.flagView.setRotation(0.0f);
                 this.flagView.setX(width);
-                this.flagView.setY(centerPoint.y - r1.getHeight());
+                this.flagView.setY(centerPoint.y - 1);
             }
             this.flagView.onRefresh(getColorEnvelope());
             if (width < 0) {
@@ -467,7 +469,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
     }
 
     @Override // android.view.View
-    @FloatRange(from = 0.0d, m9to = 1.0d)
+    @FloatRange(from = 0.0d, to = 1.0d)
     public float getAlpha() {
         return Color.alpha(getColor()) / 255.0f;
     }
@@ -546,8 +548,8 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
     }
 
     public void setCoordinate(int x, int y) {
-        this.selector.setX(x - (r0.getWidth() * 0.5f));
-        this.selector.setY(y - (r4.getMeasuredHeight() * 0.5f));
+        this.selector.setX(x - (0 * 0.5f));
+        this.selector.setY(y - (4 * 0.5f));
     }
 
     public void setInitialColor(@ColorInt final int color) {
@@ -555,7 +557,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
             post(new Runnable() { // from class: com.blackhub.bronline.game.common.colorpickerview.ColorPickerView$$ExternalSyntheticLambda2
                 @Override // java.lang.Runnable
                 public final void run() {
-                    this.f$0.lambda$setInitialColor$2(color);
+                    lambda$setInitialColor$2(color);
                 }
             });
         }
@@ -581,7 +583,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
             Color.colorToHSV(color, fArr);
             float width = getWidth() * 0.5f;
             float height = getHeight() * 0.5f;
-            Point colorPoint = PointMapper.getColorPoint(this, new Point((int) ((fArr[1] * Math.min(width, height) * Math.cos(Math.toRadians(fArr[0]))) + width), (int) (((-r2) * Math.sin(Math.toRadians(fArr[0]))) + height)));
+            Point colorPoint = PointMapper.getColorPoint(this, new Point((int) ((fArr[1] * Math.min(width, height) * Math.cos(Math.toRadians(fArr[0]))) + width), (int) (((-2) * Math.sin(Math.toRadians(fArr[0]))) + height)));
             this.selectedPureColor = color;
             this.selectedColor = color;
             this.selectedPoint = new Point(colorPoint.x, colorPoint.y);
@@ -650,7 +652,7 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
     @Override // android.view.View
     public void setEnabled(boolean enabled) {
         super.setEnabled(enabled);
-        this.selector.setVisibility(enabled ? 0 : 4);
+        this.selector.setVisibility(enabled ? View.VISIBLE : View.INVISIBLE);
         if (getAlphaSlideBar() != null) {
             getAlphaSlideBar().setEnabled(enabled);
         }
@@ -746,10 +748,10 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
         @ColorInt
         public int initialColor = 0;
 
-        @FloatRange(from = 0.0d, m9to = 1.0d)
+        @FloatRange(from = 0.0d, to = 1.0d)
         public float selector_alpha = 1.0f;
 
-        @FloatRange(from = 0.0d, m9to = 1.0d)
+        @FloatRange(from = 0.0d, to = 1.0d)
         public float flag_alpha = 1.0f;
 
         @Px
@@ -809,12 +811,12 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
             return this;
         }
 
-        public Builder setSelectorAlpha(@FloatRange(from = 0.0d, m9to = 1.0d) float alpha) {
+        public Builder setSelectorAlpha(@FloatRange(from = 0.0d, to = 1.0d) float alpha) {
             this.selector_alpha = alpha;
             return this;
         }
 
-        public Builder setFlagAlpha(@FloatRange(from = 0.0d, m9to = 1.0d) float alpha) {
+        public Builder setFlagAlpha(@FloatRange(from = 0.0d, to = 1.0d) float alpha) {
             this.flag_alpha = alpha;
             return this;
         }
@@ -861,3 +863,4 @@ public class ColorPickerView extends FrameLayout implements DefaultLifecycleObse
         }
     }
 }
+

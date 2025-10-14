@@ -54,7 +54,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftAnimButton.kt */
 @SourceDebugExtension({"SMAP\nCraftAnimButton.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftAnimButton.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftAnimButtonKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,101:1\n68#2,6:102\n74#2:136\n68#2,6:143\n74#2:177\n78#2:182\n78#2:187\n79#3,11:108\n79#3,11:149\n92#3:181\n92#3:186\n456#4,8:119\n464#4,3:133\n456#4,8:160\n464#4,3:174\n467#4,3:178\n467#4,3:183\n3737#5,6:127\n3737#5,6:168\n1116#6,6:137\n*S KotlinDebug\n*F\n+ 1 CraftAnimButton.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftAnimButtonKt\n*L\n45#1:102,6\n45#1:136\n51#1:143,6\n51#1:177\n51#1:182\n45#1:187\n45#1:108,11\n51#1:149,11\n51#1:181\n45#1:186\n45#1:119,8\n45#1:133,3\n51#1:160,8\n51#1:174,3\n51#1:178,3\n45#1:183,3\n45#1:127,6\n51#1:168,6\n56#1:137,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftAnimButtonKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

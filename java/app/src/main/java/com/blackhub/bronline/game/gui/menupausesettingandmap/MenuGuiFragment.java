@@ -50,7 +50,7 @@ import org.json.JSONObject;
 @StabilityInferred(parameters = 0)
 @Deprecated(message = "больше не используется")
 @SourceDebugExtension({"SMAP\nMenuGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MenuGuiFragment.kt\ncom/blackhub/bronline/game/gui/menupausesettingandmap/MenuGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 FragmentManager.kt\nandroidx/fragment/app/FragmentManagerKt\n*L\n1#1,184:1\n106#2,15:185\n28#3,12:200\n28#3,12:212\n28#3,12:224\n28#3,12:236\n*S KotlinDebug\n*F\n+ 1 MenuGuiFragment.kt\ncom/blackhub/bronline/game/gui/menupausesettingandmap/MenuGuiFragment\n*L\n46#1:185,15\n130#1:200,12\n138#1:212,12\n148#1:224,12\n161#1:236,12\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class MenuGuiFragment extends BaseISAMPGUIFragment<FragmentMenuMainBinding> {
     public static final int $stable = 8;
     public int currentLayout;

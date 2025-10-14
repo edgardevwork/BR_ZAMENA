@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftDialogConfirmationAttachment.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftDialogConfirmationAttachment {
     public static final int $stable = 0;
 

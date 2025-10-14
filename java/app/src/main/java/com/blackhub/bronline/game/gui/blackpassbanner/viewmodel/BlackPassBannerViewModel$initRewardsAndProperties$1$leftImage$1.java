@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BlackPassBannerViewModel.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpassbanner.viewmodel.BlackPassBannerViewModel$initRewardsAndProperties$1$leftImage$1", m7120f = "BlackPassBannerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class BlackPassBannerViewModel$initRewardsAndProperties$1$leftImage$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Bitmap>, Object> {
     public final /* synthetic */ BlackPassProperties $properties;
     public int label;

@@ -64,7 +64,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TutorialGui.kt */
 @SourceDebugExtension({"SMAP\nTutorialGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TutorialGui.kt\ncom/blackhub/bronline/game/ui/tutorial/TutorialGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 5 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 6 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 7 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,220:1\n81#2,11:221\n1116#3,6:232\n68#4,6:238\n74#4:272\n68#4,6:273\n74#4:307\n78#4:312\n78#4:317\n79#5,11:244\n79#5,11:279\n92#5:311\n92#5:316\n456#6,8:255\n464#6,3:269\n456#6,8:290\n464#6,3:304\n467#6,3:308\n467#6,3:313\n3737#7,6:263\n3737#7,6:298\n*S KotlinDebug\n*F\n+ 1 TutorialGui.kt\ncom/blackhub/bronline/game/ui/tutorial/TutorialGuiKt\n*L\n34#1:221,11\n62#1:232,6\n64#1:238,6\n64#1:272\n67#1:273,6\n67#1:307\n67#1:312\n64#1:317\n64#1:244,11\n67#1:279,11\n67#1:311\n64#1:316\n64#1:255,8\n64#1:269,3\n67#1:290,8\n67#1:304,3\n67#1:308,3\n64#1:313,3\n64#1:263,6\n67#1:298,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TutorialGuiKt {
     public static final int BOX_VERTICAL_PERCENT = 24;
     public static final float HINT_WIDTH = 0.3f;

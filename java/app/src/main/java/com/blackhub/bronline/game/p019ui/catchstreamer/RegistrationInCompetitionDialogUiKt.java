@@ -107,7 +107,7 @@ import org.json.JSONException;
 
 /* compiled from: RegistrationInCompetitionDialogUi.kt */
 @SourceDebugExtension({"SMAP\nRegistrationInCompetitionDialogUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RegistrationInCompetitionDialogUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/RegistrationInCompetitionDialogUiKt\n+ 2 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 3 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,331:1\n74#2:332\n69#3,5:333\n74#3:366\n78#3:377\n79#4,11:338\n92#4:376\n456#5,8:349\n464#5,3:363\n467#5,3:373\n3737#6,6:357\n1116#7,6:367\n*S KotlinDebug\n*F\n+ 1 RegistrationInCompetitionDialogUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/RegistrationInCompetitionDialogUiKt\n*L\n70#1:332\n158#1:333,5\n158#1:366\n158#1:377\n158#1:338,11\n158#1:376\n158#1:349,8\n158#1:363,3\n158#1:373,3\n158#1:357,6\n164#1:367,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RegistrationInCompetitionDialogUiKt {
 
     /* compiled from: RegistrationInCompetitionDialogUi.kt */

@@ -66,7 +66,7 @@ public final class YoutubePlayerViewModel extends BaseViewModel<YoutubePlayerUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.youtubeplayer.YoutubePlayerViewModel$init$1", m7120f = "YoutubePlayerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nYoutubePlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 YoutubePlayerViewModel.kt\ncom/blackhub/bronline/game/gui/youtubeplayer/YoutubePlayerViewModel$init$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,63:1\n230#2,5:64\n*S KotlinDebug\n*F\n+ 1 YoutubePlayerViewModel.kt\ncom/blackhub/bronline/game/gui/youtubeplayer/YoutubePlayerViewModel$init$1\n*L\n30#1:64,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.youtubeplayer.YoutubePlayerViewModel$init$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C47331 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -133,7 +133,7 @@ public final class YoutubePlayerViewModel extends BaseViewModel<YoutubePlayerUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.youtubeplayer.YoutubePlayerViewModel$sendCloseScreen$1", m7120f = "YoutubePlayerViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nYoutubePlayerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 YoutubePlayerViewModel.kt\ncom/blackhub/bronline/game/gui/youtubeplayer/YoutubePlayerViewModel$sendCloseScreen$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,63:1\n230#2,5:64\n*S KotlinDebug\n*F\n+ 1 YoutubePlayerViewModel.kt\ncom/blackhub/bronline/game/gui/youtubeplayer/YoutubePlayerViewModel$sendCloseScreen$1\n*L\n55#1:64,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.youtubeplayer.YoutubePlayerViewModel$sendCloseScreen$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C47341 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ boolean $isDestroyEnable;
         public final /* synthetic */ int $time;

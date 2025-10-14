@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/icon_back"
+        android:padding="@dimen/paylib_design_spacer_1x"
+        android:layout_width="@dimen/paylib_design_icon_size_small"
+        android:layout_height="@dimen/paylib_design_icon_size_small"
+        android:layout_margin="@dimen/paylib_design_spacer_4x"
+        android:src="?attr/paylib_native_ic_back"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/paylib_native_back_button_description"/>
+</FrameLayout>

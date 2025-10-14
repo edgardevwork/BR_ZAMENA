@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraint_layout"
+    android:tag="layout/fragment_tutorial_gui_0"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/inTutorialHintBottom"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/hint_bottom"/>
+        <include
+            android:id="@+id/inTutorialUncleCall"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/uncle_call"/>
+        <include
+            android:id="@+id/inTutorialHintDrivingSchool"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/hint_driving_school"/>
+    </FrameLayout>
+    <androidx.compose.p003ui.platform.ComposeView
+        android:id="@+id/cvTutorial"
+        android:tag="binding_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

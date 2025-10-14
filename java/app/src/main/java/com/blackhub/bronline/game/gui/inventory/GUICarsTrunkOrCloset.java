@@ -63,7 +63,7 @@ import org.json.JSONObject;
 /* compiled from: GUICarsTrunkOrCloset.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUICarsTrunkOrCloset.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUICarsTrunkOrCloset.kt\ncom/blackhub/bronline/game/gui/inventory/GUICarsTrunkOrCloset\n+ 2 ArrayMap.kt\nandroidx/collection/ArrayMapKt\n+ 3 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,845:1\n26#2:846\n172#3,9:847\n*S KotlinDebug\n*F\n+ 1 GUICarsTrunkOrCloset.kt\ncom/blackhub/bronline/game/gui/inventory/GUICarsTrunkOrCloset\n*L\n140#1:846\n146#1:847,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUICarsTrunkOrCloset extends BaseISAMPGUIFragment<InventoryCarTrunkBinding> {
     public static final int $stable = 8;
 

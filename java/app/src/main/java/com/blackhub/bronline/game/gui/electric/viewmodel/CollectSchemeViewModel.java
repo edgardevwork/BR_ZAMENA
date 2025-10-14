@@ -49,7 +49,7 @@ import org.json.JSONException;
 /* compiled from: CollectSchemeViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nCollectSchemeViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CollectSchemeViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/CollectSchemeViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,186:1\n230#2,5:187\n230#2,5:192\n230#2,5:197\n230#2,5:202\n230#2,5:207\n230#2,5:212\n230#2,5:217\n230#2,5:222\n230#2,5:227\n*S KotlinDebug\n*F\n+ 1 CollectSchemeViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/CollectSchemeViewModel\n*L\n86#1:187,5\n94#1:192,5\n106#1:197,5\n114#1:202,5\n122#1:207,5\n131#1:212,5\n139#1:217,5\n151#1:222,5\n179#1:227,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CollectSchemeViewModel extends BaseViewModel<CollectSchemeUiState> implements ViewModelProvider.Factory {
     public static final int $stable = 8;
 

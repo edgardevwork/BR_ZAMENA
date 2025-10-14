@@ -25,7 +25,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: NewDialogForMigrateItems.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class NewDialogForMigrateItems {
     public static final int $stable = 8;
 

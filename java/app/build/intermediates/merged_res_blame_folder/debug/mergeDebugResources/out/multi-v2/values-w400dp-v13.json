@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-w400dp-v13/values-w400dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\CRMP\\BR_ZAMENA\\java\\app\\src\\main\\res\\values-w400dp\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "369"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "363"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: MenuSettingGraphicViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class MenuSettingGraphicViewModel extends ViewModel {
     public static final int $stable = 8;
 

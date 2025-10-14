@@ -49,7 +49,7 @@ import org.json.JSONObject;
 /* compiled from: ElectricGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nElectricGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ElectricGuiFragment.kt\ncom/blackhub/bronline/game/gui/electric/ElectricGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 SerialFormat.kt\nkotlinx/serialization/SerialFormatKt\n*L\n1#1,147:1\n106#2,15:148\n113#3:163\n*S KotlinDebug\n*F\n+ 1 ElectricGuiFragment.kt\ncom/blackhub/bronline/game/gui/electric/ElectricGuiFragment\n*L\n41#1:148,15\n95#1:163\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ElectricGuiFragment extends BaseISAMPGUIFragmentWithState<ElectricUiState, ElectricViewModel, FragmentElectricGuiBinding> {
     public static final int $stable = 8;
     public long blockMessageTimer;

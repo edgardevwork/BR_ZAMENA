@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class DrivingSchoolQuestsViewModel_Factory implements Factory<DrivingSchoolQuestsViewModel> {
     public final Provider<DrivingSchoolActionsWithJSON> actionsWithJsonProvider;
 

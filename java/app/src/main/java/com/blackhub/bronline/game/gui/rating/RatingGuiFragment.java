@@ -30,7 +30,7 @@ import org.json.JSONObject;
 /* compiled from: RatingGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nRatingGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RatingGuiFragment.kt\ncom/blackhub/bronline/game/gui/rating/RatingGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,42:1\n106#2,15:43\n*S KotlinDebug\n*F\n+ 1 RatingGuiFragment.kt\ncom/blackhub/bronline/game/gui/rating/RatingGuiFragment\n*L\n19#1:43,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RatingGuiFragment extends BaseISAMPGUIFragmentCompose<RatingUiState, RatingViewModel> {
     public static final int $stable = 8;
 

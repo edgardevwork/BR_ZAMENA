@@ -63,7 +63,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiOrderInfo.kt */
 @SourceDebugExtension({"SMAP\nTaxiOrderInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiOrderInfo.kt\ncom/blackhub/bronline/game/ui/taxiorder/TaxiOrderInfoKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 7 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 8 Dp.kt\nandroidx/compose/ui/unit/Dp\n*L\n1#1,130:1\n69#2,5:131\n74#2:164\n78#2:216\n79#3,11:136\n79#3,11:171\n92#3:210\n92#3:215\n456#4,8:147\n464#4,3:161\n456#4,8:182\n464#4,3:196\n467#4,3:207\n467#4,3:212\n3737#5,6:155\n3737#5,6:190\n74#6,6:165\n80#6:199\n84#6:211\n1116#7,6:200\n64#8:206\n*S KotlinDebug\n*F\n+ 1 TaxiOrderInfo.kt\ncom/blackhub/bronline/game/ui/taxiorder/TaxiOrderInfoKt\n*L\n46#1:131,5\n46#1:164\n46#1:216\n46#1:136,11\n52#1:171,11\n52#1:210\n46#1:215\n46#1:147,8\n46#1:161,3\n52#1:182,8\n52#1:196,3\n52#1:207,3\n46#1:212,3\n46#1:155,6\n52#1:190,6\n52#1:165,6\n52#1:199\n52#1:211\n74#1:200,6\n91#1:206\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiOrderInfoKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

@@ -54,7 +54,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesChoiceListBlock.kt */
 @SourceDebugExtension({"SMAP\nCasesChoiceListBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesChoiceListBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesChoiceListBlockKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,113:1\n1116#2,6:114\n1116#2,6:120\n1116#2,6:126\n1116#2,6:132\n74#3,6:138\n80#3:172\n84#3:177\n79#4,11:144\n92#4:176\n456#5,8:155\n464#5,3:169\n467#5,3:173\n3737#6,6:163\n81#7:178\n81#7:179\n*S KotlinDebug\n*F\n+ 1 CasesChoiceListBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesChoiceListBlockKt\n*L\n35#1:114,6\n37#1:120,6\n45#1:126,6\n54#1:132,6\n58#1:138,6\n58#1:172\n58#1:177\n58#1:144,11\n58#1:176\n58#1:155,8\n58#1:169,3\n58#1:173,3\n58#1:163,6\n37#1:178\n45#1:179\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesChoiceListBlockKt {
     public static final float HALF_ALPHA = 0.5f;
 

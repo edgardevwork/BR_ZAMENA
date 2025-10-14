@@ -48,7 +48,7 @@ import org.json.JSONObject;
 /* compiled from: VideoPlayerGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nVideoPlayerGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayerGuiFragment.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,69:1\n106#2,15:70\n172#2,9:85\n*S KotlinDebug\n*F\n+ 1 VideoPlayerGuiFragment.kt\ncom/blackhub/bronline/game/gui/videoplayer/VideoPlayerGuiFragment\n*L\n25#1:70,15\n27#1:85,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class VideoPlayerGuiFragment extends BaseISAMPGUIFragmentCompose<VideoPlayerUiState, VideoPlayerViewModel> {
     public static final int $stable = 8;
 

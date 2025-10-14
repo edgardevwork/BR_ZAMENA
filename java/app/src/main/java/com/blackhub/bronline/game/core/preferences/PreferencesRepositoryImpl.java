@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: PreferencesRepositoryImpl.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class PreferencesRepositoryImpl implements PreferencesRepository {
     public static final int $stable = 8;
 

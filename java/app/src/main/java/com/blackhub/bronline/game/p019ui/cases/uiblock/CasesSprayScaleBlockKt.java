@@ -59,7 +59,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesSprayScaleBlock.kt */
 @SourceDebugExtension({"SMAP\nCasesSprayScaleBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesSprayScaleBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesSprayScaleBlockKt\n+ 2 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 7 Dp.kt\nandroidx/compose/ui/unit/DpKt\n*L\n1#1,169:1\n91#2,2:170\n93#2:200\n97#2:285\n79#3,11:172\n79#3,11:206\n79#3,11:242\n92#3:274\n92#3:279\n92#3:284\n456#4,8:183\n464#4,3:197\n456#4,8:217\n464#4,3:231\n456#4,8:253\n464#4,3:267\n467#4,3:271\n467#4,3:276\n467#4,3:281\n3737#5,6:191\n3737#5,6:225\n3737#5,6:261\n69#6,5:201\n74#6:234\n67#6,7:235\n74#6:270\n78#6:275\n78#6:280\n154#7:286\n*S KotlinDebug\n*F\n+ 1 CasesSprayScaleBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesSprayScaleBlockKt\n*L\n55#1:170,2\n55#1:200\n55#1:285\n55#1:172,11\n95#1:206,11\n139#1:242,11\n139#1:274\n95#1:279\n55#1:284\n55#1:183,8\n55#1:197,3\n95#1:217,8\n95#1:231,3\n139#1:253,8\n139#1:267,3\n139#1:271,3\n95#1:276,3\n55#1:281,3\n55#1:191,6\n95#1:225,6\n139#1:261,6\n95#1:201,5\n95#1:234\n139#1:235,7\n139#1:270\n139#1:275\n95#1:280\n161#1:286\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesSprayScaleBlockKt {
     public static final float PROGRESS_SHADOW_BLUR = 3.0f;
     public static final float PROGRESS_SHADOW_OFFSET = 2.0f;

@@ -43,7 +43,7 @@ import org.json.JSONObject;
 /* compiled from: ElectricViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nElectricViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ElectricViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/ElectricViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,96:1\n230#2,5:97\n*S KotlinDebug\n*F\n+ 1 ElectricViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/ElectricViewModel\n*L\n59#1:97,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ElectricViewModel extends BaseViewModel<ElectricUiState> implements ViewModelProvider.Factory {
     public static final long FINISH_GAME_DELAY = 500;
 

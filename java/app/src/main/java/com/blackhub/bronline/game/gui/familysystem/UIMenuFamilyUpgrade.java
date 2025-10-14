@@ -312,7 +312,7 @@ public final class UIMenuFamilyUpgrade extends UILayout {
     /* compiled from: UIMenuFamilyUpgrade.kt */
     @Metadata(m7104d1 = {"\u0000'\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002*\u0001\u0000\b\n\u0018\u000026\u0012\u0013\u0012\u00110\u0002¢\u0006\f\b\u0003\u0012\b\b\u0004\u0012\u0004\b\b(\u0005\u0012\u0013\u0012\u00110\u0006¢\u0006\f\b\u0003\u0012\b\b\u0004\u0012\u0004\b\b(\u0007\u0012\u0004\u0012\u00020\b0\u0001j\u0002`\tJ\u0019\u0010\n\u001a\u00020\b2\u0006\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0007\u001a\u00020\u0006H\u0096\u0002¨\u0006\u000b"}, m7105d2 = {"com/blackhub/bronline/game/gui/familysystem/UIMenuFamilyUpgrade$setLogicForClickUpdateItem$1", "Lkotlin/Function2;", "Lcom/blackhub/bronline/game/gui/familysystem/data/FamilyUpgradeData;", "Lkotlin/ParameterName;", "name", "updateItem", "", "position", "", "Lcom/blackhub/bronline/game/gui/familysystem/OnClickUpdateItem;", "invoke", "app_siteRelease"}, m7106k = 1, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.familysystem.UIMenuFamilyUpgrade$setLogicForClickUpdateItem$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C40331 implements Function2<FamilyUpgradeData, Integer, Unit> {
         public C40331() {
         }

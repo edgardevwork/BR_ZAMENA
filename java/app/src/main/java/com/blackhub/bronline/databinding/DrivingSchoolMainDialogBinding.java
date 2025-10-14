@@ -11,7 +11,7 @@ import androidx.viewbinding.ViewBindings;
 import com.blackhub.bronline.game.common.UIContainer;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public final class DrivingSchoolMainDialogBinding implements ViewBinding {
 
     @NonNull

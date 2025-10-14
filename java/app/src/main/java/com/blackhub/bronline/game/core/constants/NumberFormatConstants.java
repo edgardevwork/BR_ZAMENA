@@ -7,7 +7,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Constants.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class NumberFormatConstants {
     public static final int CENTS_DELIMITER = 100;
 

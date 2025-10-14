@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class RateAppViewModel_Factory implements Factory<RateAppViewModel> {
     public final Provider<RateAppActionWithJson> actionsWithJsonProvider;
     public final Provider<RateAppAnalytics> rateAppAnalyticsProvider;

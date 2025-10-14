@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class BrSimBannerComposeGUIFragment_MembersInjector implements MembersInjector<BrSimBannerComposeGUIFragment> {
     public final Provider<MainViewModelFactory<BrSimBannerViewModel>> factoryProvider;
 

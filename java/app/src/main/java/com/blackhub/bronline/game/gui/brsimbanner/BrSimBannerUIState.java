@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BrSimBannerUIState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class BrSimBannerUIState implements UiState {
     public static final int $stable = 8;
 

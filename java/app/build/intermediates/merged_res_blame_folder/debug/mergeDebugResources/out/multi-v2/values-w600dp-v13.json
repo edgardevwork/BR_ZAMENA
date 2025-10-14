@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\CRMP\\BR_ZAMENA\\java\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,99,139,179,219,259,299,339",
+                        "endColumns": "40,38,38,38,38,38,38,38",
+                        "endOffsets": "93,133,173,213,253,293,333,373"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,135,174,213,252,291,330",
+                        "endColumns": "40,38,38,38,38,38,38,38",
+                        "endOffsets": "91,130,169,208,247,286,325,364"
+                    }
+                }
+            ]
+        }
+    ]
+}

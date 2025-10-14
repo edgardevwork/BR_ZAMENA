@@ -43,7 +43,7 @@ import org.json.JSONObject;
 /* compiled from: UILayoutMiniGameEventsGameImage.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUILayoutMiniGameEventsGameImage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UILayoutMiniGameEventsGameImage.kt\ncom/blackhub/bronline/game/gui/minigameevents/UILayoutMiniGameEventsGameImage\n+ 2 Extensions.kt\ncoil/-SingletonExtensions\n*L\n1#1,74:1\n54#2,3:75\n24#2:78\n59#2,6:79\n*S KotlinDebug\n*F\n+ 1 UILayoutMiniGameEventsGameImage.kt\ncom/blackhub/bronline/game/gui/minigameevents/UILayoutMiniGameEventsGameImage\n*L\n61#1:75,3\n61#1:78\n61#1:79,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UILayoutMiniGameEventsGameImage extends UILayout {
     public static final int $stable = 8;
 

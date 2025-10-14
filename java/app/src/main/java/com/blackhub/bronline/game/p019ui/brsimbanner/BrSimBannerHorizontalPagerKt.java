@@ -69,7 +69,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BrSimBannerHorizontalPager.kt */
 @SourceDebugExtension({"SMAP\nBrSimBannerHorizontalPager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrSimBannerHorizontalPager.kt\ncom/blackhub/bronline/game/ui/brsimbanner/BrSimBannerHorizontalPagerKt\n+ 2 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Row.kt\nandroidx/compose/foundation/layout/RowKt\n*L\n1#1,180:1\n74#2,6:181\n80#2:215\n84#2:259\n79#3,11:187\n79#3,11:221\n92#3:253\n92#3:258\n456#4,8:198\n464#4,3:212\n456#4,8:232\n464#4,3:246\n467#4,3:250\n467#4,3:255\n3737#5,6:206\n3737#5,6:240\n88#6,5:216\n93#6:249\n97#6:254\n*S KotlinDebug\n*F\n+ 1 BrSimBannerHorizontalPager.kt\ncom/blackhub/bronline/game/ui/brsimbanner/BrSimBannerHorizontalPagerKt\n*L\n46#1:181,6\n46#1:215\n46#1:259\n46#1:187,11\n87#1:221,11\n87#1:253\n46#1:258\n46#1:198,8\n46#1:212,3\n87#1:232,8\n87#1:246,3\n87#1:250,3\n46#1:255,3\n46#1:206,6\n87#1:240,6\n87#1:216,5\n87#1:249\n87#1:254\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BrSimBannerHorizontalPagerKt {
     public static final float HEIGHT_FOR_HORIZONTAL_PAGER_COLUMN = 0.8f;
     public static final float HEIGHT_FOR_INDICATOR = 0.5f;

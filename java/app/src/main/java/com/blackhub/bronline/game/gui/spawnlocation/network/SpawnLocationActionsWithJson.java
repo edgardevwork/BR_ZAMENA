@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 /* compiled from: SpawnLocationActionsWithJson.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class SpawnLocationActionsWithJson {
     public static final int $stable = 8;
 

@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class CasesGUIFragment_MembersInjector implements MembersInjector<CasesGUIFragment> {
     public final Provider<MainViewModelFactory<CasesViewModel>> factoryProvider;
 

@@ -43,7 +43,7 @@ import org.json.JSONObject;
 /* compiled from: BpRewardsGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nBpRewardsGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsGuiFragment.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,78:1\n106#2,15:79\n106#2,15:94\n*S KotlinDebug\n*F\n+ 1 BpRewardsGuiFragment.kt\ncom/blackhub/bronline/game/gui/bprewards/BpRewardsGuiFragment\n*L\n22#1:79,15\n24#1:94,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BpRewardsGuiFragment extends BaseISAMPGUIFragmentCompose<BpRewardsUiState, BpRewardsViewModel> {
     public static final int $stable = 8;
 

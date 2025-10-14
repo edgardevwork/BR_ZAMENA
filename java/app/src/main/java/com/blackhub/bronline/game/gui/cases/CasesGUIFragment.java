@@ -42,7 +42,7 @@ import org.json.JSONObject;
 /* compiled from: CasesGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nCasesGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesGUIFragment.kt\ncom/blackhub/bronline/game/gui/cases/CasesGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,81:1\n106#2,15:82\n172#2,9:97\n*S KotlinDebug\n*F\n+ 1 CasesGUIFragment.kt\ncom/blackhub/bronline/game/gui/cases/CasesGUIFragment\n*L\n25#1:82,15\n27#1:97,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesGUIFragment extends BaseISAMPGUIFragmentCompose<CasesUiState, CasesViewModel> {
     public static final int $stable = 8;
 

@@ -57,7 +57,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiRateButton.kt */
-/* loaded from: classes2.dex */
+
 public final class TaxiRateButtonKt {
 
     /* compiled from: TaxiRateButton.kt */

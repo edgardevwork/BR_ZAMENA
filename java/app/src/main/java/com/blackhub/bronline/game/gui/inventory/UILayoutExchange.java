@@ -52,7 +52,7 @@ import org.json.JSONException;
 /* compiled from: UILayoutExchange.kt */
 @StabilityInferred(parameters = 0)
 @SuppressLint({"NotifyDataSetChanged"})
-/* loaded from: classes2.dex */
+
 public final class UILayoutExchange extends UILayout {
     public static final int $stable = 8;
 

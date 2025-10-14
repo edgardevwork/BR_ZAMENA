@@ -100,7 +100,7 @@ import ru.rustore.sdk.core.tasks.Task;
 /* compiled from: JNIActivityViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nJNIActivityViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 JNIActivityViewModel.kt\ncom/blackhub/bronline/game/core/viewmodel/JNIActivityViewModel\n+ 2 CoroutineExceptionHandler.kt\nkotlinx/coroutines/CoroutineExceptionHandlerKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n+ 5 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1087:1\n48#2,4:1088\n1549#3:1092\n1620#3,3:1093\n1549#3:1096\n1620#3,3:1097\n1549#3:1105\n1620#3,3:1106\n1855#3,2:1109\n1855#3,2:1111\n1603#3,9:1113\n1855#3:1122\n1856#3:1124\n1612#3:1125\n1045#3:1126\n230#4,5:1100\n1#5:1123\n*S KotlinDebug\n*F\n+ 1 JNIActivityViewModel.kt\ncom/blackhub/bronline/game/core/viewmodel/JNIActivityViewModel\n*L\n124#1:1088,4\n630#1:1092\n630#1:1093,3\n638#1:1096\n638#1:1097,3\n666#1:1105\n666#1:1106,3\n946#1:1109,2\n965#1:1111,2\n670#1:1113,9\n670#1:1122\n670#1:1124\n670#1:1125\n693#1:1126\n645#1:1100,5\n670#1:1123\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class JNIActivityViewModel extends ViewModel implements ViewModelProvider.Factory {
     public static final int $stable = 8;
 
@@ -475,7 +475,7 @@ public final class JNIActivityViewModel extends ViewModel implements ViewModelPr
         /* compiled from: JNIActivityViewModel.kt */
         @Metadata(m7104d1 = {"\u0000\u0014\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\f\u0010\u0002\u001a\b\u0012\u0004\u0012\u00020\u00040\u0003H\u008a@¢\u0006\u0004\b\u0005\u0010\u0006"}, m7105d2 = {"<anonymous>", "", "unconfirmedPaymentRequest", "", "Lcom/blackhub/bronline/game/core/utils/payment/model/BillingPurchaseRequest;", "emit", "(Ljava/util/List;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         /* renamed from: com.blackhub.bronline.game.core.viewmodel.JNIActivityViewModel$1$1 */
-        /* loaded from: classes2.dex */
+
         public static final class AnonymousClass1<T> implements FlowCollector {
             public final /* synthetic */ JNIActivityViewModel this$0;
 
@@ -498,7 +498,7 @@ public final class JNIActivityViewModel extends ViewModel implements ViewModelPr
         /* compiled from: JNIActivityViewModel.kt */
         @Metadata(m7104d1 = {"\u0000\u0014\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u00012\f\u0010\u0002\u001a\b\u0012\u0004\u0012\u00020\u00040\u0003H\u008a@¢\u0006\u0004\b\u0005\u0010\u0006"}, m7105d2 = {"<anonymous>", "", "unconfirmedPaymentRequest", "", "Lcom/blackhub/bronline/game/core/utils/payment/rustore/model/RustoreBillingPurchaseRequest;", "emit", "(Ljava/util/List;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         /* renamed from: com.blackhub.bronline.game.core.viewmodel.JNIActivityViewModel$1$2 */
-        /* loaded from: classes2.dex */
+
         public static final class AnonymousClass2<T> implements FlowCollector {
             public final /* synthetic */ JNIActivityViewModel this$0;
 

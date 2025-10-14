@@ -67,7 +67,7 @@ import org.json.JSONException;
 @StabilityInferred(parameters = 0)
 @SuppressLint({"NotifyDataSetChanged"})
 @SourceDebugExtension({"SMAP\nUILayoutUsersInventory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UILayoutUsersInventory.kt\ncom/blackhub/bronline/game/gui/inventory/UILayoutUsersInventory\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,763:1\n1#2:764\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UILayoutUsersInventory extends UILayout {
     public static final int $stable = 8;
     public int actionBlockCounter;

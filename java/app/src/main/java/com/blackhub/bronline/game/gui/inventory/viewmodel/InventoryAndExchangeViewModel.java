@@ -46,7 +46,7 @@ import org.json.JSONArray;
 
 /* compiled from: InventoryAndExchangeViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class InventoryAndExchangeViewModel extends ViewModel {
     public static final int $stable = 8;
 

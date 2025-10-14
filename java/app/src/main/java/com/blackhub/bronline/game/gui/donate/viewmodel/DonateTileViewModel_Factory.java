@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class DonateTileViewModel_Factory implements Factory<DonateTileViewModel> {
     public final Provider<DonateActionWithJSON> actionWithJsonProvider;
 

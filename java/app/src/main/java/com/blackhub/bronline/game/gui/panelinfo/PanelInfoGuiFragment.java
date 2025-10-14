@@ -30,7 +30,7 @@ import org.json.JSONObject;
 /* compiled from: PanelInfoGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nPanelInfoGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PanelInfoGuiFragment.kt\ncom/blackhub/bronline/game/gui/panelinfo/PanelInfoGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,42:1\n106#2,15:43\n*S KotlinDebug\n*F\n+ 1 PanelInfoGuiFragment.kt\ncom/blackhub/bronline/game/gui/panelinfo/PanelInfoGuiFragment\n*L\n19#1:43,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class PanelInfoGuiFragment extends BaseISAMPGUIFragmentCompose<PanelInfoUiState, PanelInfoViewModel> {
     public static final int $stable = 8;
 

@@ -47,7 +47,7 @@ import org.json.JSONObject;
 /* compiled from: FishingViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nFishingViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FishingViewModel.kt\ncom/blackhub/bronline/game/gui/fishing/FishingViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,394:1\n230#2,5:395\n230#2,5:400\n230#2,5:405\n230#2,5:410\n230#2,5:416\n230#2,5:421\n230#2,5:426\n230#2,5:431\n1#3:415\n*S KotlinDebug\n*F\n+ 1 FishingViewModel.kt\ncom/blackhub/bronline/game/gui/fishing/FishingViewModel\n*L\n97#1:395,5\n118#1:400,5\n179#1:405,5\n187#1:410,5\n294#1:416,5\n301#1:421,5\n308#1:426,5\n362#1:431,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class FishingViewModel extends BaseViewModel<FishingUiState> {
     public static final int $stable = 8;
 

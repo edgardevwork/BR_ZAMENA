@@ -54,7 +54,7 @@ import org.json.JSONObject;
 /* compiled from: GUIFuelFill.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIFuelFill.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIFuelFill.kt\ncom/blackhub/bronline/game/gui/fuelfill/GUIFuelFill\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,184:1\n106#2,15:185\n*S KotlinDebug\n*F\n+ 1 GUIFuelFill.kt\ncom/blackhub/bronline/game/gui/fuelfill/GUIFuelFill\n*L\n36#1:185,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIFuelFill extends BaseISAMPGUIFragment<FuelFillLayoutBinding> {
     public static final int $stable = 8;
 

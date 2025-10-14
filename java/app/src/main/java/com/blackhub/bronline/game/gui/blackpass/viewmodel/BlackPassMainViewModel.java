@@ -225,7 +225,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$initDataFromJson$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBlackPassMainViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$initDataFromJson$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1001:1\n230#2,5:1002\n*S KotlinDebug\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$initDataFromJson$1\n*L\n144#1:1002,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$initDataFromJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37311 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ BlackPassItems $blackPassItems;
         public final /* synthetic */ String $calendarSeasonColor;
@@ -299,7 +299,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$initInterface$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, m7122l = {271}, m7123m = "invokeSuspend", m7124n = {"properties", "seasonBg", "premiumBitmapImage", "seasonBitmapImage", "seasonBitmapImageForRewards", "rewardsList", "ratingBgImage", "dailyCategoryImageBitmap", "specialCategoryImageBitmap", "bpExpBitmap", "imgRubBitmap", "timerDaysAndHours", "vipState", "level", "valueOfExperience", "maxLevelExp"}, m7125s = {"L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$10", "L$11", "L$12", "L$13", "I$1", "I$2", "I$3"})
     @SourceDebugExtension({"SMAP\nBlackPassMainViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$initInterface$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1001:1\n230#2,5:1002\n*S KotlinDebug\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$initInterface$1\n*L\n273#1:1002,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$initInterface$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37321 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public final /* synthetic */ List<BpRewardsAwardsDto> $listOfAwardsTypes;
@@ -541,7 +541,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$showDialogConfirmation$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {340, 354}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$showDialogConfirmation$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37361 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $action;
         public final /* synthetic */ String $bodyMessage;
@@ -638,7 +638,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$showDialogResult$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {380}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$showDialogResult$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37371 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ String $boldMessage;
         public final /* synthetic */ String $buttonOK;
@@ -730,7 +730,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$levelUp$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBlackPassMainViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$levelUp$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1001:1\n230#2,5:1002\n*S KotlinDebug\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$levelUp$1\n*L\n454#1:1002,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$levelUp$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37331 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $bpLevel;
         public final /* synthetic */ int $valueOfExperience;
@@ -810,7 +810,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$clearViewModel$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {FloatingActionButton.AUTO_MINI_LARGEST_SCREEN_WIDTH, 471}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$clearViewModel$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37291 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -884,7 +884,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$updateAfterGetPrize$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBlackPassMainViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$updateAfterGetPrize$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1001:1\n1559#2:1002\n1590#2,4:1003\n230#3,5:1007\n*S KotlinDebug\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$updateAfterGetPrize$1\n*L\n487#1:1002\n487#1:1003,4\n524#1:1007,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$updateAfterGetPrize$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37381 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -971,7 +971,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$getPrize$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$getPrize$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37301 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $currentLayout;
         public final /* synthetic */ int $id;
@@ -1020,7 +1020,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$updateJson$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nBlackPassMainViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$updateJson$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 JsonArrayExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonArrayExtensionKt\n+ 4 JsonExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonExtensionKt\n+ 5 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 6 AnnotatedString.kt\nandroidx/compose/ui/text/AnnotatedStringKt\n+ 7 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1001:1\n1#2:1002\n51#3,5:1003\n56#3,11:1017\n51#3,5:1044\n56#3,11:1058\n8#4,9:1008\n8#4,9:1049\n1855#5:1028\n1856#5:1036\n1045#5:1037\n1045#5:1038\n1559#5:1069\n1590#5,4:1070\n1099#6:1029\n928#6,6:1030\n230#7,5:1039\n230#7,5:1074\n*S KotlinDebug\n*F\n+ 1 BlackPassMainViewModel.kt\ncom/blackhub/bronline/game/gui/blackpass/viewmodel/BlackPassMainViewModel$updateJson$1\n*L\n571#1:1003,5\n571#1:1017,11\n664#1:1044,5\n664#1:1058,11\n571#1:1008,9\n664#1:1049,9\n577#1:1028\n577#1:1036\n633#1:1037\n636#1:1038\n667#1:1069\n667#1:1070,4\n583#1:1029\n586#1:1030,6\n640#1:1039,5\n677#1:1074,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$updateJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37391 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ List<LevelsInfo> $bpRewards;
         public final /* synthetic */ int $currentLayout;
@@ -1451,7 +1451,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$onTaskClick$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$onTaskClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37341 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ CommonTaskModel $task;
         public int label;
@@ -1496,7 +1496,7 @@ public final class BlackPassMainViewModel extends BaseViewModel<BlackPassMainUIS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$sendExchangeTask$1", m7120f = "BlackPassMainViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.blackpass.viewmodel.BlackPassMainViewModel$sendExchangeTask$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C37351 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $taskId;
         public int label;

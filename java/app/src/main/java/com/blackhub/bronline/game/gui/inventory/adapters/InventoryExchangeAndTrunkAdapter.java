@@ -37,7 +37,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: InventoryExchangeAndTrunkAdapter.kt */
 @StabilityInferred(parameters = 0)
 @SuppressLint({"NotifyDataSetChanged"})
-/* loaded from: classes2.dex */
+
 public final class InventoryExchangeAndTrunkAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
     public final int counterForIdsPlate;

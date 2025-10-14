@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: IntExtension.kt */
 @SourceDebugExtension({"SMAP\nIntExtension.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntExtension.kt\ncom/blackhub/bronline/game/core/extension/IntExtensionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 Dp.kt\nandroidx/compose/ui/unit/DpKt\n*L\n1#1,153:1\n1#2:154\n154#3:155\n*S KotlinDebug\n*F\n+ 1 IntExtension.kt\ncom/blackhub/bronline/game/core/extension/IntExtensionKt\n*L\n145#1:155\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class IntExtensionKt {
     public static final boolean isEven(int i) {
         return (i & 1) == 0;

@@ -58,7 +58,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: HintRightWithImageBlock.kt */
 @SourceDebugExtension({"SMAP\nHintRightWithImageBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HintRightWithImageBlock.kt\ncom/blackhub/bronline/game/ui/tutorial/HintRightWithImageBlockKt\n+ 2 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 7 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,139:1\n88#2,5:140\n93#2:173\n97#2:223\n79#3,11:145\n79#3,11:179\n92#3:217\n92#3:222\n456#4,8:156\n464#4,3:170\n456#4,8:190\n464#4,3:204\n467#4,3:214\n467#4,3:219\n3737#5,6:164\n3737#5,6:198\n69#6,5:174\n74#6:207\n78#6:218\n1116#7,6:208\n1116#7,6:224\n*S KotlinDebug\n*F\n+ 1 HintRightWithImageBlock.kt\ncom/blackhub/bronline/game/ui/tutorial/HintRightWithImageBlockKt\n*L\n50#1:140,5\n50#1:173\n50#1:223\n50#1:145,11\n90#1:179,11\n90#1:217\n50#1:222\n50#1:156,8\n50#1:170,3\n90#1:190,8\n90#1:204,3\n90#1:214,3\n50#1:219,3\n50#1:164,6\n90#1:198,6\n90#1:174,5\n90#1:207\n90#1:218\n109#1:208,6\n127#1:224,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class HintRightWithImageBlockKt {
     @Composable
     @ComposableInferredTarget(scheme = "[androidx.compose.ui.UiComposable[androidx.compose.ui.UiComposable]]")

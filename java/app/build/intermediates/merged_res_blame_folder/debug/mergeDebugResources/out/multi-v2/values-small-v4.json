@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\CRMP\\BR_ZAMENA\\java\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,131",
+                        "endColumns": "72,69",
+                        "endOffsets": "125,196"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,270",
+                        "endColumns": "72,69",
+                        "endOffsets": "123,335"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AORUS\\.gradle\\caches\\8.13\\transforms\\5dee83320e31667cad50ef3cca036495\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "128,198",
+                        "endColumns": "69,71",
+                        "endOffsets": "193,265"
+                    }
+                }
+            ]
+        }
+    ]
+}

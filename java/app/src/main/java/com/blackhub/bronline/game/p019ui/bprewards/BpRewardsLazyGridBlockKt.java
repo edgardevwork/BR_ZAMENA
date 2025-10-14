@@ -71,7 +71,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BpRewardsLazyGridBlock.kt */
 @SourceDebugExtension({"SMAP\nBpRewardsLazyGridBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsLazyGridBlock.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsLazyGridBlockKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,184:1\n1116#2,6:185\n1116#2,6:231\n68#3,6:191\n74#3:225\n78#3:230\n79#4,11:197\n92#4:229\n456#5,8:208\n464#5,3:222\n467#5,3:226\n3737#6,6:216\n*S KotlinDebug\n*F\n+ 1 BpRewardsLazyGridBlock.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsLazyGridBlockKt\n*L\n54#1:185,6\n177#1:231,6\n83#1:191,6\n83#1:225\n83#1:230\n83#1:197,11\n83#1:229\n83#1:208,8\n83#1:222,3\n83#1:226,3\n83#1:216,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BpRewardsLazyGridBlockKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

@@ -100,7 +100,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftLevelUpDialog.kt */
 @SourceDebugExtension({"SMAP\nCraftLevelUpDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftLevelUpDialog.kt\ncom/blackhub/bronline/game/ui/craft/CraftLevelUpDialogKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Effects.kt\nandroidx/compose/runtime/EffectsKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Effects.kt\nandroidx/compose/runtime/EffectsKt$rememberCoroutineScope$1\n+ 6 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,386:1\n1116#2,6:387\n1116#2,6:393\n1116#2,6:399\n1116#2,6:405\n1116#2,6:411\n1116#2,6:417\n1116#2,6:423\n1116#2,6:429\n1116#2,6:435\n1116#2,3:446\n1119#2,3:452\n1116#2,6:456\n487#3,4:441\n491#3,2:449\n495#3:455\n25#4:445\n487#5:451\n81#6:462\n107#6,2:463\n81#6:465\n107#6,2:466\n81#6:468\n107#6,2:469\n81#6:471\n107#6,2:472\n81#6:474\n107#6,2:475\n81#6:477\n*S KotlinDebug\n*F\n+ 1 CraftLevelUpDialog.kt\ncom/blackhub/bronline/game/ui/craft/CraftLevelUpDialogKt\n*L\n77#1:387,6\n78#1:393,6\n79#1:399,6\n81#1:405,6\n82#1:411,6\n90#1:417,6\n91#1:423,6\n110#1:429,6\n136#1:435,6\n156#1:446,3\n156#1:452,3\n165#1:456,6\n156#1:441,4\n156#1:449,2\n156#1:455\n156#1:445\n156#1:451\n77#1:462\n77#1:463,2\n78#1:465\n78#1:466,2\n79#1:468\n79#1:469,2\n81#1:471\n81#1:472,2\n82#1:474\n82#1:475,2\n91#1:477\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftLevelUpDialogKt {
     public static final long BASIC_DELAY = 550;
     public static final int DEFAULT_DELAY_500 = 500;

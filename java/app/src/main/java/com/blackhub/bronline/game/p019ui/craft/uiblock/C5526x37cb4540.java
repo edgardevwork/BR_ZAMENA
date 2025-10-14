@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: LazyDsl.kt */
 @SourceDebugExtension({"SMAP\nLazyDsl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LazyDsl.kt\nandroidx/compose/foundation/lazy/LazyDslKt$itemsIndexed$2\n*L\n1#1,426:1\n*E\n"})
 /* renamed from: com.blackhub.bronline.game.ui.craft.uiblock.CraftVerticalListWithElementsBlockKt$CraftVerticalListWithElementsBlock$2$1$1$1$invoke$$inlined$itemsIndexed$default$1 */
-/* loaded from: classes2.dex */
+
 public final class C5526x37cb4540 extends Lambda implements Function1<Integer, Object> {
     public final /* synthetic */ List $items;
     public final /* synthetic */ Function2 $key;

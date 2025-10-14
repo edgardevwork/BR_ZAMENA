@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Constants.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class CommonValue {
     public static final int $stable = 0;
     public static final int ELEMENT_FOUR = 3;

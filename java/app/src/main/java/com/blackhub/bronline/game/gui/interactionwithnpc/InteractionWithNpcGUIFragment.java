@@ -32,7 +32,7 @@ import org.json.JSONObject;
 /* compiled from: InteractionWithNpcGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nInteractionWithNpcGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 InteractionWithNpcGUIFragment.kt\ncom/blackhub/bronline/game/gui/interactionwithnpc/InteractionWithNpcGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,58:1\n106#2,15:59\n*S KotlinDebug\n*F\n+ 1 InteractionWithNpcGUIFragment.kt\ncom/blackhub/bronline/game/gui/interactionwithnpc/InteractionWithNpcGUIFragment\n*L\n21#1:59,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class InteractionWithNpcGUIFragment extends BaseISAMPGUIFragmentCompose<InteractionWithNpcUiState, InteractionWithNpcViewModel> {
     public static final int $stable = 8;
 

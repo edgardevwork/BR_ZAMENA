@@ -37,7 +37,7 @@ import org.json.JSONObject;
 /* compiled from: CraftGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nCraftGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftGuiFragment.kt\ncom/blackhub/bronline/game/gui/craft/CraftGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,98:1\n106#2,15:99\n172#2,9:114\n*S KotlinDebug\n*F\n+ 1 CraftGuiFragment.kt\ncom/blackhub/bronline/game/gui/craft/CraftGuiFragment\n*L\n23#1:99,15\n26#1:114,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftGuiFragment extends BaseISAMPGUIFragmentCompose<CraftUiState, CraftViewModel> {
     public static final int $stable = 8;
 

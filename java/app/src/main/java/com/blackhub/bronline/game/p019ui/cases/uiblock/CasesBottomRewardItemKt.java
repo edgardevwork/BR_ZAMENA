@@ -83,7 +83,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesBottomRewardItem.kt */
 @SourceDebugExtension({"SMAP\nCasesBottomRewardItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesBottomRewardItem.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesBottomRewardItemKt\n+ 2 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 4 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 5 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 6 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 7 Composer.kt\nandroidx/compose/runtime/Updater\n+ 8 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,192:1\n74#2:193\n1116#3,6:194\n1116#3,6:200\n1116#3,6:206\n1116#3,6:212\n1116#3,6:218\n1116#3,6:224\n69#4,5:230\n74#4:263\n78#4:268\n79#5,11:235\n92#5:267\n456#6,8:246\n464#6,3:260\n467#6,3:264\n3737#7,6:254\n81#8:269\n107#8,2:270\n81#8:272\n107#8,2:273\n81#8:275\n*S KotlinDebug\n*F\n+ 1 CasesBottomRewardItem.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesBottomRewardItemKt\n*L\n69#1:193\n70#1:194,6\n71#1:200,6\n73#1:206,6\n75#1:212,6\n141#1:218,6\n158#1:224,6\n138#1:230,5\n138#1:263\n138#1:268\n138#1:235,11\n138#1:267\n138#1:246,8\n138#1:260,3\n138#1:264,3\n138#1:254,6\n70#1:269\n70#1:270,2\n71#1:272\n71#1:273,2\n75#1:275\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesBottomRewardItemKt {
     public static final long DELAY_BEFORE_RENDER = 150;
     public static final float ITEM_SCALE = 1.3f;

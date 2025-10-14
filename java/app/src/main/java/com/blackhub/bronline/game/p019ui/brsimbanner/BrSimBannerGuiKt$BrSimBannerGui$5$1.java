@@ -17,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BrSimBannerGui.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.ui.brsimbanner.BrSimBannerGuiKt$BrSimBannerGui$5$1", m7120f = "BrSimBannerGui.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
-/* loaded from: classes2.dex */
+
 public final class BrSimBannerGuiKt$BrSimBannerGui$5$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
     public final /* synthetic */ PagerState $pagerState;
     public final /* synthetic */ MutableState<Boolean> $tickTurnOn$delegate;

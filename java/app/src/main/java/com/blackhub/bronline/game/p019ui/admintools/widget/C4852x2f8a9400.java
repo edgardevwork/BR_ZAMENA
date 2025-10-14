@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: LazyGridDsl.kt */
 @SourceDebugExtension({"SMAP\nLazyGridDsl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LazyGridDsl.kt\nandroidx/compose/foundation/lazy/grid/LazyGridDslKt$items$3\n*L\n1#1,563:1\n*E\n"})
 /* renamed from: com.blackhub.bronline.game.ui.admintools.widget.ATGridBlockKt$ATGridBlock$2$1$1$1$1$1$1$invoke$$inlined$items$default$3 */
-/* loaded from: classes2.dex */
+
 public final class C4852x2f8a9400 extends Lambda implements Function2<LazyGridItemSpanScope, Integer, GridItemSpan> {
     public final /* synthetic */ List $items;
     public final /* synthetic */ Function2 $span;

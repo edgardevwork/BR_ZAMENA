@@ -424,7 +424,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setCurrentSelector$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {107}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setCurrentSelector$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46671 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $selector;
         public int label;
@@ -538,7 +538,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$initTuneItemsFromJson$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {131, 132}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$initTuneItemsFromJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46611 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ List<TuneObj> $items;
         public int label;
@@ -620,7 +620,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setGosCost$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setGosCost$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46691 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $jsonObject;
         public int label;
@@ -673,7 +673,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setDetailsWithIdAndStatus$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {159, MatroskaExtractor.ID_BLOCK, 164, MatroskaExtractor.ID_BLOCK_ADDITIONAL}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setDetailsWithIdAndStatus$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46681 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONArray $jsonArray;
         public int label;
@@ -851,7 +851,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$updateItemsAfterPurchaseOrSet$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {283}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$updateItemsAfterPurchaseOrSet$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46751 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public final /* synthetic */ int $newCurrentStatus;
@@ -1158,7 +1158,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$resetDetail$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {0, 1, 1, 2}, m7122l = {371, 379, 385}, m7123m = "invokeSuspend", m7124n = {"oldDetailId", "allItems", "oldDetailId", "oldDetailId"}, m7125s = {"I$0", "L$0", "I$0", "I$0"})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$resetDetail$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46641 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int I$0;
@@ -1286,7 +1286,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$initVinyls$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {402}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$initVinyls$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46621 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ List<TuneVinylsObj> $tuneVinyls;
         public int label;
@@ -1345,7 +1345,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setStartVinyl$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {1, 1}, m7122l = {HttpStatus.SC_PRECONDITION_FAILED, 418}, m7123m = "invokeSuspend", m7124n = {"oldVinylPos", "newVinylPos"}, m7125s = {"I$0", "I$1"})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setStartVinyl$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46711 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ String $vinylName;
         public int I$0;
@@ -1427,7 +1427,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$resetVinyl$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {1}, m7122l = {HttpStatus.SC_TOO_MANY_REQUESTS, 433}, m7123m = "invokeSuspend", m7124n = {"oldVinylPos"}, m7125s = {"I$0"})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$resetVinyl$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46651 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int I$0;
         public int label;
@@ -1558,7 +1558,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$updateVinylsAfterEstablished$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {1, 1}, m7122l = {490, 495}, m7123m = "invokeSuspend", m7124n = {"oldPos", "newPos"}, m7125s = {"I$0", "I$1"})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$updateVinylsAfterEstablished$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46761 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int I$0;
@@ -1640,7 +1640,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$initItemsForBoxList$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {536}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$initItemsForBoxList$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46591 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $carId;
         public int label;
@@ -1742,7 +1742,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setNewPresent$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {558}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nTuningDetailsListViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TuningDetailsListViewModel.kt\ncom/blackhub/bronline/game/gui/tuning/viewmodel/TuningDetailsListViewModel$setNewPresent$1\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,726:1\n37#2,2:727\n*S KotlinDebug\n*F\n+ 1 TuningDetailsListViewModel.kt\ncom/blackhub/bronline/game/gui/tuning/viewmodel/TuningDetailsListViewModel$setNewPresent$1\n*L\n566#1:727,2\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setNewPresent$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46701 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $json;
         public int label;
@@ -1829,7 +1829,7 @@ public final class TuningDetailsListViewModel extends ViewModel implements ViewM
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setAllSelectors$1", m7120f = "TuningDetailsListViewModel.kt", m7121i = {}, m7122l = {583}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.tuning.viewmodel.TuningDetailsListViewModel$setAllSelectors$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C46661 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ int $carId;
         public final /* synthetic */ TuneGuiNodeObj $tuningType;

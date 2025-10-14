@@ -47,7 +47,7 @@ import org.json.JSONObject;
 /* compiled from: GUIPlayersList.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIPlayersList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIPlayersList.kt\ncom/blackhub/bronline/game/gui/playerslist/GUIPlayersList\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 TextView.kt\nandroidx/core/widget/TextViewKt\n*L\n1#1,173:1\n106#2,15:174\n58#3,23:189\n93#3,3:212\n*S KotlinDebug\n*F\n+ 1 GUIPlayersList.kt\ncom/blackhub/bronline/game/gui/playerslist/GUIPlayersList\n*L\n38#1:174,15\n106#1:189,23\n106#1:212,3\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIPlayersList extends BaseISAMPGUIFragment<PlayerListDialogBinding> {
     public static final int $stable = 8;
 

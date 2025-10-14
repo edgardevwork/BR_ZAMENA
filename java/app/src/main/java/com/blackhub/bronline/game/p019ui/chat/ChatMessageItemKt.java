@@ -60,7 +60,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ChatMessageItem.kt */
 @SourceDebugExtension({"SMAP\nChatMessageItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ChatMessageItem.kt\ncom/blackhub/bronline/game/ui/chat/ChatMessageItemKt\n+ 2 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n*L\n1#1,93:1\n73#2,7:94\n80#2:129\n84#2:174\n79#3,11:101\n79#3,11:136\n92#3:168\n92#3:173\n79#3,11:181\n92#3:213\n456#4,8:112\n464#4,3:126\n456#4,8:147\n464#4,3:161\n467#4,3:165\n467#4,3:170\n456#4,8:192\n464#4,3:206\n467#4,3:210\n3737#5,6:120\n3737#5,6:155\n3737#5,6:200\n68#6,6:130\n74#6:164\n78#6:169\n68#6,6:175\n74#6:209\n78#6:214\n*S KotlinDebug\n*F\n+ 1 ChatMessageItem.kt\ncom/blackhub/bronline/game/ui/chat/ChatMessageItemKt\n*L\n50#1:94,7\n50#1:129\n50#1:174\n50#1:101,11\n60#1:136,11\n60#1:168\n50#1:173\n84#1:181,11\n84#1:213\n50#1:112,8\n50#1:126,3\n60#1:147,8\n60#1:161,3\n60#1:165,3\n50#1:170,3\n84#1:192,8\n84#1:206,3\n84#1:210,3\n50#1:120,6\n60#1:155,6\n84#1:200,6\n60#1:130,6\n60#1:164\n60#1:169\n84#1:175,6\n84#1:209\n84#1:214\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ChatMessageItemKt {
 
     /* compiled from: ChatMessageItem.kt */

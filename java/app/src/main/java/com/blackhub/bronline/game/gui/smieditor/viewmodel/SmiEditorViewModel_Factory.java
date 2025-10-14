@@ -11,7 +11,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class SmiEditorViewModel_Factory implements Factory<SmiEditorViewModel> {
     public final Provider<SmiEditorActionWithJSON> actionWithJSONProvider;
     public final Provider<LocalNotification> localNotificationProvider;

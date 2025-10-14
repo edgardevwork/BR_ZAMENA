@@ -116,7 +116,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CatchStreamerBannerUi.kt */
 @SourceDebugExtension({"SMAP\nCatchStreamerBannerUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CatchStreamerBannerUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/CatchStreamerBannerUiKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 4 ConstraintLayout.kt\nandroidx/constraintlayout/compose/ConstraintLayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 7 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,690:1\n1116#2,6:691\n1116#2,6:697\n955#2,6:710\n1116#2,6:736\n1116#2,6:742\n154#3:703\n154#3:704\n73#4,4:705\n77#4,20:716\n25#5:709\n74#6:748\n81#7:749\n107#7,2:750\n*S KotlinDebug\n*F\n+ 1 CatchStreamerBannerUi.kt\ncom/blackhub/bronline/game/ui/catchstreamer/CatchStreamerBannerUiKt\n*L\n87#1:691,6\n98#1:697,6\n185#1:710,6\n647#1:736,6\n668#1:742,6\n159#1:703\n160#1:704\n185#1:705,4\n185#1:716,20\n185#1:709\n681#1:748\n87#1:749\n87#1:750,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CatchStreamerBannerUiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

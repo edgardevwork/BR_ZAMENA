@@ -30,7 +30,7 @@ import org.json.JSONObject;
 /* compiled from: BrSimBannerComposeGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nBrSimBannerComposeGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrSimBannerComposeGUIFragment.kt\ncom/blackhub/bronline/game/gui/brsimbanner/BrSimBannerComposeGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,36:1\n106#2,15:37\n1#3:52\n*S KotlinDebug\n*F\n+ 1 BrSimBannerComposeGUIFragment.kt\ncom/blackhub/bronline/game/gui/brsimbanner/BrSimBannerComposeGUIFragment\n*L\n19#1:37,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BrSimBannerComposeGUIFragment extends BaseISAMPGUIFragmentCompose<BrSimBannerUIState, BrSimBannerViewModel> {
     public static final int $stable = 8;
 

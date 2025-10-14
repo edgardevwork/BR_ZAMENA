@@ -9,7 +9,7 @@ import kotlin.text.StringsKt__StringsKt;
 import org.json.JSONObject;
 
 /* compiled from: JsonExtension.kt */
-/* loaded from: classes2.dex */
+
 public final class JsonExtensionKt {
     public static final /* synthetic */ <T> T toDataClass(JSONObject jSONObject) {
         Intrinsics.checkNotNullParameter(jSONObject, "<this>");

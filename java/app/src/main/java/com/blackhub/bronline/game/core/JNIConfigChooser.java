@@ -13,7 +13,7 @@ import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLDisplay;
 
-/* loaded from: classes2.dex */
+
 public class JNIConfigChooser implements GLSurfaceView.EGLConfigChooser {
     public static int[][] ATTRIBUTE_TABLE = {new int[]{12324, 8, 12323, 8, 12322, 8, 12321, 0, 12325, 16, 12326, 8, 12352, 64, 12337, 4, 12338, 1, 12344}, new int[]{12324, 8, 12323, 8, 12322, 8, 12321, 8, 12325, 24, 12326, 8, 12352, 64, 12337, 4, 12338, 1, 12344}, new int[]{12324, 8, 12323, 8, 12322, 8, 12321, 8, 12325, 16, 12326, 8, 12352, 64, 12337, 4, 12338, 1, 12344}, new int[]{12324, 8, 12323, 8, 12322, 8, 12321, 0, 12325, 16, 12326, 8, 12352, 64, 12344}, new int[]{12324, 8, 12323, 8, 12322, 8, 12321, 8, 12325, 24, 12326, 8, 12352, 64, 12344}, new int[]{12324, 8, 12323, 8, 12322, 8, 12321, 8, 12325, 16, 12326, 8, 12352, 64, 12344}, new int[]{12324, 5, 12323, 6, 12322, 5, 12325, 24, 12326, 8, 12352, 64, 12344}, new int[]{12324, 5, 12323, 6, 12322, 5, 12325, 16, 12326, 8, 12352, 64, 12344}, new int[]{12324, 5, 12323, 6, 12322, 5, 12325, 24, 12352, 64, 12344}, new int[]{12324, 5, 12323, 6, 12322, 5, 12325, 16, 12352, 64, 12344}, new int[]{12324, 5, 12323, 6, 12322, 5, 12352, 64, 12344}};
     public final WeakReference<Context> context;

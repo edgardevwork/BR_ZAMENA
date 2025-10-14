@@ -3,7 +3,7 @@ package com.blackhub.bronline.game.gui.donate.adapters;
 import kotlin.Metadata;
 
 /* compiled from: DonateHeaderOrFooterAdapter.kt */
-/* loaded from: classes2.dex */
+
 public final class DonateHeaderOrFooterAdapterKt {
     public static final float FOOTER_FONT_SIZE_1 = 16.0f;
     public static final float FOOTER_FONT_SIZE_2 = 18.0f;

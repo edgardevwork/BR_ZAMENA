@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class AdminToolsGuiFragment_MembersInjector implements MembersInjector<AdminToolsGuiFragment> {
     public final Provider<MainViewModelFactory<AdminToolsViewModel>> factoryProvider;
 

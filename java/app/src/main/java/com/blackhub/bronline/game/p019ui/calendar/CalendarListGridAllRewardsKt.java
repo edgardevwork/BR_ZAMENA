@@ -64,7 +64,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarListGridAllRewards.kt */
 @SourceDebugExtension({"SMAP\nCalendarListGridAllRewards.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CalendarListGridAllRewards.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarListGridAllRewardsKt\n+ 2 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,112:1\n87#2,6:113\n93#2:147\n97#2:152\n79#3,11:119\n92#3:151\n456#4,8:130\n464#4,3:144\n467#4,3:148\n3737#5,6:138\n*S KotlinDebug\n*F\n+ 1 CalendarListGridAllRewards.kt\ncom/blackhub/bronline/game/ui/calendar/CalendarListGridAllRewardsKt\n*L\n46#1:113,6\n46#1:147\n46#1:152\n46#1:119,11\n46#1:151\n46#1:130,8\n46#1:144,3\n46#1:148,3\n46#1:138,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CalendarListGridAllRewardsKt {
     public static final int COUNT_OF_COLUMNS = 7;
     public static final float WIDTH_FOR_GRID = 0.97f;

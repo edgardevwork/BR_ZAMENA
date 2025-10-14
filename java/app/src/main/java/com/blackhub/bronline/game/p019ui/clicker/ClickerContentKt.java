@@ -92,7 +92,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: ClickerContent.kt */
 @SourceDebugExtension({"SMAP\nClickerContent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ClickerContent.kt\ncom/blackhub/bronline/game/ui/clicker/ClickerContentKt\n+ 2 Effects.kt\nandroidx/compose/runtime/EffectsKt\n+ 3 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 4 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 5 Effects.kt\nandroidx/compose/runtime/EffectsKt$rememberCoroutineScope$1\n+ 6 Dp.kt\nandroidx/compose/ui/unit/Dp\n+ 7 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n+ 8 SnapshotIntState.kt\nandroidx/compose/runtime/SnapshotIntStateKt__SnapshotIntStateKt\n*L\n1#1,262:1\n487#2,4:263\n491#2,2:271\n495#2:277\n25#3:267\n1116#4,3:268\n1119#4,3:274\n1116#4,6:278\n1116#4,6:284\n1116#4,6:290\n1116#4,6:296\n1116#4,6:303\n1116#4,6:309\n1116#4,6:315\n487#5:273\n75#6:302\n81#7:321\n107#7,2:322\n81#7:324\n107#7,2:325\n81#7:330\n107#7,2:331\n75#8:327\n108#8,2:328\n*S KotlinDebug\n*F\n+ 1 ClickerContent.kt\ncom/blackhub/bronline/game/ui/clicker/ClickerContentKt\n*L\n74#1:263,4\n74#1:271,2\n74#1:277\n74#1:267\n74#1:268,3\n74#1:274,3\n76#1:278,6\n78#1:284,6\n80#1:290,6\n81#1:296,6\n86#1:303,6\n88#1:309,6\n110#1:315,6\n74#1:273\n84#1:302\n76#1:321\n76#1:322,2\n78#1:324\n78#1:325,2\n81#1:330\n81#1:331,2\n80#1:327\n80#1:328,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class ClickerContentKt {
     public static final long DELAY_HUNDRED_MS = 100;
     public static final int DURATION_MOUSE_MS = 50;

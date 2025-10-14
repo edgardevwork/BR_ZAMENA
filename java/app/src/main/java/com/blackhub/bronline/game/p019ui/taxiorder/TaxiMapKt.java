@@ -83,7 +83,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiMap.kt */
 @SourceDebugExtension({"SMAP\nTaxiMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiMap.kt\ncom/blackhub/bronline/game/ui/taxiorder/TaxiMapKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 4 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,224:1\n1116#2,6:225\n1116#2,6:231\n74#3:237\n81#4:238\n107#4,2:239\n81#4:241\n107#4,2:242\n*S KotlinDebug\n*F\n+ 1 TaxiMap.kt\ncom/blackhub/bronline/game/ui/taxiorder/TaxiMapKt\n*L\n58#1:225,6\n59#1:231,6\n61#1:237\n58#1:238\n58#1:239,2\n59#1:241\n59#1:242,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiMapKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

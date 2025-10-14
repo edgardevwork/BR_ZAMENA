@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: CraftDictionary.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class CraftConstants {
     public static final int $stable = 0;
     public static final int DEFAULT_SELECTED_CATEGORY_INDEX = 0;

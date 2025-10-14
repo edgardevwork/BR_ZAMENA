@@ -25,7 +25,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiMapViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class TaxiMapViewModel extends BaseViewModel<TaxiMapUiState> implements ViewModelProvider.Factory {
     public static final float HALF_SIZE = 2.0f;
     public static final float REVERSE_SIZE = -1.0f;

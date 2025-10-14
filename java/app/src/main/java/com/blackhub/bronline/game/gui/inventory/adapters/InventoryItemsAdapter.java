@@ -41,7 +41,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: InventoryItemsAdapter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class InventoryItemsAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
 

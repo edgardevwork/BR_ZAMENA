@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftFilterCustom.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftItemCategoryFilter {
     public static final int $stable = 8;
     public final int categoryId;

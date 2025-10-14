@@ -15,7 +15,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.blackhub.bronline.game.common.dotrvindicator.DotViewIndicator;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public final class DialogGameInstructionsBinding implements ViewBinding {
 
     @NonNull

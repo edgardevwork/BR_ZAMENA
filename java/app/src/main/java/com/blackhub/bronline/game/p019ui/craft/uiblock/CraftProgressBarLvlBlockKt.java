@@ -22,7 +22,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftProgressBarLvlBlock.kt */
-/* loaded from: classes2.dex */
+
 public final class CraftProgressBarLvlBlockKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

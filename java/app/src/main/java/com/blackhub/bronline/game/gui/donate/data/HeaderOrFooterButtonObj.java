@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: HeaderOrFooterButtonObj.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class HeaderOrFooterButtonObj {
     public static final int $stable = 8;
     public final int id;

@@ -65,7 +65,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesRewardBlock.kt */
 @SourceDebugExtension({"SMAP\nCasesRewardBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesRewardBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesRewardBlockKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n+ 6 ConstraintLayout.kt\nandroidx/constraintlayout/compose/ConstraintLayoutKt\n+ 7 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 8 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n*L\n1#1,120:1\n68#2,6:121\n74#2:155\n78#2:192\n79#3,11:127\n92#3:191\n456#4,8:138\n464#4,3:152\n25#4:161\n467#4,3:188\n3737#5,6:146\n72#6,5:156\n77#6,20:168\n955#7,6:162\n74#8:193\n*S KotlinDebug\n*F\n+ 1 CasesRewardBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesRewardBlockKt\n*L\n43#1:121,6\n43#1:155\n43#1:192\n43#1:127,11\n43#1:191\n43#1:138,8\n43#1:152,3\n45#1:161\n43#1:188,3\n43#1:146,6\n45#1:156,5\n45#1:168,20\n45#1:162,6\n115#1:193\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesRewardBlockKt {
     public static final float SCALE_Y_FOR_OVAL = 0.23f;
 

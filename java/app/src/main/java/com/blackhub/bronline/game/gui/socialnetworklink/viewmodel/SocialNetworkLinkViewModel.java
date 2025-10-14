@@ -38,7 +38,7 @@ import org.json.JSONObject;
 /* compiled from: SocialNetworkLinkViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nSocialNetworkLinkViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SocialNetworkLinkViewModel.kt\ncom/blackhub/bronline/game/gui/socialnetworklink/viewmodel/SocialNetworkLinkViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,110:1\n230#2,5:111\n230#2,5:116\n*S KotlinDebug\n*F\n+ 1 SocialNetworkLinkViewModel.kt\ncom/blackhub/bronline/game/gui/socialnetworklink/viewmodel/SocialNetworkLinkViewModel\n*L\n70#1:111,5\n92#1:116,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class SocialNetworkLinkViewModel extends BaseViewModel<SocialNetworkLinkUiState> implements ViewModelProvider.Factory {
     public static final int $stable = 8;
 

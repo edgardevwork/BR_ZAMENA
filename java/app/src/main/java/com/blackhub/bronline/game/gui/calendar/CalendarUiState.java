@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CalendarUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class CalendarUiState implements UiState {
     public static final int $stable = 8;
 

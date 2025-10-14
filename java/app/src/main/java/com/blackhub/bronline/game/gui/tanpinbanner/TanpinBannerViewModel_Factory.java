@@ -10,7 +10,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class TanpinBannerViewModel_Factory implements Factory<TanpinBannerViewModel> {
     public final Provider<TanpinBannerActionWithJSON> actionWithJSONProvider;
     public final Provider<Application> applicationProvider;

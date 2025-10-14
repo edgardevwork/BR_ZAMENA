@@ -131,7 +131,7 @@ import org.json.JSONObject;
 /* compiled from: GUIDonate.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIDonate.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIDonate.kt\ncom/blackhub/bronline/game/gui/donate/GUIDonate\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,1467:1\n172#2,9:1468\n106#2,15:1477\n106#2,15:1492\n106#2,15:1507\n106#2,15:1522\n106#2,15:1537\n106#2,15:1552\n106#2,15:1567\n256#3,2:1582\n256#3,2:1584\n*S KotlinDebug\n*F\n+ 1 GUIDonate.kt\ncom/blackhub/bronline/game/gui/donate/GUIDonate\n*L\n204#1:1468,9\n210#1:1477,15\n216#1:1492,15\n222#1:1507,15\n228#1:1522,15\n234#1:1537,15\n241#1:1552,15\n248#1:1567,15\n354#1:1582,2\n1452#1:1584,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIDonate extends BaseISAMPGUIFragment<DonateMainLayoutBinding> {
     public static final int $stable = 8;
 

@@ -87,7 +87,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftIngredientItem.kt */
 @SourceDebugExtension({"SMAP\nCraftIngredientItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftIngredientItem.kt\ncom/blackhub/bronline/game/ui/craft/CraftIngredientItemKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 4 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 5 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 6 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 7 Composer.kt\nandroidx/compose/runtime/Updater\n+ 8 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 9 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,198:1\n1116#2,6:199\n1116#2,6:205\n1116#2,6:212\n1116#2,6:218\n74#3:211\n74#4,6:224\n80#4:258\n84#4:302\n79#5,11:230\n79#5,11:264\n92#5:296\n92#5:301\n456#6,8:241\n464#6,3:255\n456#6,8:275\n464#6,3:289\n467#6,3:293\n467#6,3:298\n3737#7,6:249\n3737#7,6:283\n69#8,5:259\n74#8:292\n78#8:297\n81#9:303\n107#9,2:304\n81#9:306\n107#9,2:307\n*S KotlinDebug\n*F\n+ 1 CraftIngredientItem.kt\ncom/blackhub/bronline/game/ui/craft/CraftIngredientItemKt\n*L\n64#1:199,6\n65#1:205,6\n114#1:212,6\n121#1:218,6\n76#1:211\n112#1:224,6\n112#1:258\n112#1:302\n112#1:230,11\n126#1:264,11\n126#1:296\n112#1:301\n112#1:241,8\n112#1:255,3\n126#1:275,8\n126#1:289,3\n126#1:293,3\n112#1:298,3\n112#1:249,6\n126#1:283,6\n126#1:259,5\n126#1:292\n126#1:297\n64#1:303\n64#1:304,2\n65#1:306\n65#1:307,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftIngredientItemKt {
 
     /* compiled from: CraftIngredientItem.kt */

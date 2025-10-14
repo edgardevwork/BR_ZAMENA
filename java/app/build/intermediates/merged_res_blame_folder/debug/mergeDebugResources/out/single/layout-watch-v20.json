@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.bless.client.app-main-8:/layout-watch/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.bless.client.app-mergeDebugResources-5:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.bless.client.app-main-8:/layout-watch/abc_alert_dialog_title_material.xml"
+    }
+]

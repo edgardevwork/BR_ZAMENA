@@ -391,7 +391,7 @@ public class UILayoutRegistrationLogin extends UILayout {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.registration.UILayoutRegistrationLogin$7 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnTouchListenerC44667 implements View.OnTouchListener {
         public ViewOnTouchListenerC44667() {
         }
@@ -405,7 +405,7 @@ public class UILayoutRegistrationLogin extends UILayout {
     }
 
     /* renamed from: com.blackhub.bronline.game.gui.registration.UILayoutRegistrationLogin$8 */
-    /* loaded from: classes2.dex */
+
     public class ViewOnTouchListenerC44678 implements View.OnTouchListener {
         public ViewOnTouchListenerC44678() {
         }

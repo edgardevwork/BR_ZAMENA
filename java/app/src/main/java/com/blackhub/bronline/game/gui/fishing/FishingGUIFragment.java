@@ -58,7 +58,7 @@ import org.json.JSONObject;
 /* compiled from: FishingGUIFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nFishingGUIFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FishingGUIFragment.kt\ncom/blackhub/bronline/game/gui/fishing/FishingGUIFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,86:1\n106#2,15:87\n172#2,9:102\n*S KotlinDebug\n*F\n+ 1 FishingGUIFragment.kt\ncom/blackhub/bronline/game/gui/fishing/FishingGUIFragment\n*L\n30#1:87,15\n40#1:102,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class FishingGUIFragment extends BaseISAMPGUIFragmentCompose<FishingUiState, FishingViewModel> {
 
     @Inject

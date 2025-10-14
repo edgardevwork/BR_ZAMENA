@@ -12,7 +12,7 @@ import com.blackhub.bronline.game.fingerprint.FingerprintApi;
 import com.google.android.datatransport.cct.CctTransportBackend;
 
 @SuppressLint({"StaticFieldLeak"})
-/* loaded from: classes2.dex */
+
 public final class MarshmallowFingerprintApi extends FingerprintApi {
     public static MarshmallowFingerprintApi instance;
     public final Activity activity;

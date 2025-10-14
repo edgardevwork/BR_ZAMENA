@@ -14,7 +14,7 @@ import androidx.viewbinding.ViewBindings;
 import com.airbnb.lottie.LottieAnimationView;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public final class DialogFullScreenLoaderBinding implements ViewBinding {
 
     @NonNull

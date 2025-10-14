@@ -9,7 +9,7 @@ import javax.inject.Provider;
 @ScopeMetadata
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class TaxiMapViewModel_Factory implements Factory<TaxiMapViewModel> {
     public final Provider<TaxiMapActionWithJSON> actionWithJSONProvider;
 

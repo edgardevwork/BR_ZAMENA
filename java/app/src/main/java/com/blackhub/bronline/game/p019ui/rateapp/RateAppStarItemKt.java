@@ -42,7 +42,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RateAppStarItem.kt */
 @SourceDebugExtension({"SMAP\nRateAppStarItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RateAppStarItem.kt\ncom/blackhub/bronline/game/ui/rateapp/RateAppStarItemKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,63:1\n69#2,5:64\n74#2:97\n78#2:102\n79#3,11:69\n92#3:101\n456#4,8:80\n464#4,3:94\n467#4,3:98\n3737#5,6:88\n*S KotlinDebug\n*F\n+ 1 RateAppStarItem.kt\ncom/blackhub/bronline/game/ui/rateapp/RateAppStarItemKt\n*L\n33#1:64,5\n33#1:97\n33#1:102\n33#1:69,11\n33#1:101\n33#1:80,8\n33#1:94,3\n33#1:98,3\n33#1:88,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RateAppStarItemKt {
     public static final float HEIGHT_FOR_ITEM = 0.6f;
     public static final float SCALE_FOR_GRADIENT = 1.1f;

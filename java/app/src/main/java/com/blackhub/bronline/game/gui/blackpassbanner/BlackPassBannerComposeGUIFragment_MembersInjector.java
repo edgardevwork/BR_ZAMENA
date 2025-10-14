@@ -10,7 +10,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class BlackPassBannerComposeGUIFragment_MembersInjector implements MembersInjector<BlackPassBannerComposeGUIFragment> {
     public final Provider<MainViewModelFactory<BlackPassBannerViewModel>> mainFactoryProvider;
 

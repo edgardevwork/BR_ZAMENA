@@ -90,7 +90,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BpRewardsMainUI.kt */
 @SourceDebugExtension({"SMAP\nBpRewardsMainUI.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsMainUI.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsMainUIKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,461:1\n1116#2,6:462\n*S KotlinDebug\n*F\n+ 1 BpRewardsMainUI.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsMainUIKt\n*L\n84#1:462,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BpRewardsMainUIKt {
     public static final float BOTTOM_LEFT_CORNER_RADIUS_FIRST = 0.05f;
     public static final float BOTTOM_LEFT_CORNER_RADIUS_SECOND = 0.2f;

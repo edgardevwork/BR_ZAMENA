@@ -12,7 +12,7 @@ import com.blackhub.bronline.game.core.JNIActivity;
 import com.blackhub.bronline.game.gui.minigameshelper.MiniGamesHelperKeys;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public class UILayoutMiniGameEventsGamePrize extends UILayout {
     public final GUIMiniGameEventsGame mRoot;
     public View mViewRoot = null;

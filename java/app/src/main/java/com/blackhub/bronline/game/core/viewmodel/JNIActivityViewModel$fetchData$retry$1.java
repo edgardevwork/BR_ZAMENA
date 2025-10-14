@@ -9,7 +9,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: JNIActivityViewModel.kt */
 @DebugMetadata(m7119c = "com.blackhub.bronline.game.core.viewmodel.JNIActivityViewModel", m7120f = "JNIActivityViewModel.kt", m7121i = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}, m7122l = {997, 999, 1012, 1019}, m7123m = "fetchData$retry", m7124n = {"$backupApiCall", "$primaryApiCall", "$onSuccess", "this$0", "$onFailure", "$maxCountOfErrors", "$timeoutForRepeatRequest", "$maxCountOfErrorsReserve", "countOfErrors", "useBackupApi", "$backupApiCall", "$primaryApiCall", "$onSuccess", "this$0", "$onFailure", "$maxCountOfErrors", "$timeoutForRepeatRequest", "$maxCountOfErrorsReserve", "countOfErrors", "useBackupApi", "$backupApiCall", "$primaryApiCall", "$onSuccess", "this$0", "$onFailure", "response", "$maxCountOfErrors", "$timeoutForRepeatRequest", "$maxCountOfErrorsReserve", "countOfErrors", "useBackupApi", "$backupApiCall", "$primaryApiCall", "$onSuccess", "this$0", "$onFailure", "$maxCountOfErrors", "$timeoutForRepeatRequest", "$maxCountOfErrorsReserve", "useBackupApi", "updatedCountOfErrors"}, m7125s = {"L$0", "L$1", "L$2", "L$3", "L$4", "I$0", "J$0", "I$1", "I$2", "I$3", "L$0", "L$1", "L$2", "L$3", "L$4", "I$0", "J$0", "I$1", "I$2", "I$3", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "I$0", "J$0", "I$1", "I$2", "I$3", "L$0", "L$1", "L$2", "L$3", "L$4", "I$0", "J$0", "I$1", "I$2", "I$3"})
-/* loaded from: classes2.dex */
+
 public final class JNIActivityViewModel$fetchData$retry$1<T> extends ContinuationImpl {
     public int I$0;
     public int I$1;

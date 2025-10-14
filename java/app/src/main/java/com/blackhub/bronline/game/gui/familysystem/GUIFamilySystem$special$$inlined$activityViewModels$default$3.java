@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: FragmentViewModelLazy.kt */
 @SourceDebugExtension({"SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$6\n*L\n1#1,222:1\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIFamilySystem$special$$inlined$activityViewModels$default$3 extends Lambda implements Function0<ViewModelProvider.Factory> {
     public final /* synthetic */ Fragment $this_activityViewModels;
 

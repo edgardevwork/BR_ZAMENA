@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: GasmanChildUIState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class GasmanChildUIState implements UiState {
     public static final int $stable = 8;
     public final boolean animateGas;

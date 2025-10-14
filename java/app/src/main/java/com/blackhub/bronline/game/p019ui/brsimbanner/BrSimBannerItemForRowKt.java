@@ -54,7 +54,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BrSimBannerItemForRow.kt */
 @SourceDebugExtension({"SMAP\nBrSimBannerItemForRow.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrSimBannerItemForRow.kt\ncom/blackhub/bronline/game/ui/brsimbanner/BrSimBannerItemForRowKt\n+ 2 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,104:1\n74#2,6:105\n80#2:139\n84#2:144\n79#3,11:111\n92#3:143\n456#4,8:122\n464#4,3:136\n467#4,3:140\n3737#5,6:130\n*S KotlinDebug\n*F\n+ 1 BrSimBannerItemForRow.kt\ncom/blackhub/bronline/game/ui/brsimbanner/BrSimBannerItemForRowKt\n*L\n40#1:105,6\n40#1:139\n40#1:144\n40#1:111,11\n40#1:143\n40#1:122,8\n40#1:136,3\n40#1:140,3\n40#1:130,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BrSimBannerItemForRowKt {
     public static final float WEIGHT_FOR_IMAGE = 0.6f;
     public static final float WEIGHT_FOR_TEXT = 0.3f;

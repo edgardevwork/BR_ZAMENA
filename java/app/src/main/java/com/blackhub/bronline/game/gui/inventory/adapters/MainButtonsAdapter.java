@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: MainButtonsAdapter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class MainButtonsAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
     public InventoryButtonItemBinding binding;

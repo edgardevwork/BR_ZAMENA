@@ -9,7 +9,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class MiniGamesHelperGuiFragment_MembersInjector implements MembersInjector<MiniGamesHelperGuiFragment> {
     public final Provider<MainViewModelFactory<MiniGamesHelperViewModel>> factoryProvider;
 

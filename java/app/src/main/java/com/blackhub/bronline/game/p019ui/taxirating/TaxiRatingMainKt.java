@@ -73,7 +73,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiRatingMain.kt */
 @SourceDebugExtension({"SMAP\nTaxiRatingMain.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiRatingMain.kt\ncom/blackhub/bronline/game/ui/taxirating/TaxiRatingMainKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,313:1\n1116#2,6:314\n*S KotlinDebug\n*F\n+ 1 TaxiRatingMain.kt\ncom/blackhub/bronline/game/ui/taxirating/TaxiRatingMainKt\n*L\n73#1:314,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiRatingMainKt {
     public static final float WIDTH = 0.98f;
 

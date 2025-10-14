@@ -55,7 +55,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: BaseFragmentCompose.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nBaseFragmentCompose.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseFragmentCompose.kt\ncom/blackhub/bronline/game/common/BaseFragmentCompose\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,173:1\n215#2,2:174\n*S KotlinDebug\n*F\n+ 1 BaseFragmentCompose.kt\ncom/blackhub/bronline/game/common/BaseFragmentCompose\n*L\n165#1:174,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public abstract class BaseFragmentCompose<UiState extends UiState, ViewModel extends BaseViewModel<UiState>> extends Fragment {
     public static final int LOADER_CATCH_STREAMER_ID = 7;
 

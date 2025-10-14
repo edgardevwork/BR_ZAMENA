@@ -20,7 +20,7 @@ import com.blackhub.bronline.game.gui.electric.view.ProgressBarWithListener;
 import com.blackhub.bronline.game.gui.electric.viewmodel.RaiseChargeViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentRaiseChargeBinding extends ViewDataBinding {
 
     @NonNull

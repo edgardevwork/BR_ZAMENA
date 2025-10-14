@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
 /* JADX WARN: Unknown enum class pattern. Please report as an issue! */
 /* compiled from: TaxiCompanyEnum.kt */
-/* loaded from: classes2.dex */
+
 public final class TaxiCompanyEnum {
     public static final /* synthetic */ EnumEntries $ENTRIES;
     public static final /* synthetic */ TaxiCompanyEnum[] $VALUES;

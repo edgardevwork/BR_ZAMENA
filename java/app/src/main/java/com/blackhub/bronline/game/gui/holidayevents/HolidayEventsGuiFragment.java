@@ -40,7 +40,7 @@ import org.json.JSONObject;
 /* compiled from: HolidayEventsGuiFragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nHolidayEventsGuiFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsGuiFragment.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsGuiFragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,67:1\n106#2,15:68\n172#2,9:83\n*S KotlinDebug\n*F\n+ 1 HolidayEventsGuiFragment.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsGuiFragment\n*L\n25#1:68,15\n27#1:83,9\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class HolidayEventsGuiFragment extends BaseISAMPGUIFragmentCompose<HolidayEventsUiState, HolidayEventsViewModel> {
     public static final int $stable = 8;
 

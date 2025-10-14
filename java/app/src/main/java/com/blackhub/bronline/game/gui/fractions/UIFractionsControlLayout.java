@@ -71,7 +71,7 @@ import org.json.JSONException;
 /* compiled from: UIFractionsControlLayout.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIFractionsControlLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIFractionsControlLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionsControlLayout\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 TextView.kt\nandroidx/core/widget/TextViewKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,573:1\n106#2,15:574\n58#3,23:589\n93#3,3:612\n1002#4,2:615\n1011#4,2:617\n*S KotlinDebug\n*F\n+ 1 UIFractionsControlLayout.kt\ncom/blackhub/bronline/game/gui/fractions/UIFractionsControlLayout\n*L\n54#1:574,15\n190#1:589,23\n190#1:612,3\n320#1:615,2\n329#1:617,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIFractionsControlLayout extends BaseFragment<FractionsControlLayoutBinding> {
     public static final int $stable = 8;
 

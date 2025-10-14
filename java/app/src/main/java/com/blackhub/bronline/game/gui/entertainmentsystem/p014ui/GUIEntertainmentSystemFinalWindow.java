@@ -50,7 +50,7 @@ import org.json.JSONObject;
 /* compiled from: GUIEntertainmentSystemFinalWindow.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIEntertainmentSystemFinalWindow.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIEntertainmentSystemFinalWindow.kt\ncom/blackhub/bronline/game/gui/entertainmentsystem/ui/GUIEntertainmentSystemFinalWindow\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,87:1\n106#2,15:88\n*S KotlinDebug\n*F\n+ 1 GUIEntertainmentSystemFinalWindow.kt\ncom/blackhub/bronline/game/gui/entertainmentsystem/ui/GUIEntertainmentSystemFinalWindow\n*L\n27#1:88,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIEntertainmentSystemFinalWindow extends BaseISAMPGUIFragment<EntertainmentSystemFinalWindowBinding> {
     public static final int $stable = 8;
 

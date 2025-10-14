@@ -20,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: CraftElement.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nCraftElement.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftElement.kt\ncom/blackhub/bronline/game/gui/craft/model/CraftElement\n+ 2 ListUtils.kt\nandroidx/compose/ui/util/ListUtilsKt\n*L\n1#1,57:1\n86#2,2:58\n33#2,6:60\n88#2:66\n*S KotlinDebug\n*F\n+ 1 CraftElement.kt\ncom/blackhub/bronline/game/gui/craft/model/CraftElement\n*L\n56#1:58,2\n56#1:60,6\n56#1:66\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final /* data */ class CraftElement {
     public static final int $stable = 8;
 

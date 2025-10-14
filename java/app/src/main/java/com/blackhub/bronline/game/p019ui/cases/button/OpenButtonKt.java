@@ -58,7 +58,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: OpenButton.kt */
 @SourceDebugExtension({"SMAP\nOpenButton.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OpenButton.kt\ncom/blackhub/bronline/game/ui/cases/button/OpenButtonKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n*L\n1#1,195:1\n1116#2,6:196\n87#3,6:202\n93#3:236\n97#3:319\n79#4,11:208\n79#4,11:242\n79#4,11:276\n92#4:308\n92#4:313\n92#4:318\n456#5,8:219\n464#5,3:233\n456#5,8:253\n464#5,3:267\n456#5,8:287\n464#5,3:301\n467#5,3:305\n467#5,3:310\n467#5,3:315\n3737#6,6:227\n3737#6,6:261\n3737#6,6:295\n69#7,5:237\n74#7:270\n69#7,5:271\n74#7:304\n78#7:309\n78#7:314\n*S KotlinDebug\n*F\n+ 1 OpenButton.kt\ncom/blackhub/bronline/game/ui/cases/button/OpenButtonKt\n*L\n61#1:196,6\n52#1:202,6\n52#1:236\n52#1:319\n52#1:208,11\n91#1:242,11\n148#1:276,11\n148#1:308\n91#1:313\n52#1:318\n52#1:219,8\n52#1:233,3\n91#1:253,8\n91#1:267,3\n148#1:287,8\n148#1:301,3\n148#1:305,3\n91#1:310,3\n52#1:315,3\n52#1:227,6\n91#1:261,6\n148#1:295,6\n91#1:237,5\n91#1:270\n148#1:271,5\n148#1:304\n148#1:309\n91#1:314\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class OpenButtonKt {
     /* JADX WARN: Removed duplicated region for block: B:103:0x0128  */
     /* JADX WARN: Removed duplicated region for block: B:106:0x012e  */

@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 /* compiled from: FragmentViewModelLazy.kt */
 @SourceDebugExtension({"SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$6\n*L\n1#1,222:1\n*E\n"})
 /* renamed from: com.blackhub.bronline.game.gui.socialaction.GUISocialInteraction$special$$inlined$activityViewModels$default$3 */
-/* loaded from: classes2.dex */
+
 public final class C4504xaea0842 extends Lambda implements Function0<ViewModelProvider.Factory> {
     public final /* synthetic */ Fragment $this_activityViewModels;
 

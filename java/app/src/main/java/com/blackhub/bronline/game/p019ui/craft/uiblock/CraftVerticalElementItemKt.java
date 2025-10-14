@@ -69,7 +69,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftVerticalElementItem.kt */
 @SourceDebugExtension({"SMAP\nCraftVerticalElementItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftVerticalElementItem.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftVerticalElementItemKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,181:1\n1116#2,6:182\n1116#2,6:188\n81#3:194\n81#3:195\n*S KotlinDebug\n*F\n+ 1 CraftVerticalElementItem.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftVerticalElementItemKt\n*L\n48#1:182,6\n51#1:188,6\n48#1:194\n51#1:195\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftVerticalElementItemKt {
 
     /* compiled from: CraftVerticalElementItem.kt */

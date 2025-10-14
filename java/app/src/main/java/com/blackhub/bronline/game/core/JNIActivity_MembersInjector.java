@@ -10,7 +10,7 @@ import javax.inject.Provider;
 
 @DaggerGenerated
 @QualifierMetadata
-/* loaded from: classes2.dex */
+
 public final class JNIActivity_MembersInjector implements MembersInjector<JNIActivity> {
     public final Provider<MainViewModelFactory<JNIActivityViewModel>> viewModelFactoryProvider;
 

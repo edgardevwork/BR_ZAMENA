@@ -79,7 +79,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CasesBottomRewardBlock.kt */
 @SourceDebugExtension({"SMAP\nCasesBottomRewardBlock.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CasesBottomRewardBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesBottomRewardBlockKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,382:1\n1116#2,6:383\n1116#2,6:389\n1116#2,6:395\n1116#2,6:401\n1116#2,6:441\n69#3,5:407\n74#3:440\n78#3:451\n79#4,11:412\n92#4:450\n456#5,8:423\n464#5,3:437\n467#5,3:447\n3737#6,6:431\n81#7:452\n81#7:453\n107#7,2:454\n*S KotlinDebug\n*F\n+ 1 CasesBottomRewardBlock.kt\ncom/blackhub/bronline/game/ui/cases/uiblock/CasesBottomRewardBlockKt\n*L\n99#1:383,6\n105#1:389,6\n110#1:395,6\n119#1:401,6\n191#1:441,6\n131#1:407,5\n131#1:440\n131#1:451\n131#1:412,11\n131#1:450\n131#1:423,8\n131#1:437,3\n131#1:447,3\n131#1:431,6\n99#1:452\n105#1:453\n105#1:454,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CasesBottomRewardBlockKt {
     public static final float CENTER_DOT_BOTTOM_ARROW = 0.8f;
     public static final float CENTER_DOT_TOP_ARROW = 0.2f;

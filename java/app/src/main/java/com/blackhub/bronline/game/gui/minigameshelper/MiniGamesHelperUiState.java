@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: MiniGamesHelperUiState.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final /* data */ class MiniGamesHelperUiState implements UiState {
     public static final int $stable = 8;
 

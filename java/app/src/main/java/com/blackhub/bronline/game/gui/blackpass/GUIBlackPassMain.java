@@ -75,7 +75,7 @@ import org.json.JSONException;
 /* compiled from: GUIBlackPassMain.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nGUIBlackPassMain.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GUIBlackPassMain.kt\ncom/blackhub/bronline/game/gui/blackpass/GUIBlackPassMain\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,376:1\n106#2,15:377\n106#2,15:392\n106#2,15:407\n106#2,15:422\n*S KotlinDebug\n*F\n+ 1 GUIBlackPassMain.kt\ncom/blackhub/bronline/game/gui/blackpass/GUIBlackPassMain\n*L\n49#1:377,15\n50#1:392,15\n51#1:407,15\n52#1:422,15\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class GUIBlackPassMain extends BaseFragment<BlackPassMainNewBinding> {
     public static final int $stable = 8;
 

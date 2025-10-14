@@ -33,7 +33,7 @@ import org.json.JSONObject;
 /* compiled from: TaxiViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nTaxiViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiViewModel.kt\ncom/blackhub/bronline/game/gui/taxi/TaxiViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,132:1\n230#2,5:133\n230#2,5:138\n*S KotlinDebug\n*F\n+ 1 TaxiViewModel.kt\ncom/blackhub/bronline/game/gui/taxi/TaxiViewModel\n*L\n39#1:133,5\n112#1:138,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiViewModel extends BaseViewModel<TaxiUiState> implements ViewModelProvider.Factory {
     public static final int $stable = 8;
 

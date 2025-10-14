@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: PositionsGetter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class PositionsGetter {
     public static final int $stable = 8;
 

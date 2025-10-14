@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.bless.client">
+    xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
     <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
     <uses-feature
@@ -240,13 +239,13 @@
         android:name="com.blackhub.bronline.launcher.App"
         android:allowBackup="false"
         android:isGame="true"
-        android:extractNativeLibs="true"
         android:fullBackupContent="false"
         android:usesCleartextTraffic="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:requestLegacyExternalStorage="true"
         android:gwpAsanMode="always"
-        tools:targetApi="28">
+        tools:targetApi="28"
+        tools:replace="android:allowBackup,android:fullBackupContent">
         <provider
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
@@ -357,12 +356,14 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:name="com.android.billingclient.api.ProxyBillingActivity"
             android:exported="false"
-            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            tools:replace="android:configChanges"/>
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:name="com.android.billingclient.api.ProxyBillingActivityV2"
             android:exported="false"
-            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            tools:replace="android:configChanges"/>
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
             android:permission="com.google.android.c2dm.permission.SEND"

@@ -20,7 +20,7 @@ import java.util.Random;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class BrDialogSawmill implements ISAMPGUI {
     public static final int TYPE_NONE = 0;
     public static final int TYPE_READY = 1;

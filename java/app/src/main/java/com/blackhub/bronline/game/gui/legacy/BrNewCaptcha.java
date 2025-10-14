@@ -27,7 +27,7 @@ import java.net.URL;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class BrNewCaptcha implements ISAMPGUI {
     public static boolean mIsShowing;
     public String CaptchaURL;

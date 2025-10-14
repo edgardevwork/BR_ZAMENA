@@ -30,7 +30,7 @@ import org.json.JSONArray;
 
 /* compiled from: CarTrunkOrClosetViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class CarTrunkOrClosetViewModel extends ViewModel {
     public static final int $stable = 8;
 

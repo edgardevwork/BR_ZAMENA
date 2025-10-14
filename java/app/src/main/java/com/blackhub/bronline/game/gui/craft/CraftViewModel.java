@@ -134,7 +134,7 @@ public final class CraftViewModel extends BaseViewModel<CraftUiState> {
 
     /* compiled from: CraftViewModel.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
-    /* loaded from: classes2.dex */
+    
     public /* synthetic */ class WhenMappings {
         public static final /* synthetic */ int[] $EnumSwitchMapping$0;
         public static final /* synthetic */ int[] $EnumSwitchMapping$1;
@@ -1538,7 +1538,7 @@ public final class CraftViewModel extends BaseViewModel<CraftUiState> {
         /* compiled from: CraftViewModel.kt */
         @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         /* renamed from: com.blackhub.bronline.game.gui.craft.CraftViewModel$updateJson$1$WhenMappings */
-        /* loaded from: classes2.dex */
+        
         public /* synthetic */ class WhenMappings {
             public static final /* synthetic */ int[] $EnumSwitchMapping$0;
 
@@ -3277,7 +3277,7 @@ public final class CraftViewModel extends BaseViewModel<CraftUiState> {
         /* compiled from: CraftViewModel.kt */
         @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
         /* renamed from: com.blackhub.bronline.game.gui.craft.CraftViewModel$getOrAddElementForStorage$1$WhenMappings */
-        /* loaded from: classes2.dex */
+        
         public /* synthetic */ class WhenMappings {
             public static final /* synthetic */ int[] $EnumSwitchMapping$0;
 

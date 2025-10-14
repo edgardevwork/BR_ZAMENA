@@ -63,7 +63,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: UIGasmanGame4Fragment.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nUIGasmanGame4Fragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UIGasmanGame4Fragment.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanGame4Fragment\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n+ 3 ViewExtension.kt\ncom/blackhub/bronline/game/core/extension/ViewExtensionKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,205:1\n106#2,15:206\n106#2,15:221\n41#3,2:236\n41#3:238\n42#3:245\n41#3:246\n42#3:249\n1855#4,2:239\n1855#4,2:241\n1855#4,2:243\n1855#4,2:247\n*S KotlinDebug\n*F\n+ 1 UIGasmanGame4Fragment.kt\ncom/blackhub/bronline/game/gui/gasmangame/ui/UIGasmanGame4Fragment\n*L\n48#1:206,15\n49#1:221,15\n64#1:236,2\n158#1:238\n158#1:245\n182#1:246\n182#1:249\n164#1:239,2\n169#1:241,2\n176#1:243,2\n198#1:247,2\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class UIGasmanGame4Fragment extends BaseFragmentWithState<GasmanParentUIState, GasmanParentViewModel, FragmentGasmanGame4Binding> {
     public static final int BOT_PLOT_QUANTITY = 3;
     public static final int MIDDLE_PLOT_QUANTITY = 1;

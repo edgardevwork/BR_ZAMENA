@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\AORUS\\.gradle\\caches\\8.13\\transforms\\03fd5157d135c620f35430ae6a08c257\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

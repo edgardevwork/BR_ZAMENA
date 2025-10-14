@@ -166,7 +166,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$initJson$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}, m7122l = {376, 377, 378}, m7123m = "invokeSuspend", m7124n = {"currentScreenEnum", "properties", "seasonTimer", "seasonName", "backgroundBitmap", "lastChanceImage", "seasonIcon", "bpOfferImage", "offerImage", "seasonCurrencyBitmap", "gainBitmapImage", "rewardsBitmapImage", "treeImage", "specialCategoryImageBitmap", "dailyCategoryImageBitmap", "myRatingBgImage", "deferredListOfButtons", "rewardsList", "holidayEventsGainBlockData", "listOfGames", "deferredTutorialAttachment", "seasonTimerHeader", "rewardLevel", "gainLevel", "currentProgressOfProgressBar", "dailyCurrencyValue", "bcValue", "isWithPremium", "isNeedToShowLastChance", "seasonColor", "seasonColor2", "shadowColorForEventIcon", "offerCost", "offerValue", "maxProgressOfProgressBar", "buttonPlayText", "currentScreenEnum", "properties", "seasonTimer", "seasonName", "backgroundBitmap", "lastChanceImage", "seasonIcon", "bpOfferImage", "offerImage", "seasonCurrencyBitmap", "gainBitmapImage", "rewardsBitmapImage", "treeImage", "specialCategoryImageBitmap", "dailyCategoryImageBitmap", "myRatingBgImage", "rewardsList", "holidayEventsGainBlockData", "listOfGames", "deferredTutorialAttachment", "seasonTimerHeader", "rewardLevel", "gainLevel", "currentProgressOfProgressBar", "dailyCurrencyValue", "bcValue", "isWithPremium", "isNeedToShowLastChance", "seasonColor", "seasonColor2", "shadowColorForEventIcon", "offerCost", "offerValue", "maxProgressOfProgressBar", "buttonPlayText", "currentScreenEnum", "properties", "seasonTimer", "seasonName", "backgroundBitmap", "lastChanceImage", "seasonIcon", "bpOfferImage", "offerImage", "seasonCurrencyBitmap", "gainBitmapImage", "rewardsBitmapImage", "treeImage", "specialCategoryImageBitmap", "dailyCategoryImageBitmap", "myRatingBgImage", "rewardsList", "holidayEventsGainBlockData", "listOfGames", "seasonTimerHeader", "listOfButtons", "rewardLevel", "gainLevel", "currentProgressOfProgressBar", "dailyCurrencyValue", "bcValue", "isWithPremium", "isNeedToShowLastChance", "seasonColor", "seasonColor2", "shadowColorForEventIcon", "offerCost", "offerValue", "maxProgressOfProgressBar", "buttonPlayText"}, m7125s = {"L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$10", "L$11", "L$12", "L$13", "L$14", "L$15", "L$16", "L$17", "L$18", "L$19", "L$20", "L$21", "I$0", "I$1", "I$2", "I$3", "I$4", "Z$0", "Z$1", "J$0", "J$1", "J$2", "I$5", "I$6", "I$7", "I$8", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$10", "L$11", "L$12", "L$13", "L$14", "L$15", "L$16", "L$17", "L$18", "L$19", "L$20", "I$0", "I$1", "I$2", "I$3", "I$4", "Z$0", "Z$1", "J$0", "J$1", "J$2", "I$5", "I$6", "I$7", "I$8", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$10", "L$11", "L$12", "L$13", "L$14", "L$15", "L$16", "L$17", "L$18", "L$19", "L$20", "I$0", "I$1", "I$2", "I$3", "I$4", "Z$0", "Z$1", "J$0", "J$1", "J$2", "I$5", "I$6", "I$7", "I$8"})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$initJson$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n1#2:1303\n1559#3:1304\n1590#3,4:1305\n1549#3:1309\n1620#3,3:1310\n1549#3:1313\n1620#3,3:1314\n230#4,5:1317\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$initJson$1\n*L\n234#1:1304\n234#1:1305,4\n290#1:1309\n290#1:1310,3\n359#1:1313\n359#1:1314,3\n379#1:1317,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$initJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41331 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ BpRewardsResponse $awardsJson;
         public final /* synthetic */ HolidayEventsResponse $holidayEventsJson;
@@ -1159,7 +1159,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$updateJson$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$updateJson$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n+ 5 JsonArrayExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonArrayExtensionKt\n+ 6 JsonExtension.kt\ncom/blackhub/bronline/game/core/extension/JsonExtensionKt\n+ 7 AnnotatedString.kt\nandroidx/compose/ui/text/AnnotatedStringKt\n*L\n1#1,1302:1\n1#2:1303\n1549#3:1304\n1620#3,3:1305\n1549#3:1313\n1620#3,3:1314\n1559#3:1347\n1590#3,4:1348\n1549#3:1357\n1620#3,3:1358\n1855#3:1386\n1856#3:1394\n1747#3,3:1395\n1747#3,3:1398\n1549#3:1401\n1620#3,3:1402\n1045#3:1405\n1045#3:1406\n230#4,5:1308\n230#4,5:1317\n230#4,5:1352\n230#4,5:1407\n230#4,5:1412\n230#4,5:1417\n51#5,5:1322\n56#5,11:1336\n51#5,5:1361\n56#5,11:1375\n8#6,9:1327\n8#6,9:1366\n1099#7:1387\n928#7,6:1388\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$updateJson$1\n*L\n455#1:1304\n455#1:1305,3\n528#1:1313\n528#1:1314,3\n588#1:1347\n588#1:1348,4\n635#1:1357\n635#1:1358,3\n687#1:1386\n687#1:1394\n736#1:1395,3\n738#1:1398,3\n740#1:1401\n740#1:1402,3\n750#1:1405\n752#1:1406\n492#1:1308,5\n565#1:1317,5\n616#1:1352,5\n754#1:1407,5\n779#1:1412,5\n786#1:1417,5\n584#1:1322,5\n584#1:1336,11\n681#1:1361,5\n681#1:1375,11\n584#1:1327,9\n681#1:1366,9\n693#1:1387\n696#1:1388,6\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$updateJson$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41481 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ JSONObject $jsonObject;
         public int label;
@@ -1761,7 +1761,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onCancelGameSearch$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onCancelGameSearch$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41381 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -1802,7 +1802,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onButtonBpOfferClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onButtonBpOfferClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41341 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -1844,7 +1844,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onBuyDarkEnergyClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onBuyDarkEnergyClick$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n230#2,5:1303\n230#2,5:1308\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onBuyDarkEnergyClick$1\n*L\n852#1:1303,5\n860#1:1308,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onBuyDarkEnergyClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41371 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -1903,7 +1903,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onTextEnteredInBuyDialog$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onTextEnteredInBuyDialog$1\n+ 2 CharSequence.kt\nandroidx/core/text/CharSequenceKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n28#2:1303\n230#3,5:1304\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onTextEnteredInBuyDialog$1\n*L\n876#1:1303\n922#1:1304,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onTextEnteredInBuyDialog$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41471 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ String $textValue;
         public int label;
@@ -2030,7 +2030,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onButtonChooseScreenClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onButtonChooseScreenClick$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n1549#2:1303\n1620#2,3:1304\n230#3,5:1307\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onButtonChooseScreenClick$1\n*L\n971#1:1303\n971#1:1304,3\n978#1:1307,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onButtonChooseScreenClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41351 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ CommonButtonCategory $button;
         public int label;
@@ -2101,7 +2101,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onCloseClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onCloseClick$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n230#2,5:1303\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onCloseClick$1\n*L\n999#1:1303,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onCloseClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41401 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -2148,7 +2148,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onGameClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onGameClick$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n1549#2:1303\n1620#2,3:1304\n230#3,5:1307\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onGameClick$1\n*L\n1010#1:1303\n1010#1:1304,3\n1021#1:1307,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onGameClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41411 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ HolidayEventsGameItemModel $gameItem;
         public int label;
@@ -2228,7 +2228,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onPlayClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onPlayClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41431 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ Integer $id;
         public int label;
@@ -2277,7 +2277,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onTaskClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onTaskClick$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n1549#2:1303\n1620#2,3:1304\n230#3,5:1307\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onTaskClick$1\n*L\n1050#1:1303\n1050#1:1304,3\n1055#1:1307,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onTaskClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41461 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public final /* synthetic */ CommonTaskModel $task;
         public int label;
@@ -2341,7 +2341,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onRefreshRatingClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onRefreshRatingClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41451 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -2396,7 +2396,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onPreviewDialogButtonClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     @SourceDebugExtension({"SMAP\nHolidayEventsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onPreviewDialogButtonClick$1\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,1302:1\n230#2,5:1303\n*S KotlinDebug\n*F\n+ 1 HolidayEventsViewModel.kt\ncom/blackhub/bronline/game/gui/holidayevents/HolidayEventsViewModel$onPreviewDialogButtonClick$1\n*L\n1091#1:1303,5\n*E\n"})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onPreviewDialogButtonClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41441 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -2444,7 +2444,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onButtonGainLvlUp$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onButtonGainLvlUp$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41361 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -2501,7 +2501,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onClickGoToPurchaseBc$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onClickGoToPurchaseBc$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41391 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 
@@ -2550,7 +2550,7 @@ public final class HolidayEventsViewModel extends BaseViewModel<HolidayEventsUiS
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"}, m7105d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     @DebugMetadata(m7119c = "com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onLastChanceClick$1", m7120f = "HolidayEventsViewModel.kt", m7121i = {}, m7122l = {}, m7123m = "invokeSuspend", m7124n = {}, m7125s = {})
     /* renamed from: com.blackhub.bronline.game.gui.holidayevents.HolidayEventsViewModel$onLastChanceClick$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C41421 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
         public int label;
 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false">
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/paylib_design_icon_size_medium"
+        android:layout_height="@dimen/paylib_design_icon_size_medium"
+        android:layout_marginTop="@dimen/paylib_design_spacer_6x"
+        android:layout_marginBottom="@dimen/paylib_design_spacer_6x"
+        android:src="@drawable/paylib_native_ic_sbp_bistro_widget"
+        android:scaleType="center"
+        android:layout_marginStart="@dimen/paylib_design_spacer_6x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.sdkit.paylib.paylibnative.p033ui.common.view.WidgetCheckBoxView
+        android:id="@+id/widget_checkbox"
+        android:layout_width="@dimen/paylib_design_chatapp_header_button_icon_size"
+        android:layout_height="@dimen/paylib_design_chatapp_header_button_icon_size"
+        android:layout_marginEnd="@dimen/paylib_design_spacer_8x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/paylib_native_selector_payment_way_res"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paylib_native_payment_pay_via_bistro"
+        android:layout_marginStart="@dimen/paylib_design_spacer_6x"
+        app:layout_constraintBottom_toTopOf="@+id/tv_info"
+        app:layout_constraintStart_toEndOf="@+id/iv_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/paylib_native_body_1"/>
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/paylib_native_bistro_info_label"
+        android:layout_marginEnd="@dimen/paylib_design_spacer_6x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/widget_checkbox"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        style="@style/paylib_native_caption_secondary.grey"/>
+</merge>

@@ -26,7 +26,7 @@ import java.util.Objects;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class GUIRegistration extends BaseISAMPGUIFragment<RegistrationMainframeBinding> {
     public static final int REGISTATION_LAYOUT_CHOOSE_SEX = 1;
     public static final int REGISTATION_LAYOUT_GENERAL = 0;

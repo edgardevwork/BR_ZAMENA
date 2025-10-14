@@ -57,7 +57,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: RentGui.kt */
 @SourceDebugExtension({"SMAP\nRentGui.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RentGui.kt\ncom/blackhub/bronline/game/ui/rent/RentGuiKt\n+ 2 ViewModel.kt\nandroidx/lifecycle/viewmodel/compose/ViewModelKt\n*L\n1#1,142:1\n81#2,11:143\n*S KotlinDebug\n*F\n+ 1 RentGui.kt\ncom/blackhub/bronline/game/ui/rent/RentGuiKt\n*L\n35#1:143,11\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RentGuiKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

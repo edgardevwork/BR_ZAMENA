@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: AppLocalValues.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class AppLocalValues {
 
     @Nullable

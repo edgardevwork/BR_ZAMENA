@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: GasmanPlot.kt */
 @StabilityInferred(parameters = 1)
-/* loaded from: classes2.dex */
+
 public final class BOT_PLOT implements GasmanPlot {
     public static final int $stable = 0;
 

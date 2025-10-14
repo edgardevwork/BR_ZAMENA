@@ -1,5 +1,6 @@
 package com.blackhub.bronline.game.common.colorpickerview;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
@@ -128,7 +129,7 @@ public class ColorPickerDialog extends AlertDialog {
             return new DialogInterface.OnClickListener() { // from class: com.blackhub.bronline.game.common.colorpickerview.ColorPickerDialog$Builder$$ExternalSyntheticLambda1
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i) {
-                    this.f$0.lambda$getOnClickListener$1(colorListener, dialogInterface, i);
+                    lambda$getOnClickListener$1(colorListener, dialogInterface, i);
                 }
             };
         }
@@ -144,6 +145,7 @@ public class ColorPickerDialog extends AlertDialog {
             }
         }
 
+        @SuppressLint("WrongConstant")
         @Override // androidx.appcompat.app.AlertDialog.Builder
         @NonNull
         public AlertDialog create() {

@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 /* compiled from: ChatActionsWithJson.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class ChatActionsWithJson {
     public static final int $stable = 8;
 

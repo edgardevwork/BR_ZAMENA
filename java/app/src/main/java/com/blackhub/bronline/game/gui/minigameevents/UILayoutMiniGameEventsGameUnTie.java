@@ -15,7 +15,7 @@ import java.util.Objects;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* loaded from: classes2.dex */
+
 public class UILayoutMiniGameEventsGameUnTie extends UILayout {
     public Boolean isClosed;
     public Boolean isEnded;

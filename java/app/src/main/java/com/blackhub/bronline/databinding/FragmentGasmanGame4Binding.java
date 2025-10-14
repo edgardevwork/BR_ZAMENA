@@ -16,7 +16,7 @@ import androidx.databinding.ViewDataBinding;
 import com.blackhub.bronline.game.gui.gasmangame.viewmodel.GasmanParentViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentGasmanGame4Binding extends ViewDataBinding {
 
     @NonNull

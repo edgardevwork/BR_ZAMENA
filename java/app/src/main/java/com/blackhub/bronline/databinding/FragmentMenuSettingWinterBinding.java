@@ -12,7 +12,7 @@ import androidx.databinding.ViewDataBinding;
 import com.blackhub.bronline.game.gui.menupausesettingandmap.p016ui.CustomSliderWithFourDots;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class FragmentMenuSettingWinterBinding extends ViewDataBinding {
 
     @NonNull

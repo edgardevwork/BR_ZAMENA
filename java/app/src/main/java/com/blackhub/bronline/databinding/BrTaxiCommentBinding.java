@@ -15,7 +15,7 @@ import androidx.databinding.ViewDataBinding;
 import com.blackhub.bronline.game.gui.taxi.TaxiViewModel;
 import com.bless.client.R;
 
-/* loaded from: classes2.dex */
+
 public abstract class BrTaxiCommentBinding extends ViewDataBinding {
 
     @NonNull

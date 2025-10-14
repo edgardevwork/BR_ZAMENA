@@ -698,7 +698,7 @@ public final class CollectSchemeFragment extends BaseFragmentWithState<CollectSc
     /* compiled from: CollectSchemeFragment.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.gui.electric.ui.CollectSchemeFragment$createGameInstructionsDialog$1 */
-    /* loaded from: classes2.dex */
+
     public /* synthetic */ class C39541 extends FunctionReferenceImpl implements Function0<Unit> {
         public C39541(Object obj) {
             super(0, obj, CollectSchemeViewModel.class, "closeInstruction", "closeInstruction()V", 0);

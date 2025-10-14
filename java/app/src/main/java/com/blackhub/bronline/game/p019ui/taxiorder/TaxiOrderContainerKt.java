@@ -40,7 +40,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: TaxiOrderContainer.kt */
 @SourceDebugExtension({"SMAP\nTaxiOrderContainer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TaxiOrderContainer.kt\ncom/blackhub/bronline/game/ui/taxiorder/TaxiOrderContainerKt\n+ 2 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,54:1\n69#2,5:55\n74#2:88\n68#2,6:89\n74#2:123\n69#2,5:124\n74#2:157\n78#2:162\n78#2:167\n78#2:172\n79#3,11:60\n79#3,11:95\n79#3,11:129\n92#3:161\n92#3:166\n92#3:171\n456#4,8:71\n464#4,3:85\n456#4,8:106\n464#4,3:120\n456#4,8:140\n464#4,3:154\n467#4,3:158\n467#4,3:163\n467#4,3:168\n3737#5,6:79\n3737#5,6:114\n3737#5,6:148\n*S KotlinDebug\n*F\n+ 1 TaxiOrderContainer.kt\ncom/blackhub/bronline/game/ui/taxiorder/TaxiOrderContainerKt\n*L\n24#1:55,5\n24#1:88\n32#1:89,6\n32#1:123\n45#1:124,5\n45#1:157\n45#1:162\n32#1:167\n24#1:172\n24#1:60,11\n32#1:95,11\n45#1:129,11\n45#1:161\n32#1:166\n24#1:171\n24#1:71,8\n24#1:85,3\n32#1:106,8\n32#1:120,3\n45#1:140,8\n45#1:154,3\n45#1:158,3\n32#1:163,3\n24#1:168,3\n24#1:79,6\n32#1:114,6\n45#1:148,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class TaxiOrderContainerKt {
     @Composable
     @ComposableInferredTarget(scheme = "[androidx.compose.ui.UiComposable[androidx.compose.ui.UiComposable]]")

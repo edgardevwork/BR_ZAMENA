@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 /* compiled from: RentActionWithJSON.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class RentActionWithJSON {
     public static final int $stable = 8;
 

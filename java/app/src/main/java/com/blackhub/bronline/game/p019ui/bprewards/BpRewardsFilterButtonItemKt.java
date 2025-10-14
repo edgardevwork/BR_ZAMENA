@@ -59,7 +59,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: BpRewardsFilterButtonItem.kt */
 @SourceDebugExtension({"SMAP\nBpRewardsFilterButtonItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpRewardsFilterButtonItem.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsFilterButtonItemKt\n+ 2 Composer.kt\nandroidx/compose/runtime/ComposerKt\n+ 3 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 SnapshotState.kt\nandroidx/compose/runtime/SnapshotStateKt__SnapshotStateKt\n*L\n1#1,117:1\n1116#2,6:118\n1116#2,6:159\n1116#2,6:170\n68#3,6:124\n74#3:158\n78#3:169\n79#4,11:130\n92#4:168\n456#5,8:141\n464#5,3:155\n467#5,3:165\n3737#6,6:149\n81#7:176\n*S KotlinDebug\n*F\n+ 1 BpRewardsFilterButtonItem.kt\ncom/blackhub/bronline/game/ui/bprewards/BpRewardsFilterButtonItemKt\n*L\n60#1:118,6\n82#1:159,6\n112#1:170,6\n73#1:124,6\n73#1:158\n73#1:169\n73#1:130,11\n73#1:168\n73#1:141,8\n73#1:155,3\n73#1:165,3\n73#1:149,6\n60#1:176\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class BpRewardsFilterButtonItemKt {
     public static final float HALF_ALPHA = 0.5f;
 

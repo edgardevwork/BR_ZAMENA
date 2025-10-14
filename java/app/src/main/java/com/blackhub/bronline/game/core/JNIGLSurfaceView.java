@@ -4,7 +4,7 @@ import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.view.MotionEvent;
 
-/* loaded from: classes2.dex */
+
 public class JNIGLSurfaceView extends GLSurfaceView {
     public static final boolean DEBUG = true;
 

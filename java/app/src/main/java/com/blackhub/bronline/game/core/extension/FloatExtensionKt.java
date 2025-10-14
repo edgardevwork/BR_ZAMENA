@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: FloatExtension.kt */
 @SourceDebugExtension({"SMAP\nFloatExtension.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FloatExtension.kt\ncom/blackhub/bronline/game/core/extension/FloatExtensionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,31:1\n1#2:32\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class FloatExtensionKt {
     public static final float getOrZero(@Nullable Float f) {
         if (f != null) {

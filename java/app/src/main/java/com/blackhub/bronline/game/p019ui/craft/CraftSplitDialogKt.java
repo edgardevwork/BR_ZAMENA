@@ -80,7 +80,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftSplitDialog.kt */
 @SourceDebugExtension({"SMAP\nCraftSplitDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftSplitDialog.kt\ncom/blackhub/bronline/game/ui/craft/CraftSplitDialogKt\n+ 2 CompositionLocal.kt\nandroidx/compose/runtime/CompositionLocal\n+ 3 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,265:1\n74#2:266\n1116#3,6:267\n1116#3,6:273\n*S KotlinDebug\n*F\n+ 1 CraftSplitDialog.kt\ncom/blackhub/bronline/game/ui/craft/CraftSplitDialogKt\n*L\n57#1:266\n97#1:267,6\n104#1:273,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftSplitDialogKt {
     public static final float LOGO_ALPHA = 0.05f;
 

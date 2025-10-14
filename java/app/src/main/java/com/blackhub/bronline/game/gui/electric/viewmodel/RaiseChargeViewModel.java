@@ -41,7 +41,7 @@ import org.jetbrains.annotations.Nullable;
 /* compiled from: RaiseChargeViewModel.kt */
 @StabilityInferred(parameters = 0)
 @SourceDebugExtension({"SMAP\nRaiseChargeViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RaiseChargeViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/RaiseChargeViewModel\n+ 2 StateFlow.kt\nkotlinx/coroutines/flow/StateFlowKt\n*L\n1#1,148:1\n230#2,5:149\n230#2,5:154\n230#2,5:159\n230#2,5:164\n230#2,5:169\n230#2,5:174\n*S KotlinDebug\n*F\n+ 1 RaiseChargeViewModel.kt\ncom/blackhub/bronline/game/gui/electric/viewmodel/RaiseChargeViewModel\n*L\n41#1:149,5\n86#1:154,5\n94#1:159,5\n102#1:164,5\n111#1:169,5\n119#1:174,5\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class RaiseChargeViewModel extends BaseViewModel<RaiseChargeUiState> implements ViewModelProvider.Factory {
     public static final int NEGATIVE_NUMBER = -10;
     public static final int NUMBER_ONE = 1;

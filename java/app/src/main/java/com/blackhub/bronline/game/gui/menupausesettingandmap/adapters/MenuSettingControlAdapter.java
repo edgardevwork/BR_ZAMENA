@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 
 /* compiled from: MenuSettingControlAdapter.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class MenuSettingControlAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int $stable = 8;
 

@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CatchStreamerPromptUi.kt */
-/* loaded from: classes2.dex */
+
 public final class ComposableSingletons$CatchStreamerPromptUiKt {
 
     @NotNull

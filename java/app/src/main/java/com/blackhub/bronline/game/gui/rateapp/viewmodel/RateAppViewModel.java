@@ -33,7 +33,7 @@ import org.json.JSONObject;
 
 /* compiled from: RateAppViewModel.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class RateAppViewModel extends BaseViewModel<RateAppUiState> {
     public static final int $stable = 8;
 

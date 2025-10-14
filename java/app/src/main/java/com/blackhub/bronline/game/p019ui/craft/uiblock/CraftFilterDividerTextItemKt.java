@@ -49,7 +49,7 @@ import org.jetbrains.annotations.Nullable;
 
 /* compiled from: CraftFilterDividerTextItem.kt */
 @SourceDebugExtension({"SMAP\nCraftFilterDividerTextItem.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CraftFilterDividerTextItem.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftFilterDividerTextItemKt\n+ 2 Row.kt\nandroidx/compose/foundation/layout/RowKt\n+ 3 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 4 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 5 Composer.kt\nandroidx/compose/runtime/Updater\n*L\n1#1,56:1\n87#2,6:57\n93#2:91\n97#2:96\n79#3,11:63\n92#3:95\n456#4,8:74\n464#4,3:88\n467#4,3:92\n3737#5,6:82\n*S KotlinDebug\n*F\n+ 1 CraftFilterDividerTextItem.kt\ncom/blackhub/bronline/game/ui/craft/uiblock/CraftFilterDividerTextItemKt\n*L\n25#1:57,6\n25#1:91\n25#1:96\n25#1:63,11\n25#1:95\n25#1:74,8\n25#1:88,3\n25#1:92,3\n25#1:82,6\n*E\n"})
-/* loaded from: classes2.dex */
+
 public final class CraftFilterDividerTextItemKt {
     @ComposableTarget(applier = "androidx.compose.ui.UiComposable")
     @Composable

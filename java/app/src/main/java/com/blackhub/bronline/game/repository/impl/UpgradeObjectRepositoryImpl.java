@@ -14,7 +14,7 @@ import retrofit2.Response;
 
 /* compiled from: UpgradeObjectRepositoryImpl.kt */
 @StabilityInferred(parameters = 0)
-/* loaded from: classes2.dex */
+
 public final class UpgradeObjectRepositoryImpl implements UpgradeObjectRepository {
     public static final int $stable = 8;
 

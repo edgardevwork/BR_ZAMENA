@@ -86,7 +86,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainContent$7 */
-    /* loaded from: classes2.dex */
+
     public static final class C55787 extends Lambda implements Function2<Composer, Integer, Unit> {
         public final /* synthetic */ int $$changed;
         public final /* synthetic */ int $$default;
@@ -128,7 +128,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainUi$3 */
-    /* loaded from: classes2.dex */
+
     public static final class C55813 extends Lambda implements Function2<Composer, Integer, Unit> {
         public final /* synthetic */ int $$changed;
         public final /* synthetic */ int $$default;
@@ -156,7 +156,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$PreviewFishingMainUi$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C55821 extends Lambda implements Function2<Composer, Integer, Unit> {
         public final /* synthetic */ int $$changed;
 
@@ -180,7 +180,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$SetButtonForCurrentState$3 */
-    /* loaded from: classes2.dex */
+
     public static final class C55843 extends Lambda implements Function2<Composer, Integer, Unit> {
         public final /* synthetic */ int $$changed;
         public final /* synthetic */ int $$default;
@@ -504,7 +504,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u0001H\u000b¢\u0006\u0004\b\u0002\u0010\u0003"}, m7105d2 = {"<anonymous>", "", "invoke", "(Landroidx/compose/runtime/Composer;I)V"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainUi$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C55791 extends Lambda implements Function2<Composer, Integer, Unit> {
         public final /* synthetic */ MutableState<Boolean> $animState;
         public final /* synthetic */ MutableState<Boolean> $ifNeedCloseIfYouLoser;
@@ -795,7 +795,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainContent$1 */
-    /* loaded from: classes2.dex */
+
     public static final class C55731 extends Lambda implements Function0<Unit> {
         public static final C55731 INSTANCE = ;
 
@@ -813,7 +813,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainContent$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C55742 extends Lambda implements Function0<Unit> {
         public static final C55742 INSTANCE = ;
 
@@ -831,7 +831,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainContent$3 */
-    /* loaded from: classes2.dex */
+
     public static final class C55753 extends Lambda implements Function0<Unit> {
         public static final C55753 INSTANCE = ;
 
@@ -849,7 +849,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainContent$4 */
-    /* loaded from: classes2.dex */
+
     public static final class C55764 extends Lambda implements Function0<Unit> {
         public static final C55764 INSTANCE = ;
 
@@ -867,7 +867,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$FishingMainContent$5 */
-    /* loaded from: classes2.dex */
+
     public static final class C55775 extends Lambda implements Function0<Unit> {
         public static final C55775 INSTANCE = ;
 
@@ -1488,7 +1488,7 @@ public final class FishingMainUiKt {
     /* compiled from: FishingMainUi.kt */
     @Metadata(m7104d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u0001H\u000b¢\u0006\u0004\b\u0002\u0010\u0003"}, m7105d2 = {"<anonymous>", "", "invoke", "(Landroidx/compose/runtime/Composer;I)V"}, m7106k = 3, m7107mv = {1, 9, 0}, m7109xi = 48)
     /* renamed from: com.blackhub.bronline.game.ui.fishing.FishingMainUiKt$SetButtonForCurrentState$2 */
-    /* loaded from: classes2.dex */
+
     public static final class C55832 extends Lambda implements Function2<Composer, Integer, Unit> {
         public final /* synthetic */ int $drawableIconId;
 
