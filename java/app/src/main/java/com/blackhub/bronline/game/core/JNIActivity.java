@@ -2,6 +2,7 @@ package com.blackhub.bronline.game.core;
 
 import android.app.AlertDialog;
 import android.app.KeyguardManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -24,8 +25,8 @@ import androidx.annotation.RawRes;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
-import androidx.compose.p003ui.platform.ComposeView;
 import androidx.compose.runtime.Composer;
+import androidx.compose.ui.platform.ComposeView;
 import androidx.core.app.ActivityCompat;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -46,9 +47,6 @@ import com.blackhub.bronline.launcher.network.Server;
 import com.blackhub.bronline.launcher.viewmodel.MainViewModelFactory;
 import com.bless.client.R;
 import com.google.android.gms.tasks.Task;
-import com.google.android.play.core.review.ReviewException;
-import com.google.android.play.core.review.ReviewInfo;
-import com.google.android.play.core.review.ReviewManager;
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.google.firebase.perf.network.FirebasePerfUrlConnection;
 import java.io.IOException;
@@ -68,7 +66,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import ru.rustore.sdk.core.tasks.OnFailureListener;
 import ru.rustore.sdk.core.tasks.OnSuccessListener;
-import ru.rustore.sdk.review.RuStoreReviewManager;
 
 /* loaded from: classes7.dex */
 public class JNIActivity extends AppCompatActivity {
@@ -105,7 +102,7 @@ public class JNIActivity extends AppCompatActivity {
                 } else {
                     alertViewStorage("Без этого разрешения вы не сможете говорить в голосовой чат. Повторить попытку выдачи разрешения?");
                 }
-                Toast.makeText(this, "Разрешение на доступ к микрофону отклонено", 0).show();
+                Toast.makeText(this, "Разрешение на доступ к микрофону отклонено", Toast.LENGTH_SHORT).show();
                 return;
             }
             return;
@@ -118,7 +115,7 @@ public class JNIActivity extends AppCompatActivity {
     @RequiresApi(api = 23)
     public final void alertViewStorage(String message) {
         new AlertDialog.Builder(this, R.style.MyTheme).setTitle("Доступ запрещен").setInverseBackgroundForced(true).setMessage(message).setNegativeButton("Да", new DialogInterface.OnClickListener() { // from class: com.blackhub.bronline.game.core.JNIActivity.2
-            public DialogInterfaceOnClickListenerC35112() {
+            public void DialogInterfaceOnClickListenerC35112() {
             }
 
             @Override // android.content.DialogInterface.OnClickListener
@@ -133,7 +130,7 @@ public class JNIActivity extends AppCompatActivity {
                 JNIActivity.this.isRecordAudioPermissionGranted();
             }
         }).setPositiveButton("Нет", new DialogInterface.OnClickListener() { // from class: com.blackhub.bronline.game.core.JNIActivity.1
-            public DialogInterfaceOnClickListenerC35101() {
+            public void DialogInterfaceOnClickListenerC35101() {
             }
 
             @Override // android.content.DialogInterface.OnClickListener
@@ -175,7 +172,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     public boolean isRecordAudioPermissionGranted() {
-        if (checkSelfPermission("android.permission.RECORD_AUDIO") == 0) {
+        if (checkSelfPermission("android.permission.RECORD_AUDIO") == PackageManager.PERMISSION_GRANTED) {
             return true;
         }
         ActivityCompat.requestPermissions(this, new String[]{"android.permission.RECORD_AUDIO"}, 1);
@@ -207,7 +204,7 @@ public class JNIActivity extends AppCompatActivity {
 
     public void cancelAllTouches() {
         this.mGLSurfaceView.queueEvent(new Runnable() { // from class: com.blackhub.bronline.game.core.JNIActivity.3
-            public RunnableC35123() {
+            public void RunnableC35123() {
             }
 
             @Override // java.lang.Runnable
@@ -228,8 +225,12 @@ public class JNIActivity extends AppCompatActivity {
         final String str = "http://" + url + "/";
         getContext().getNetworkHandler().post(new Runnable() { // from class: com.blackhub.bronline.game.core.JNIActivity$$ExternalSyntheticLambda0
             @Override // java.lang.Runnable
-            public final void run() throws IOException {
-                JNIActivity.lambda$sendGetRequest$0(str);
+            public final void run() {
+                try {
+                    JNIActivity.lambda$sendGetRequest$0(str);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }
@@ -258,7 +259,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     @Override // androidx.fragment.app.FragmentActivity, androidx.activity.ComponentActivity, androidx.core.app.ComponentActivity, android.app.Activity
-    public void onCreate(Bundle icicle) throws JSONException {
+    public void onCreate(Bundle icicle) {
         if (isInited) {
             UtilsKt.crashlyticsLog("Inited = true, exiting...");
             FirebaseCrashlytics.getInstance().recordException(new Throwable());
@@ -282,7 +283,7 @@ public class JNIActivity extends AppCompatActivity {
         }
         hideSystemUI();
         getWindow().getDecorView().setOnSystemUiVisibilityChangeListener(new View.OnSystemUiVisibilityChangeListener() { // from class: com.blackhub.bronline.game.core.JNIActivity.4
-            public ViewOnSystemUiVisibilityChangeListenerC35134() {
+            public void ViewOnSystemUiVisibilityChangeListenerC35134() {
             }
 
             @Override // android.view.View.OnSystemUiVisibilityChangeListener
@@ -321,7 +322,7 @@ public class JNIActivity extends AppCompatActivity {
         handlerThread.start();
         this.mNetworkHandler = new Handler(handlerThread.getLooper());
         try {
-            ((ConnectivityManager) getSystemService("connectivity")).setNetworkPreference(1);
+            ((ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE)).setNetworkPreference(1);
         } catch (Exception unused) {
         }
         try {
@@ -332,7 +333,7 @@ public class JNIActivity extends AppCompatActivity {
         }
         setObservers();
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) { // from class: com.blackhub.bronline.game.core.JNIActivity.5
-            public C35145(boolean enabled) {
+            public void C35145(boolean enabled) {
                 super(enabled);
             }
 
@@ -387,7 +388,7 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     @Override // androidx.fragment.app.FragmentActivity, android.app.Activity
-    public void onResume() throws JSONException {
+    public void onResume() {
         UtilsKt.crashlyticsLog("JNIActivity onResume");
         super.onResume();
         this.paused = false;
@@ -424,7 +425,7 @@ public class JNIActivity extends AppCompatActivity {
             if (!hasFocus && this.isFocused) {
                 UtilsKt.crashlyticsLog("JNIActivity onWindowFocusChanged !paused !hasFocus && isFocused");
                 runOnGLThread(new Runnable() { // from class: com.blackhub.bronline.game.core.JNIActivity.6
-                    public RunnableC35156() {
+                    public void RunnableC35156() {
                     }
 
                     @Override // java.lang.Runnable
@@ -435,7 +436,7 @@ public class JNIActivity extends AppCompatActivity {
             } else if (hasFocus && !this.isFocused) {
                 UtilsKt.crashlyticsLog("JNIActivity onWindowFocusChanged !paused hasFocus && !isFocused");
                 runOnGLThread(new Runnable() { // from class: com.blackhub.bronline.game.core.JNIActivity.7
-                    public RunnableC35167() {
+                    public void RunnableC35167() {
                     }
 
                     @Override // java.lang.Runnable
@@ -477,11 +478,11 @@ public class JNIActivity extends AppCompatActivity {
     }
 
     public static boolean isDeviceLocked() {
-        return ((KeyguardManager) getContext().getSystemService("keyguard")).inKeyguardRestrictedInputMode();
+        return ((KeyguardManager) getContext().getSystemService(Context.KEYGUARD_SERVICE)).inKeyguardRestrictedInputMode();
     }
 
     public static boolean isDeviceAsleep() {
-        if (((PowerManager) getContext().getSystemService("power")) == null) {
+        if (((PowerManager) getContext().getSystemService(Context.POWER_SERVICE)) == null) {
             return false;
         }
         return !r0.isInteractive();

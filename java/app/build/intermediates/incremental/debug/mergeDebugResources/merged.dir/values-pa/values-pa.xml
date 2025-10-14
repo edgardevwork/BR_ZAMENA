@@ -48,6 +48,7 @@
     <string name="abc_shareactionprovider_share_with">ਇਸ ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
     <string name="abc_shareactionprovider_share_with_application">%s ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
     <string name="abc_toolbar_collapse_description">ਸਮੇਟੋ</string>
+    <string msgid="389117264260014992" name="autofill">"ਆਟੋਫਿਲ"</string>
     <string name="bottomsheet_action_collapse">ਹੇਠਲੀ ਸ਼ੀਟ ਨੂੰ ਸਮੇਟੋ</string>
     <string name="bottomsheet_action_expand">ਹੇਠਲੀ ਸ਼ੀਟ ਦਾ ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="bottomsheet_action_expand_halfway">ਅੱਧ ਤੱਕ ਵਿਸਤਾਰ ਕਰੋ</string>
@@ -202,10 +203,16 @@
     <string name="m3c_dialog">ਡਾਇਲੌਗ</string>
     <string name="m3c_dropdown_menu_collapsed">ਸਮੇਟਿਆ ਗਿਆ</string>
     <string name="m3c_dropdown_menu_expanded">ਵਿਸਤਾਰ ਕੀਤਾ ਗਿਆ</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"ਡ੍ਰੌਪ-ਡਾਊਨ ਮੀਨੂ ਨੂੰ ਟੌਗਲ ਕਰੋ"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"ਟੂਲਬਾਰ ਨੂੰ ਸਮੇਟੋ"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"ਟੂਲਬਾਰ ਦਾ ਵਿਸਤਾਰ ਕਰੋ"</string>
     <string name="m3c_search_bar_search">ਖੋਜੋ</string>
     <string name="m3c_snackbar_dismiss">ਖਾਰਜ ਕਰੋ</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"ਅਲਰਟ"</string>
     <string name="m3c_suggestions_available">ਸੁਝਾਅ ਹੇਠਾਂ ਹਨ</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"ਸਮਾਂ ਦਾਖਲ ਕਰੋ"</string>
     <string name="m3c_time_picker_am">AM</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"ਸਮਾਂ ਚੁਣੋ"</string>
     <string name="m3c_time_picker_hour">ਘੰਟਾ</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d ਘੰਟੇ</string>
     <string name="m3c_time_picker_hour_selection">ਘੰਟਾ ਚੁਣੋ</string>
@@ -217,8 +224,12 @@
     <string name="m3c_time_picker_minute_text_field">ਮਿੰਟਾਂ ਲਈ</string>
     <string name="m3c_time_picker_period_toggle_description">AM ਜਾਂ PM ਚੁਣੋ</string>
     <string name="m3c_time_picker_pm">PM</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"ਸਮਾਂ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਲਿਖਤ ਇਨਪੁੱਟ ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕਰੋ"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"ਸਮਾਂ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਘੜੀ ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕਰੋ"</string>
     <string name="m3c_tooltip_long_press_label">ਟੂਲ-ਟਿੱਪ ਦਿਖਾਓ</string>
     <string name="m3c_tooltip_pane_description">ਟੂਲ-ਟਿੱਪ</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"ਰੇਲ ਬੰਦ ਕਰੋ"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"ਨੈਵੀਗੇਸ਼ਨ ਰੇਲ"</string>
     <string name="material_clock_toggle_content_description">AM ਜਾਂ PM ਚੁਣੋ</string>
     <string name="material_hour_24h_suffix">%1$s ਘੰਟੇ</string>
     <string name="material_hour_selection">ਸਮਾਂ ਚੁਣੋ</string>
@@ -291,6 +302,10 @@
     <string name="searchview_navigation_content_description">ਪਿੱਛੇ</string>
     <string name="selected">ਚੁਣੀ ਗਈ</string>
     <string name="side_sheet_accessibility_pane_title">ਸਾਈਡ ਸ਼ੀਟ</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"ਅਲਰਟ"</string>
+    <string msgid="4139871816613051306" name="state_empty">"ਖਾਲੀ"</string>
+    <string msgid="5834637030682409883" name="state_off">"ਬੰਦ ਹੈ"</string>
+    <string msgid="1490883874751719580" name="state_on">"ਚਾਲੂ ਹੈ"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">ਸਵਿੱਚ ਕਰੋ</string>

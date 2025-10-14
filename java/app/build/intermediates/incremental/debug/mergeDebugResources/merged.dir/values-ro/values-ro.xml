@@ -51,6 +51,7 @@
     <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
     <string name="abc_shareactionprovider_share_with_application">Trimiteți folosind %s</string>
     <string name="abc_toolbar_collapse_description">Restrângeți</string>
+    <string msgid="389117264260014992" name="autofill">"Completare automată"</string>
     <string name="bottomsheet_action_collapse">Restrângeți foaia din partea de jos</string>
     <string name="bottomsheet_action_expand">Extindeți foaia din partea de jos</string>
     <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
@@ -205,10 +206,16 @@
     <string name="m3c_dialog">Dialog</string>
     <string name="m3c_dropdown_menu_collapsed">Restrâns</string>
     <string name="m3c_dropdown_menu_expanded">Extins</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Comută meniul drop-down"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Restrânge bara de instrumente"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Extinde bara de instrumente"</string>
     <string name="m3c_search_bar_search">Caută</string>
     <string name="m3c_snackbar_dismiss">Închide</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Alertă"</string>
     <string name="m3c_suggestions_available">Sugestii mai jos</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Introdu ora"</string>
     <string name="m3c_time_picker_am">a.m.</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Selectează ora"</string>
     <string name="m3c_time_picker_hour">Oră</string>
     <string name="m3c_time_picker_hour_24h_suffix">Ora %1$d</string>
     <string name="m3c_time_picker_hour_selection">Selectează ora</string>
@@ -220,8 +227,12 @@
     <string name="m3c_time_picker_minute_text_field">pentru minute</string>
     <string name="m3c_time_picker_period_toggle_description">Selectează AM sau PM</string>
     <string name="m3c_time_picker_pm">p.m.</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Pentru a introduce ora, comută la modul de introducere a textului"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Pentru a introduce ora, comută la modul ceas."</string>
     <string name="m3c_tooltip_long_press_label">Afișează balonul explicativ</string>
     <string name="m3c_tooltip_pane_description">Balon explicativ</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Închide bara"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Bară de navigare"</string>
     <string name="material_clock_toggle_content_description">Selectați ora</string>
     <string name="material_hour_24h_suffix">%1$s ore</string>
     <string name="material_hour_selection">Selectați ora</string>
@@ -294,6 +305,10 @@
     <string name="searchview_navigation_content_description">Înapoi</string>
     <string name="selected">Selectat</string>
     <string name="side_sheet_accessibility_pane_title">Foaie laterală</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Alertă"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Gol"</string>
+    <string msgid="5834637030682409883" name="state_off">"Dezactivat"</string>
+    <string msgid="1490883874751719580" name="state_on">"Activat"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Comută</string>

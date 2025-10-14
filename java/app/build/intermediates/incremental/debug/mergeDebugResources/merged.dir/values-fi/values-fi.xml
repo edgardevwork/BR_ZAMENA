@@ -48,6 +48,7 @@
     <string name="abc_shareactionprovider_share_with">Jaa…</string>
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string msgid="389117264260014992" name="autofill">"Automaattinen täyttö"</string>
     <string name="bottomsheet_action_collapse">Tiivistä alapaneeli</string>
     <string name="bottomsheet_action_expand">Laajenna alapaneeli</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
@@ -202,10 +203,16 @@
     <string name="m3c_dialog">Valintaikkuna</string>
     <string name="m3c_dropdown_menu_collapsed">Tiivistetty</string>
     <string name="m3c_dropdown_menu_expanded">Laajennettu</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Laita avattava valikko päälle"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Tiivistä työkalupalkki"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Laajenna työkalupalkki"</string>
     <string name="m3c_search_bar_search">Hae</string>
     <string name="m3c_snackbar_dismiss">Ohita</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Ilmoitus"</string>
     <string name="m3c_suggestions_available">Ehdotuksia alla</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Lisää aika"</string>
     <string name="m3c_time_picker_am">AP</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Valitse aika"</string>
     <string name="m3c_time_picker_hour">Tunti</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d h</string>
     <string name="m3c_time_picker_hour_selection">Valitse tunti</string>
@@ -217,8 +224,12 @@
     <string name="m3c_time_picker_minute_text_field">minuuttien osalta</string>
     <string name="m3c_time_picker_period_toggle_description">Valitse AP tai IP</string>
     <string name="m3c_time_picker_pm">IP</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Vaihda ajan syöttämiseen tekstitilassa"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Vaihda ajan syöttämiseen kellotilassa"</string>
     <string name="m3c_tooltip_long_press_label">Näytä vihjeteksti</string>
     <string name="m3c_tooltip_pane_description">Vihjeteksti</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Sulje palkki"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Siirtymispalkki"</string>
     <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
     <string name="material_hour_24h_suffix">%1$s tuntia</string>
     <string name="material_hour_selection">Valitse tunti</string>
@@ -291,6 +302,10 @@
     <string name="searchview_navigation_content_description">Takaisin</string>
     <string name="selected">Valittu</string>
     <string name="side_sheet_accessibility_pane_title">Sivupalkki</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Ilmoitus"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Tyhjä"</string>
+    <string msgid="5834637030682409883" name="state_off">"Pois päältä"</string>
+    <string msgid="1490883874751719580" name="state_on">"Päällä"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Vaihda</string>

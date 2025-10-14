@@ -44,6 +44,7 @@
     <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
     <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
     <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string msgid="389117264260014992" name="autofill">"Preenchimento automático"</string>
     <string name="call_notification_answer_action">Atender</string>
     <string name="call_notification_answer_video_action">Vídeo</string>
     <string name="call_notification_decline_action">Recusar</string>
@@ -167,10 +168,16 @@
     <string name="m3c_dialog">Caixa de diálogo</string>
     <string name="m3c_dropdown_menu_collapsed">Fechado</string>
     <string name="m3c_dropdown_menu_expanded">Aberto</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Ativar/desativar o menu suspenso"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Fechar barra de ferramentas"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Abrir barra de ferramentas"</string>
     <string name="m3c_search_bar_search">Pesquisar</string>
     <string name="m3c_snackbar_dismiss">Dispensar</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Alerta"</string>
     <string name="m3c_suggestions_available">Sugestões abaixo</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Insira a hora"</string>
     <string name="m3c_time_picker_am">AM</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Selecione o horário"</string>
     <string name="m3c_time_picker_hour">Hora</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d horas</string>
     <string name="m3c_time_picker_hour_selection">Selecione a hora</string>
@@ -182,8 +189,12 @@
     <string name="m3c_time_picker_minute_text_field">por minutos</string>
     <string name="m3c_time_picker_period_toggle_description">Selecione AM ou PM</string>
     <string name="m3c_time_picker_pm">PM</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Mudar para o modo de entrada de texto para informar o horário"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Mudar para o modo de relógio para informar o horário"</string>
     <string name="m3c_tooltip_long_press_label">Mostrar dica</string>
     <string name="m3c_tooltip_pane_description">Dica</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Fechar coluna"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Coluna de navegação"</string>
     <string name="navigation_menu">Menu de navegação</string>
     <string name="not_selected">Não selecionado</string>
     <string msgid="478774118347071097" name="not_set">"Não definido"</string>
@@ -194,6 +205,10 @@
     <string name="range_start">Início do intervalo</string>
     <string name="search_menu_title">Pesquisar</string>
     <string name="selected">Selecionado</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Alerta"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Vazio"</string>
+    <string msgid="5834637030682409883" name="state_off">"Desativado"</string>
+    <string msgid="1490883874751719580" name="state_on">"Ativado"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Chave</string>

@@ -48,6 +48,7 @@
     <string name="abc_shareactionprovider_share_with">Shiriki na</string>
     <string name="abc_shareactionprovider_share_with_application">Shiriki ukitumia %s</string>
     <string name="abc_toolbar_collapse_description">Kunja</string>
+    <string msgid="389117264260014992" name="autofill">"Jaza kiotomatiki"</string>
     <string name="bottomsheet_action_collapse">Kunja safu ya chini</string>
     <string name="bottomsheet_action_expand">Panua safu ya chini</string>
     <string name="bottomsheet_action_expand_halfway">Panua nusu</string>
@@ -202,10 +203,16 @@
     <string name="m3c_dialog">Kidirisha</string>
     <string name="m3c_dropdown_menu_collapsed">Imekunjwa</string>
     <string name="m3c_dropdown_menu_expanded">Imepanuliwa</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Badilisha hali ya menyu kunjuzi"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Kunja upau wa vidhibiti"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Panua upau wa vidhibiti"</string>
     <string name="m3c_search_bar_search">Tafuta</string>
     <string name="m3c_snackbar_dismiss">Ondoa</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Arifa"</string>
     <string name="m3c_suggestions_available">Mapendekezo yaliyo hapa chini</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Weka Muda"</string>
     <string name="m3c_time_picker_am">AM</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Chagua Muda"</string>
     <string name="m3c_time_picker_hour">Saa</string>
     <string name="m3c_time_picker_hour_24h_suffix">Saa %1$d</string>
     <string name="m3c_time_picker_hour_selection">Chagua saa</string>
@@ -217,8 +224,12 @@
     <string name="m3c_time_picker_minute_text_field">cha dakika</string>
     <string name="m3c_time_picker_period_toggle_description">Chagua AM au PM</string>
     <string name="m3c_time_picker_pm">PM</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Badilisha utumie mipangilio ya kuingiza data ya maandishi ukiweka muda"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Badilisha utumie hali ya saa ukiweka muda"</string>
     <string name="m3c_tooltip_long_press_label">Onyesha kidirisha cha vidokezo</string>
     <string name="m3c_tooltip_pane_description">Kidirisha cha vidokezo</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Funga reli ya usogezaji"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Reli ya usogezaji"</string>
     <string name="material_clock_toggle_content_description">Chagua AM au PM</string>
     <string name="material_hour_24h_suffix">Saa %1$s</string>
     <string name="material_hour_selection">Chagua saa</string>
@@ -291,6 +302,10 @@
     <string name="searchview_navigation_content_description">Rudi nyuma</string>
     <string name="selected">Umechagua</string>
     <string name="side_sheet_accessibility_pane_title">Laha ya Pembeni</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Arifa"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Tupu"</string>
+    <string msgid="5834637030682409883" name="state_off">"Imezimwa"</string>
+    <string msgid="1490883874751719580" name="state_on">"Imewashwa"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Swichi</string>

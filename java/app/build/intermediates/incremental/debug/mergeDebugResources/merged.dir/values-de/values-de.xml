@@ -48,6 +48,7 @@
     <string name="abc_shareactionprovider_share_with">Teilen mit</string>
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string msgid="389117264260014992" name="autofill">"Automatisch ausfüllen"</string>
     <string name="bottomsheet_action_collapse">Ansicht am unteren Rand minimieren</string>
     <string name="bottomsheet_action_expand">Ansicht am unteren Rand maximieren</string>
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
@@ -202,10 +203,16 @@
     <string name="m3c_dialog">Dialogfeld</string>
     <string name="m3c_dropdown_menu_collapsed">Minimiert</string>
     <string name="m3c_dropdown_menu_expanded">Maximiert</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Drop-down-Menü maximieren/minimieren"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Symbolleiste minimieren"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Symbolleiste maximieren"</string>
     <string name="m3c_search_bar_search">Suche</string>
     <string name="m3c_snackbar_dismiss">Schließen</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Warnmeldung"</string>
     <string name="m3c_suggestions_available">Vorschläge unten</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Uhrzeit eingeben"</string>
     <string name="m3c_time_picker_am">Vormittags</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Uhrzeit auswählen"</string>
     <string name="m3c_time_picker_hour">Stunde</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d Std.</string>
     <string name="m3c_time_picker_hour_selection">Stunde auswählen</string>
@@ -217,8 +224,12 @@
     <string name="m3c_time_picker_minute_text_field">für Minuten</string>
     <string name="m3c_time_picker_period_toggle_description">Vormittags oder nachmittags auswählen</string>
     <string name="m3c_time_picker_pm">Nachmittags</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"In den Texteingabemodus wechseln, um die Uhrzeit einzugeben"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben"</string>
     <string name="m3c_tooltip_long_press_label">Kurzinfo anzeigen</string>
     <string name="m3c_tooltip_pane_description">Kurzinfo</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Streifen schließen"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Navigationsstreifen"</string>
     <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
     <string name="material_hour_24h_suffix">%1$s Stunden</string>
     <string name="material_hour_selection">Stunde auswählen</string>
@@ -291,6 +302,10 @@
     <string name="searchview_navigation_content_description">Zurück</string>
     <string name="selected">Ausgewählt</string>
     <string name="side_sheet_accessibility_pane_title">Seitenblatt</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Warnmeldung"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Leer"</string>
+    <string msgid="5834637030682409883" name="state_off">"Aus"</string>
+    <string msgid="1490883874751719580" name="state_on">"An"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Wechseln</string>

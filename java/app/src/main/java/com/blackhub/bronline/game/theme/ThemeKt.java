@@ -10,7 +10,6 @@ import androidx.compose.material3.ColorScheme;
 import androidx.compose.material3.ColorSchemeKt;
 import androidx.compose.material3.DynamicTonalPaletteKt;
 import androidx.compose.material3.MaterialThemeKt;
-import androidx.compose.p003ui.platform.AndroidCompositionLocals_androidKt;
 import androidx.compose.runtime.Composable;
 import androidx.compose.runtime.ComposableInferredTarget;
 import androidx.compose.runtime.Composer;
@@ -34,10 +33,10 @@ import org.jetbrains.annotations.Nullable;
 public final class ThemeKt {
 
     @NotNull
-    public static final ColorScheme DarkColorScheme = ColorSchemeKt.m9294darkColorSchemeCXl9yA$default(ColorKt.getPurple80(), 0, 0, 0, 0, ColorKt.getPurpleGrey80(), 0, 0, 0, ColorKt.getPink80(), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -546, 15, null);
+    public static final ColorScheme DarkColorScheme = new ColorScheme(ColorKt.getPurple80(), 0, 0, 0, 0, ColorKt.getPurpleGrey80(), 0, 0, 0, ColorKt.getPink80(), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
     @NotNull
-    public static final ColorScheme LightColorScheme = ColorSchemeKt.m9298lightColorSchemeCXl9yA$default(ColorKt.getPurple40(), 0, 0, 0, 0, ColorKt.getPurpleGrey40(), 0, 0, 0, ColorKt.getPink40(), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -546, 15, null);
+    public static final ColorScheme LightColorScheme = new ColorScheme(ColorKt.getPurple40(), 0, 0, 0, 0, ColorKt.getPurpleGrey40(), 0, 0, 0, ColorKt.getPink40(), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
     @Composable
     @ComposableInferredTarget(scheme = "[0[0]]")
@@ -149,4 +148,3 @@ public final class ThemeKt {
         }
     }
 }
-

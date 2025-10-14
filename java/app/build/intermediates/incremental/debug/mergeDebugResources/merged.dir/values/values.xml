@@ -7926,6 +7926,7 @@
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
     <item name="glide_custom_view_target_tag" type="id"/>
+    <item name="hide_graphics_layer_in_inspector_tag" type="id"/>
     <item name="hide_in_inspector_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="inspection_slot_table_set" type="id"/>
@@ -7996,6 +7997,7 @@
     <item name="transition_transform" type="id"/>
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
+    <id name="view_tree_disjoint_parent"/>
     <id name="view_tree_lifecycle_owner"/>
     <id name="view_tree_on_back_pressed_dispatcher_owner"/>
     <id name="view_tree_saved_state_registry_owner"/>
@@ -8045,6 +8047,7 @@
     <integer name="m3_sys_shape_corner_large_corner_family">0</integer>
     <integer name="m3_sys_shape_corner_medium_corner_family">0</integer>
     <integer name="m3_sys_shape_corner_small_corner_family">0</integer>
+    <integer name="m3c_window_layout_in_display_cutout_mode">1</integer>
     <integer name="material_motion_duration_long_1">300</integer>
     <integer name="material_motion_duration_long_2">350</integer>
     <integer name="material_motion_duration_medium_1">200</integer>
@@ -8202,6 +8205,7 @@
     <string name="androidx_startup">androidx.startup</string>
     <string name="app_name">EDGAR CLIENT</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="autofill">Autofill</string>
     <string name="banner_body_text_1_1">Выполняйте задания, прокачивайте </string>
     <string name="banner_body_text_1_2">EDGAR PASS </string>
     <string name="banner_body_text_1_3">и получайте новые награды сезона</string>
@@ -9433,10 +9437,16 @@
     <string name="m3c_dialog">Dialog</string>
     <string name="m3c_dropdown_menu_collapsed">Collapsed</string>
     <string name="m3c_dropdown_menu_expanded">Expanded</string>
+    <string name="m3c_dropdown_menu_toggle">Toggle dropdown menu</string>
+    <string name="m3c_floating_toolbar_collapse">Collapse toolbar</string>
+    <string name="m3c_floating_toolbar_expand">Expand toolbar</string>
     <string name="m3c_search_bar_search">Search</string>
     <string name="m3c_snackbar_dismiss">Dismiss</string>
+    <string name="m3c_snackbar_pane_title">Alert</string>
     <string name="m3c_suggestions_available">Suggestions below</string>
+    <string name="m3c_time_input_dialog_title">Enter Time</string>
     <string name="m3c_time_picker_am">AM</string>
+    <string name="m3c_time_picker_dialog_title">Select Time</string>
     <string name="m3c_time_picker_hour">Hour</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d hours</string>
     <string name="m3c_time_picker_hour_selection">Select hour</string>
@@ -9448,8 +9458,12 @@
     <string name="m3c_time_picker_minute_text_field">for minutes</string>
     <string name="m3c_time_picker_period_toggle_description">Select AM or PM</string>
     <string name="m3c_time_picker_pm">PM</string>
+    <string name="m3c_time_picker_toggle_keyboard">Switch to text input mode for the time input</string>
+    <string name="m3c_time_picker_toggle_touch">Switch to clock mode for the time input</string>
     <string name="m3c_tooltip_long_press_label">Show tooltip</string>
     <string name="m3c_tooltip_pane_description">Tooltip</string>
+    <string name="m3c_wide_navigation_rail_close_rail">"Close rail"</string>
+    <string name="m3c_wide_navigation_rail_pane_title">"Navigation rail"</string>
     <string name="marketplace_add_lot_hint">Добавить объявление</string>
     <string name="marketplace_add_lot_hint_description">Страница с вашими товарами, которые доступны для продажи</string>
     <string name="marketplace_ascending_sort_filter">По возрастанию цены</string>
@@ -9908,6 +9922,7 @@
     <string name="smi_dialog_price_for_sell_if_empty">. Цена договорная.</string>
     <string name="smi_dialog_price_for_sell_if_not_empty">. Цена: %1$s рублей.</string>
     <string name="smi_dialog_text_queue">в очереди</string>
+    <string name="snackbar_pane_title">Alert</string>
     <string name="social_interaction_if_help_text_1">Это - меню социального взаимодействия.\nС его помощью очень легко общаться с игроками.\n\nВыберите пункт “Общение”, чтобы поговорить с дядей.</string>
     <string name="social_interaction_if_help_text_2">Здесь находятся действия, которые доступны Вам\nдля общения с дядей.\n\nВыберите пункт “Пожать руку”.</string>
     <string name="social_interaction_if_with_additionally">Доп.действия</string>
@@ -9920,6 +9935,9 @@
     <string name="spawn_location_enter">Войти</string>
     <string name="spawn_location_error">Произошла ошибка, измените выбор</string>
     <string name="spawn_location_no_internet_error">Ошибка получения данных. Возможно отсутствует интернет. Отправлен повторный запрос</string>
+    <string name="state_empty">Empty</string>
+    <string name="state_off">Off</string>
+    <string name="state_on">On</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list"><ns2:g id="current_items">%1$s</ns2:g>, <ns2:g id="added_items">%2$s</ns2:g></string>
     <string name="switch_role">Switch</string>
@@ -13120,6 +13138,20 @@
         <item name="android:textSize">@dimen/_24ssp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:fontFamily">@font/downcome</item>
+    </style>
+    <style name="EdgeToEdgeFloatingDialogTheme" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" ns1:targetApi="27">@integer/m3c_window_layout_in_display_cutout_mode</item>
+        <item name="android:windowClipToOutline">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowElevation">0dp</item>
+    </style>
+    <style name="EdgeToEdgeFloatingDialogWindowTheme">
+        <item name="android:dialogTheme">@style/EdgeToEdgeFloatingDialogTheme</item>
     </style>
     <style name="EditTextMainFragment" parent="@style/ThemeOverlay.Material3.TextInputEditText">
         <item name="android:textColorHighlight">@color/white_25</item>

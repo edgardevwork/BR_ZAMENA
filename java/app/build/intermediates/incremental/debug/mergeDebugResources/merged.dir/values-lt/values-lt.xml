@@ -54,6 +54,7 @@
     <string name="abc_shareactionprovider_share_with">Bendrinti su</string>
     <string name="abc_shareactionprovider_share_with_application">Bendrinti naudojant programą „%s“</string>
     <string name="abc_toolbar_collapse_description">Sutraukti</string>
+    <string msgid="389117264260014992" name="autofill">"Automatinis pildymas"</string>
     <string name="bottomsheet_action_collapse">Sutraukti apatinį lapą</string>
     <string name="bottomsheet_action_expand">Išskleisti apatinį lapą</string>
     <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
@@ -208,10 +209,16 @@
     <string name="m3c_dialog">Dialogo langas</string>
     <string name="m3c_dropdown_menu_collapsed">Sutraukta</string>
     <string name="m3c_dropdown_menu_expanded">Išskleista</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Perjungti išskleidžiamąjį meniu"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Sutraukti įrankių juostą"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Išskleisti įrankių juostą"</string>
     <string name="m3c_search_bar_search">Paieška</string>
     <string name="m3c_snackbar_dismiss">Atsisakyti</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Įspėjimas"</string>
     <string name="m3c_suggestions_available">Pasiūlymai pateikti toliau</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Įveskite laiką"</string>
     <string name="m3c_time_picker_am">AM</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Pasirinkite laiką"</string>
     <string name="m3c_time_picker_hour">Valanda</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d val.</string>
     <string name="m3c_time_picker_hour_selection">Pasirinkite valandą</string>
@@ -223,8 +230,12 @@
     <string name="m3c_time_picker_minute_text_field">minutės</string>
     <string name="m3c_time_picker_period_toggle_description">Pasirinkite „priešpiet“ arba „popiet“</string>
     <string name="m3c_time_picker_pm">popiet</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Laiko įvestį pateikti perjungus į teksto įvesties režimą"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Laiko įvestį pateikti perjungus į laikrodžio režimą"</string>
     <string name="m3c_tooltip_long_press_label">Rodyti patarimą</string>
     <string name="m3c_tooltip_pane_description">Patarimas</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Uždaryti juostą"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Naršymo juosta"</string>
     <string name="material_clock_toggle_content_description">Pasirinkite „iki pietų“ arba „po pietų“</string>
     <string name="material_hour_24h_suffix">%1$s val.</string>
     <string name="material_hour_selection">Pasirinkite valandą</string>
@@ -297,6 +308,10 @@
     <string name="searchview_navigation_content_description">Atgal</string>
     <string name="selected">Pasirinkta</string>
     <string name="side_sheet_accessibility_pane_title">Šoninis lapas</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Įspėjimas"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Tuščia"</string>
+    <string msgid="5834637030682409883" name="state_off">"Išjungta"</string>
+    <string msgid="1490883874751719580" name="state_on">"Įjungta"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Jungiklis</string>

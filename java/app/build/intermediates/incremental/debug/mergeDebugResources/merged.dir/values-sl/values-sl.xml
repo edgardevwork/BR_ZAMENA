@@ -54,6 +54,7 @@
     <string name="abc_shareactionprovider_share_with">Deljenje z:</string>
     <string name="abc_shareactionprovider_share_with_application">Deljenje z drugimi prek aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Strnitev</string>
+    <string msgid="389117264260014992" name="autofill">"Samodejno izpolnjevanje"</string>
     <string name="bottomsheet_action_collapse">Strnitev razdelka na dnu zaslona</string>
     <string name="bottomsheet_action_expand">Razširitev razdelka na dnu zaslona</string>
     <string name="bottomsheet_action_expand_halfway">Razširjanje na pol višine</string>
@@ -208,10 +209,16 @@
     <string name="m3c_dialog">Pogovorno okno</string>
     <string name="m3c_dropdown_menu_collapsed">Strnjeno</string>
     <string name="m3c_dropdown_menu_expanded">Razširjeno</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Preklop spustnega menija"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Strnitev orodne vrstice"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Razširitev orodne vrstice"</string>
     <string name="m3c_search_bar_search">Iskanje</string>
     <string name="m3c_snackbar_dismiss">Opusti</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Opozorilo"</string>
     <string name="m3c_suggestions_available">Predlogi so spodaj</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Vnesite uro"</string>
     <string name="m3c_time_picker_am">dop.</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Izberite uro"</string>
     <string name="m3c_time_picker_hour">Ura</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d</string>
     <string name="m3c_time_picker_hour_selection">Izbira ure</string>
@@ -223,8 +230,12 @@
     <string name="m3c_time_picker_minute_text_field">za minute</string>
     <string name="m3c_time_picker_period_toggle_description">Izberite dopoldanski ali popoldanski čas.</string>
     <string name="m3c_time_picker_pm">pop.</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Preklop na način za vnos besedila, da vnesete uro"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Preklop na način ure, da vnesete uro"</string>
     <string name="m3c_tooltip_long_press_label">Pokaži opis orodja</string>
     <string name="m3c_tooltip_pane_description">Opis orodja</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Zapiranje črte"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Črta za krmarjenje"</string>
     <string name="material_clock_toggle_content_description">Izberite dopoldanski ali popoldanski čas.</string>
     <string name="material_hour_24h_suffix">%1$s h</string>
     <string name="material_hour_selection">Izberite uro</string>
@@ -297,6 +308,10 @@
     <string name="searchview_navigation_content_description">Nazaj</string>
     <string name="selected">Izbrano</string>
     <string name="side_sheet_accessibility_pane_title">Stranski list</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Opozorilo"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Prazno"</string>
+    <string msgid="5834637030682409883" name="state_off">"Izklopljeno"</string>
+    <string msgid="1490883874751719580" name="state_on">"Vklopljeno"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">Stikalo</string>

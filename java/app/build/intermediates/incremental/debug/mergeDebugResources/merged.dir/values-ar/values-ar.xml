@@ -60,6 +60,7 @@
     <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
     <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
     <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string msgid="389117264260014992" name="autofill">"الملء التلقائي"</string>
     <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
     <string name="bottomsheet_action_expand">توسيع البطاقة السفلية</string>
     <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
@@ -214,10 +215,16 @@
     <string name="m3c_dialog">مربّع حوار</string>
     <string name="m3c_dropdown_menu_collapsed">مصغَّرة</string>
     <string name="m3c_dropdown_menu_expanded">موسَّعة</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"توسيع القائمة المنسدلة أو تصغيرها"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"تصغير شريط الأدوات"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"توسيع شريط الأدوات"</string>
     <string name="m3c_search_bar_search">شريط بحث</string>
     <string name="m3c_snackbar_dismiss">إغلاق</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"تنبيه"</string>
     <string name="m3c_suggestions_available">إليك الاقتراحات</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"إدخال الوقت"</string>
     <string name="m3c_time_picker_am">ص</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"اختيار الوقت"</string>
     <string name="m3c_time_picker_hour">ساعة</string>
     <string name="m3c_time_picker_hour_24h_suffix">‏%1$d ساعة</string>
     <string name="m3c_time_picker_hour_selection">اختيار الساعة</string>
@@ -229,8 +236,12 @@
     <string name="m3c_time_picker_minute_text_field">الدقائق</string>
     <string name="m3c_time_picker_period_toggle_description">يُرجى اختيار \"ص\" أو \"م\".</string>
     <string name="m3c_time_picker_pm">م</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"التبديل إلى وضع إدخال النص لإدخال الوقت"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"التبديل إلى وضع الساعة لإدخال الوقت"</string>
     <string name="m3c_tooltip_long_press_label">إظهار التلميح</string>
     <string name="m3c_tooltip_pane_description">تلميح</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"إغلاق الشريط"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"شريط التنقّل"</string>
     <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
     <string name="material_hour_24h_suffix">%1$s ساعة</string>
     <string name="material_hour_selection">تحديد الساعة</string>
@@ -303,6 +314,10 @@
     <string name="searchview_navigation_content_description">رجوع</string>
     <string name="selected">محدّد</string>
     <string name="side_sheet_accessibility_pane_title">ورقة جانبية</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"تنبيه"</string>
+    <string msgid="4139871816613051306" name="state_empty">"حقل فارغ"</string>
+    <string msgid="5834637030682409883" name="state_off">"غير مفعَّل"</string>
+    <string msgid="1490883874751719580" name="state_on">"مفعَّل"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>، <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">تبديل</string>

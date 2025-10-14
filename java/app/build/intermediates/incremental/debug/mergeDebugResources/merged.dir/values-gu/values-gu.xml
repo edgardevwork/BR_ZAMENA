@@ -48,6 +48,7 @@
     <string name="abc_shareactionprovider_share_with">આની સાથે શેર કરો</string>
     <string name="abc_shareactionprovider_share_with_application">%sની સાથે શેર કરો</string>
     <string name="abc_toolbar_collapse_description">સંકુચિત કરો</string>
+    <string msgid="389117264260014992" name="autofill">"ઑટોમૅટિક રીતે ભરવાની સુવિધા"</string>
     <string name="bottomsheet_action_collapse">બોટમ શીટ નાની કરો</string>
     <string name="bottomsheet_action_expand">બોટમ શીટ મોટી કરો</string>
     <string name="bottomsheet_action_expand_halfway">અડધે સુધી મોટું કરો</string>
@@ -202,10 +203,16 @@
     <string name="m3c_dialog">સંવાદ</string>
     <string name="m3c_dropdown_menu_collapsed">નાની કરેલી</string>
     <string name="m3c_dropdown_menu_expanded">મોટી કરેલી</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"ડ્રૉપડાઉન મેનૂ ટૉગલ કરો"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"ટૂલબાર નાનો કરો"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"ટૂલબાર મોટો કરો"</string>
     <string name="m3c_search_bar_search">શોધો</string>
     <string name="m3c_snackbar_dismiss">છોડી દો</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"અલર્ટ"</string>
     <string name="m3c_suggestions_available">સૂચનો નીચે છે</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"સમય દાખલ કરો"</string>
     <string name="m3c_time_picker_am">AM</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"સમય પસંદ કરો"</string>
     <string name="m3c_time_picker_hour">કલાક</string>
     <string name="m3c_time_picker_hour_24h_suffix">%1$d કલાક</string>
     <string name="m3c_time_picker_hour_selection">કલાક પસંદ કરો</string>
@@ -217,8 +224,12 @@
     <string name="m3c_time_picker_minute_text_field">મિનિટ માટે</string>
     <string name="m3c_time_picker_period_toggle_description">AM કે PM પસંદ કરો</string>
     <string name="m3c_time_picker_pm">PM</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"સમય દાખલ કરવા માટે ટેક્સ્ટ ઇનપુટ મોડ પર સ્વિચ કરો"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"સમય દાખલ કરવા માટે ક્લૉક મોડ પર સ્વિચ કરો"</string>
     <string name="m3c_tooltip_long_press_label">ટૂલટિપ બતાવો</string>
     <string name="m3c_tooltip_pane_description">ટૂલટિપ</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"રેલ બંધ કરો"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"નૅવિગેશન રેલ"</string>
     <string name="material_clock_toggle_content_description">AM અથવા PM પસંદ કરો</string>
     <string name="material_hour_24h_suffix">%1$s કલાક</string>
     <string name="material_hour_selection">સમય પસંદ કરો</string>
@@ -291,6 +302,10 @@
     <string name="searchview_navigation_content_description">પાછળ</string>
     <string name="selected">પસંદગી કરી</string>
     <string name="side_sheet_accessibility_pane_title">સાઇડ શીટ</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"અલર્ટ"</string>
+    <string msgid="4139871816613051306" name="state_empty">"ખાલી"</string>
+    <string msgid="5834637030682409883" name="state_off">"બંધ છે"</string>
+    <string msgid="1490883874751719580" name="state_on">"ચાલુ છે"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">સ્વિચ</string>

@@ -1,5 +1,6 @@
 package com.blackhub.bronline.game.common;
 
+import android.content.Context;
 import android.os.Build;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,9 +19,9 @@ public class GUIPopupWindow extends PopupWindow {
         if (getBackground() != null) {
             view = (View) view.getParent();
         }
-        WindowManager windowManager = (WindowManager) getContentView().getContext().getSystemService("window");
+        WindowManager windowManager = (WindowManager) getContentView().getContext().getSystemService(Context.WINDOW_SERVICE);
         WindowManager.LayoutParams layoutParams = (WindowManager.LayoutParams) view.getLayoutParams();
-        layoutParams.flags |= 2;
+        layoutParams.flags |= WindowManager.LayoutParams.FLAG_DIM_BEHIND;
         layoutParams.dimAmount = value;
         windowManager.updateViewLayout(view, layoutParams);
     }
@@ -31,7 +32,7 @@ public class GUIPopupWindow extends PopupWindow {
         Code decompiled incorrectly, please refer to instructions dump.
     */
     public void showAtLocation(View parent, int gravity, int x, int y) {
-        int i;
+        int i = 0;
         View contentView = getContentView();
         ViewGroup.LayoutParams layoutParams = contentView.getLayoutParams();
         if (layoutParams != null) {
@@ -51,7 +52,7 @@ public class GUIPopupWindow extends PopupWindow {
         getContentView().setOnSystemUiVisibilityChangeListener(new View.OnSystemUiVisibilityChangeListener() { // from class: com.blackhub.bronline.game.common.GUIPopupWindow$$ExternalSyntheticLambda0
             @Override // android.view.View.OnSystemUiVisibilityChangeListener
             public final void onSystemUiVisibilityChange(int i2) {
-                this.f$0.lambda$showAtLocation$0(i2);
+                lambda$showAtLocation$0(i2);
             }
         });
         super.showAtLocation(parent, gravity, x, y);

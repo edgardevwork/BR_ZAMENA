@@ -4,16 +4,6 @@
             "outputFile": "com.bless.client.app-mergeDebugResources-4:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AORUS\\.gradle\\caches\\8.13\\transforms\\e0455b488b94c1bebe0adafbc123ccf8\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
                     "source": "C:\\Users\\AORUS\\.gradle\\caches\\8.13\\transforms\\03fd5157d135c620f35430ae6a08c257\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
@@ -22,14 +12,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
                     }
                 }
             ]

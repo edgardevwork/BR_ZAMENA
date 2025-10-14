@@ -48,6 +48,7 @@
     <string name="abc_shareactionprovider_share_with">هم‌رسانی با</string>
     <string name="abc_shareactionprovider_share_with_application">هم‌رسانی با %s</string>
     <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string msgid="389117264260014992" name="autofill">"تکمیل خودکار"</string>
     <string name="bottomsheet_action_collapse">جمع کردن برگ زیرین</string>
     <string name="bottomsheet_action_expand">ازهم بازکردن برگ زیرین</string>
     <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
@@ -202,10 +203,16 @@
     <string name="m3c_dialog">کادر گفتگو</string>
     <string name="m3c_dropdown_menu_collapsed">جمع شد</string>
     <string name="m3c_dropdown_menu_expanded">ازهم باز شد</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"جمع کردن/ ازهم باز کردن منوِ کرکره‌ای"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"جمع کردن نوارابزار"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"ازهم بازکردن نوارابزار"</string>
     <string name="m3c_search_bar_search">جستجو</string>
     <string name="m3c_snackbar_dismiss">بستن</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"هشدار"</string>
     <string name="m3c_suggestions_available">پیشنهادهای زیر</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"وارد کردن زمان"</string>
     <string name="m3c_time_picker_am">ق.ظ.</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"انتخاب زمان"</string>
     <string name="m3c_time_picker_hour">ساعت</string>
     <string name="m3c_time_picker_hour_24h_suffix">‏%1$d ساعت</string>
     <string name="m3c_time_picker_hour_selection">انتخاب ساعت</string>
@@ -217,8 +224,12 @@
     <string name="m3c_time_picker_minute_text_field">برای دقیقه</string>
     <string name="m3c_time_picker_period_toggle_description">انتخاب ق.ظ. یا ب.ظ.</string>
     <string name="m3c_time_picker_pm">ب.ظ.</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"برای ورودی زمان، به حالت ورودی نوشتاری بروید"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"برای ورودی زمان، به حالت ساعت بروید"</string>
     <string name="m3c_tooltip_long_press_label">نمایش نکته‌ابزار</string>
     <string name="m3c_tooltip_pane_description">نکته‌ابزار</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"بستن ریل"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"ریل پیمایش"</string>
     <string name="material_clock_toggle_content_description">انتخاب .ق.ظ. یا ب.ظ.</string>
     <string name="material_hour_24h_suffix">%1$s ساعت</string>
     <string name="material_hour_selection">انتخاب ساعت</string>
@@ -291,6 +302,10 @@
     <string name="searchview_navigation_content_description">برگشتن</string>
     <string name="selected">انتخاب شد</string>
     <string name="side_sheet_accessibility_pane_title">برگ کناری</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"هشدار"</string>
+    <string msgid="4139871816613051306" name="state_empty">"خالی"</string>
+    <string msgid="5834637030682409883" name="state_off">"خاموش"</string>
+    <string msgid="1490883874751719580" name="state_on">"روشن"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>، <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="switch_role">کلید</string>

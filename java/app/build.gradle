@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 35
 
     /*dataBinding {
         enabled = true

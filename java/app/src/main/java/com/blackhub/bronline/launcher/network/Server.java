@@ -1,5 +1,7 @@
 package com.blackhub.bronline.launcher.network;
 
+import android.annotation.SuppressLint;
+
 import androidx.browser.customtabs.CustomTabsCallback;
 import androidx.compose.runtime.internal.StabilityInferred;
 import com.google.gson.annotations.SerializedName;
@@ -39,6 +41,7 @@ public final /* data */ class Server {
     @NotNull
     public String name;
 
+    @SuppressLint("RestrictedApi")
     @SerializedName(CustomTabsCallback.ONLINE_EXTRAS_KEY)
     @NotNull
     public String online;
@@ -68,89 +71,6 @@ public final /* data */ class Server {
     @SerializedName("x2cordy")
     @Nullable
     public Float x2cordy;
-
-    @NotNull
-    /* renamed from: component1, reason: from getter */
-    public final String getIp() {
-        return this.ip;
-    }
-
-    @NotNull
-    /* renamed from: component10, reason: from getter */
-    public final String getName() {
-        return this.name;
-    }
-
-    @NotNull
-    /* renamed from: component11, reason: from getter */
-    public final String getFirstName() {
-        return this.firstName;
-    }
-
-    @NotNull
-    /* renamed from: component12, reason: from getter */
-    public final String getSecondName() {
-        return this.secondName;
-    }
-
-    @NotNull
-    /* renamed from: component13, reason: from getter */
-    public final String getUrl() {
-        return this.url;
-    }
-
-    @Nullable
-    /* renamed from: component14, reason: from getter */
-    public final Integer getTestServerId() {
-        return this.testServerId;
-    }
-
-    @NotNull
-    /* renamed from: component2, reason: from getter */
-    public final String getPort() {
-        return this.port;
-    }
-
-    @NotNull
-    /* renamed from: component3, reason: from getter */
-    public final String getOnline() {
-        return this.online;
-    }
-
-    @NotNull
-    /* renamed from: component4, reason: from getter */
-    public final String getMaxOnline() {
-        return this.maxOnline;
-    }
-
-    @NotNull
-    /* renamed from: component5, reason: from getter */
-    public final String getColor() {
-        return this.color;
-    }
-
-    /* renamed from: component6, reason: from getter */
-    public final boolean getX2() {
-        return this.x2;
-    }
-
-    @Nullable
-    /* renamed from: component7, reason: from getter */
-    public final Float getX2cordx() {
-        return this.x2cordx;
-    }
-
-    @Nullable
-    /* renamed from: component8, reason: from getter */
-    public final Float getX2cordy() {
-        return this.x2cordy;
-    }
-
-    @NotNull
-    /* renamed from: component9, reason: from getter */
-    public final String getKey() {
-        return this.key;
-    }
 
     @NotNull
     public final Server copy(@NotNull String ip, @NotNull String port, @NotNull String online, @NotNull String maxOnline, @NotNull String color, boolean x2, @Nullable Float x2cordx, @Nullable Float x2cordy, @NotNull String key, @NotNull String name, @NotNull String firstName, @NotNull String secondName, @NotNull String url, @Nullable Integer testServerId) {
