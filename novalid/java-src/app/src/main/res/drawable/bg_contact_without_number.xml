@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="70dp"
+    android:width="70dp"
+    android:viewportWidth="70"
+    android:viewportHeight="70">
+    <group>
+        <clip-path android:pathData="M0,0h70v70h-70z"/>
+        <path
+            android:fillColor="@drawable/_bg_contact_without_number__0_res_0x7f080017"
+            android:pathData="M35,0C54.345,0 70,15.683 70,35.064C70,54.444 54.218,70 35,70C15.782,70 0,54.317 0,35.064C0,15.811 15.655,0 35,0Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_bg_contact_without_number__1_res_0x7f080018"
+            android:pathData="M3.436,35.064C3.436,26.393 7,18.488 12.6,12.75L10.182,10.2C3.818,16.576 0,25.246 0,34.936C0,44.627 3.945,53.424 10.182,59.8L12.727,57.377C7,51.639 3.436,43.734 3.436,35.064Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_bg_contact_without_number__2_res_0x7f080019"
+            android:pathData="M57.273,12.75C63.001,18.488 66.437,26.393 66.437,35.064C66.437,43.734 62.873,51.639 57.273,57.377L59.692,59.8C66.055,53.424 69.873,44.754 69.873,35.064C69.873,25.373 65.928,16.703 59.692,10.328L57.273,12.75Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_bg_contact_without_number__3_res_0x7f08001a"
+            android:pathData="M35.002,3.443C43.656,3.443 51.547,7.013 57.275,12.623L59.693,10.2C53.329,3.825 44.674,0 35.002,0C25.329,0 16.547,3.953 10.184,10.2L12.729,12.75C18.329,7.013 26.22,3.443 35.002,3.443Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_bg_contact_without_number__4_res_0x7f08001b"
+            android:pathData="M57.275,57.377C51.547,63.115 43.656,66.557 35.002,66.557C26.347,66.557 18.329,62.987 12.729,57.377L10.184,59.799C16.547,66.175 25.202,70 34.875,70C44.547,70 53.202,66.047 59.565,59.799L57.275,57.377Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="#fffdfdff"
+            android:pathData="M34.364,2.805C43.146,2.805 51.164,6.503 56.891,12.368C51.164,6.885 43.527,3.443 35,3.443C17.564,3.443 3.437,17.596 3.437,35.064C3.437,39.399 4.327,43.479 5.855,47.177C4.073,43.224 3.055,38.762 3.055,34.171C3.055,16.831 17.055,2.805 34.364,2.805Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_bg_contact_without_number__5_res_0x7f08001c"
+            android:pathData="M35.001,3.443C52.438,3.443 66.438,17.596 66.438,34.936C66.438,52.277 52.31,66.557 35.001,66.557C17.692,66.557 3.438,52.404 3.438,35.064C3.438,17.723 17.565,3.443 35.001,3.443Z"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

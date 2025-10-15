@@ -1,0 +1,24 @@
+package com.google.common.base;
+
+import com.google.common.annotations.GwtCompatible;
+
+@GwtCompatible
+@ElementTypesAreNonnullByDefault
+/* loaded from: classes4.dex */
+public abstract class CommonPattern {
+    public abstract int flags();
+
+    public abstract CommonMatcher matcher(CharSequence t);
+
+    public abstract String pattern();
+
+    public abstract String toString();
+
+    public static CommonPattern compile(String pattern) {
+        return Platform.compilePattern(pattern);
+    }
+
+    public static boolean isPcreLike() {
+        return Platform.patternCompilerIsPcreLike();
+    }
+}

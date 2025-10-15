@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="?attr/paylib_native_additional_label_color"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_additional_info"
+        android:background="@drawable/paylib_native_background_additional_label"
+        android:padding="@dimen/paylib_design_spacer_2x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/paylib_design_spacer_12x"
+        android:layout_marginRight="@dimen/paylib_design_spacer_12x"
+        android:text="@string/paylib_native_sandbox_label"
+        android:layout_marginHorizontal="@dimen/paylib_design_spacer_12x"
+        style="@style/paylib_native_caption_secondary"/>
+</FrameLayout>

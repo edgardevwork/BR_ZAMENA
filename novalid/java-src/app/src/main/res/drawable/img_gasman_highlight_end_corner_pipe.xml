@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_img_gasman_highlight_end_corner_pipe__0_res_0x7f080531">
+    <target
+        android:name="path_8"
+        android:animation="@drawable/_img_gasman_highlight_end_corner_pipe__1_res_0x7f080532"/>
+    <target
+        android:name="path_9"
+        android:animation="@drawable/_img_gasman_highlight_end_corner_pipe__2_res_0x7f080533"/>
+    <target
+        android:name="path_10"
+        android:animation="@drawable/_img_gasman_highlight_end_corner_pipe__3_res_0x7f080534"/>
+    <target
+        android:name="path_4"
+        android:animation="@drawable/_img_gasman_highlight_end_corner_pipe__4_res_0x7f080535"/>
+    <target
+        android:name="path_5"
+        android:animation="@drawable/_img_gasman_highlight_end_corner_pipe__5_res_0x7f080536"/>
+    <target
+        android:name="path_6"
+        android:animation="@drawable/_img_gasman_highlight_end_corner_pipe__6_res_0x7f080537"/>
+</animated-vector>

@@ -1,0 +1,75 @@
+package androidx.compose.material.icons.automirrored.rounded;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.p003ui.graphics.Color;
+import androidx.compose.p003ui.graphics.SolidColor;
+import androidx.compose.p003ui.graphics.StrokeCap;
+import androidx.compose.p003ui.graphics.StrokeJoin;
+import androidx.compose.p003ui.graphics.vector.ImageVector;
+import androidx.compose.p003ui.graphics.vector.PathBuilder;
+import androidx.compose.p003ui.graphics.vector.VectorKt;
+import androidx.compose.p003ui.unit.C2046Dp;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.SourceDebugExtension;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* compiled from: PhoneForwarded.kt */
+@Metadata(m7104d1 = {"\u0000\u0010\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\"\u0010\u0010\u0000\u001a\u0004\u0018\u00010\u0001X\u0082\u000e¢\u0006\u0002\n\u0000\"\u0015\u0010\u0002\u001a\u00020\u0001*\u00020\u00038F¢\u0006\u0006\u001a\u0004\b\u0004\u0010\u0005¨\u0006\u0006"}, m7105d2 = {"_phoneForwarded", "Landroidx/compose/ui/graphics/vector/ImageVector;", "PhoneForwarded", "Landroidx/compose/material/icons/Icons$AutoMirrored$Rounded;", "getPhoneForwarded", "(Landroidx/compose/material/icons/Icons$AutoMirrored$Rounded;)Landroidx/compose/ui/graphics/vector/ImageVector;", "material-icons-extended_release"}, m7106k = 2, m7107mv = {1, 8, 0}, m7109xi = 48)
+@SourceDebugExtension({"SMAP\nPhoneForwarded.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PhoneForwarded.kt\nandroidx/compose/material/icons/automirrored/rounded/PhoneForwardedKt\n+ 2 Icons.kt\nandroidx/compose/material/icons/IconsKt\n+ 3 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 4 ImageVector.kt\nandroidx/compose/ui/graphics/vector/ImageVectorKt\n+ 5 Vector.kt\nandroidx/compose/ui/graphics/vector/VectorKt\n*L\n1#1,68:1\n223#2:69\n216#2,3:70\n219#2,4:74\n233#2,18:78\n253#2:115\n174#3:73\n705#4,2:96\n717#4,2:98\n719#4,11:104\n72#5,4:100\n*S KotlinDebug\n*F\n+ 1 PhoneForwarded.kt\nandroidx/compose/material/icons/automirrored/rounded/PhoneForwardedKt\n*L\n29#1:69\n29#1:70,3\n29#1:74,4\n31#1:78,18\n31#1:115\n29#1:73\n31#1:96,2\n31#1:98,2\n31#1:104,11\n31#1:100,4\n*E\n"})
+/* loaded from: classes.dex */
+public final class PhoneForwardedKt {
+
+    @Nullable
+    private static ImageVector _phoneForwarded;
+
+    @NotNull
+    public static final ImageVector getPhoneForwarded(@NotNull Icons.AutoMirrored.Rounded rounded) {
+        ImageVector imageVector = _phoneForwarded;
+        if (imageVector != null) {
+            Intrinsics.checkNotNull(imageVector);
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("AutoMirrored.Rounded.PhoneForwarded", C2046Dp.m13666constructorimpl(24.0f), C2046Dp.m13666constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, true, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.INSTANCE.m11366getBlack0d7_KjU(), null);
+        int iM11692getButtKaPHkGw = StrokeCap.INSTANCE.m11692getButtKaPHkGw();
+        int iM11702getBevelLxFBmk8 = StrokeJoin.INSTANCE.m11702getBevelLxFBmk8();
+        PathBuilder pathBuilder = new PathBuilder();
+        pathBuilder.moveTo(22.65f, 5.65f);
+        pathBuilder.lineToRelative(-3.79f, -3.79f);
+        pathBuilder.curveToRelative(-0.32f, -0.32f, -0.86f, -0.1f, -0.86f, 0.35f);
+        pathBuilder.lineTo(18.0f, 4.0f);
+        pathBuilder.horizontalLineToRelative(-3.5f);
+        pathBuilder.curveToRelative(-0.28f, 0.0f, -0.5f, 0.22f, -0.5f, 0.5f);
+        pathBuilder.verticalLineToRelative(3.0f);
+        pathBuilder.curveToRelative(0.0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f);
+        pathBuilder.lineTo(18.0f, 8.0f);
+        pathBuilder.verticalLineToRelative(1.79f);
+        pathBuilder.curveToRelative(0.0f, 0.45f, 0.54f, 0.67f, 0.85f, 0.35f);
+        pathBuilder.lineToRelative(3.79f, -3.79f);
+        pathBuilder.curveToRelative(0.2f, -0.19f, 0.2f, -0.51f, 0.01f, -0.7f);
+        pathBuilder.close();
+        pathBuilder.moveTo(19.23f, 15.26f);
+        pathBuilder.lineToRelative(-2.54f, -0.29f);
+        pathBuilder.curveToRelative(-0.61f, -0.07f, -1.21f, 0.14f, -1.64f, 0.57f);
+        pathBuilder.lineToRelative(-1.84f, 1.84f);
+        pathBuilder.curveToRelative(-2.83f, -1.44f, -5.15f, -3.75f, -6.59f, -6.59f);
+        pathBuilder.lineToRelative(1.85f, -1.85f);
+        pathBuilder.curveToRelative(0.43f, -0.43f, 0.64f, -1.03f, 0.57f, -1.64f);
+        pathBuilder.lineToRelative(-0.29f, -2.52f);
+        pathBuilder.curveToRelative(-0.12f, -1.01f, -0.97f, -1.77f, -1.99f, -1.77f);
+        pathBuilder.lineTo(5.03f, 3.01f);
+        pathBuilder.curveToRelative(-1.13f, 0.0f, -2.07f, 0.94f, -2.0f, 2.07f);
+        pathBuilder.curveToRelative(0.53f, 8.54f, 7.36f, 15.36f, 15.89f, 15.89f);
+        pathBuilder.curveToRelative(1.13f, 0.07f, 2.07f, -0.87f, 2.07f, -2.0f);
+        pathBuilder.verticalLineToRelative(-1.73f);
+        pathBuilder.curveToRelative(0.01f, -1.01f, -0.75f, -1.86f, -1.76f, -1.98f);
+        pathBuilder.close();
+        ImageVector imageVectorBuild = ImageVector.Builder.m11973addPathoIyEayM$default(builder, pathBuilder.getNodes(), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, iM11692getButtKaPHkGw, iM11702getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _phoneForwarded = imageVectorBuild;
+        Intrinsics.checkNotNull(imageVectorBuild);
+        return imageVectorBuild;
+    }
+}

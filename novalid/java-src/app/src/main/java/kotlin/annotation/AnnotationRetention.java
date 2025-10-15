@@ -1,0 +1,44 @@
+package kotlin.annotation;
+
+import kotlin.Metadata;
+import kotlin.enums.EnumEntries;
+import kotlin.enums.EnumEntriesKt;
+import org.jetbrains.annotations.NotNull;
+
+/* compiled from: Annotations.kt */
+@Metadata(m7104d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\b\u0005\b\u0086\u0081\u0002\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002j\u0002\b\u0003j\u0002\b\u0004j\u0002\b\u0005¨\u0006\u0006"}, m7105d2 = {"Lkotlin/annotation/AnnotationRetention;", "", "(Ljava/lang/String;I)V", "SOURCE", "BINARY", "RUNTIME", "kotlin-stdlib"}, m7106k = 1, m7107mv = {1, 9, 0}, m7109xi = 48)
+/* loaded from: classes8.dex */
+public final class AnnotationRetention extends Enum<AnnotationRetention> {
+    public static final /* synthetic */ EnumEntries $ENTRIES;
+    public static final /* synthetic */ AnnotationRetention[] $VALUES;
+    public static final AnnotationRetention SOURCE = new AnnotationRetention("SOURCE", 0);
+    public static final AnnotationRetention BINARY = new AnnotationRetention("BINARY", 1);
+    public static final AnnotationRetention RUNTIME = new AnnotationRetention("RUNTIME", 2);
+
+    public static final /* synthetic */ AnnotationRetention[] $values() {
+        return new AnnotationRetention[]{SOURCE, BINARY, RUNTIME};
+    }
+
+    @NotNull
+    public static EnumEntries<AnnotationRetention> getEntries() {
+        return $ENTRIES;
+    }
+
+    public static AnnotationRetention valueOf(String str) {
+        return (AnnotationRetention) Enum.valueOf(AnnotationRetention.class, str);
+    }
+
+    public static AnnotationRetention[] values() {
+        return (AnnotationRetention[]) $VALUES.clone();
+    }
+
+    public AnnotationRetention(String str, int i) {
+        super(str, i);
+    }
+
+    static {
+        AnnotationRetention[] annotationRetentionArr$values = $values();
+        $VALUES = annotationRetentionArr$values;
+        $ENTRIES = EnumEntriesKt.enumEntries(annotationRetentionArr$values);
+    }
+}

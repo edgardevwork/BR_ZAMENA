@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.blackhub.bronline.game.common.UIContainer
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_gravity="start|top"
+            android:id="@+id/btnHalloweenGameInfo"
+            android:background="@drawable/ic_info_in_rectangle"
+            android:visibility="gone"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"/>
+        <ImageView
+            android:id="@+id/ivHalloweenBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:contentDescription="@{null}"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_gravity="end"
+            android:id="@+id/btnHalloweenClose"
+            android:background="@drawable/ic_exit"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"/>
+    </com.blackhub.bronline.game.common.UIContainer>
+</FrameLayout>

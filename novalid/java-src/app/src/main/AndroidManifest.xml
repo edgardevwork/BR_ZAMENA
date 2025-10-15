@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-feature
+        android:glEsVersion="0x30000"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <queries>
+        <package android:name="org.telegram.messenger"/>
+        <intent>
+            <action android:name="ru.vk.store.provider.RemotePayTokenProvider"/>
+        </intent>
+        <package android:name="ru.sberbankmobile"/>
+        <package android:name="ru.sberbankmobile_alpha"/>
+        <package android:name="cb.ibank"/>
+        <package android:name="cb.ibank.vuz"/>
+        <package android:name="com.banksoyuz.artsofte"/>
+        <package android:name="com.bifit.atbbank"/>
+        <package android:name="com.bifit.dvbank"/>
+        <package android:name="com.bifit.mobile.citizen.MCBank"/>
+        <package android:name="com.bifit.mobile.citizen.belsocbank"/>
+        <package android:name="com.bifit.mobile.citizen.cfb"/>
+        <package android:name="com.bifit.mobile.citizen.efbank"/>
+        <package android:name="com.bifit.mobile.citizen.icbru"/>
+        <package android:name="com.bifit.mobile.citizen.invb"/>
+        <package android:name="com.bifit.mobile.citizen.kbnk"/>
+        <package android:name="com.bifit.mobile.citizen.mbb"/>
+        <package android:name="com.bifit.mobile.citizen.moskb"/>
+        <package android:name="com.bifit.mobile.citizen.nkbank"/>
+        <package android:name="com.bifit.mobile.citizen.okbank"/>
+        <package android:name="com.bifit.mobile.citizen.tenderbank"/>
+        <package android:name="com.bifit.mobile.citizen.thbank"/>
+        <package android:name="com.bifit.mobile.citizen.zarech"/>
+        <package android:name="com.bifit.mobile.private.bbr"/>
+        <package android:name="com.bifit.nrb"/>
+        <package android:name="com.bifit.pmobile.isbank"/>
+        <package android:name="com.bifit.rncbbeta"/>
+        <package android:name="com.bifit.vfbank"/>
+        <package android:name="com.bpc.crossplatform_trading.bpc_trading"/>
+        <package android:name="com.bssys.aversretail"/>
+        <package android:name="com.bssys.gutaretail"/>
+        <package android:name="com.bssys.novikomretail"/>
+        <package android:name="com.bssys.roscapretail"/>
+        <package android:name="com.bssys.stroylesretail"/>
+        <package android:name="com.bssys.uralfdretail"/>
+        <package android:name="com.bssys.vbrrretail"/>
+        <package android:name="com.cetelem.cetelem_android"/>
+        <package android:name="com.citibank.mobile.ru"/>
+        <package android:name="com.compassplus.mobicash.customer"/>
+        <package android:name="com.credituralbank.CUBmobilenew"/>
+        <package android:name="com.energobank.digital"/>
+        <package android:name="com.finservice.mobile"/>
+        <package android:name="com.hicebank.android"/>
+        <package android:name="com.idamob.tinkoff.android"/>
+        <package android:name="com.idamobile.android.LockoBank"/>
+        <package android:name="com.inbank.mobilebank"/>
+        <package android:name="com.intervale.sbp.atlas"/>
+        <package android:name="com.isimplelab.ibank.chelind"/>
+        <package android:name="com.isimplelab.ibank.kubankredit"/>
+        <package android:name="com.isimplelab.ibank.solidarnost"/>
+        <package android:name="com.isimplelab.ibank.toyota"/>
+        <package android:name="com.isimplelab.ionic.gorbank.prod"/>
+        <package android:name="com.isimplelab.ionic.kazan.fl"/>
+        <package android:name="com.isimplelab.ionic.round.prod"/>
+        <package android:name="com.isimplelab.ionic.slavia.prod"/>
+        <package android:name="com.isimplelab.ionic.standart"/>
+        <package android:name="com.isimplelab.isimpleceo.uglemet"/>
+        <package android:name="com.isimplelab.isimplemobile.payjet"/>
+        <package android:name="com.ltech.unistream"/>
+        <package android:name="com.metkombank.mobile"/>
+        <package android:name="com.mifors.izhcombank"/>
+        <package android:name="com.mmonline.mobile"/>
+        <package android:name="com.mob.android"/>
+        <package android:name="com.openbank"/>
+        <package android:name="com.openwaygroup.ic.panda.poidem"/>
+        <package android:name="com.priobank.prio"/>
+        <package android:name="com.smp.android"/>
+        <package android:name="com.snb.online"/>
+        <package android:name="com.tatsotsbank.dbomobile"/>
+        <package android:name="com.timerbank.retail"/>
+        <package android:name="com.tochka.bank"/>
+        <package android:name="com.yandex.bank"/>
+        <package android:name="cz.bsc.rc"/>
+        <package android:name="logo.com.mbanking"/>
+        <package android:name="ru.akbars.mobile"/>
+        <package android:name="ru.albank.online.aebit"/>
+        <package android:name="ru.alfabank.mobile.android"/>
+        <package android:name="ru.artsofte.russiafl"/>
+        <package android:name="ru.avangard.sbp_client"/>
+        <package android:name="ru.bank_hlynov.xbank"/>
+        <package android:name="ru.bankuralsib.mb.android"/>
+        <package android:name="ru.bcs.bcsbank"/>
+        <package android:name="ru.briginvest.sense"/>
+        <package android:name="ru.bspb"/>
+        <package android:name="ru.centrinvest.mobilebanking2018"/>
+        <package android:name="ru.chelyabinvestbank.investpay"/>
+        <package android:name="ru.elplat.elplat2"/>
+        <package android:name="ru.emb.android"/>
+        <package android:name="ru.faktura.avtograd.person"/>
+        <package android:name="ru.finambank.app"/>
+        <package android:name="ru.ftc.faktura.absolutbank"/>
+        <package android:name="ru.ftc.faktura.agropromkredit"/>
+        <package android:name="ru.ftc.faktura.agroros"/>
+        <package android:name="ru.ftc.faktura.akcept"/>
+        <package android:name="ru.ftc.faktura.akibank"/>
+        <package android:name="ru.ftc.faktura.alefbank"/>
+        <package android:name="ru.ftc.faktura.alexbank"/>
+        <package android:name="ru.ftc.faktura.baikalinvestbank"/>
+        <package android:name="ru.ftc.faktura.banksaratov"/>
+        <package android:name="ru.ftc.faktura.bgfbank"/>
+        <package android:name="ru.ftc.faktura.derzhava"/>
+        <package android:name="ru.ftc.faktura.dolinsk"/>
+        <package android:name="ru.ftc.faktura.etbank"/>
+        <package android:name="ru.ftc.faktura.expobank"/>
+        <package android:name="ru.ftc.faktura.finbank"/>
+        <package android:name="ru.ftc.faktura.forshtadt"/>
+        <package android:name="ru.ftc.faktura.gaztransbank"/>
+        <package android:name="ru.ftc.faktura.intesabank"/>
+        <package android:name="ru.ftc.faktura.iturup"/>
+        <package android:name="ru.ftc.faktura.jtbank"/>
+        <package android:name="ru.ftc.faktura.kbb"/>
+        <package android:name="ru.ftc.faktura.kbhmb"/>
+        <package android:name="ru.ftc.faktura.kremlevskiy"/>
+        <package android:name="ru.ftc.faktura.lanta"/>
+        <package android:name="ru.ftc.faktura.maritimebank"/>
+        <package android:name="ru.ftc.faktura.mfkbank"/>
+        <package android:name="ru.ftc.faktura.moscombank"/>
+        <package android:name="ru.ftc.faktura.multibank"/>
+        <package android:name="ru.ftc.faktura.nipbank"/>
+        <package android:name="ru.ftc.faktura.nokss"/>
+        <package android:name="ru.ftc.faktura.novobank"/>
+        <package android:name="ru.ftc.faktura.ns"/>
+        <package android:name="ru.ftc.faktura.nsbank"/>
+        <package android:name="ru.ftc.faktura.nskbl"/>
+        <package android:name="ru.ftc.faktura.orbank"/>
+        <package android:name="ru.ftc.faktura.primsoc"/>
+        <package android:name="ru.ftc.faktura.pskb"/>
+        <package android:name="ru.ftc.faktura.razvitiestolica"/>
+        <package android:name="ru.ftc.faktura.resokreditbank"/>
+        <package android:name="ru.ftc.faktura.rostfinance"/>
+        <package android:name="ru.ftc.faktura.sdm"/>
+        <package android:name="ru.ftc.faktura.siab"/>
+        <package android:name="ru.ftc.faktura.solidbank"/>
+        <package android:name="ru.ftc.faktura.tavrich"/>
+        <package android:name="ru.ftc.faktura.tkbbank"/>
+        <package android:name="ru.ftc.faktura.united"/>
+        <package android:name="ru.ftc.faktura.venetsbank"/>
+        <package android:name="ru.ftc.faktura.vesta"/>
+        <package android:name="ru.ftc.faktura.vlbb"/>
+        <package android:name="ru.ftc.faktura.zemskybank"/>
+        <package android:name="ru.gazprombank.android.mobilebank.app"/>
+        <package android:name="ru.gebank.ib"/>
+        <package android:name="ru.homecredit.mycredit"/>
+        <package android:name="ru.ibam.retailmobile"/>
+        <package android:name="ru.ilb.bbmobile"/>
+        <package android:name="ru.ipb.ubsmobile"/>
+        <package android:name="ru.isfront.android.kt"/>
+        <package android:name="ru.krk.ubsmobile"/>
+        <package android:name="ru.letobank.Prometheus"/>
+        <package android:name="ru.mcbankrus.MCBankRus"/>
+        <package android:name="ru.mkb.mobile"/>
+        <package android:name="ru.mts.money"/>
+        <package android:name="ru.mw"/>
+        <package android:name="ru.nbd.android"/>
+        <package android:name="ru.otpbank.mobile"/>
+        <package android:name="ru.raiffeisennews"/>
+        <package android:name="ru.rosbank.android"/>
+        <package android:name="ru.rosdorbank.physical"/>
+        <package android:name="ru.rshb.dbo"/>
+        <package android:name="ru.rubank.ubsmobile"/>
+        <package android:name="ru.rusnarbank.correqts.retail"/>
+        <package android:name="ru.sbi.android"/>
+        <package android:name="ru.simpls.brs2.mobbank"/>
+        <package android:name="ru.skbbank.ib"/>
+        <package android:name="ru.sngb.dbo.client.android"/>
+        <package android:name="ru.sovcomcard.halva.v1"/>
+        <package android:name="ru.unicredit.android"/>
+        <package android:name="ru.uralprombank.mobilebanknew.googleplay"/>
+        <package android:name="ru.vtb24.mobilebanking.android"/>
+        <package android:name="ru.vtkbank.android"/>
+        <package android:name="ru.yoo.money"/>
+        <package android:name="ru.zenit.android"/>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="ru.vk.store.provider.appupdate.RemoteAppUpdateFlowProvider"/>
+        </intent>
+        <intent>
+            <action android:name="ru.vk.store.provider.review.RemoteReviewFlowProvider"/>
+        </intent>
+        <intent>
+            <action android:name="ru.p068vk.store.provider.analytics.AnalyticsProvider"/>
+        </intent>
+        <intent>
+            <action android:name="ru.vk.store.provider.StoreVersionProvider"/>
+        </intent>
+        <package android:name="ru.vk.store"/>
+        <package android:name="ru.vk.store.qa"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="ru.vk.store.RequestIgnoreBatteryOptimizations"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission
+        android:name="com.bless.client.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.bless.client.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application
+        android:theme="@style/AppTheme.NoActionBar"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.blackhub.bronline.launcher.App"
+        android:allowBackup="false"
+        android:isGame="true"
+        android:fullBackupContent="false"
+        android:usesCleartextTraffic="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true"
+        android:gwpAsanMode="always"
+        tools:targetApi="28"
+        tools:replace="android:allowBackup,android:fullBackupContent">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.bless.client.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <service
+            android:name="com.blackhub.bronline.launcher.network.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/img_logo_br_small"/>
+        <receiver
+            android:name="com.blackhub.bronline.launcher.network.NotificationDismissedReceiver"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/AppTheme.WithSplash"
+            android:name="com.blackhub.bronline.launcher.activities.MainActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.Material3.Light.NoActionBar.FullScreen"
+            android:name="com.blackhub.bronline.game.core.JNIActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|uiMode|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="com.launcher.brgame-rustore-billing"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="7.0.0"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <service
+            android:label="PersistableConfigSyncJobService"
+            android:name="ru.rustore.sdk.remoteconfig.internal.controller.PersistableConfigSyncJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity
+            android:theme="@style/Theme.ActivityLauncher.Transparent"
+            android:name="ru.rustore.sdk.activitylauncher.RuStoreActivityLauncher"
+            android:exported="false"/>
+        <service
+            android:label="SendMetricsEventJobService"
+            android:name="ru.rustore.sdk.metrics.internal.presentation.SendMetricsEventJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+    </application>
+</manifest>

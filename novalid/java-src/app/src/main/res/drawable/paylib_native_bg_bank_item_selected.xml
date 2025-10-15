@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/paylib_design_spacer_6x"
+        android:right="@dimen/paylib_design_spacer_6x">
+        <shape>
+            <solid android:color="?attr/paylib_native_card_item_background_color"/>
+            <corners android:radius="@dimen/paylib_design_spacer_6x"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:background="?attr/paylib_native_loading_screen_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.sdkit.paylib.paylibdesign.views.shimmers.CompanionRegularShimmerLayout
+        android:id="@+id/loading_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/loading_sceleton"
+            layout="@layout/paylib_native_view_loading_skeleton"/>
+    </com.sdkit.paylib.paylibdesign.views.shimmers.CompanionRegularShimmerLayout>
+</FrameLayout>

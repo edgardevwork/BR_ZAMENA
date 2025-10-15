@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_paylib_native_ic_loading_light__6_res_0x7f080665">
+    <target
+        android:name="group"
+        android:animation="@drawable/_paylib_native_ic_loading_light__0_res_0x7f08065f"/>
+    <target
+        android:name="group_1"
+        android:animation="@drawable/_paylib_native_ic_loading_light__1_res_0x7f080660"/>
+    <target
+        android:name="group_2"
+        android:animation="@drawable/_paylib_native_ic_loading_light__2_res_0x7f080661"/>
+    <target
+        android:name="path"
+        android:animation="@drawable/_paylib_native_ic_loading_light__3_res_0x7f080662"/>
+    <target
+        android:name="path_1"
+        android:animation="@drawable/_paylib_native_ic_loading_light__4_res_0x7f080663"/>
+    <target
+        android:name="path_2"
+        android:animation="@drawable/_paylib_native_ic_loading_light__5_res_0x7f080664"/>
+</animated-vector>

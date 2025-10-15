@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82733279455",
+    "project_id": "brunivzamena",
+    "storage_bucket": "brunivzamena.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82733279455:android:d08c6ed856a7593eb5a16a",
+        "android_client_info": {
+          "package_name": "com.bless.client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC112jaZnPZLT_buXQqnNlLOT6vDF4MrfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

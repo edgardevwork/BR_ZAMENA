@@ -1,0 +1,43 @@
+package io.reactivex.rxjava3.observers;
+
+import io.reactivex.rxjava3.annotations.NonNull;
+import io.reactivex.rxjava3.core.MaybeObserver;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.internal.disposables.DisposableHelper;
+import io.reactivex.rxjava3.internal.disposables.ListCompositeDisposable;
+import io.reactivex.rxjava3.internal.util.EndConsumerHelper;
+import java.util.Objects;
+import java.util.concurrent.atomic.AtomicReference;
+
+/* loaded from: classes6.dex */
+public abstract class ResourceMaybeObserver<T> implements MaybeObserver<T>, Disposable {
+    public final AtomicReference<Disposable> upstream = new AtomicReference<>();
+    public final ListCompositeDisposable resources = new ListCompositeDisposable();
+
+    public void onStart() {
+    }
+
+    public final void add(@NonNull Disposable resource) {
+        Objects.requireNonNull(resource, "resource is null");
+        this.resources.add(resource);
+    }
+
+    @Override // io.reactivex.rxjava3.core.MaybeObserver, io.reactivex.rxjava3.core.SingleObserver, io.reactivex.rxjava3.core.CompletableObserver
+    public final void onSubscribe(@NonNull Disposable d) {
+        if (EndConsumerHelper.setOnce(this.upstream, d, getClass())) {
+            onStart();
+        }
+    }
+
+    @Override // io.reactivex.rxjava3.disposables.Disposable
+    public final void dispose() {
+        if (DisposableHelper.dispose(this.upstream)) {
+            this.resources.dispose();
+        }
+    }
+
+    @Override // io.reactivex.rxjava3.disposables.Disposable
+    public final boolean isDisposed() {
+        return DisposableHelper.isDisposed(this.upstream.get());
+    }
+}
